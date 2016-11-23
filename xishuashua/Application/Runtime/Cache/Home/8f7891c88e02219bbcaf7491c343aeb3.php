@@ -72,9 +72,9 @@
           </ul>
             <h3><a href="#"><span class="glyphicon glyphicon-tags"></span>关键字管理<span class="glyphicon glyphicon-chevron-down"></span></a></h3>
             <ul>
-              <li ><a href="tag.html">标签管理</a></li>
-              <li ><a href="roomtype.html">户型管理</a></li>
-              <li ><a href="prices.html">价格管理</a></li>
+              <li ><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/tag/tag">标签管理</a></li>
+              <li ><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/tag/roomtype">户型管理</a></li>
+              <li ><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/tag/prices">价格管理</a></li>
           </ul>
         </div>
       </div>
