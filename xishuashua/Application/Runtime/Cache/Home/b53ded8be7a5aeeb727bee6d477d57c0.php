@@ -72,9 +72,9 @@
           </ul>
             <h3><a href="#"><span class="glyphicon glyphicon-tags"></span>关键字管理<span class="glyphicon glyphicon-chevron-down"></span></a></h3>
             <ul>
-              <li ><a href="tag.html">标签管理</a></li>
-              <li ><a href="roomtype.html">户型管理</a></li>
-              <li ><a href="prices.html">价格管理</a></li>
+              <li ><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/tag/tag">标签管理</a></li>
+              <li ><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/tag/roomtype">户型管理</a></li>
+              <li ><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/tag/prices">价格管理</a></li>
           </ul>
         </div>
       </div>
@@ -106,7 +106,7 @@
               <td>123456</td>      
               <td>zhangliming@197232832.qq</td>
               <td>13625684568</td>
-              <td><a href="personal_user_update.html">修改</a><a href="#"></a> <a href="#">删除</a></td>
+              <td><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/personal/user_update">修改</a><a href="#"></a> <a href="#">删除</a></td>
             </tr>
             <tr>
               <td><input type="checkbox" name="checkbox2" id="checkbox2"></td>
@@ -115,7 +115,7 @@
               <td>123654</td>
               <td>sxy@163.com</td>
               <td>13025486584</td>
-              <td><a href="personal_user_update.html">修改</a><a href="#"></a> <a href="#">删除</a></td>
+              <td><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/personal/user_update">修改</a><a href="#"></a> <a href="#">删除</a></td>
             </tr>
           </table>
         </div>

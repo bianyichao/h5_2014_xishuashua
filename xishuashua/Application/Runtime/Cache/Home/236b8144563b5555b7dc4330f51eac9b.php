@@ -88,7 +88,7 @@
   	    </ol>
     	  <h3 class="down">标签管理 <small>Tags Management</small></h3> 
             <div class="row ">
-            <div class="col-md-2">  	    
+            <div class="col-md-6">
         <div class="list-group-item">
     	        <label for="inputEmail3" class=" control-label">请输入户型</label>    	       
     	          <input type="input" class="form-control marb" id="" placeholder="">       
