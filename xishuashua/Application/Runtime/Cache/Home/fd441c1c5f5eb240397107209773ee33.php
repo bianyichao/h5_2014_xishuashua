@@ -72,9 +72,9 @@
           </ul>
             <h3><a href="#"><span class="glyphicon glyphicon-tags"></span>关键字管理<span class="glyphicon glyphicon-chevron-down"></span></a></h3>
             <ul>
-              <li ><a href="tag.html">标签管理</a></li>
-              <li ><a href="roomtype.html">户型管理</a></li>
-              <li ><a href="prices.html">价格管理</a></li>
+              <li ><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/tag/tag">标签管理</a></li>
+              <li ><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/tag/roomtype">户型管理</a></li>
+              <li ><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/tag/prices">价格管理</a></li>
           </ul>
         </div>
       </div>
@@ -83,39 +83,49 @@
       <div class="col-md-10 col-md-offset-2 ">
         <ol class="breadcrumb">
           <li><a href="main.html">首页</a></li>
-          <li><a href="#">个人帐户管理</a></li>
-          <li class="active">个人用户信息管理</li>
+          <li><a href="#">招/投标</a></li>
+          <li class="active">招标管理</li>
         </ol>
         <div class="table-responsive ">
-          <h3>个人用户管理列表 <small>Personal List</small></h3>
+          <h3>招标管理列表 <small>Personal Put List</small></h3>
            <table width="100%" border="0" cellspacing="0" cellpadding="0"  class="table  table-striped table-hover ">
             <tr>
               <th width="4%"><input type="checkbox" name="checkbox10" id="checkbox10"></th>
-              <th width="10%">PID</th>
-              <th width="10%">姓名</th>
-              <th width="10%">密码</th>
-              <th width="21%">邮箱</th>
-              <th width="13%">手机号</th>          
+              <th width="6%">PID</th>
+              <th width="6%">ZID</th>
+              <th width="6%">CID</th>
+              <th width="10%">投标价格</th>
+              <th width="15%">投标商家</th>
+              <th width="15%">联系电话</th>
+              <th width="20%">备注</th>
+              <th width="8%">此标状态</th>
               <th width="17%">操作</th>
             </tr>
             <tr>
               <td><input type="checkbox" name="checkbox" id="checkbox">
                 <label for="checkbox"></label></td>
-              <td>01</td>>
-              <td>张黎明</td>
-              <td>123456</td>      
-              <td>zhangliming@197232832.qq</td>
-              <td>13625684568</td>
-              <td><a href="personal_user_update.html">修改</a><a href="#"></a> <a href="#">删除</a></td>
+              <td>p01</td>
+              <td>z01</td>
+              <td>c01</td>
+              <td>18888元</td>
+              <td>美自然之家</td>
+              <td>4008208820</td>
+              <td>保证完成任务</td>
+              <td>进行中</td>
+              <td><a href="#">修改</a><a href="#"></a> <a href="#">删除</a></td>
             </tr>
-            <tr>
-              <td><input type="checkbox" name="checkbox2" id="checkbox2"></td>
-              <td>02</td>
-              <td>宋晓云</td>
-              <td>123654</td>
-              <td>sxy@163.com</td>
-              <td>13025486584</td>
-              <td><a href="personal_user_update.html">修改</a><a href="#"></a> <a href="#">删除</a></td>
+             <tr>
+              <td><input type="checkbox" name="checkbox" id="checkbox">
+                <label for="checkbox"></label></td>
+              <td>p01</td>
+              <td>z01</td>
+              <td>c01</td>
+              <td>18888元</td>
+              <td>美自然之家</td>
+              <td>4008208820</td>
+              <td>保证完成任务</td>
+              <td>进行中</td>
+              <td><a href="#">修改</a><a href="#"></a> <a href="#">删除</a></td>
             </tr>
           </table>
         </div>
@@ -134,7 +144,15 @@
   </div>
           
   
-
+</div>
+<script src="js/jquery-ui.js"></script>
+<script>
+$( "#accordion" ).accordion({
+      heightStyle: "content"
+    });
+</script>
+</body>
+</html>
 
 
 
