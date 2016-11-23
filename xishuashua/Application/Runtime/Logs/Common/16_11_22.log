@@ -1,0 +1,6 @@
+[ 2016-11-22T08:49:44+08:00 ] 127.0.0.1 /xishuashua/index.php/homeindex/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000738s ]
+ERR: 无法加载模块:Homeindex
+
