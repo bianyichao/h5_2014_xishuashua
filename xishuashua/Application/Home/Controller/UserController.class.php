@@ -21,6 +21,9 @@ class UserController extends Controller {
      	}
      	else{
            $this->display();
+
+
+
      	}
    }
 }
