@@ -72,69 +72,66 @@
           </ul>
             <h3><a href="#"><span class="glyphicon glyphicon-tags"></span>关键字管理<span class="glyphicon glyphicon-chevron-down"></span></a></h3>
             <ul>
-              <li ><a href="tag.html">标签管理</a></li>
-              <li ><a href="roomtype.html">户型管理</a></li>
-              <li ><a href="prices.html">价格管理</a></li>
+              <li ><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/tag/tag">标签管理</a></li>
+              <li ><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/tag/roomtype">户型管理</a></li>
+              <li ><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/tag/prices">价格管理</a></li>
           </ul>
         </div>
       </div>
 
         
-      <div class="col-md-10 col-md-offset-2 ">
-        <ol class="breadcrumb">
-          <li><a href="main.html">首页</a></li>
-          <li><a href="#">个人帐户管理</a></li>
-          <li class="active">个人用户信息管理</li>
-        </ol>
-        <div class="table-responsive ">
-          <h3>个人用户管理列表 <small>Personal List</small></h3>
-           <table width="100%" border="0" cellspacing="0" cellpadding="0"  class="table  table-striped table-hover ">
-            <tr>
-              <th width="4%"><input type="checkbox" name="checkbox10" id="checkbox10"></th>
-              <th width="10%">PID</th>
-              <th width="10%">姓名</th>
-              <th width="10%">密码</th>
-              <th width="21%">邮箱</th>
-              <th width="13%">手机号</th>          
-              <th width="17%">操作</th>
-            </tr>
-            <tr>
-              <td><input type="checkbox" name="checkbox" id="checkbox">
-                <label for="checkbox"></label></td>
-              <td>01</td>>
-              <td>张黎明</td>
-              <td>123456</td>      
-              <td>zhangliming@197232832.qq</td>
-              <td>13625684568</td>
-              <td><a href="personal_user_update.html">修改</a><a href="#"></a> <a href="#">删除</a></td>
-            </tr>
-            <tr>
-              <td><input type="checkbox" name="checkbox2" id="checkbox2"></td>
-              <td>02</td>
-              <td>宋晓云</td>
-              <td>123654</td>
-              <td>sxy@163.com</td>
-              <td>13025486584</td>
-              <td><a href="personal_user_update.html">修改</a><a href="#"></a> <a href="#">删除</a></td>
-            </tr>
-          </table>
-        </div>
-        <div class="input-group pull-left form">
-          <button type="submit" class="btn btn-danger "> 删 除</button>
-        </div>
-        <ul class="pagination pull-right" >
-          <li class="disabled"><a href="#">&laquo;</a></li>
-          <li class="active"><a href="#">1</a></li>
-          <li><a href="#">2</a></li>
-          <li><a href="#">3</a></li>
-          <li><a href="#">4</a></li>
-          <li><a href="#">&raquo;</a></li>
-        </ul>
-      </div>
-  </div>
-          
-  
-
+    	<div class="col-md-10 col-md-offset-2 ">
+    	  <ol class="breadcrumb">
+    	    <li><a href="main.html">首页</a></li>
+    	    <li><a href="#">企业帐户管理</a></li>
+    	    <li class="active">修改企业账户信息</li>
+  	    </ol>
+    	  <div class="table-responsive ">
+    	    <h3>企业账户修改 <small>Company Modify</small></h3>
+    	    <div class="list-group ">
+    	      <div class="list-group-item">
+    	        <form role="form" >
+    	          <div class="input-group"> <span class="input-group-addon">昵 称：</span>
+                  <input type="text" class="form-control" placeholder="">
+                </div>
+                <div class="input-group"> <span class="input-group-addon">公司名：</span>
+                  <input type="text" class="form-control" placeholder="">
+                </div>
+                <div class="input-group"> <span class="input-group-addon">负责人：</span>
+                  <input type="text" class="form-control" placeholder="">
+                </div>
+                <div class="input-group"> <span class="input-group-addon">地  址：</span>
+                  <input type="text" class="form-control" placeholder="" >
+                </div>
+                <div class="input-group"> <span class="input-group-addon">手机号：</span>
+                  <input type="text" class="form-control" placeholder="152*****237">
+                </div>
+    	          <div class="input-group"> <span class="input-group-addon">邮  箱：</span>
+    	            <input type="text" class="form-control" placeholder="86823499@qq.com">
+  	            </div>
+                <div class="input-group"> <span class="input-group-addon">点赞数：</span>
+                  <input type="text" class="form-control" placeholder="">
+                </div>
+    	          <div class="input-group">
+    	            <button type="submit" class="btn btn-primary "> &nbsp;&nbsp;保<img src="/h5_2014_xishuashua/xishuashua/Public/home/images/em.png" alt="" width="20" height="20">存&nbsp;&nbsp;</button>
+  	            </div>
+  	          </form>
+  	        </div>
+  	      </div>
+  	    </div>
+  	  </div>
+	</div>
+        	
+	
+</div>
+<script src="js/jquery-ui.js"></script>
+<script>
+$( "#accordion" ).accordion({
+      heightStyle: "content"
+    });
+</script>
+</body>
+</html>
 
 
 
