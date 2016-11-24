@@ -23,4 +23,15 @@ class UserController extends Controller {
            $this->display();
      	}
    }
+
+    public function loginout(){
+        $result=session("username",null);
+        if ($result) {
+               $this->error();
+        }
+        else{
+           $this->success("退出成功",U("User/login"));
+         }
+    }
+
 }

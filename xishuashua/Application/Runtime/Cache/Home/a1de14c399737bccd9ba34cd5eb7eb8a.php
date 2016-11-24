@@ -37,7 +37,7 @@
     
     
     <ul class="nav navbar-nav navbar-right mr">
-      <li><a href="#" class="navbar-brand"><span class="glyphicon glyphicon-star"></span>欢迎：Administrator</a></li>
+      <li><a href="#" class="navbar-brand"><span class="glyphicon glyphicon-star"></span>欢迎：<?php echo ($_SESSION['admin']); ?></a></li>
       <li><a href="#" class="navbar-brand"><span class="glyphicon glyphicon-log-out"></span>退出系统</a></li>
     </ul>
   </div><!-- /.navbar-collapse -->
@@ -90,18 +90,18 @@
     	    <h3>添加管理员 <small>Administrator Add</small></h3>
     	    <div class="list-group ">
     	      <div class="list-group-item">
-    	        <form role="form" >
+    	        <form role="form" action="doadd" method="post">
     	          <div class="input-group"> <span class="input-group-addon">用<img src="/h5_2014_xishuashua/xishuashua/Public/home/images/em.png" alt="" width="6" height="20">户<img src="/h5_2014_xishuashua/xishuashua/Public/home/images/em.png" alt="" width="6" height="20">名：</span>
-    	            <input type="text" class="form-control" placeholder="" >
+    	            <input type="text" class="form-control" placeholder="" name="admin">
   	            </div>
                 <div class="input-group"> <span class="input-group-addon">设置密码：</span>
-    	            <input type="text" class="form-control" placeholder="123456" >
+    	            <input type="text" class="form-control" placeholder="123456" name="password">
   	            </div>
-                <div class="input-group"> <span class="input-group-addon">确认密码：</span>
+                <div class="input-group"> <span class="input-group-addon" name="rpsd">确认密码：</span>
     	            <input type="text" class="form-control" placeholder="123456" >
   	            </div>
                 <div class="input-group"> <span class="input-group-addon">电子邮箱：</span>
-                  <input type="text" class="form-control" placeholder="">
+                  <input type="text" class="form-control" placeholder="" name="email">
                 </div>
     	          <div class="input-group">
     	            <button type="submit" class="btn btn-success "> &nbsp;&nbsp;添<img src="/h5_2014_xishuashua/xishuashua/Public/home/images/em.png" alt="" width="20" height="20">加&nbsp;&nbsp;</button>

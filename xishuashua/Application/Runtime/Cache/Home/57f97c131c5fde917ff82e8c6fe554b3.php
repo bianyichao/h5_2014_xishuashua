@@ -112,7 +112,7 @@
               <td>9090950</td>
               <td>zhangliming@197232832.qq</td>
               <td>1233654</td>
-              <td><a href="user_update.html">修改</a><a href="#"></a> <a href="#">删除</a></td>
+              <td><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/company/user_update">修改</a><a href="#"></a> <a href="#">删除</a></td>
             </tr>
             <tr>
               <td><input type="checkbox" name="checkbox2" id="checkbox2"></td>
@@ -124,7 +124,7 @@
               <td>9090950</td>
               <td>zhangliming@197232832.qq</td>
               <td>1233654</td>
-              <td><a href="company_user_update.html">修改</a><a href="#"></a> <a href="#">删除</a></td>
+              <td><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/company/user_update">修改</a><a href="#"></a> <a href="#">删除</a></td>
             </tr>
           </table>
         </div>
