@@ -18,7 +18,7 @@ class IndexController extends Controller {
         			$result = $adminUsersModel->where($condition)->count();
         			if ($result > 0) {
         				session("username", I("post.username"));
-        				$this->success("登录成功！", U("Index/index"));
+        				$this->success("登录成功！", U("Index/main"));
         			}
         			else {
         				$this->error("用户名或密码不正确");
