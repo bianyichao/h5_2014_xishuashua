@@ -108,7 +108,7 @@
               <td>2016-11-11</td>
               <td>12523</td>
               <td>为迎接双11，各大公司推出新活动......</td>
-              <td><a href="update_news.html">修改</a><a href="#"></a> <a href="#">删除</a></td>
+              <td><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/admin/update_news">修改</a><a href="#"></a> <a href="#">删除</a></td>
             </tr>
             <tr>
               <td><input type="checkbox" name="checkbox" id="checkbox">
@@ -119,7 +119,7 @@
               <td>2016-12-12</td>
               <td>25362</td>
               <td>为迎接双12，各大公司推出新活动......</td>
-              <td><a href="update_news.html">修改</a><a href="#"></a> <a href="#">删除</a></td>
+              <td><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/admin/update_news">修改</a><a href="#"></a> <a href="#">删除</a></td>
             </tr>
           </table>
         </div>

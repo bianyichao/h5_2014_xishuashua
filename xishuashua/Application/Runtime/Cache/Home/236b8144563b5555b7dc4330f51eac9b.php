@@ -101,15 +101,15 @@
   	        </tr>
     	      <tr>
     	        <td class="taga"><a href="#">地中海风情</a></td>
-    	        <td><a href="#">修改</a><a href="#"></a> &nbsp;&nbsp;<a href="#">删除</a></td>
+    	        <td> &nbsp;&nbsp;<a href="#">删除</a></td>
    	           </tr>
     	      <tr>
     	         <td class="taga"><a href="#">地中海风情</a></td>
-    	        <td><a href="#">修改</a><a href="#"></a>  &nbsp;&nbsp;<a href="#">删除</a></td>
+    	        <td>&nbsp;&nbsp;<a href="#">删除</a></td>
    	           </tr>
     	      <tr>
     	         <td class="taga"><a href="#">地中海风情</a></td>
-    	        <td><a href="#">修改</a><a href="#"></a>  &nbsp;&nbsp;<a href="#">删除</a></td>
+    	        <td>  &nbsp;&nbsp;<a href="#">删除</a></td>
    	           </tr>
   	      </table>
             </div>

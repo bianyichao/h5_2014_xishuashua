@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8fe78751-488c-4344-8f64-1a61db923e0b" name="Default" comment="ThinkPHP">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xishuashua/Application/Runtime/Logs/Common/16_11_23.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/h5_2014_xishuashua.iml" afterPath="$PROJECT_DIR$/.idea/h5_2014_xishuashua.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xishuashua/Application/Runtime/Cache/Home/6155fa2208c58db58ca7f502e78fee41.php" afterPath="$PROJECT_DIR$/xishuashua/Application/Runtime/Cache/Home/6155fa2208c58db58ca7f502e78fee41.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xishuashua/Application/Runtime/Cache/Home/236b8144563b5555b7dc4330f51eac9b.php" afterPath="$PROJECT_DIR$/xishuashua/Application/Runtime/Cache/Home/236b8144563b5555b7dc4330f51eac9b.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xishuashua/Application/Runtime/Cache/Home/31d3271ec543b6bc0ac13a37f08bf718.php" afterPath="$PROJECT_DIR$/xishuashua/Application/Runtime/Cache/Home/31d3271ec543b6bc0ac13a37f08bf718.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xishuashua/Application/Runtime/Cache/Home/3818b3185a6985c2a3845f878bdf6058.php" afterPath="$PROJECT_DIR$/xishuashua/Application/Runtime/Cache/Home/3818b3185a6985c2a3845f878bdf6058.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xishuashua/Application/Runtime/Cache/Home/a2f70029e005ca8cbf5a2463fab26d8b.php" afterPath="$PROJECT_DIR$/xishuashua/Application/Runtime/Cache/Home/a2f70029e005ca8cbf5a2463fab26d8b.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xishuashua/Application/Runtime/Logs/Home/16_11_23.log" afterPath="$PROJECT_DIR$/xishuashua/Application/Runtime/Logs/Home/16_11_23.log" />
     </list>
     <ignored path="h5_2014_xishuashua.iws" />
@@ -61,7 +63,7 @@
       <file leaf-file-name="user_update.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/xishuashua/Application/Home/View/personal/user_update.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="512">
+            <state relative-caret-position="513">
               <caret line="27" column="86" selection-start-line="27" selection-start-column="86" selection-end-line="27" selection-end-column="86" />
               <folding />
             </state>
@@ -123,7 +125,7 @@
     <option name="STATE" value="2" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="Scope" currentSubView="Project Files" proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
       <showMembers ProjectPane="true" />
       <showModules />
@@ -137,17 +139,24 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches">
+        <subPane />
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="h5_2014_xishuashua" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="Scope">
         <subPane subId="Problems" />
         <subPane subId="Changed Files" />
         <subPane subId="Project Files" />
         <subPane subId="Default" />
-      </pane>
-      <pane id="ProjectPane">
-        <subPane />
-      </pane>
-      <pane id="Scratches">
-        <subPane />
       </pane>
     </panes>
   </component>
@@ -155,7 +164,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RunManager">
@@ -230,6 +239,8 @@
       <workItem from="1479863438750" duration="159000" />
       <workItem from="1479863837287" duration="736000" />
       <workItem from="1479864591213" duration="9000" />
+      <workItem from="1479870252183" duration="743000" />
+      <workItem from="1479946016584" duration="146000" />
     </task>
     <task id="LOCAL-00001" summary="ThinkPHP">
       <created>1479861040767</created>
@@ -242,7 +253,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3362000" />
+    <option name="totallyTimeSpent" value="4251000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -318,6 +329,70 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/xishuashua/Application/Home/View/layout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xishuashua/Application/Home/Controller/UserController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xishuashua/Application/Home/View/personal/put_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xishuashua/Application/Home/View/personal/user_update.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xishuashua/Application/Home/View/layout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xishuashua/Application/Home/Controller/UserController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xishuashua/Application/Home/View/personal/put_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xishuashua/Application/Home/View/personal/user_update.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/xishuashua/Application/Home/View/admin/user_update.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -366,7 +441,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/xishuashua/Application/Home/View/personal/user_update.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="512">
+        <state relative-caret-position="513">
           <caret line="27" column="86" selection-start-line="27" selection-start-column="86" selection-end-line="27" selection-end-column="86" />
           <folding />
         </state>
