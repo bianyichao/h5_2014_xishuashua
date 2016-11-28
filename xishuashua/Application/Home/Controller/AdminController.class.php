@@ -14,11 +14,12 @@ class AdminController extends Controller {
     public function doadd(){
         if (!IS_POST) {
                  exit("bad!"); 
+               //var_dump($_POST);
         }
         $newsModel=M("admin");
         $newsModel->create();
         if (!$newsModel->create()) {
-            // $this->error();
+                 // $this->error();
             $this->error($newsModel->getError());
         }
         if ($newsModel->add()) {
@@ -29,67 +30,14 @@ class AdminController extends Controller {
         }
     }
     public function password_update(){
-        if (IS_POST) {
-            
-           if ($_POST['password']==$_POST['repsd']) {
-            //var_dump(111);
-              $model = M("admin");
-              $model->create();
-              if($model->save()){
-                $this->success("修改成功", U("admin/lists"));
-              }
-              else {
-                $this->error($model->getError());
-              }
-           }
-           else{$username=$_SESSION['admin'];
-             if ($username == '') {
-                exit("bad param!");
-             }
-             $newsModel=M("admin");
-             $a=$newsModel->where("admin='$username'")->find();
-             //var_dump($a);
-             $this->assign("a", $a);
-             $this->display();
-           }
-         }
-         else {
-             $username=$_SESSION['admin'];
-             if ($username == '') {
-                exit("bad param!");
-             }
-             $newsModel=M("admin");
-             $a=$newsModel->where("admin='$username'")->find();
-             //var_dump($a);
-             $this->assign("a", $a);
-             $this->display();
-        }
-        
+    	$this->display();
     }
     public function user_update(){
-    	if (IS_POST) {
-            $model = M("admin");
-            $model->create();
-            //var_dump($model->create());
-            if($model->save()){
-                $this->success("修改成功", U("admin/lists"));
-            }
-            else {
-                $this->error($model->getError());
-            }
-         }
-        else {
-             $id = isset($_GET['id']) ? intval($_GET['id']) : '';
-             if ($id == '') {
-                exit("bad param!");
-             }
-             $adminModel=D("admin");
-             $a=$adminModel->find($id);
-             $this->assign("a", $a);
-             $this->display();
-        }
+    	$this->display();
     }
     public function lists(){
+      $username=$_SESSION['admin'];
+      $this->assign("user", $username);
       $newsModel=M("admin");
       $p = isset($_GET['p']) ? intval($_GET['p']) : "1";
       $lists=$newsModel->page($p ,9)->order('id desc')->select();
@@ -100,20 +48,9 @@ class AdminController extends Controller {
       $show= $Page->show();
       $this->display();
     }
-    public function admindelete() {
-        $id = isset($_GET['id']) ? intval($_GET['id']) : '';
-        if ($id == '') {
-            exit("bad param!");
-        }
-        if(M("admin")->delete($id)){
-            $this->success("删除成功！",U("admin/lists"));
-        }
-    }
     public function manage_news(){
     	$this->display();
     }
-   
-
     public function update_news(){
         $this->display();
     }

@@ -2,6 +2,7 @@
 namespace Home\Controller;
 use Think\Controller;
 class PersonalController extends Controller {
+
     public function news(){
         $this->display();
     }
