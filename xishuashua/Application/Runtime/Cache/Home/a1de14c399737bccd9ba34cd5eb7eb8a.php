@@ -37,7 +37,8 @@
     
     
     <ul class="nav navbar-nav navbar-right mr">
-      <li><a href="#" class="navbar-brand"><span class="glyphicon glyphicon-star"></span>欢迎：<?php echo ($_SESSION['admin']); ?></a></li>
+        <li><a href="#" class="navbar-brand"><span class="glyphicon glyphicon-star"></span>欢迎：<?php echo ($_SESSION['admin']); ?></a>
+        </li>
       <li><a href="#" class="navbar-brand"><span class="glyphicon glyphicon-log-out"></span>退出系统</a></li>
     </ul>
   </div><!-- /.navbar-collapse -->
@@ -66,6 +67,7 @@
               <li><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/company/user_list">企业用户管理</a></li>
               <li><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/company/input_list">企业投标管理</a></li>
               <li><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/company/news">企业文章管理</a></li>
+                <li><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/company/case">装修案例管理</a></li>
               <li ><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/company/user_update">修改企业信息</a></li>
           </ul>
             <h3><a href="#"><span class="glyphicon glyphicon-tags"></span>关键字管理<span class="glyphicon glyphicon-chevron-down"></span></a></h3>
@@ -88,18 +90,18 @@
     	    <h3>添加管理员 <small>Administrator Add</small></h3>
     	    <div class="list-group ">
     	      <div class="list-group-item">
-    	        <form role="form" action="doadd" method="post">
+                  <form role="form" action="doadd" method="post">
     	          <div class="input-group"> <span class="input-group-addon">用<img src="/h5_2014_xishuashua/xishuashua/Public/home/images/em.png" alt="" width="6" height="20">户<img src="/h5_2014_xishuashua/xishuashua/Public/home/images/em.png" alt="" width="6" height="20">名：</span>
-    	            <input type="text" class="form-control" placeholder="" name="admin">
+                      <input type="text" class="form-control" placeholder="" name="admin">
   	            </div>
                 <div class="input-group"> <span class="input-group-addon">设置密码：</span>
-    	            <input type="text" class="form-control" placeholder="123456" name="password">
+                    <input type="text" class="form-control" placeholder="123456" name="password">
   	            </div>
-                <div class="input-group"> <span class="input-group-addon" name="rpsd">确认密码：</span>
+                      <div class="input-group"><span class="input-group-addon" name="rpsd">确认密码：</span>
     	            <input type="text" class="form-control" placeholder="123456" >
   	            </div>
                 <div class="input-group"> <span class="input-group-addon">电子邮箱：</span>
-                  <input type="text" class="form-control" placeholder="" name="email">
+                    <input type="text" class="form-control" placeholder="" name="email">
                 </div>
     	          <div class="input-group">
     	            <button type="submit" class="btn btn-success "> &nbsp;&nbsp;添<img src="/h5_2014_xishuashua/xishuashua/Public/home/images/em.png" alt="" width="20" height="20">加&nbsp;&nbsp;</button>

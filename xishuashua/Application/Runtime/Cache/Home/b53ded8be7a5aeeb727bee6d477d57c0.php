@@ -37,7 +37,8 @@
     
     
     <ul class="nav navbar-nav navbar-right mr">
-      <li><a href="#" class="navbar-brand"><span class="glyphicon glyphicon-star"></span>欢迎：<?php echo ($_SESSION['admin']); ?></a></li>
+        <li><a href="#" class="navbar-brand"><span class="glyphicon glyphicon-star"></span>欢迎：<?php echo ($_SESSION['admin']); ?></a>
+        </li>
       <li><a href="#" class="navbar-brand"><span class="glyphicon glyphicon-log-out"></span>退出系统</a></li>
     </ul>
   </div><!-- /.navbar-collapse -->
@@ -66,6 +67,7 @@
               <li><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/company/user_list">企业用户管理</a></li>
               <li><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/company/input_list">企业投标管理</a></li>
               <li><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/company/news">企业文章管理</a></li>
+                <li><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/company/case">装修案例管理</a></li>
               <li ><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/company/user_update">修改企业信息</a></li>
           </ul>
             <h3><a href="#"><span class="glyphicon glyphicon-tags"></span>关键字管理<span class="glyphicon glyphicon-chevron-down"></span></a></h3>
@@ -96,25 +98,15 @@
               <th width="13%">手机号</th>          
               <th width="17%">操作</th>
             </tr>
-            <tr>
-              <td><input type="checkbox" name="checkbox" id="checkbox">
-                <label for="checkbox"></label></td>
-              <td>01</td>>
-              <td>张黎明</td>
-              <td>123456</td>      
-              <td>zhangliming@197232832.qq</td>
-              <td>13625684568</td>
-              <td><a href="personal_user_update.html">修改</a><a href="#"></a> <a href="#">删除</a></td>
-            </tr>
-            <tr>
-              <td><input type="checkbox" name="checkbox2" id="checkbox2"></td>
-              <td>02</td>
-              <td>宋晓云</td>
-              <td>123654</td>
-              <td>sxy@163.com</td>
-              <td>13025486584</td>
-              <td><a href="personal_user_update.html">修改</a><a href="#"></a> <a href="#">删除</a></td>
-            </tr>
+             <?php if(is_array($news)): $i = 0; $__LIST__ = $news;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$d): $mod = ($i % 2 );++$i;?><tr>
+                 <td><input type="checkbox" name="checkbox" id="checkbox11"></td>
+                 <td><?php echo ($d["p_id"]); ?></td>
+                 <td><?php echo ($d["p_name"]); ?></td>
+                 <td><?php echo ($d["p_pwd"]); ?></td>
+                 <td><?php echo ($d["p_email"]); ?></td>
+                 <td><?php echo ($d["p_tel"]); ?></td>
+                 <td><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/personal/user_update/id/<?php echo ($d["p_id"]); ?>">修改</a><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/personal/user_update"></a> <a href="#">删除</a></td>
+               </tr><?php endforeach; endif; else: echo "" ;endif; ?>
           </table>
         </div>
         <div class="input-group pull-left form">

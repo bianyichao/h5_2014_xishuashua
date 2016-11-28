@@ -17,25 +17,18 @@
               <th width="13%">手机号</th>          
               <th width="17%">操作</th>
             </tr>
-            <tr>
-              <td><input type="checkbox" name="checkbox" id="checkbox">
-                <label for="checkbox"></label></td>
-              <td>01</td>>
-              <td>张黎明</td>
-              <td>123456</td>      
-              <td>zhangliming@197232832.qq</td>
-              <td>13625684568</td>
-                <td><a href="personal_user_update.html">修改</a><a href="#"></a> <a href="#">删除</a></td>
-            </tr>
-            <tr>
-              <td><input type="checkbox" name="checkbox2" id="checkbox2"></td>
-              <td>02</td>
-              <td>宋晓云</td>
-              <td>123654</td>
-              <td>sxy@163.com</td>
-              <td>13025486584</td>
-                <td><a href="personal_user_update.html">修改</a><a href="#"></a> <a href="#">删除</a></td>
-            </tr>
+             <volist name="news" id="d">
+               <tr>
+                 <td><input type="checkbox" name="checkbox" id="checkbox11"></td>
+                 <td>{$d.p_id}</td>
+                 <td>{$d.p_name}</td>
+                 <td>{$d.p_pwd}</td>
+                 <td>{$d.p_email}</td>
+                 <td>{$d.p_tel}</td>
+                 <td><a href="__MODULE__/personal/user_update/id/{$d.p_id}">修改</a><a
+                         href="__MODULE__/personal/user_update"></a> <a href="#">删除</a></td>
+               </tr>
+             </volist>
           </table>
         </div>
         <div class="input-group pull-left form">
