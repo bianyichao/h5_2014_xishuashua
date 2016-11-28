@@ -37,7 +37,8 @@
     
     
     <ul class="nav navbar-nav navbar-right mr">
-      <li><a href="#" class="navbar-brand"><span class="glyphicon glyphicon-star"></span>欢迎：Administrator</a></li>
+        <li><a href="#" class="navbar-brand"><span class="glyphicon glyphicon-star"></span>欢迎：<?php echo ($_SESSION['admin']); ?></a>
+        </li>
       <li><a href="#" class="navbar-brand"><span class="glyphicon glyphicon-log-out"></span>退出系统</a></li>
     </ul>
   </div><!-- /.navbar-collapse -->
@@ -88,8 +89,8 @@
   	    </ol>
     	  <h3 class="down">标签管理 <small>Tags Management</small></h3> 
             <div class="row ">
-            <div class="col-md-2">  	    
-        <div class="list-group-item">
+                <div class="col-md-2">
+                    <div class="list-group-item">
     	        <label for="inputEmail3" class=" control-label">请输入价格</label>    	       
     	          <input type="input" class="form-control marb" id="" placeholder="">       
     	          <button type="submit" class="btn btn-primary">添加价格</button>	          
@@ -101,15 +102,15 @@
   	        </tr>
     	      <tr>
     	        <td class="taga"><a href="#">10000</a></td>
-    	        <td><a href="#">修改</a><a href="#"></a> &nbsp;&nbsp;<a href="#">删除</a></td>
+                  <td><a href="#">修改</a><a href="#"></a> &nbsp;&nbsp;<a href="#">删除</a></td>
    	           </tr>
     	      <tr>
     	         <td class="taga"><a href="#">20000</a></td>
-    	        <td><a href="#">修改</a><a href="#"></a>  &nbsp;&nbsp;<a href="#">删除</a></td>
+                  <td><a href="#">修改</a><a href="#"></a> &nbsp;&nbsp;<a href="#">删除</a></td>
    	           </tr>
     	      <tr>
     	         <td class="taga"><a href="#">30000</a></td>
-    	        <td><a href="#">修改</a><a href="#"></a>  &nbsp;&nbsp;<a href="#">删除</a></td>
+                  <td><a href="#">修改</a><a href="#"></a> &nbsp;&nbsp;<a href="#">删除</a></td>
    	           </tr>
   	      </table>
             </div>

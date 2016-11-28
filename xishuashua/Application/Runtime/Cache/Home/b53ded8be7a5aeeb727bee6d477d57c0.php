@@ -37,7 +37,8 @@
     
     
     <ul class="nav navbar-nav navbar-right mr">
-      <li><a href="#" class="navbar-brand"><span class="glyphicon glyphicon-star"></span>欢迎：Administrator</a></li>
+        <li><a href="#" class="navbar-brand"><span class="glyphicon glyphicon-star"></span>欢迎：<?php echo ($_SESSION['admin']); ?></a>
+        </li>
       <li><a href="#" class="navbar-brand"><span class="glyphicon glyphicon-log-out"></span>退出系统</a></li>
     </ul>
   </div><!-- /.navbar-collapse -->
@@ -106,7 +107,7 @@
               <td>123456</td>      
               <td>zhangliming@197232832.qq</td>
               <td>13625684568</td>
-              <td><a href="personal_user_update.html">修改</a><a href="#"></a> <a href="#">删除</a></td>
+                <td><a href="personal_user_update.html">修改</a><a href="#"></a> <a href="#">删除</a></td>
             </tr>
             <tr>
               <td><input type="checkbox" name="checkbox2" id="checkbox2"></td>
@@ -115,7 +116,7 @@
               <td>123654</td>
               <td>sxy@163.com</td>
               <td>13025486584</td>
-              <td><a href="personal_user_update.html">修改</a><a href="#"></a> <a href="#">删除</a></td>
+                <td><a href="personal_user_update.html">修改</a><a href="#"></a> <a href="#">删除</a></td>
             </tr>
           </table>
         </div>
