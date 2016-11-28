@@ -37,8 +37,7 @@
     
     
     <ul class="nav navbar-nav navbar-right mr">
-        <li><a href="#" class="navbar-brand"><span class="glyphicon glyphicon-star"></span>欢迎：<?php echo ($_SESSION['admin']); ?></a>
-        </li>
+      <li><a href="#" class="navbar-brand"><span class="glyphicon glyphicon-star"></span>欢迎：<?php echo ($_SESSION['admin']); ?></a></li>
       <li><a href="#" class="navbar-brand"><span class="glyphicon glyphicon-log-out"></span>退出系统</a></li>
     </ul>
   </div><!-- /.navbar-collapse -->
@@ -49,13 +48,11 @@
         <div id="accordion">
           <h3><a href="#"><span class="glyphicon glyphicon-lock"></span>管理员账户管理<span class="glyphicon glyphicon-chevron-down"></span></a></h3>
            <ul>
-              <li ><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/admin/user_list">管理员信息管理</a></li>
+               <li><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/admin/lists">管理员信息管理</a></li>
               <li><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/admin/publish_news">发布新闻管理</a></li>
               <li><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/admin/manage_news">管理新闻管理</a></li>                
               <li ><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/admin/add">添加管理员</a></li>
-              <li ><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/admin/user_update">修改管理员信息</a></li>
               <li ><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/admin/password_update">修改管理员密码</a></li>
-              <li ><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/admin/update_news">修改新闻信息</a></li>
           </ul>
             <h3><a href="#"><span class="glyphicon glyphicon-file"></span>个人账户管理<span class="glyphicon glyphicon-chevron-down"></span></a></h3>
             <ul>
@@ -89,8 +86,8 @@
   	    </ol>
     	  <h3 class="down">标签管理 <small>Tags Management</small></h3> 
             <div class="row ">
-                <div class="col-md-2">
-                    <div class="list-group-item">
+            <div class="col-md-2">  	    
+        <div class="list-group-item">
     	        <label for="inputEmail3" class=" control-label">请输入价格</label>    	       
     	          <input type="input" class="form-control marb" id="" placeholder="">       
     	          <button type="submit" class="btn btn-primary">添加价格</button>	          
@@ -102,15 +99,15 @@
   	        </tr>
     	      <tr>
     	        <td class="taga"><a href="#">10000</a></td>
-                  <td><a href="#">修改</a><a href="#"></a> &nbsp;&nbsp;<a href="#">删除</a></td>
+    	        <td><a href="#">修改</a><a href="#"></a> &nbsp;&nbsp;<a href="#">删除</a></td>
    	           </tr>
     	      <tr>
     	         <td class="taga"><a href="#">20000</a></td>
-                  <td><a href="#">修改</a><a href="#"></a> &nbsp;&nbsp;<a href="#">删除</a></td>
+    	        <td><a href="#">修改</a><a href="#"></a>  &nbsp;&nbsp;<a href="#">删除</a></td>
    	           </tr>
     	      <tr>
     	         <td class="taga"><a href="#">30000</a></td>
-                  <td><a href="#">修改</a><a href="#"></a> &nbsp;&nbsp;<a href="#">删除</a></td>
+    	        <td><a href="#">修改</a><a href="#"></a>  &nbsp;&nbsp;<a href="#">删除</a></td>
    	           </tr>
   	      </table>
             </div>

@@ -48,7 +48,7 @@
         <div id="accordion">
           <h3><a href="#"><span class="glyphicon glyphicon-lock"></span>管理员账户管理<span class="glyphicon glyphicon-chevron-down"></span></a></h3>
            <ul>
-              <li ><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/admin/user_list">管理员信息管理</a></li>
+              <li ><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/admin/lists">管理员信息管理</a></li>
               <li><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/admin/publish_news">发布新闻管理</a></li>
               <li><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/admin/manage_news">管理新闻管理</a></li>                
               <li ><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/admin/add">添加管理员</a></li>
@@ -90,18 +90,19 @@
     	    <h3>管理员密码修改 <small>Password Modify</small></h3>
     	    <div class="list-group ">
     	      <div class="list-group-item">
-    	        <form role="form" >
+    	        <form role="form" action="" method="post">
+              <input type="hidden" name="id" value="<?php echo ($a["id"]); ?>">
     	          <div class="input-group"> <span class="input-group-addon">用户名：</span>
-    	            <input type="text" class="form-control" placeholder="administrator">
+    	            <input type="text" class="form-control" placeholder="administrator" value="<?php echo ($a["admin"]); ?>">
   	            </div>
     	          <div class="input-group"> <span class="input-group-addon">旧密码：</span>
-    	            <input type="text" class="form-control" placeholder="">
+    	            <input type="text" class="form-control" placeholder="" value="<?php echo ($a["password"]); ?>">
   	            </div>
     	          <div class="input-group"> <span class="input-group-addon">新密码：</span>
-    	            <input type="text" class="form-control" placeholder="">
+    	            <input type="text" class="form-control" placeholder="" name="password">
   	            </div>
     	          <div class="input-group"> <span class="input-group-addon">确认新密码：</span>
-    	            <input type="text" class="form-control" placeholder="" >
+    	            <input type="text" class="form-control" placeholder="" name="repsd">
   	            </div>
     	          <div class="input-group">
     	            <button type="submit" class="btn btn-primary "> &nbsp;&nbsp;保<img src="/h5_2014_xishuashua/xishuashua/Public/home/images/em.png" alt="" width="20" height="20">存&nbsp;&nbsp;</button>

@@ -8,20 +8,21 @@ class UserController extends Controller {
      		$adminUser=M("admin");
      		$condition=array(
      			"admin"=>I("post.username"),
-     		    "passsword"=>I("post.pwd")
+     		    "password"=>I("post.pwd")
      		    );
-     		$result=$adminUser->where($condition)->count();
+           
+     		$result=$adminUser->where($condition)->find();
      		if ($result) {
-     			session("admin",I("post.username"));
+                session("admin",I("post.username"));
                 $this->success("登录成功",U("Index/main"));
-     		}
-     		else{
-     			$this->error("用户名或密码错误！");
-     		}
-     	}
-     	else{
+            }
+            else{
+                $this->error("用户名或密码错误！");
+            }
+        }
+        else{
            $this->display();
-     	}
+        }
    }
 
     public function loginout(){
