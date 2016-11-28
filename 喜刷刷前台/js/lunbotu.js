@@ -47,7 +47,7 @@ $(function(){
     }
 
 // 定时器
-    timer = setInterval(run2,5000);
+    timer = setInterval(run2,2500);
 
 
 
@@ -55,7 +55,7 @@ $(function(){
     $(".content_middle").hover(function(){
         clearInterval(timer);
     },function(){
-        timer = setInterval(run2,5000);
+        timer = setInterval(run2,2500);
     })
 })/**
  * Created by dell on 2016/11/21.
