@@ -2,6 +2,7 @@
 namespace Home\Controller;
 use Think\Controller;
 class TagController extends Controller {
+
     public function tag(){
         $this->display();
     }
