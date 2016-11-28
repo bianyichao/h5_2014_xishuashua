@@ -32,7 +32,7 @@ class PersonalController extends Controller {
                      if ($id == '') {
                         exit("bad param!");
                      }
-                     $adminModel=D("admin");
+                     $adminModel=M("personaluser");
                      $a=$adminModel->find($id);
                      $this->assign("a", $a);
                      $this->display();
