@@ -35,24 +35,23 @@ a:hover{text-decoration:underline;}
 	font-size: 17px;
 	font-family: "微软雅黑";
 	font-weight: bold;
-    height:60px;
-    width:120px;
-    text-align:center;
-    line-height:30px;
-    background-color:#216400;
-    color:rgb(255,255,0);
+	height:60px;
+	width:120px;
+	text-align:center;
+	line-height:30px;
+	background-color:#216400;
+	color:rgb(255,255,0);
 }
 #greennav ul li a:hover{
 	border-left: 1px solid #216400 ;
 	border-right:1px solid #216400 ;
 	background-color:#c2cb7a;
-    color:#ffffff;
+	color:#ffffff;
 }
 #greennav ul li .ahov{
 	background-color:#c2cb7a;
-    color:#ffffff;
+	color:#ffffff;
 }
-
 .navright{
 	float:right;
 	height:60px;
@@ -68,7 +67,6 @@ a:hover{text-decoration:underline;}
 	color:#c2cb7a;
 }
 .navright a{
-	text-decoration:none;
 	font-size:14px;
     color:#c2cb7a;
 }
@@ -106,8 +104,39 @@ a:hover{text-decoration:underline;}
 }
 
 /*content*/
-
-
+.container .row{
+	padding-top: 10px;
+}
+.cm12 .col-md-3{
+	border: 1px solid rgb(194,203,112);
+	width: 23%;
+	height: 300px;
+	margin: 10px;
+	padding-top: 20px;
+}
+.cm12 .col-md-3 .col-md-12{
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.cm12 .col-md-3 .col-md-12 a img{
+	width:100%;
+}
+.cm12 .col-md-3 .col-md-12 h2{
+	text-align: center;
+}
+.cm12 .col-md-3 .col-md-12 p{
+	text-align: center;
+}
+.contitle{
+	padding-top: 10px;
+}
+.container .carousel .carousel-inner ul li img{
+	height: 250px;
+	width: 100%;
+}
+.container .carousel .carousel-control{
+	padding-top: 115px;
+}
 /*footer*/
 .footer{
 	margin-top:52px;
@@ -115,10 +144,13 @@ a:hover{text-decoration:underline;}
 	background-color:#dee2bd;
 	color:#216400;
 }
+.footer .col-md-10{
+	padding-left: 185px;
+}
 .footer ul{
 	margin-top:40px;
 	float:left;
-	width:33%;
+	width:28%;
 }
 .footer ul li{
 	line-height:25px;
@@ -137,7 +169,6 @@ a:hover{text-decoration:underline;}
 .footer .col-md-2{
 	margin-top:35px;
 	width:160px;
-	float:right;
 }
 .cori{
 	height:85px;
