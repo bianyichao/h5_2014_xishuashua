@@ -67,8 +67,9 @@ a:hover{text-decoration:underline;}
 	color:#c2cb7a;
 }
 .navright a{
+	text-decoration:none;
 	font-size:14px;
-    color:#c2cb7a;
+	color:#c2cb7a;
 }
 .navright1 a{
 	font-size:14px;
