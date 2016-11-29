@@ -1,0 +1,61 @@
+#Empty CSS file for your own CSS
+@charset "utf-8";
+/* CSS Document */
+*{}
+.con1{margin-top:120px;}
+.con1 h1{
+	font-size:34px;
+	color:#333;
+}
+.con1 h1 img{display:none;}
+.message li{
+    line-height:40px;
+    border-bottom:1px dashed #c2cb7a;
+}
+.smbtn{
+	margin-top:40px;
+	width:128px;
+	height:40px;
+	background-color:#c2cb7a;
+	color:#fff;
+	border:0;
+	float:right;
+}
+.head{
+	width:375px;
+	float:right;
+}
+.head img{
+	position:relative;
+	float:left;
+}
+.head .abovehead{
+	position:absolute;
+	margin-top:335px;
+	width:375px;
+	height:40px;
+	background-image:url(../images/grehead.png);
+}
+.head .abovehead a{
+	display:block;
+	text-align:center;
+	line-height:40px;
+	color:#fff;
+}
+.cm{margin-top:40px;}
+.smh2{
+	font-size:18px;
+	font-weight:bold;
+	color:#236400;
+}
+.rollul{width:1360px;}
+.rollul li{
+    float:left;
+    margin:20px 10px 0;
+}
+.rollul li img{
+	margin: 0px;
+	height: 189px;
+	width: 288px;
+}
+.flowhid{overflow:hidden;}
