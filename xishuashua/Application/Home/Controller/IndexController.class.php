@@ -8,25 +8,4 @@ class IndexController extends Controller {
     public function main(){
     	$this->display();
     }
-    public function login(){
-        if (IS_POST) {
-        			$adminUsersModel = M('admin');
-        			$condition = array(
-        					"username" => I("post.username"),
-        					"password" => I("post.password")
-        				);
-        			$result = $adminUsersModel->where($condition)->count();
-        			if ($result > 0) {
-        				session("username", I("post.username"));
-        				$this->success("登录成功！", U("Index/main"));
-        			}
-        			else {
-        				$this->error("用户名或密码不正确");
-        			}
-        		}
-        		else {
-        			$this->display();
-        		}
-
-     }
 }

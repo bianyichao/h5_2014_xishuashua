@@ -37,7 +37,7 @@
     
     
     <ul class="nav navbar-nav navbar-right mr">
-      <li><a href="#" class="navbar-brand"><span class="glyphicon glyphicon-star"></span>欢迎：Administrator</a></li>
+      <li><a href="#" class="navbar-brand"><span class="glyphicon glyphicon-star"></span>欢迎：<?php echo ($_SESSION['admin']); ?></a></li>
       <li><a href="#" class="navbar-brand"><span class="glyphicon glyphicon-log-out"></span>退出系统</a></li>
     </ul>
   </div><!-- /.navbar-collapse -->
@@ -48,13 +48,11 @@
         <div id="accordion">
           <h3><a href="#"><span class="glyphicon glyphicon-lock"></span>管理员账户管理<span class="glyphicon glyphicon-chevron-down"></span></a></h3>
            <ul>
-              <li ><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/admin/user_list">管理员信息管理</a></li>
+               <li><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/admin/lists">管理员信息管理</a></li>
               <li><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/admin/publish_news">发布新闻管理</a></li>
               <li><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/admin/manage_news">管理新闻管理</a></li>                
               <li ><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/admin/add">添加管理员</a></li>
-              <li ><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/admin/user_update">修改管理员信息</a></li>
               <li ><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/admin/password_update">修改管理员密码</a></li>
-              <li ><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/admin/update_news">修改新闻信息</a></li>
           </ul>
             <h3><a href="#"><span class="glyphicon glyphicon-file"></span>个人账户管理<span class="glyphicon glyphicon-chevron-down"></span></a></h3>
             <ul>
@@ -108,7 +106,7 @@
               <td>2016-11-11</td>
               <td>12523</td>
               <td>为迎接双11，各大公司推出新活动......</td>
-              <td><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/admin/update_news">修改</a><a href="#"></a> <a href="#">删除</a></td>
+              <td><a href="update_news.html">修改</a><a href="#"></a> <a href="#">删除</a></td>
             </tr>
             <tr>
               <td><input type="checkbox" name="checkbox" id="checkbox">
@@ -119,7 +117,7 @@
               <td>2016-12-12</td>
               <td>25362</td>
               <td>为迎接双12，各大公司推出新活动......</td>
-              <td><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/admin/update_news">修改</a><a href="#"></a> <a href="#">删除</a></td>
+              <td><a href="update_news.html">修改</a><a href="#"></a> <a href="#">删除</a></td>
             </tr>
           </table>
         </div>

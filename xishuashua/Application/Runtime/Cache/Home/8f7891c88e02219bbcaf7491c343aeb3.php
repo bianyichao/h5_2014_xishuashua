@@ -37,7 +37,7 @@
     
     
     <ul class="nav navbar-nav navbar-right mr">
-      <li><a href="#" class="navbar-brand"><span class="glyphicon glyphicon-star"></span>欢迎：Administrator</a></li>
+      <li><a href="#" class="navbar-brand"><span class="glyphicon glyphicon-star"></span>欢迎：<?php echo ($_SESSION['admin']); ?></a></li>
       <li><a href="#" class="navbar-brand"><span class="glyphicon glyphicon-log-out"></span>退出系统</a></li>
     </ul>
   </div><!-- /.navbar-collapse -->
@@ -104,7 +104,7 @@
               <td>admin1</td>
               <td>123456</td>
               <td>zhangliming@197232832.qq</td>
-              <td><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/admin/user_update">修改</a><a href="#"></a> <a href="#">删除</a></td>
+              <td><a href="administrator_user_update.html">修改</a><a href="#"></a> <a href="#">删除</a></td>
             </tr>
             <tr>
               <td><input type="checkbox" name="checkbox2" id="checkbox2"></td>
@@ -112,7 +112,7 @@
               <td>admin2</td>
               <td>123456</td>
               <td>zhangliming@197232832.qq</td>
-              <td><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/admin/user_update">修改</a><a href="#"></a> <a href="#">删除</a></td>
+              <td><a href="administrator_user_update.html">修改</a><a href="#"></a> <a href="#">删除</a></td>
             </tr>
           </table>
         </div>

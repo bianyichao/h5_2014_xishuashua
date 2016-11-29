@@ -83,33 +83,32 @@
       <div class="col-md-10 col-md-offset-2 ">
         <ol class="breadcrumb">
           <li><a href="main.html">首页</a></li>
-          <li><a href="#">个人帐户管理</a></li>
-          <li class="active">个人用户信息管理</li>
+          <li><a href="#">管理员帐户管理</a></li>
+          <li class="active">管理员信息管理</li>
         </ol>
         <div class="table-responsive ">
-          <h3>个人用户管理列表 <small>Personal List</small></h3>
+          <h3>管理员信息管理列表 <small>Administrator List</small></h3>
            <table width="100%" border="0" cellspacing="0" cellpadding="0"  class="table  table-striped table-hover ">
             <tr>
               <th width="4%"><input type="checkbox" name="checkbox10" id="checkbox10"></th>
-              <th width="10%">PID</th>
-              <th width="10%">姓名</th>
-              <th width="10%">密码</th>
+              <th width="10%">AID</th>
+              <th width="13%">管理员</th>
+
               <th width="21%">邮箱</th>
-              <th width="13%">手机号</th>          
               <th width="17%">操作</th>
             </tr>
-             <?php if(is_array($news)): $i = 0; $__LIST__ = $news;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$d): $mod = ($i % 2 );++$i;?><tr>
-                 <td><input type="checkbox" name="checkbox" id="checkbox11"></td>
-                 <td><?php echo ($d["p_id"]); ?></td>
-                 <td><?php echo ($d["p_name"]); ?></td>
-                 <td><?php echo ($d["p_pwd"]); ?></td>
-                 <td><?php echo ($d["p_email"]); ?></td>
-                 <td><?php echo ($d["p_tel"]); ?></td>
-                 <td><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/personal/user_update/id/<?php echo ($d["p_id"]); ?>">修改</a><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/personal/user_update"></a> <a href="#">删除</a></td>
-               </tr><?php endforeach; endif; else: echo "" ;endif; ?>
+            <?php if(is_array($admin)): $i = 0; $__LIST__ = $admin;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$d): $mod = ($i % 2 );++$i;?><tr>
+              <td><input type="checkbox" name="checkbox" id="checkbox12"></td>
+              <td><?php echo ($d["id"]); ?></td>
+              <td><?php echo ($d["admin"]); ?></td>
+              <td><?php echo ($d["email"]); ?></td>
+                <td><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/admin/user_update/id/<?php echo ($d["id"]); ?>">修改</a><a href="#"></a> <a
+                        href="/h5_2014_xishuashua/xishuashua/index.php/Home/admin/admindelete/id/<?php echo ($d["id"]); ?>">删除</a></td>
+            </tr><?php endforeach; endif; else: echo "" ;endif; ?>
           </table>
         </div>
         <div class="input-group pull-left form">
+          <a href="administrator_add.html" class="btn btn-primary">添 加</a>&nbsp;
           <button type="submit" class="btn btn-danger "> 删 除</button>
         </div>
         <ul class="pagination pull-right" >
@@ -124,7 +123,6 @@
   </div>
           
   
-
 
 
 

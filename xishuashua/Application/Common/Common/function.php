@@ -1,8 +1,9 @@
 <?php
 function isLogin(){
-	if(!isset($_SESSION['username']) || $_SESSION['username'] == ''){
+	if(!isset($_SESSION['admin']) || $_SESSION['admin'] == ''){
 		return false;
 	}
-    //denglu
+
+
    return ture;
 }

@@ -79,34 +79,52 @@
         </div>
       </div>
 
-        
-      <div class="col-md-10 col-md-offset-2 ">
+          <div class="col-md-10 col-md-offset-2 ">
         <ol class="breadcrumb">
           <li><a href="main.html">首页</a></li>
-          <li><a href="#">个人帐户管理</a></li>
-          <li class="active">个人用户信息管理</li>
+          <li><a href="#">招/投标</a></li>
+          <li class="active">招标管理</li>
         </ol>
         <div class="table-responsive ">
-          <h3>个人用户管理列表 <small>Personal List</small></h3>
+          <h3>招标管理列表 <small>Personal Put List</small></h3>
            <table width="100%" border="0" cellspacing="0" cellpadding="0"  class="table  table-striped table-hover ">
             <tr>
-              <th width="4%"><input type="checkbox" name="checkbox10" id="checkbox10"></th>
-              <th width="10%">PID</th>
-              <th width="10%">姓名</th>
-              <th width="10%">密码</th>
-              <th width="21%">邮箱</th>
-              <th width="13%">手机号</th>          
-              <th width="17%">操作</th>
+              <th width="3%"><input type="checkbox" name="checkbox10" id="checkbox10"></th>
+              <th width="6%">CID</th>
+              <th width="6%">商家ID</th>
+              <th width="20%">说明</th>
+              <th width="10%">成交价格</th>
+              <th width="15%">户型</th>
+              <th width="10%">点赞数</th>
+              <th width="15%">标签</th>
+              <th width="15%">操作</th>
             </tr>
-             <?php if(is_array($news)): $i = 0; $__LIST__ = $news;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$d): $mod = ($i % 2 );++$i;?><tr>
-                 <td><input type="checkbox" name="checkbox" id="checkbox11"></td>
-                 <td><?php echo ($d["p_id"]); ?></td>
-                 <td><?php echo ($d["p_name"]); ?></td>
-                 <td><?php echo ($d["p_pwd"]); ?></td>
-                 <td><?php echo ($d["p_email"]); ?></td>
-                 <td><?php echo ($d["p_tel"]); ?></td>
-                 <td><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/personal/user_update/id/<?php echo ($d["p_id"]); ?>">修改</a><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/personal/user_update"></a> <a href="#">删除</a></td>
-               </tr><?php endforeach; endif; else: echo "" ;endif; ?>
+            <tr>
+              <td><input type="checkbox" name="checkbox" id="checkbox">
+                <label for="checkbox"></label></td>
+              <td>p01</td>
+              <td>z01</td>
+              <td>c01</td>
+              <td>18888元</td>
+              <td>美自然之家</td>
+              <td>4008208820</td>
+              <td>保证完成任务</td>
+             
+              <td><a href="#">修改</a><a href="#"></a> <a href="#">删除</a></td>
+            </tr>
+             <tr>
+              <td><input type="checkbox" name="checkbox" id="checkbox">
+                <label for="checkbox"></label></td>
+              <td>p01</td>
+              <td>z01</td>
+              <td>c01</td>
+              <td>18888元</td>
+              <td>美自然之家</td>
+              <td>4008208820</td>
+              <td>保证完成任务</td>
+              
+              <td><a href="#">修改</a><a href="#"></a> <a href="#">删除</a></td>
+            </tr>
           </table>
         </div>
         <div class="input-group pull-left form">
@@ -124,7 +142,15 @@
   </div>
           
   
-
+</div>
+<script src="js/jquery-ui.js"></script>
+<script>
+$( "#accordion" ).accordion({
+      heightStyle: "content"
+    });
+</script>
+</body>
+</html>
 
 
 
