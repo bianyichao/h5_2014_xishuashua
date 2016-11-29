@@ -1,0 +1,103 @@
+#Empty CSS file for your own CSS
+@charset "utf-8";
+/* CSS Document */
+*{}
+.widnow{
+	width:50%;
+	margin:0 auto;
+	border:1px solid #aed499;
+}
+.wid_h1{
+	font-size:28px;
+	color:#236400;
+	text-align:center;
+}
+.close_window{
+	display:block;
+	float:right;
+	width:37px;
+	height:37px;
+	background:url(../images/close_window.png) top no-repeat;
+}
+.close_window:hover{
+	background:url(../images/close_window_1.png) top no-repeat;
+}
+.wdo_sty{
+	width:400px;
+	margin:40px auto 20px;
+}
+.specialul{width:400px;}
+.specialul li{
+	float:left;
+	list-style:none;
+	height:50px;
+	width:400px;
+}
+.specialul p{
+	width:100px;
+	float:left;
+	line-height:42px;
+	text-align:center;
+	font-size:18px;
+}
+.specialul p a{
+	float:right;
+	display:inline;
+	color:#aed499;
+	font-size:12px;
+	font-weight:normal;
+	background-color:transparent;
+}
+.specialul input{
+	width:300px;
+	height:42px;
+    float:left;
+    border:1px solid #aed499;
+    padding:5px;
+}
+.specialul select{
+	width:300px;
+	height:42px;
+    float:left;
+    border:1px solid #aed499;
+    padding:5px;
+}
+.specialul .textarea_li{height:150px;}
+.specialul .textarea_li textarea{
+	border:1px solid #aed499;
+	width:300px;
+	height:140px;
+}
+.specialul img{
+	margin-left:10px;
+	display:none;
+}
+.specialul .phone{width:200px;}
+.specialul .already input{width:20px;}
+.specialul .already{line-height:48px;}
+.specialul .already a{
+	float:right;
+	margin-right:200px;
+	width:165px;
+	display:inline;
+	color:#aed499;
+	font-size:12px;
+	font-weight:normal;
+	background-color:transparent;
+}
+.specialul li button[type="submit"]{
+	width:400px;
+	background-color:#aed499;
+	color:#fff;
+	height: 42px;
+}
+.specialul .goto a{
+	float:right;
+	margin-right:35px;
+	display:inline;
+	color:#aed499;
+	font-size:12px;
+	font-weight:normal;
+	background-color:transparent;
+}
+.specialul .line{height:25px;}

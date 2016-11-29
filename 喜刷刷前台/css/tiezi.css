@@ -61,17 +61,15 @@
     float: right;
 }
 .box{
-    background: white;
+    background-color: white;
     width:50%; margin-top:10%; margin:auto; padding:28px;
-    height:350px; border:1px #111 solid;
+    border:1px #111 solid;
     display:none;            /* 默认对话框隐藏 */
-    position: absolute;
-    left: 200px;
-    top:200px;
+    position:fixed;
+    top:0;
+    left:25%;
+    z-index:9999;
 }
-.box.show{display:block;}
-.box .x{ font-size:18px; text-align:right; display:block;}
-.box input{width:80%; font-size:18px; margin-top:18px;}
 .biaoti{
     width: 25%;
     height: 100px;
