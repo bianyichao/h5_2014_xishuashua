@@ -8,40 +8,41 @@
     	  <div class="table-responsive ">
     	    <h3>新闻信息修改 <small>News Modify</small></h3>
     	    <div class="list-group form">
-          <form enctype="multipart/form-data" class="form-horizontal" role="form">
+          <form enctype="multipart/form-data" class="form-horizontal" role="form" action="" method="post">
+              <input type="hidden" name="n_id" value="{$a.n_id}">
             <div class="list-group-item">
-              <label for="inputEmail3" class="col-sm-2 control-label">新闻标题</label>
+              <label for="inputEmail2" class="col-sm-2 control-label">新闻标题</label>
               <div class="col-sm-10">
-                <input type="input" class="form-control" id="inputEmail3" placeholder="">
+                <input type="input" class="form-control" id="inputEmail2" placeholder="" value="{$a.title}" name="title">
               </div>
             </div>
             <div class="list-group-item">
               <label for="inputEmail3" class="col-sm-2 control-label">发布时间</label>
-              <div class="col-sm-10"><input type="input" class="form-control" id="inputEmail3" placeholder="2014-12-22" ></div>
+              <div class="col-sm-10"><input type="input" class="form-control" id="inputEmail3" placeholder="2014-12-22" value="{$a.inputtime}" name="inputtime"></div>
             </div>
            
             <div class="list-group-item">
-              <label for="inputEmail3" class="col-sm-2 control-label">发布人/作者</label>
+              <label for="inputEmail4" class="col-sm-2 control-label">发布人/作者</label>
               <div class="col-sm-10">
-                <input type="input" class="form-control" id="inputEmail3" placeholder="张明亮">
+                <input type="input" class="form-control" id="inputEmail4" placeholder="" value="{$a.author}" name="author">
               </div>
             </div>
            
           
             <div class="list-group-item">
-               <label for="inputEmail3" class="col-sm-2 control-label">内容</label>
+               <label for="editor_id2" class="col-sm-2 control-label">内容</label>
               <div class="col-sm-10">
                 
-                <textarea id="editor_id" name="content" style="width:90%;height:300px;">
-&lt;strong&gt;HTML内容&lt;/strong&gt;
-</textarea>
+                <textarea id="editor_id2" name="content" style="width:90%;height:300px;">
+                {$a.content}
+                </textarea>
               </div>
             </div>
             <div class="list-group-item">
               <div class="col-sm-offset-2 col-sm-5">
               <div class="row">
               <div class=" col-sm-5">
-                <button type="submit" class="btn btn-primary">添 加 新 闻</button>
+                <button type="submit" class="btn btn-primary">修 改 新 闻</button>
               </div>
               <div class=" col-sm-5">
                 <button type="submit" class="btn btn-warning">重 置 内 容</button>

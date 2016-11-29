@@ -110,10 +110,26 @@ class AdminController extends Controller {
             $this->success("删除成功！",U("admin/lists"));
         }
     }
-    public function doadd_news(){
-    	$this->display();
+     public function pubish_news(){
+      $this->display();
+     }
+    public function doaddnews(){
+      //var_dump(aaa);
+      if (!IS_POST) {exit("bad!"); }
+      $newsModel=M("news");
+      $newsModel->create();
+      if (!$newsModel->create()) {
+            // $this->error();
+            $this->error($newsModel->getError());
+      }
+      if ($newsModel->add()) {
+            $this->success("添加成功",U("admin/manage_news"));
+      }  
+      else{
+            $this->error("添加失败");
+      }
     }
-     public function manage_news(){
+    public function manage_news(){
 
       $newsModel=M("news");
       $p = isset($_GET['p']) ? intval($_GET['p']) : "1";
@@ -127,28 +143,37 @@ class AdminController extends Controller {
     }
 
     public function update_news(){
-        // if (IS_POST) {
-        //     $model = M("admin");
-        //     $model->create();
-        //     //var_dump($model->create());
-        //     if($model->save()){
-        //         $this->success("修改成功", U("admin/lists"));
-        //     }
-        //     else {
-        //         $this->error($model->getError());
-        //     }
-        //  }
-        // else {
-        //      $id = isset($_GET['id']) ? intval($_GET['id']) : '';
-        //      if ($id == '') {
-        //         exit("bad param!");
-        //      }
-        //      $adminModel=D("admin");
-        //      $a=$adminModel->find($id);
-        //      $this->assign("a", $a);
-        //      $this->display();
-        // }
-        $this->display();
+        if (IS_POST) {
+            $model = M("news");
+            $model->create();
+            //var_dump($model->create());
+            if($model->save()){
+                $this->success("修改成功", U("admin/manage_news"));
+            }
+            else {
+                $this->error($model->getError());
+            }
+         }
+        else {
+             $id = isset($_GET['n_id']) ? intval($_GET['n_id']) : '';
+             if ($id == '') {
+                exit("bad param!");
+             }
+             $adminModel=D("news");
+             $a=$adminModel->find($n_id);
+           //var_dump($a['content']);
+             $this->assign("a", $a);
+             $this->display();
+        }
+    }
+     public function news_delete() {
+        $id = isset($_GET['n_id']) ? intval($_GET['n_id']) : '';
+        if ($id == '') {
+            exit("bad param!");
+        }
+        if(M("news")->delete($id)){
+            $this->success("删除成功！",U("admin/manage_news"));
+        }
     }
 }
 

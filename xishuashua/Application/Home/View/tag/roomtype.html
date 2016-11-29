@@ -9,27 +9,24 @@
             <div class="row ">
             <div class="col-md-2">  	    
         <div class="list-group-item">
+        <form action="" method="post">
     	        <label for="inputEmail3" class=" control-label">请输入户型</label>    	       
-    	          <input type="input" class="form-control marb" id="" placeholder="">       
-    	          <button type="submit" class="btn btn-primary">添加户型</button>	          
+    	          <input type="input" class="form-control marb" id="" placeholder="" name="roomtype">       
+    	          <button type="submit" class="btn btn-primary">添加户型</button>	  
+        </form>        
   	        </div>
              <table width="100%" border="0" cellspacing="0" cellpadding="0"  class="table  table-striped table-hover ">
     	      <tr>
     	        <th width="50%">户型</th>
     	        <th width="50%">操作</th>
   	        </tr>
-    	      <tr>
-    	        <td class="taga"><a href="#">地中海风情</a></td>
-    	        <td><a href="#">修改</a><a href="#"></a> &nbsp;&nbsp;<a href="#">删除</a></td>
-   	           </tr>
-    	      <tr>
-    	         <td class="taga"><a href="#">地中海风情</a></td>
-    	        <td><a href="#">修改</a><a href="#"></a>  &nbsp;&nbsp;<a href="#">删除</a></td>
-   	           </tr>
-    	      <tr>
-    	         <td class="taga"><a href="#">地中海风情</a></td>
-    	        <td><a href="#">修改</a><a href="#"></a>  &nbsp;&nbsp;<a href="#">删除</a></td>
-   	           </tr>
+    	      <volist name="type" id="p">
+               <tr>
+              <td class="taga"><a href="#">{$p.roomtype}</a></td>
+              <td><a href="#"></a> &nbsp;&nbsp;<a href="__MODULE__/tag/roomtypedelete/roomtype/{$p.roomtype}">删除</a></td>
+               </td>
+            <tr>
+            </volist>
   	      </table>
             </div>
             </div>   

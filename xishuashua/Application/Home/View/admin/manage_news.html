@@ -28,7 +28,8 @@
                   <td>{$d.inputtime}</td>
                   <td>{$d.view}</td>
                   <td>{$d.content}</td>
-                  <td><a href="update_news.html">修改</a><a href="#"></a> <a href="#">删除</a></td>
+                  <td><a href="__MODULE__/admin/update_news/n_id/{$d.n_id}">修改</a><a href="#"></a>
+                      <a href="__MODULE__/admin/news_delete/n_id/{$d.n_id}">删除</a></td>
                 </tr>
              </volist>
           </table>
