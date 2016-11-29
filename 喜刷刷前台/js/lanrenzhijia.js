@@ -1,16 +1,15 @@
-
 (function(window) {
-   
+
     if (!window.yuuk) {
         window.yuuk = {}
     }
     yuuk.using = function() {
         var a = arguments,
-        o = this,
-        i = 0,
-        j, d, arg, isExist;
+            o = this,
+            i = 0,
+            j, d, arg, isExist;
         arg = a[0],
-        isExist = a[1];
+            isExist = a[1];
         if (arg && arg.indexOf(".")) {
             d = arg.split(".");
             for (j = (d[0] == "yuuk") ? 1 : 0; j < d.length; j++) {
@@ -26,7 +25,7 @@
         return o
     };
 
-})(window); 
+})(window);
 (function(a) {
     $.extend(a, {
         lazyloadImg: function(g, i) {
@@ -38,7 +37,7 @@
                 loadingEffect: false,
                 container: window
             };
-         
+
             var c = $(g);
             var b = [];
             c.filter("img").each(function() {
@@ -57,11 +56,11 @@
                     }
                 }
             });
-           
+
         }
-        
+
     })
-})(yuuk.using("Utils")); 
+})(yuuk.using("Utils"));
 
 (function(a) {
     $.extend(a, {
@@ -108,7 +107,7 @@
         },
         gotoAnchor: yuuk.using("Utils").gotoAnchor
     })
-})(yuuk.using("Common")); 
+})(yuuk.using("Common"));
 
 (function(a) {
     a.Slider = function(g, f) {
@@ -138,31 +137,31 @@
         var j = 0;
         var c = function(r) {
             switch (d.goMode) {
-            case "left":
-                return {
-                    left:
-                    r * k * -1
-                };
-            case "top":
-                return {
-                    top:
-                    r * k * -1
-                };
-            case "marginLeft":
-                return {
-                    marginLeft:
-                    r * k * -1
-                };
-            case "marginTop":
-                return {
-                    marginTop:
-                    r * k * -1
-                };
-            default:
-                return {
-                    left:
-                    r * k * -1
-                }
+                case "left":
+                    return {
+                        left:
+                        r * k * -1
+                    };
+                case "top":
+                    return {
+                        top:
+                        r * k * -1
+                    };
+                case "marginLeft":
+                    return {
+                        marginLeft:
+                        r * k * -1
+                    };
+                case "marginTop":
+                    return {
+                        marginTop:
+                        r * k * -1
+                    };
+                default:
+                    return {
+                        left:
+                        r * k * -1
+                    }
             }
         };
         if (b > d.clipSize) {
@@ -196,16 +195,16 @@
             var r = this;
             r.loaded = false;
             var s = $(r).attr("src", "./images/blank.png").addClass("loading").one("do-load",
-            function() {
-                if (r.loaded) {
-                    return
-                }
-                $("<img />").bind("load",
                 function() {
-                    s.attr("src", s.attr("data-src"));
-                    r.loaded = true
-                }).attr("src", s.attr("data-src"))
-            })
+                    if (r.loaded) {
+                        return
+                    }
+                    $("<img />").bind("load",
+                        function() {
+                            s.attr("src", s.attr("data-src"));
+                            r.loaded = true
+                        }).attr("src", s.attr("data-src"))
+                })
         });
         var o = null;
         var p = {
@@ -219,11 +218,11 @@
                         j = r;
                         clearTimeout(o);
                         o = setTimeout(function() {
-                            d.onSlidEnd(p, {
-                                index: r
-                            })
-                        },
-                        100)
+                                d.onSlidEnd(p, {
+                                    index: r
+                                })
+                            },
+                            100)
                     }
                 });
                 for (var s = r; s < r + d.stepSize; s++) {
@@ -284,7 +283,7 @@
         return p
     };
     a.slider = a.Slider
-})(yuuk.using("UI")); 
+})(yuuk.using("UI"));
 
 
 
@@ -294,7 +293,7 @@
 (function(c) {
     var d = yuuk.using("UI");
     var a = yuuk.using("Common");
-	(function(g, e, h) {
+    (function(g, e, h) {
         function f(i, k) {
             var j = this;
             if (!g(i)[0]) {
@@ -304,7 +303,7 @@
                 return new f(i, k)
             }
             g.extend(j.options = {},
-            f.Options, k);
+                f.Options, k);
             j.container = g(i);
             j._init()
         }
@@ -324,15 +323,15 @@
         g.extend(f.prototype, {
             _init: function() {
                 var j = this,
-                i = j.container,
-                l = j.options,
-                m = l.itemCls,
-                p = l.zIndex,
-                o = l.itemSize,
-                k = l.menuSize,
-                n = j.xy = {
-                    menu: l.button[0][0]
-                };
+                    i = j.container,
+                    l = j.options,
+                    m = l.itemCls,
+                    p = l.zIndex,
+                    o = l.itemSize,
+                    k = l.menuSize,
+                    n = j.xy = {
+                        menu: l.button[0][0]
+                    };
                 i.hide().addClass(l.modCls).css({
                     position: "relative",
                     zIndex: p,
@@ -344,36 +343,36 @@
                 n.button = [(k[0] - o[0]) / 2 + n.menu[0], (k[1] - o[1]) / 2 + n.menu[1]];
                 j.buttons = [];
                 g.each(l.button,
-                function(r, q) {
-                    var t = r === 0,
-                    s = g('<a hideFocus="true"></a>').appendTo(i).attr({
-                        "class": m + " " + q[1],
-                        title: q[2],
-                        href: q[3],
-                        target: q[4] || "_blank",
-                        hideFocus: "true"
-                    }).css({
-                        cursor: "pointer",
-                        position: "absolute",
-                        left: (t ? n.menu: n.button)[0],
-                        top: (t ? n.menu: n.button)[1],
-                        width: t ? k[0] : o[0],
-                        height: t ? k[1] : o[1],
-                        outline: "none",
-                        zIndex: p + (t ? 2 : 1)
+                    function(r, q) {
+                        var t = r === 0,
+                            s = g('<a hideFocus="true"></a>').appendTo(i).attr({
+                                "class": m + " " + q[1],
+                                title: q[2],
+                                href: q[3],
+                                target: q[4] || "_blank",
+                                hideFocus: "true"
+                            }).css({
+                                cursor: "pointer",
+                                position: "absolute",
+                                left: (t ? n.menu: n.button)[0],
+                                top: (t ? n.menu: n.button)[1],
+                                width: t ? k[0] : o[0],
+                                height: t ? k[1] : o[1],
+                                outline: "none",
+                                zIndex: p + (t ? 2 : 1)
+                            });
+                        if (r === 0) {
+                            j.menu = s
+                        } else {
+                            j.buttons.push(s)
+                        }
                     });
-                    if (r === 0) {
-                        j.menu = s
-                    } else {
-                        j.buttons.push(s)
-                    }
-                });
                 j._attach()
             },
             _attach: function() {
                 var k = this,
-                l = k.options,
-                o, i, n, m, j;
+                    l = k.options,
+                    o, i, n, m, j;
                 if (k._task) {
                     return k
                 }
@@ -386,10 +385,10 @@
                         p = p === true;
                         var s = l.button[r + 1][0];
                         g(q).stop().animate({
-                            left: p ? m[0] + s[0] : j[0],
-                            top: p ? m[1] + s[1] : j[1]
-                        },
-                        i + (p ? l.rate * r: (n - l.rate * r)))
+                                left: p ? m[0] + s[0] : j[0],
+                                top: p ? m[1] + s[1] : j[1]
+                            },
+                            i + (p ? l.rate * r: (n - l.rate * r)))
                     })
                 };
                 k.menu.mouseenter(function(p) {
@@ -406,9 +405,9 @@
                 var j;
                 if (k === "menu" && i && g(i)[0] && (j = {})) {
                     g.each(["href", "target"],
-                    function(l, m) {
-                        j[m] = g(i).attr(m)
-                    });
+                        function(l, m) {
+                            j[m] = g(i).attr(m)
+                        });
                     g(this.menu).attr(j)
                 }
                 return this
@@ -422,8 +421,8 @@
         var j = d.slider("#j-focusPic", {
             sliderFinder: ".j-slider",
             sliderItemFinder: ".j-item",
-            sliderItemWidth: 970,
-            sliderItemCount: 10,
+            sliderItemWidth: 1390,
+            sliderItemCount: 5,
             stepSize: 1,
             clipSize: 1,
             mode: "round",
@@ -434,7 +433,7 @@
             onSlidEnd: function(p, n) {
                 var o = [];
                 o.push("<div class='infotxt w'>");
-                o.push($("#j-focusPic .j-infocontainer>.infotxt").eq(n.index % 10).html());
+                o.push($("#j-focusPic .j-infocontainer>.infotxt").eq(n.index % 5).html());
                 o.push("</div>");
                 $("#j-focusPic .j-info").html(o.join("")).show();
                 $("#j-focusPic .j-infobg").animate({
@@ -442,30 +441,7 @@
                 })
             }
         });
-        var h = d.slider("#j-focusBtns", {
-            sliderFinder: ".j-slider",
-            sliderItemFinder: ".j-item",
-            sliderItemWidth: 70,
-            sliderItemCount: 10,
-            clipSize: 5,
-            stepSize: 5,
-            onSlidBegin: function(o, n) {
-                $("#j-focusBtns .pre").addClass("on-1");
-                $("#j-focusBtns .next").addClass("on-2")
-            },
-            onSlidEnd: function(o, n) {
-                if (o.isPreEnable()) {
-                    $("#j-focusBtns .pre").removeClass("on-1")
-                } else {
-                    $("#j-focusBtns .pre").addClass("on-1")
-                }
-                if (o.isNextEnable()) {
-                    $("#j-focusBtns .next").removeClass("on-2")
-                } else {
-                    $("#j-focusBtns .next").addClass("on-2")
-                }
-            }
-        });
+
         var g = $("#j-focusBtns .j-item");
         var i = $("#j-focusBtns .pre , #j-focusBtns .next");
         var l = 0;
@@ -473,24 +449,24 @@
         k.siblings().removeClass("on");
         k.addClass("on");
         var m = a.timer(function() {
-            l += 1;
-            l = l % 10;
-            var n = g.eq(l);
-            n.siblings().removeClass("on");
-            n.addClass("on");
-            j.gotoNextStep();
-            e.notify("menu", n);
-            if (l == 0) {
-                h.gotoPreStep()
-            }
-            if (l == 5) {
-                h.gotoNextStep()
-            }
-        },
-        {/* 代码整理：懒人之家 www.lanrenzhijia.com */
-            interval: 5000,
-            immediately: false
-        });
+                l += 1;
+                l = l % 5;
+                var n = g.eq(l);
+                n.siblings().removeClass("on");
+                n.addClass("on");
+                j.gotoNextStep();
+                e.notify("menu", n);
+                if (l == 0) {
+                    h.gotoPreStep()
+                }
+                if (l == 5) {
+                    h.gotoNextStep()
+                }
+            },
+            {
+                interval: 5000,
+                immediately: false
+            });
         e.notify("menu", g.eq(l));
         m.start();
         $(".Aflash").mouseover(function(n) {
@@ -511,37 +487,7 @@
                 e.notify("menu", g.eq(l))
             })
         });
-        var f = null;
-        i.mouseover(function(o) {
-            var n = $(this);
-            if (n.hasClass("on-1") || n.hasClass("on-2")) {
-                return
-            }
-            clearTimeout(f);
-            var p = $(this).find("i");
-            f = setTimeout(function() {
-                p.fadeIn("fast")
-            },
-            200)
-        }).mouseout(function(n) {
-            clearTimeout(f);
-            var o = $(this).find("i");
-            f = setTimeout(function() {
-                o.fadeOut("fast")
-            },
-            200)
-        }).click(function(o) {
-            var n = $(this);
-            if (n.hasClass("on-1") || n.hasClass("on-2")) {
-                return
-            }
-            if ($(this).hasClass("pre")) {
-                h.gotoPreStep()
-            } else {
-                h.gotoNextStep()
-            }
-        })
-    })();/* 代码整理：懒人之家 www.lanrenzhijia.com */
+    })();
     d.slider("#j-hitshow", {
         sliderFinder: ".j-slider",
         sliderItemFinder: ".w128",
@@ -549,37 +495,6 @@
         sliderItemCount: 14,
         stepSize: 7,
         clipSize: 7,
-        onInit: function(f, e) {
-            $("#j-hitshow .a1").click(function(g) {
-                if (!$(this).hasClass("on-1")) {
-                    return
-                }
-                f.gotoPreStep()
-            });
-            $("#j-hitshow .a2").click(function(g) {
-                if (!$(this).hasClass("on-2")) {
-                    return
-                }
-                f.gotoNextStep()
-            })
-        },
-        onSlidBegin: function() {
-            $("#j-hitshow .a1").removeClass("on-1");
-            $("#j-hitshow .a2").removeClass("on-2")
-        },
-        onSlidEnd: function(f, e) {
-            if (f.isPreEnable()) {
-                $("#j-hitshow .a1").addClass("on-1")
-            } else {
-                $("#j-hitshow .a1").removeClass("on-1")
-            }
-            if (f.isNextEnable()) {
-                $("#j-hitshow .a2").addClass("on-2")
-            } else {
-                $("#j-hitshow .a2").removeClass("on-2")
-            }
-        }
     });
 })
-(yuuk.using("Plugin")); 
-/* 代码整理：懒人之家 www.lanrenzhijia.com */
+(yuuk.using("Plugin"));
