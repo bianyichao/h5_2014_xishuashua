@@ -37,7 +37,7 @@
     
     
     <ul class="nav navbar-nav navbar-right mr">
-      <li><a href="#" class="navbar-brand"><span class="glyphicon glyphicon-star"></span>欢迎：<?php echo ($_SESSION['admin']); ?></a></li>
+      <li><a href="#" class="navbar-brand"><span class="glyphicon glyphicon-star"></span>欢迎：Administrator</a></li>
       <li><a href="#" class="navbar-brand"><span class="glyphicon glyphicon-log-out"></span>退出系统</a></li>
     </ul>
   </div><!-- /.navbar-collapse -->
@@ -98,16 +98,25 @@
               <th width="13%">手机号</th>          
               <th width="17%">操作</th>
             </tr>
-             <?php if(is_array($news)): $i = 0; $__LIST__ = $news;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$d): $mod = ($i % 2 );++$i;?><tr>
-                 <td><input type="checkbox" name="checkbox" id="checkbox11"></td>
-                 <td><?php echo ($d["p_id"]); ?></td>
-                 <td><?php echo ($d["p_name"]); ?></td>
-                 <td><?php echo ($d["p_pwd"]); ?></td>
-                 <td><?php echo ($d["p_email"]); ?></td>
-                 <td><?php echo ($d["p_tel"]); ?></td>
-                 <td><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/personal/user_update/id/<?php echo ($d["p_id"]); ?>">修改</a><a
-                         href="/h5_2014_xishuashua/xishuashua/index.php/Home/personal/user_update"></a> <a href="#">删除</a></td>
-               </tr><?php endforeach; endif; else: echo "" ;endif; ?>
+            <tr>
+              <td><input type="checkbox" name="checkbox" id="checkbox">
+                <label for="checkbox"></label></td>
+              <td>01</td>>
+              <td>张黎明</td>
+              <td>123456</td>      
+              <td>zhangliming@197232832.qq</td>
+              <td>13625684568</td>
+              <td><a href="personal_user_update.html">修改</a><a href="#"></a> <a href="#">删除</a></td>
+            </tr>
+            <tr>
+              <td><input type="checkbox" name="checkbox2" id="checkbox2"></td>
+              <td>02</td>
+              <td>宋晓云</td>
+              <td>123654</td>
+              <td>sxy@163.com</td>
+              <td>13025486584</td>
+              <td><a href="personal_user_update.html">修改</a><a href="#"></a> <a href="#">删除</a></td>
+            </tr>
           </table>
         </div>
         <div class="input-group pull-left form">

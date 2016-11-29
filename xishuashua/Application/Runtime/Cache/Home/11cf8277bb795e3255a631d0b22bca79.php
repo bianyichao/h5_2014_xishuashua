@@ -37,7 +37,7 @@
     
     
     <ul class="nav navbar-nav navbar-right mr">
-      <li><a href="#" class="navbar-brand"><span class="glyphicon glyphicon-star"></span>欢迎：<?php echo ($_SESSION['admin']); ?></a></li>
+      <li><a href="#" class="navbar-brand"><span class="glyphicon glyphicon-star"></span>欢迎：Administrator</a></li>
       <li><a href="#" class="navbar-brand"><span class="glyphicon glyphicon-log-out"></span>退出系统</a></li>
     </ul>
   </div><!-- /.navbar-collapse -->
@@ -92,10 +92,10 @@
     	      <div class="list-group-item">
     	        <form role="form" >
     	          <div class="input-group"> <span class="input-group-addon">用<img src="/h5_2014_xishuashua/xishuashua/Public/home/images/em.png" alt="" width="6" height="20">户<img src="/h5_2014_xishuashua/xishuashua/Public/home/images/em.png" alt="" width="6" height="20">名：</span>
-					  <input type="text" class="form-control" placeholder="administrator" value="{a.name}">
+    	            <input type="text" class="form-control" placeholder="administrator">
   	            </div>
                 <div class="input-group"> <span class="input-group-addon">旧密码：</span>
-					<input type="text" class="form-control" placeholder="" value="{a.password}">
+                  <input type="text" class="form-control" placeholder="">
                 </div>
                 <div class="input-group"> <span class="input-group-addon">新密码：</span>
                   <input type="text" class="form-control" placeholder="">
@@ -104,10 +104,10 @@
                   <input type="text" class="form-control" placeholder="" >
                 </div>
     	          <div class="input-group"> <span class="input-group-addon">电子邮箱：</span>
-					  <input type="text" class="form-control" placeholder="" value="{a.email}">
+    	            <input type="text" class="form-control" placeholder="86823499@qq.com">
   	            </div>
                 <div class="input-group"> <span class="input-group-addon">联系电话：</span>
-					<input type="text" class="form-control" placeholder="" value="{a.tel}">
+                  <input type="text" class="form-control" placeholder="152*****237">
                 </div>
     	          <div class="input-group">
     	            <button type="submit" class="btn btn-primary "> &nbsp;&nbsp;保<img src="/h5_2014_xishuashua/xishuashua/Public/home/images/em.png" alt="" width="20" height="20">存&nbsp;&nbsp;</button>
