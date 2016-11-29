@@ -1,0 +1,198 @@
+#Empty CSS file for your own CSS
+@charset "utf-8";
+/* CSS Document */
+*{
+   margin:0px auto;
+   padding:0px;
+   color:#666;
+   list-style:none;
+   font:16px "Microsoft YaHei";
+   border:none;
+}
+img{border:0px;
+margin-right: 46px;}
+ul{padding:0;margin:0;}
+li{list-style:none;}
+a
+{
+   font-size:16px;
+   color:#216400;
+   text-decoration:none;
+}
+a:hover{text-decoration:underline;}
+
+.clear{clear:both;}
+.nobo{padding:0;}
+
+/*header*/
+.navbar{margin:0;}
+#greennav{
+	height:60px;
+	border:0;
+	background-color:#216400;
+}
+#greennav ul li a{
+	font-size: 17px;
+	font-family: "黑体";
+    height:60px;
+    width:120px;
+    text-align:center;
+    line-height:30px;
+    background-color:#216400;
+    color:#fff;
+}
+#greennav ul li a:hover{
+	border-left: 3px solid #216400 ;
+	background-color:#c2cb7a;
+    color:#216400;
+}
+#greennav ul li .ahov{
+	background-color:#c2cb7a;
+    color:rgb(255,255,0);
+}
+
+.navright{
+	float:right;
+	height:60px;
+	line-height:60px;
+	width:350px;
+	color:#c2cb7a;
+}
+.navright1{
+	float:right;
+	height:60px;
+	line-height:60px;
+	width:110px;
+	color:#c2cb7a;
+}
+.navright a{
+	text-decoration:none;
+	font-size:14px;
+    color:#c2cb7a;
+}
+.navright1 a{
+	font-size:14px;
+    color:#c2cb7a;
+}
+.navimg{
+	margin-top:60px;
+}
+.navimg ul{
+	float:left;
+	width:210px;
+}
+.navimg ul li{
+	height:73px;
+}
+.navimg ul li a{
+	display:block;
+	height:73px;
+	line-height:73px;
+	text-align:center;
+	background-color:#c2cb7a;
+	color:#fff;
+}
+.navimg ul li a:hover{
+	background-color:#fff;
+	color:#c2cb7a;
+	text-decoration:none;
+}
+.navimg ul li .navimghov{
+	background-color:#fff;
+	color:#c2cb7a;
+	text-decoration:none;
+}
+
+/*content*/
+
+
+/*footer*/
+.footer{
+	margin-top:52px;
+	height:240px;
+	background-color:#dee2bd;
+	color:#216400;
+}
+.footer ul{
+	margin-top:40px;
+	float:left;
+	width:33%;
+}
+.footer ul li{
+	line-height:25px;
+	font-size:14px;
+	color:#666;
+}
+.footer ul li a{
+	font-size:14px;
+	color:#666;
+}
+.footer ul .titli{
+	font-size:16px;
+	font-weight:bold;
+	color:#216400;
+}
+.footer .col-md-2{
+	margin-top:35px;
+	width:160px;
+	float:right;
+}
+.cori{
+	height:85px;
+	background-color:#4d683f;
+	color:#dee2bd;
+}
+.cori p{
+	margin-top:25px;
+	width:100%;
+	text-align:center;
+}
+.safe{
+	margin-left: 30px;
+}
+.safe_title{
+	margin-bottom: 40px;
+}
+.safe_change{
+	margin-left: 40px;
+}
+.img-responsive{
+	height: 350px;
+	width: 337px;
+}
+.touxiang_change{
+	color: #ffffff;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 337px;
+	text-align: center;
+	background-color: rgb(30,100,0);
+	filter:alpha(opacity=50);
+	-moz-opacity:0.5;
+	-khtml-opacity: 0.5;
+	opacity: 0.5;
+	margin-bottom: 20px;
+}
+.box_geren{
+	width: 33%;
+	background-color: rgb(194,203,112);
+}
+#allmap {width: 400px;height: 500px;margin:0;font-family:"微软雅黑";}
+.zhuce{
+	width: 50%;
+	margin-top: 30px;
+
+}
+.zhuce_title{
+	margin-top: 90px;
+	border: 1px solid white;
+	background-color: rgb(194,203,112);
+}
+.zhuce_ul{
+	margin-top: -10px;
+}
+.zhuce_txt{
+	padding-left: 50%;
+	margin-top: 30px;
+	font-size: larger;
+}
