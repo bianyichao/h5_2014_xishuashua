@@ -97,28 +97,17 @@
               <th width="21%">内容</th>
               <th width="17%">操作</th>
             </tr>
-            <tr>
-              <td><input type="checkbox" name="checkbox" id="checkbox">
-                <label for="checkbox"></label></td>
-              <td>01</td>
-              <td>《双11，装修半价了！》</td>
-              <td>王大锤</td>           
-              <td>2016-11-11</td>
-              <td>12523</td>
-              <td>为迎接双11，各大公司推出新活动......</td>
-              <td><a href="update_news.html">修改</a><a href="#"></a> <a href="#">删除</a></td>
-            </tr>
-            <tr>
-              <td><input type="checkbox" name="checkbox" id="checkbox">
-                <label for="checkbox"></label></td>
-              <td>02</td>
-              <td>《双12，装修半价了！》</td>   
-              <td>王大锤</td>                      
-              <td>2016-12-12</td>
-              <td>25362</td>
-              <td>为迎接双12，各大公司推出新活动......</td>
-              <td><a href="update_news.html">修改</a><a href="#"></a> <a href="#">删除</a></td>
-            </tr>
+             <?php if(is_array($news)): $i = 0; $__LIST__ = $news;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$d): $mod = ($i % 2 );++$i;?><tr>
+                  <td><input type="checkbox" name="checkbox" id="checkbox">
+                    <label for="checkbox"></label></td>
+                  <td><?php echo ($d["n_id"]); ?></td>
+                  <td><?php echo ($d["title"]); ?></td>
+                  <td><?php echo ($d["author"]); ?></td>           
+                  <td><?php echo ($d["inputtime"]); ?></td>
+                  <td><?php echo ($d["view"]); ?></td>
+                  <td><?php echo ($d["content"]); ?></td>
+                  <td><a href="update_news.html">修改</a><a href="#"></a> <a href="#">删除</a></td>
+                </tr><?php endforeach; endif; else: echo "" ;endif; ?>
           </table>
         </div>
         <div class="input-group pull-left form">

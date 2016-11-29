@@ -37,8 +37,7 @@
     
     
     <ul class="nav navbar-nav navbar-right mr">
-        <li><a href="#" class="navbar-brand"><span class="glyphicon glyphicon-star"></span>欢迎：<?php echo ($_SESSION['admin']); ?></a>
-        </li>
+      <li><a href="#" class="navbar-brand"><span class="glyphicon glyphicon-star"></span>欢迎：<?php echo ($_SESSION['admin']); ?></a></li>
       <li><a href="#" class="navbar-brand"><span class="glyphicon glyphicon-log-out"></span>退出系统</a></li>
     </ul>
   </div><!-- /.navbar-collapse -->
@@ -67,7 +66,6 @@
               <li><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/company/user_list">企业用户管理</a></li>
               <li><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/company/input_list">企业投标管理</a></li>
               <li><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/company/news">企业文章管理</a></li>
-                <li><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/company/case">装修案例管理</a></li>
               <li ><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/company/user_update">修改企业信息</a></li>
           </ul>
             <h3><a href="#"><span class="glyphicon glyphicon-tags"></span>关键字管理<span class="glyphicon glyphicon-chevron-down"></span></a></h3>
@@ -112,12 +110,14 @@
           <button type="submit" class="btn btn-danger "> 删 除</button>
         </div>
         <ul class="pagination pull-right" >
-          <li class="disabled"><a href="#">&laquo;</a></li>
+          <!-- <li class="disabled"><a href="#">&laquo;</a></li>
           <li class="active"><a href="#">1</a></li>
           <li><a href="#">2</a></li>
           <li><a href="#">3</a></li>
           <li><a href="#">4</a></li>
-          <li><a href="#">&raquo;</a></li>
+          <li><a href="#">&raquo;</a></li> -->
+          <?php echo ($pages); ?>
+      
         </ul>
       </div>
   </div>
