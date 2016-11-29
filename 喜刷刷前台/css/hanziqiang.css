@@ -99,25 +99,9 @@
       font-weight: bold;
     }
     .zp2{
-        text-decoration:none;
-        background-color: rgb(194,203,112);
-        color: white;
-        font-size: 25px;
-        margin-top:30px;
-        height: 40px;
-        width:120px;
-    }
-    .zp2 a:hover{
-    background-color:#fff;
-    color:#c2cb7a;
-    text-decoration:none;
-}
-    .zp2 a{
-        text-decoration:none;
       background-color: rgb(194,203,112);
       color: white;
-        font-family:"黑体";
-      font-size: 18px;
+      font-size: 15px;
       margin-top:30px;
     }
     .zx1{

@@ -42,15 +42,13 @@ a:hover{text-decoration:underline;}
     color:#fff;
 }
 #greennav ul li a:hover{
-	border-left: 3px solid #216400 ;
-	background-color:#c2cb7a;
+	background-color:#fff;
     color:#216400;
 }
 #greennav ul li .ahov{
 	background-color:#c2cb7a;
     color:rgb(255,255,0);
 }
-
 .navright{
 	float:right;
 	height:60px;
@@ -66,7 +64,6 @@ a:hover{text-decoration:underline;}
 	color:#c2cb7a;
 }
 .navright a{
-	text-decoration:none;
 	font-size:14px;
     color:#c2cb7a;
 }
@@ -104,8 +101,35 @@ a:hover{text-decoration:underline;}
 }
 
 /*content*/
-
-
+.container .row{
+	padding-top: 10px;
+}
+.cm12 .col-md-3{
+	border: 1px solid rgb(194,203,112);
+	width: 24%;
+	height: 300px;
+	margin: 5px;
+	padding-top: 15px;
+}
+.cm12 .col-md-3 .col-md-12 a img{
+	width:100%;
+}
+.cm12 .col-md-3 .col-md-12 h2{
+	text-align: center;
+}
+.cm12 .col-md-3 .col-md-12 p{
+	text-align: center;
+}
+.contitle{
+	padding-top: 10px;
+}
+.container .carousel .carousel-inner ul li img{
+	height: 250px;
+	width: 400px;
+}
+.container .carousel .carousel-control{
+	padding-top: 115px;
+}
 /*footer*/
 .footer{
 	margin-top:52px;
@@ -113,10 +137,13 @@ a:hover{text-decoration:underline;}
 	background-color:#dee2bd;
 	color:#216400;
 }
+.footer .col-md-10{
+	padding-left: 185px;
+}
 .footer ul{
 	margin-top:40px;
 	float:left;
-	width:33%;
+	width:28%;
 }
 .footer ul li{
 	line-height:25px;
@@ -135,7 +162,6 @@ a:hover{text-decoration:underline;}
 .footer .col-md-2{
 	margin-top:35px;
 	width:160px;
-	float:right;
 }
 .cori{
 	height:85px;
