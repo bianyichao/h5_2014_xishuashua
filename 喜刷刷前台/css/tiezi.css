@@ -1,5 +1,4 @@
 .tiezi{
-
     border:1px solid rgb(194,203,112);
     margin:20px 20px;
     padding:1px 10px;
@@ -15,8 +14,7 @@
     margin-top: 20px;
 }
 .btn1{
-    width: 200px;
-    height: 50px;
+    margin-right: 0;
     background-color: rgb(194,203,112);
 }
 .btn_1{
@@ -61,14 +59,30 @@
     float: right;
 }
 .box{
-    background-color: white;
+    background: white;
     width:50%; margin-top:10%; margin:auto; padding:28px;
+    height: 350px;
     border: 1px #111 solid;
     display:none;            /* 默认对话框隐藏 */
-    position: fixed;
-    top: 0;
-    left: 25%;
-    z-index: 9999;
+    position: absolute;
+    left: 200px;
+    top: 200px;
+}
+
+.box.show {
+    display: block;
+}
+
+.box .x {
+    font-size: 18px;
+    text-align: right;
+    display: block;
+}
+
+.box input {
+    width: 80%;
+    font-size: 18px;
+    margin-top: 18px;
 }
 .biaoti{
     width: 25%;
@@ -81,3 +95,11 @@
     height: 100px;
 }
 
+.nav-tabs {
+    padding-left: 9px;
+}
+
+.text-reply {
+    height: 60px;
+    width: 100%;
+}

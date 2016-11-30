@@ -2,14 +2,41 @@
   list-style:none;
 }
 
+.wen {
+    font-size: 13px;
+}
 
-.add{
+.gps {
+    margin-right: 0px;
+}
+
+.js1-left p {
+    padding-left: 55px;
+}
+
+.people {
+    color: red;
+}
+
+.add {
       font-family: "黑体";
       border: 1px solid rgb(194,203,112);
       margin-left: 10px;
       margin-right: 10px;
       margin-top: 5px;
     }
+
+.value-right {
+    padding-top: 80px;
+    float: right;
+    padding-left: 35px;
+}
+
+.value {
+    font-style: oblique;
+    font-size: 2.5em;
+    color: rgb(255, 100, 0);
+}
     .acc li{
       padding-bottom: 10px;
     }
@@ -41,7 +68,11 @@
     .js1 img{
       padding-left:20px;
     }
-    
+
+.js1-right {
+    padding-left: 10px;
+    border-right: 1px dashed lightgray;
+}
     .gs2 p{
       color: white;
       background-color:rgb(194,203,112);
@@ -94,16 +125,79 @@
     .gs10 a:hover{
       text-decoration:none;
     }
-    .zp1{
-      color: rgb(35,100,0);
-      font-weight: bold;
-    }
-    .zp2{
-      background-color: rgb(194,203,112);
-      color: white;
-      font-size: 15px;
-      margin-top:30px;
-    }
-    .zx1{
-      height: 100px;
-    }
+
+.zp1 {
+    color: rgb(35, 100, 0);
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+.zp2 {
+    background-color: rgb(194, 203, 112);
+    color: white;
+    font-size: 15px;
+    margin-top: 30px;
+}
+
+.zp3 {
+    padding: 0px;
+    padding-top: 5px;
+    text-align: center;
+}
+
+.zp4 {
+    padding: 0px;
+}
+
+.zp5 a {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "微软雅黑";
+}
+
+.zp5 button {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(194, 203, 112);
+}
+
+.zp6 {
+    padding: 0px;
+}
+
+.widnow {
+    width: 100%;
+}
+
+.specialul li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.specialul p {
+    text-align: center;
+    float: left;
+    padding-left: 10px;
+    font-size: 14px;
+    font-family: "微软雅黑";
+    font-weight: bold;
+}
+
+.specialul input {
+    height: 35px;
+    width: 220px;
+    border: 1px solid #aed499;
+}
+
+.specialul select {
+    height: 35px;
+    width: 220px;
+    border: 1px solid #aed499;
+}
+
+.specialul textarea {
+    height: 100px;
+    width: 220px;
+    border: 1px solid #aed499;
+}

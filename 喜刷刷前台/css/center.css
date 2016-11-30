@@ -2,11 +2,7 @@
 @charset "utf-8";
 /* CSS Document */
 *{}
-.con1{margin-top:120px;}
-.con1 h1{
-	font-size:34px;
-	color:#333;
-}
+
 .con1 h1 img{display:none;}
 .message li{
     line-height:40px;

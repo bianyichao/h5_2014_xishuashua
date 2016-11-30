@@ -494,3 +494,135 @@ INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001288s ]
 INFO: [ app_begin ] --END-- [ RunTime:0.001413s ]
 ERR: 非法操作:js
 
+[ 2016-11-30T09:07:37+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/Home/tag/prices.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000128s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008223s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004138s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004282s ]
+SQL: SHOW COLUMNS FROM `expectedprice` [ RunTime:0.1349s ]
+SQL: SELECT * FROM `expectedprice` LIMIT 0,3   [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `expectedprice` LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000223s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000385s ]
+NOTIC: [8] Undefined index: admin F:\html52016\apache\htdocs\h5_2014_xishuashua\xishuashua\Application\Runtime\Cache\Home\3818b3185a6985c2a3845f878bdf6058.php 第 40 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017956s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018059s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000737s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000837s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001257s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001368s ]
+
+[ 2016-11-30T09:07:38+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/Home/tag/prices.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000900s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001139s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001254s ]
+SQL: SHOW COLUMNS FROM `expectedprice` [ RunTime:0.0124s ]
+SQL: SELECT * FROM `expectedprice` LIMIT 0,3   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `expectedprice` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000132s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000247s ]
+NOTIC: [8] Undefined index: admin F:\html52016\apache\htdocs\h5_2014_xishuashua\xishuashua\Application\Runtime\Cache\Home\3818b3185a6985c2a3845f878bdf6058.php 第 40 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016624s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016729s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000761s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000856s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002106s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002241s ]
+
+[ 2016-11-30T09:07:39+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/Home/tag/js/jquery-ui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003296s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003536s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003888s ]
+ERR: 非法操作:js
+
+[ 2016-11-30T09:07:39+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/Home/tag/js/jquery-ui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000781s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001143s ]
+ERR: 非法操作:js
+
+[ 2016-11-30T10:01:00+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/Home/tag/prices.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001211s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001209s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001333s ]
+SQL: SHOW COLUMNS FROM `expectedprice` [ RunTime:0.0195s ]
+SQL: SELECT * FROM `expectedprice` LIMIT 0,3   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `expectedprice` LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000252s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000398s ]
+NOTIC: [8] Undefined index: admin F:\html52016\apache\htdocs\h5_2014_xishuashua\xishuashua\Application\Runtime\Cache\Home\3818b3185a6985c2a3845f878bdf6058.php 第 40 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022421s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022524s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000641s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000735s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003598s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003728s ]
+
+[ 2016-11-30T10:01:01+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/Home/tag/prices.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001048s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001292s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001415s ]
+SQL: SHOW COLUMNS FROM `expectedprice` [ RunTime:0.0255s ]
+SQL: SELECT * FROM `expectedprice` LIMIT 0,3   [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `expectedprice` LIMIT 1   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000204s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000381s ]
+NOTIC: [8] Undefined index: admin F:\html52016\apache\htdocs\h5_2014_xishuashua\xishuashua\Application\Runtime\Cache\Home\3818b3185a6985c2a3845f878bdf6058.php 第 40 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021603s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021752s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001007s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001158s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001839s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001985s ]
+
+[ 2016-11-30T10:01:01+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/Home/tag/js/jquery-ui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001300s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001526s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003166s ]
+ERR: 非法操作:js
+
+[ 2016-11-30T10:01:01+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/Home/tag/js/jquery-ui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000822s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001146s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001269s ]
+ERR: 非法操作:js
+
