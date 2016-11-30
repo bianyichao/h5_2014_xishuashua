@@ -33,21 +33,24 @@ a:hover{text-decoration:underline;}
 }
 #greennav ul li a{
 	font-size: 17px;
-	font-family: "黑体";
-    height:60px;
-    width:120px;
-    text-align:center;
-    line-height:30px;
-    background-color:#216400;
-    color:#fff;
+	font-family: "微软雅黑";
+	font-weight: bold;
+	height: 60px;
+	width: 120px;
+	text-align: center;
+	line-height: 30px;
+	background-color: #216400;
+	color: rgb(255, 255, 0);
 }
 #greennav ul li a:hover{
-	background-color:#fff;
-    color:#216400;
+	border-left: 1px solid #216400;
+	border-right: 1px solid #216400;
+	background-color: #c2cb7a;
+	color: #ffffff;
 }
 #greennav ul li .ahov{
 	background-color:#c2cb7a;
-    color:rgb(255,255,0);
+	color: #ffffff;
 }
 .navright{
 	float:right;
@@ -64,8 +67,9 @@ a:hover{text-decoration:underline;}
 	color:#c2cb7a;
 }
 .navright a{
+	text-decoration: none;
 	font-size:14px;
-    color:#c2cb7a;
+	color: #c2cb7a;
 }
 .navright1 a{
 	font-size:14px;
@@ -106,10 +110,15 @@ a:hover{text-decoration:underline;}
 }
 .cm12 .col-md-3{
 	border: 1px solid rgb(194,203,112);
-	width: 24%;
+	width: 23%;
 	height: 300px;
-	margin: 5px;
-	padding-top: 15px;
+	margin: 10px;
+	padding-top: 20px;
+}
+
+.cm12 .col-md-3 .col-md-12 {
+	padding-left: 5px;
+	padding-right: 5px;
 }
 .cm12 .col-md-3 .col-md-12 a img{
 	width:100%;
@@ -125,7 +134,7 @@ a:hover{text-decoration:underline;}
 }
 .container .carousel .carousel-inner ul li img{
 	height: 250px;
-	width: 400px;
+	width: 100%;
 }
 .container .carousel .carousel-control{
 	padding-top: 115px;

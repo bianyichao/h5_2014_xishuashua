@@ -9,24 +9,26 @@
     	    <h3>个人帐户修改 <small>Personal Modify</small></h3>
     	    <div class="list-group ">
     	      <div class="list-group-item">
-    	        <form role="form" >
+                  <form role="form" action="" method="post">
+                      <input type="hidden" name="p_id" value="{$a.p_id}">
     	          <div class="input-group"> <span class="input-group-addon">用<img src="__PUBLIC__/home/images/em.png" alt="" width="6" height="20">户<img src="__PUBLIC__/home/images/em.png" alt="" width="6" height="20">名：</span>
-					  <input type="text" class="form-control" placeholder="administrator" value="{a.name}">
+                      <input type="text" class="form-control" placeholder="administrator" name="p_name"
+                             value="{$a.p_name}">
   	            </div>
                 <div class="input-group"> <span class="input-group-addon">旧密码：</span>
-					<input type="text" class="form-control" placeholder="" value="{a.password}">
+                    <input type="text" class="form-control" placeholder="" value="{$a.p_pwd}">
                 </div>
                 <div class="input-group"> <span class="input-group-addon">新密码：</span>
-                  <input type="text" class="form-control" placeholder="">
+                    <input type="text" class="form-control" placeholder="" name="p_pwd">
                 </div>
                 <div class="input-group"> <span class="input-group-addon">确认新密码：</span>
-                  <input type="text" class="form-control" placeholder="" >
+                    <input type="text" class="form-control" placeholder="" name="repwd">
                 </div>
     	          <div class="input-group"> <span class="input-group-addon">电子邮箱：</span>
-					  <input type="text" class="form-control" placeholder="" value="{a.email}">
+                      <input type="text" class="form-control" placeholder="" name="p_email" value="{$a.p_email}">
   	            </div>
                 <div class="input-group"> <span class="input-group-addon">联系电话：</span>
-					<input type="text" class="form-control" placeholder="" value="{a.tel}">
+                    <input type="text" class="form-control" placeholder="152*****237" name="p_tel" value="{$a.p_tel}">
                 </div>
     	          <div class="input-group">
     	            <button type="submit" class="btn btn-primary "> &nbsp;&nbsp;保<img src="__PUBLIC__/home/images/em.png" alt="" width="20" height="20">存&nbsp;&nbsp;</button>

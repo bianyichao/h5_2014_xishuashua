@@ -1,626 +1,410 @@
-[ 2016-11-29T08:40:25+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/Home/personal/user_list
+[ 2016-11-29T08:34:41+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/Home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000758s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000810s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000913s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032661s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032732s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000564s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000615s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000881s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000950s ]
+
+[ 2016-11-29T08:34:44+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/Home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000524s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000639s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000698s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0813s ]
+SQL: SELECT * FROM `admin` WHERE `admin` = 'root' AND `password` = '123456' LIMIT 1   [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000135s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000315s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024046s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024243s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001608s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001781s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002443s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002614s ]
+
+[ 2016-11-29T08:34:45+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/Home/Index/main.html
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000668s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000510s ]
 INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000811s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000896s ]
-SQL: SHOW COLUMNS FROM `personaluser` [ RunTime:0.0777s ]
-SQL: SELECT * FROM `personaluser`  [ RunTime:0.0010s ]
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000970s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001083s ]
 INFO: [ view_parse ] --START--
 INFO: [ template_filter ] --START--
-INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000215s ]
-INFO: [ template_filter ] --END-- [ RunTime:0.000286s ]
-NOTIC: [8] Undefined index: admin F:\html52016\apache\htdocs\h5_2014_xishuashua\xishuashua\Application\Runtime\Cache\Home\b53ded8be7a5aeeb727bee6d477d57c0.php 第 40 行.
-INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026992s ]
-INFO: [ view_parse ] --END-- [ RunTime:0.027057s ]
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000159s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010314s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010408s ]
 INFO: [ view_filter ] --START--
-INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000588s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.000650s ]
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000518s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000580s ]
 INFO: [ app_end ] --START--
-INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000867s ]
-INFO: [ app_end ] --END-- [ RunTime:0.000922s ]
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000798s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000858s ]
 
-[ 2016-11-29T08:40:31+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/Home/personal/user_list
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000949s ]
-INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000663s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000724s ]
-SQL: SHOW COLUMNS FROM `personaluser` [ RunTime:0.0072s ]
-SQL: SELECT * FROM `personaluser`  [ RunTime:0.0005s ]
-INFO: [ view_parse ] --START--
-INFO: [ template_filter ] --START--
-INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
-INFO: [ template_filter ] --END-- [ RunTime:0.000148s ]
-NOTIC: [8] Undefined index: admin F:\html52016\apache\htdocs\h5_2014_xishuashua\xishuashua\Application\Runtime\Cache\Home\b53ded8be7a5aeeb727bee6d477d57c0.php 第 40 行.
-INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011303s ]
-INFO: [ view_parse ] --END-- [ RunTime:0.011398s ]
-INFO: [ view_filter ] --START--
-INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000689s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.000779s ]
-INFO: [ app_end ] --START--
-INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000941s ]
-INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
-
-[ 2016-11-29T08:40:34+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/Home/personal/user_update/id/1
+[ 2016-11-29T08:35:59+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/Home/admin/lists
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000565s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000644s ]
 INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000643s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000699s ]
-SQL: SHOW COLUMNS FROM `personaluser` [ RunTime:0.0185s ]
-SQL: SELECT * FROM `personaluser` WHERE `p_id` = 1 LIMIT 1   [ RunTime:0.0497s ]
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001118s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Common\Common\function.php 第 8 行.
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0185s ]
+SQL: SELECT * FROM `admin` ORDER BY id desc LIMIT 0,2   [ RunTime:0.0013s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` LIMIT 1   [ RunTime:0.0011s ]
 INFO: [ view_parse ] --START--
 INFO: [ template_filter ] --START--
-INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000357s ]
-INFO: [ template_filter ] --END-- [ RunTime:0.000604s ]
-NOTIC: [8] Undefined index: admin F:\html52016\apache\htdocs\h5_2014_xishuashua\xishuashua\Application\Runtime\Cache\Home\11cf8277bb795e3255a631d0b22bca79.php 第 40 行.
-INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046610s ]
-INFO: [ view_parse ] --END-- [ RunTime:0.046792s ]
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000184s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000296s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032628s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032860s ]
 INFO: [ view_filter ] --START--
-INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001567s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.001741s ]
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000957s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001055s ]
 INFO: [ app_end ] --START--
-INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002453s ]
-INFO: [ app_end ] --END-- [ RunTime:0.002630s ]
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001487s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001583s ]
 
-[ 2016-11-29T08:41:14+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/Home/personal/user_update/id/1
+[ 2016-11-29T08:36:04+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/Home/Admin/lists/p/2.html
 INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001011s ]
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000601s ]
 INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001263s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.001385s ]
-SQL: SHOW COLUMNS FROM `personaluser` [ RunTime:0.0062s ]
-SQL: SELECT * FROM `personaluser` WHERE `p_id` = 1 LIMIT 1   [ RunTime:0.0007s ]
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000734s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000793s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Common\Common\function.php 第 8 行.
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0165s ]
+SQL: SELECT * FROM `admin` ORDER BY id desc LIMIT 2,2   [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` LIMIT 1   [ RunTime:0.0010s ]
 INFO: [ view_parse ] --START--
 INFO: [ template_filter ] --START--
-INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000148s ]
-INFO: [ template_filter ] --END-- [ RunTime:0.000234s ]
-NOTIC: [8] Undefined index: admin F:\html52016\apache\htdocs\h5_2014_xishuashua\xishuashua\Application\Runtime\Cache\Home\11cf8277bb795e3255a631d0b22bca79.php 第 40 行.
-INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011051s ]
-INFO: [ view_parse ] --END-- [ RunTime:0.011132s ]
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000166s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019720s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019867s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000651s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000721s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000794s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000859s ]
+
+[ 2016-11-29T08:36:05+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/Home/Admin/lists/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000570s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000686s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000743s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Common\Common\function.php 第 8 行.
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `admin` ORDER BY id desc LIMIT 2,2   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000179s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011060s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011161s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000632s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000685s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000813s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000889s ]
+
+[ 2016-11-29T08:36:06+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/Home/Admin/lists/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000589s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000774s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000832s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Common\Common\function.php 第 8 行.
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0161s ]
+SQL: SELECT * FROM `admin` ORDER BY id desc LIMIT 2,2   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000147s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000268s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030273s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030391s ]
 INFO: [ view_filter ] --START--
 INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000602s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.000658s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000689s ]
 INFO: [ app_end ] --START--
-INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000816s ]
-INFO: [ app_end ] --END-- [ RunTime:0.000871s ]
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000849s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000902s ]
 
-[ 2016-11-29T08:42:04+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/Home/personal/user_update/id/1
+[ 2016-11-29T08:36:07+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/Home/Admin/lists/p/2.html
 INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000563s ]
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001012s ]
 INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001052s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.001169s ]
-SQL: SHOW COLUMNS FROM `personaluser` [ RunTime:0.0186s ]
-SQL: SELECT * FROM `personaluser` WHERE `p_id` = 1 LIMIT 1   [ RunTime:0.0016s ]
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001563s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Common\Common\function.php 第 8 行.
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `admin` ORDER BY id desc LIMIT 2,2   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` LIMIT 1   [ RunTime:0.0004s ]
 INFO: [ view_parse ] --START--
 INFO: [ template_filter ] --START--
-INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000425s ]
-INFO: [ template_filter ] --END-- [ RunTime:0.000683s ]
-NOTIC: [8] Undefined index: admin F:\html52016\apache\htdocs\h5_2014_xishuashua\xishuashua\Application\Runtime\Cache\Home\11cf8277bb795e3255a631d0b22bca79.php 第 40 行.
-INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026015s ]
-INFO: [ view_parse ] --END-- [ RunTime:0.026156s ]
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000177s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010181s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010259s ]
 INFO: [ view_filter ] --START--
-INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001382s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.001507s ]
-INFO: [ app_end ] --START--
-INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001891s ]
-INFO: [ app_end ] --END-- [ RunTime:0.002013s ]
-
-[ 2016-11-29T08:45:36+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/Home/personal/user_update/id/1
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001513s ]
-INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000989s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.001138s ]
-SQL: SHOW COLUMNS FROM `personaluser` [ RunTime:0.0105s ]
-SQL: SELECT * FROM `personaluser` WHERE `p_id` = 1 LIMIT 1   [ RunTime:0.0005s ]
-INFO: [ view_parse ] --START--
-INFO: [ template_filter ] --START--
-INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000155s ]
-INFO: [ template_filter ] --END-- [ RunTime:0.000278s ]
-NOTIC: [8] Undefined index: admin F:\html52016\apache\htdocs\h5_2014_xishuashua\xishuashua\Application\Runtime\Cache\Home\11cf8277bb795e3255a631d0b22bca79.php 第 40 行.
-INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015358s ]
-INFO: [ view_parse ] --END-- [ RunTime:0.015451s ]
-INFO: [ view_filter ] --START--
-INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000795s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.000895s ]
-INFO: [ app_end ] --START--
-INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001176s ]
-INFO: [ app_end ] --END-- [ RunTime:0.001259s ]
-
-[ 2016-11-29T08:47:43+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/Home/personal/user_update/id/1
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000690s ]
-INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000825s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000887s ]
-SQL: SHOW COLUMNS FROM `personaluser` [ RunTime:0.0071s ]
-SQL: SELECT * FROM `personaluser` WHERE `p_id` = 1 LIMIT 1   [ RunTime:0.0007s ]
-INFO: [ view_parse ] --START--
-INFO: [ template_filter ] --START--
-INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
-INFO: [ template_filter ] --END-- [ RunTime:0.000163s ]
-NOTIC: [8] Undefined index: admin F:\html52016\apache\htdocs\h5_2014_xishuashua\xishuashua\Application\Runtime\Cache\Home\11cf8277bb795e3255a631d0b22bca79.php 第 40 行.
-INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015493s ]
-INFO: [ view_parse ] --END-- [ RunTime:0.015568s ]
-INFO: [ view_filter ] --START--
-INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000607s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.000678s ]
-INFO: [ app_end ] --START--
-INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000976s ]
-INFO: [ app_end ] --END-- [ RunTime:0.001038s ]
-
-[ 2016-11-29T08:47:47+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/Home/company/case
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000539s ]
-INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000658s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000716s ]
-INFO: [ view_parse ] --START--
-INFO: [ template_filter ] --START--
-INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
-INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
-NOTIC: [8] Undefined index: admin F:\html52016\apache\htdocs\h5_2014_xishuashua\xishuashua\Application\Runtime\Cache\Home\aa4bf7a07fec3aff9faed180cdd0280f.php 第 40 行.
-INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046755s ]
-INFO: [ view_parse ] --END-- [ RunTime:0.046810s ]
-INFO: [ view_filter ] --START--
-INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000557s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.000618s ]
-INFO: [ app_end ] --START--
-INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000892s ]
-INFO: [ app_end ] --END-- [ RunTime:0.000959s ]
-
-[ 2016-11-29T08:47:47+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/Home/company/js/jquery-ui.js
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001952s ]
-INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001087s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.001200s ]
-ERR: 非法操作:js
-
-[ 2016-11-29T09:08:36+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/Home/personal/user_list
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000767s ]
-INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001068s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.001154s ]
-SQL: SHOW COLUMNS FROM `personaluser` [ RunTime:0.0232s ]
-SQL: SELECT * FROM `personaluser`  [ RunTime:0.0015s ]
-INFO: [ view_parse ] --START--
-INFO: [ template_filter ] --START--
-INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000387s ]
-INFO: [ template_filter ] --END-- [ RunTime:0.000663s ]
-NOTIC: [8] Undefined index: admin F:\html52016\apache\htdocs\h5_2014_xishuashua\xishuashua\Application\Runtime\Cache\Home\b53ded8be7a5aeeb727bee6d477d57c0.php 第 40 行.
-INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037994s ]
-INFO: [ view_parse ] --END-- [ RunTime:0.038163s ]
-INFO: [ view_filter ] --START--
-INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001263s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.001406s ]
-INFO: [ app_end ] --START--
-INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001441s ]
-INFO: [ app_end ] --END-- [ RunTime:0.001563s ]
-
-[ 2016-11-29T14:03:06+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/Home/personal/user_list
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001566s ]
-INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001027s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.001129s ]
-SQL: SHOW COLUMNS FROM `personaluser` [ RunTime:0.0479s ]
-SQL: SELECT * FROM `personaluser`  [ RunTime:0.0008s ]
-INFO: [ view_parse ] --START--
-INFO: [ template_filter ] --START--
-INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000256s ]
-INFO: [ template_filter ] --END-- [ RunTime:0.000410s ]
-NOTIC: [8] Undefined index: admin F:\html52016\apache\htdocs\h5_2014_xishuashua\xishuashua\Application\Runtime\Cache\Home\b53ded8be7a5aeeb727bee6d477d57c0.php 第 40 行.
-INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.117097s ]
-INFO: [ view_parse ] --END-- [ RunTime:0.117208s ]
-INFO: [ view_filter ] --START--
-INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000701s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.000790s ]
-INFO: [ app_end ] --START--
-INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001794s ]
-INFO: [ app_end ] --END-- [ RunTime:0.002040s ]
-
-[ 2016-11-29T14:03:13+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/Home/personal/user_list
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000555s ]
-INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001101s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.001457s ]
-SQL: SHOW COLUMNS FROM `personaluser` [ RunTime:0.0079s ]
-SQL: SELECT * FROM `personaluser`  [ RunTime:0.0009s ]
-INFO: [ view_parse ] --START--
-INFO: [ template_filter ] --START--
-INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000146s ]
-INFO: [ template_filter ] --END-- [ RunTime:0.000309s ]
-NOTIC: [8] Undefined index: admin F:\html52016\apache\htdocs\h5_2014_xishuashua\xishuashua\Application\Runtime\Cache\Home\b53ded8be7a5aeeb727bee6d477d57c0.php 第 40 行.
-INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014009s ]
-INFO: [ view_parse ] --END-- [ RunTime:0.014079s ]
-INFO: [ view_filter ] --START--
-INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000910s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
-INFO: [ app_end ] --START--
-INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001421s ]
-INFO: [ app_end ] --END-- [ RunTime:0.001533s ]
-
-[ 2016-11-29T14:50:25+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/Home/personal/user_list
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000218s ]
-INFO: [ app_init ] --END-- [ RunTime:0.002931s ]
-INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001437s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.001588s ]
-SQL: SHOW COLUMNS FROM `personaluser` [ RunTime:0.0227s ]
-SQL: SELECT * FROM `personaluser`  [ RunTime:0.0013s ]
-INFO: [ view_parse ] --START--
-INFO: [ template_filter ] --START--
-INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000215s ]
-INFO: [ template_filter ] --END-- [ RunTime:0.000334s ]
-NOTIC: [8] Undefined index: admin F:\html52016\apache\htdocs\h5_2014_xishuashua\xishuashua\Application\Runtime\Cache\Home\b53ded8be7a5aeeb727bee6d477d57c0.php 第 40 行.
-INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017592s ]
-INFO: [ view_parse ] --END-- [ RunTime:0.017714s ]
-INFO: [ view_filter ] --START--
-INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000766s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.000846s ]
-INFO: [ app_end ] --START--
-INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001121s ]
-INFO: [ app_end ] --END-- [ RunTime:0.001196s ]
-
-[ 2016-11-29T14:50:26+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/Home/personal/user_list
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000710s ]
-INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000772s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000835s ]
-SQL: SHOW COLUMNS FROM `personaluser` [ RunTime:0.0093s ]
-SQL: SELECT * FROM `personaluser`  [ RunTime:0.0006s ]
-INFO: [ view_parse ] --START--
-INFO: [ template_filter ] --START--
-INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000116s ]
-INFO: [ template_filter ] --END-- [ RunTime:0.000262s ]
-NOTIC: [8] Undefined index: admin F:\html52016\apache\htdocs\h5_2014_xishuashua\xishuashua\Application\Runtime\Cache\Home\b53ded8be7a5aeeb727bee6d477d57c0.php 第 40 行.
-INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016681s ]
-INFO: [ view_parse ] --END-- [ RunTime:0.016755s ]
-INFO: [ view_filter ] --START--
-INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000619s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.000701s ]
-INFO: [ app_end ] --START--
-INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000933s ]
-INFO: [ app_end ] --END-- [ RunTime:0.000998s ]
-
-[ 2016-11-29T15:53:45+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/Home/company/case
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000763s ]
-INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001067s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.001163s ]
-INFO: [ view_parse ] --START--
-INFO: [ template_filter ] --START--
-INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000159s ]
-INFO: [ template_filter ] --END-- [ RunTime:0.000275s ]
-NOTIC: [8] Undefined index: admin F:\html52016\apache\htdocs\h5_2014_xishuashua\xishuashua\Application\Runtime\Cache\Home\aa4bf7a07fec3aff9faed180cdd0280f.php 第 40 行.
-INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014150s ]
-INFO: [ view_parse ] --END-- [ RunTime:0.014212s ]
-INFO: [ view_filter ] --START--
-INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000533s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.000586s ]
-INFO: [ app_end ] --START--
-INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001064s ]
-INFO: [ app_end ] --END-- [ RunTime:0.001154s ]
-
-[ 2016-11-29T15:53:45+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/Home/company/js/jquery-ui.js
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000517s ]
-INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000656s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000725s ]
-ERR: 非法操作:js
-
-[ 2016-11-29T16:51:39+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/Home/company/user_list
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000809s ]
-INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000796s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000859s ]
-INFO: [ view_parse ] --START--
-INFO: [ template_filter ] --START--
-INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000361s ]
-INFO: [ template_filter ] --END-- [ RunTime:0.000673s ]
-NOTIC: [8] Undefined index: admin F:\html52016\apache\htdocs\h5_2014_xishuashua\xishuashua\Application\Runtime\Cache\Home\57f97c131c5fde917ff82e8c6fe554b3.php 第 40 行.
-INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.113680s ]
-INFO: [ view_parse ] --END-- [ RunTime:0.113744s ]
-INFO: [ view_filter ] --START--
-INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000560s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.000611s ]
-INFO: [ app_end ] --START--
-INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000844s ]
-INFO: [ app_end ] --END-- [ RunTime:0.000901s ]
-
-[ 2016-11-29T16:51:39+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/Home/company/js/jquery-ui.js
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000499s ]
-INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001003s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.001286s ]
-ERR: 非法操作:js
-
-[ 2016-11-29T16:51:43+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/Home/personal/user_list
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000744s ]
-INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000911s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000994s ]
-SQL: SHOW COLUMNS FROM `personaluser` [ RunTime:0.0108s ]
-SQL: SELECT * FROM `personaluser`  [ RunTime:0.0007s ]
-INFO: [ view_parse ] --START--
-INFO: [ template_filter ] --START--
-INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
-INFO: [ template_filter ] --END-- [ RunTime:0.000150s ]
-NOTIC: [8] Undefined index: admin F:\html52016\apache\htdocs\h5_2014_xishuashua\xishuashua\Application\Runtime\Cache\Home\b53ded8be7a5aeeb727bee6d477d57c0.php 第 40 行.
-INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010480s ]
-INFO: [ view_parse ] --END-- [ RunTime:0.010550s ]
-INFO: [ view_filter ] --START--
-INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000618s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.000672s ]
-INFO: [ app_end ] --START--
-INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000852s ]
-INFO: [ app_end ] --END-- [ RunTime:0.000904s ]
-
-[ 2016-11-29T16:51:47+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/Home/admin/add
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000686s ]
-INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000851s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000932s ]
-INFO: [ view_parse ] --START--
-INFO: [ template_filter ] --START--
-INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
-INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
-INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021744s ]
-INFO: [ view_parse ] --END-- [ RunTime:0.021828s ]
-INFO: [ view_filter ] --START--
-INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000894s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.001075s ]
-
-[ 2016-11-29T16:51:50+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/Home/User/login.html
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000559s ]
-INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001324s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.001409s ]
-INFO: [ view_parse ] --START--
-INFO: [ template_filter ] --START--
-INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
-INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
-INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024178s ]
-INFO: [ view_parse ] --END-- [ RunTime:0.024268s ]
-INFO: [ view_filter ] --START--
-INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000605s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.000671s ]
-INFO: [ app_end ] --START--
-INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000987s ]
-INFO: [ app_end ] --END-- [ RunTime:0.001088s ]
-
-[ 2016-11-29T16:51:53+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/Home/User/login.html
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000564s ]
-INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001614s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.001731s ]
-SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0770s ]
-SQL: SELECT * FROM `admin` WHERE `admin` = 'admin' AND `password` = 'admin' LIMIT 1   [ RunTime:0.0226s ]
-INFO: [ view_parse ] --START--
-INFO: [ template_filter ] --START--
-INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
-INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
-INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008426s ]
-INFO: [ view_parse ] --END-- [ RunTime:0.008520s ]
-INFO: [ view_filter ] --START--
-INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000531s ]
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000534s ]
 INFO: [ view_filter ] --END-- [ RunTime:0.000585s ]
-
-[ 2016-11-29T16:51:54+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/Home/User/login.html
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000497s ]
-INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000707s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000765s ]
-INFO: [ view_parse ] --START--
-INFO: [ template_filter ] --START--
-INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
-INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
-INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006582s ]
-INFO: [ view_parse ] --END-- [ RunTime:0.006656s ]
-INFO: [ view_filter ] --START--
-INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000519s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.000570s ]
 INFO: [ app_end ] --START--
-INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000850s ]
-INFO: [ app_end ] --END-- [ RunTime:0.000904s ]
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000805s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000861s ]
 
-[ 2016-11-29T16:51:59+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/Home/User/login.html
+[ 2016-11-29T08:36:20+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/Home/Admin/lists/p/1.html
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000525s ]
 INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000660s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000730s ]
-SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0083s ]
-SQL: SELECT * FROM `admin` WHERE `admin` = 'admin' AND `password` = '123456' LIMIT 1   [ RunTime:0.0005s ]
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000639s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000697s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Common\Common\function.php 第 8 行.
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `admin` ORDER BY id desc LIMIT 0,2   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` LIMIT 1   [ RunTime:0.0003s ]
 INFO: [ view_parse ] --START--
 INFO: [ template_filter ] --START--
-INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
-INFO: [ template_filter ] --END-- [ RunTime:0.000148s ]
-INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009980s ]
-INFO: [ view_parse ] --END-- [ RunTime:0.010074s ]
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000168s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015807s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015885s ]
 INFO: [ view_filter ] --START--
-INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000563s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.000613s ]
-
-[ 2016-11-29T16:52:00+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/Home/User/login.html
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000624s ]
-INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000901s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.001010s ]
-INFO: [ view_parse ] --START--
-INFO: [ template_filter ] --START--
-INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
-INFO: [ template_filter ] --END-- [ RunTime:0.000158s ]
-INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009673s ]
-INFO: [ view_parse ] --END-- [ RunTime:0.009768s ]
-INFO: [ view_filter ] --START--
-INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000726s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.000805s ]
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000562s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000615s ]
 INFO: [ app_end ] --START--
-INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001549s ]
-INFO: [ app_end ] --END-- [ RunTime:0.001681s ]
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000828s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000880s ]
 
-[ 2016-11-29T16:52:05+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/Home/User/login.html
+[ 2016-11-29T08:36:22+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/Home/Admin/lists/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000617s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000686s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000745s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Common\Common\function.php 第 8 行.
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0072s ]
+SQL: SELECT * FROM `admin` ORDER BY id desc LIMIT 2,2   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000139s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000227s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010143s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010229s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000656s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000738s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000875s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000933s ]
+
+[ 2016-11-29T08:36:28+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/Home/Admin/lists/p/1.html
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000538s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000526s ]
 INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000663s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000724s ]
-SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0084s ]
-SQL: SELECT * FROM `admin` WHERE `admin` = 'root' AND `password` = 'admin' LIMIT 1   [ RunTime:0.0005s ]
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000679s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000736s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Common\Common\function.php 第 8 行.
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `admin` ORDER BY id desc LIMIT 0,2   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` LIMIT 1   [ RunTime:0.0004s ]
 INFO: [ view_parse ] --START--
 INFO: [ template_filter ] --START--
-INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
-INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
-INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008132s ]
-INFO: [ view_parse ] --END-- [ RunTime:0.008215s ]
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000189s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010269s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010374s ]
 INFO: [ view_filter ] --START--
-INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000573s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.000643s ]
-
-[ 2016-11-29T16:52:06+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/Home/User/login.html
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000658s ]
-INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000764s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000844s ]
-SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0158s ]
-SQL: SELECT * FROM `admin` WHERE `admin` = 'root' AND `password` = 'admin' LIMIT 1   [ RunTime:0.0009s ]
-INFO: [ view_parse ] --START--
-INFO: [ template_filter ] --START--
-INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
-INFO: [ template_filter ] --END-- [ RunTime:0.000204s ]
-INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014358s ]
-INFO: [ view_parse ] --END-- [ RunTime:0.014490s ]
-INFO: [ view_filter ] --START--
-INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000884s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.000994s ]
-
-[ 2016-11-29T16:52:09+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/Home/User/login.html
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000910s ]
-INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000863s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000941s ]
-INFO: [ view_parse ] --START--
-INFO: [ template_filter ] --START--
-INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
-INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
-INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007592s ]
-INFO: [ view_parse ] --END-- [ RunTime:0.007697s ]
-INFO: [ view_filter ] --START--
-INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000680s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.000751s ]
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000538s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000590s ]
 INFO: [ app_end ] --START--
-INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001213s ]
-INFO: [ app_end ] --END-- [ RunTime:0.001329s ]
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000811s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000872s ]
 
-[ 2016-11-29T16:52:14+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/Home/User/login.html
+[ 2016-11-29T09:01:28+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/Home/admin/lists
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000580s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000637s ]
 INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000656s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000715s ]
-SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0233s ]
-SQL: SELECT * FROM `admin` WHERE `admin` = 'root' AND `password` = '123456' LIMIT 1   [ RunTime:0.0012s ]
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000781s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000877s ]
 INFO: [ view_parse ] --START--
 INFO: [ template_filter ] --START--
-INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
-INFO: [ template_filter ] --END-- [ RunTime:0.000194s ]
-INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013397s ]
-INFO: [ view_parse ] --END-- [ RunTime:0.013532s ]
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007310s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007388s ]
 INFO: [ view_filter ] --START--
-INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000637s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.000721s ]
-INFO: [ app_end ] --START--
-INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001166s ]
-INFO: [ app_end ] --END-- [ RunTime:0.001274s ]
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000506s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000558s ]
 
-[ 2016-11-29T16:52:15+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/Home/Index/main.html
+[ 2016-11-29T09:01:31+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/Home/User/login.html
 INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001158s ]
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000880s ]
 INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001300s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.001431s ]
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001016s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001116s ]
 INFO: [ view_parse ] --START--
 INFO: [ template_filter ] --START--
-INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
-INFO: [ template_filter ] --END-- [ RunTime:0.000173s ]
-INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010554s ]
-INFO: [ view_parse ] --END-- [ RunTime:0.010653s ]
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000179s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010735s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010847s ]
 INFO: [ view_filter ] --START--
-INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000455s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.000537s ]
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000869s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000993s ]
 INFO: [ app_end ] --START--
-INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000886s ]
-INFO: [ app_end ] --END-- [ RunTime:0.000969s ]
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001512s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001617s ]
 
-[ 2016-11-29T16:52:19+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/Home/personal/user_list
+[ 2016-11-29T09:01:33+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/Home/User/login.html
 INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000674s ]
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000502s ]
 INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000698s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000779s ]
-SQL: SHOW COLUMNS FROM `personaluser` [ RunTime:0.0251s ]
-SQL: SELECT * FROM `personaluser`  [ RunTime:0.0014s ]
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000648s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000709s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0230s ]
+SQL: SELECT * FROM `admin` WHERE `admin` = 'root' AND `password` = '123456' LIMIT 1   [ RunTime:0.0013s ]
 INFO: [ view_parse ] --START--
 INFO: [ template_filter ] --START--
-INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000124s ]
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000225s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020316s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020468s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000974s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001074s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001469s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001574s ]
+
+[ 2016-11-29T09:01:34+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/Home/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000941s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001161s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001282s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000148s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000271s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017139s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017276s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000878s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000970s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001265s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001346s ]
+
+[ 2016-11-29T09:01:40+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/Home/admin/manage_news
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000525s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000744s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000802s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Common\Common\function.php 第 8 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000150s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009917s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009981s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000548s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000598s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000792s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000844s ]
+
+[ 2016-11-29T09:01:43+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/Home/admin/manage_news
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000589s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000623s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000681s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Common\Common\function.php 第 8 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
 INFO: [ template_filter ] --END-- [ RunTime:0.000211s ]
-INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014986s ]
-INFO: [ view_parse ] --END-- [ RunTime:0.015135s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009524s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009599s ]
 INFO: [ view_filter ] --START--
-INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000469s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.000542s ]
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000529s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000582s ]
 INFO: [ app_end ] --START--
-INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000915s ]
-INFO: [ app_end ] --END-- [ RunTime:0.000993s ]
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000819s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000874s ]
+
+[ 2016-11-29T09:02:03+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/Home/admin/manage_news
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000520s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000724s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000785s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Common\Common\function.php 第 8 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0081s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'order clause'
+
+[ 2016-11-29T09:02:31+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/Home/admin/manage_news
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000597s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000728s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000788s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Common\Common\function.php 第 8 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0142s ]
+SQL: SELECT * FROM `news` ORDER BY n_id desc LIMIT 0,3   [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news` LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000188s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000315s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022531s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022683s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001115s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001234s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001605s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001721s ]
 

@@ -1,0 +1,296 @@
+
+div:after, ul:after, dl:after {
+    content: "";
+    display: block;
+    clear: both;
+    height: 0;
+    visibility: hidden;
+}
+
+img {
+    vertical-align: middle;
+}
+
+div, ul, dl {
+    zoom: 1;
+}
+
+.Aflash {
+    width: 100%;
+    height: 500px;
+    margin: 0 auto;
+    repeat-x left top;
+    position: relative;
+    overflow: hidden;
+    margin-top: 47px;
+    margin-bottom: 34px
+}
+
+.smallbox b, .pre a, .next a {
+    no-repeat -1000px -1000px;
+}
+
+.picUL {
+    margin-top: 13px;
+}
+
+.picLI {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.picbox {
+    width: 100%;
+    height: 500px;
+}
+
+.picbox small {
+    display: block;
+    background: url(http://i0.letvimg.com/img/201112/06/home/tv.png) no-repeat;
+    _background: none;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://i0.letvimg.com/img/201112/06/home/tv.png');
+    position: absolute;
+    left: -8px;
+    top: -7px;
+    width: 110px;
+    height: 110px;
+}
+
+.picbox .tv {
+    display: none;
+}
+
+.picbox img {
+    height: 500px;
+    width: 100%
+}
+
+.picLI .bg {
+    background: #000000;
+    opacity: 0.5;
+    filter: Alpha(opacity=50);
+    position: absolute;
+    left: 0;
+    top: 255px;
+    height: 95px;
+    width: 100%;
+}
+
+.picLI .info {
+    position: absolute;
+    left: 0;
+    top: 255px;
+    height: 88px;
+    overflow: hidden;
+    width: 500px;
+    padding-left: 20px;
+    margin-top: 7px;
+}
+
+.picLI h2 {
+    font-size: 16px;
+    font-family: "微软雅黑";
+    height: 35px;
+    line-height: 35px;
+    overflow: hidden;
+}
+
+.picLI p {
+    line-height: 20px;
+}
+
+.picLI a:hover {
+    text-decoration: none;
+}
+
+.pre, .next {
+    float: left;
+    margin-top: 28px;
+    position: relative;
+    width: 30px;
+    z-index: 11;
+}
+
+.pre i, .next i {
+    no-repeat;
+    _background: none;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/tipN.png');
+    display: block;
+    width: 25px;
+    height: 24px;
+    position: absolute;
+    left: 20px;
+    top: 2px;
+    display: none;
+}
+
+.next i {
+    no-repeat;
+    _background: none;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/tipP.png');
+    left: -20px;
+}
+
+.smalpic {
+    float: left;
+    width: 350px;
+    display: block;
+    zoom: 1;
+    overflow: hidden;
+    padding: 10px 5px 0 5px;
+}
+
+.pre a {
+    width: 27px;
+    height: 26px;
+    display: block;
+    background-position: -84px -10px;
+}
+
+.next a {
+    width: 27px;
+    height: 26px;
+    display: block;
+    background-position: -123px -10px;
+}
+
+.pre i {
+    display: block;
+}
+
+.infobtn {
+    position: absolute;
+    right: 10px;
+    top: 280px;
+    width: 420px;
+}
+
+.smallbox {
+    width: 10000px;
+}
+
+.smallbox img {
+    width: 55px;
+    height: 55px;
+    border: 3px solid #999999;
+}
+
+.smallbox a {
+    display: block;
+    float: left;
+    width: 70px;
+    text-align: center;
+    outline: none;
+    position: relative;
+    z-index: 10;
+}
+
+.smallbox a b {
+    display: none;
+}
+
+.smallbox a.on img {
+    border: 3px solid #c21f22;
+}
+
+.smallbox a.on b {
+    display: block;
+}
+
+.smallbox b {
+    background-position: -60px -10px;
+    display: block;
+    zoom: 1;
+    overflow: hidden;
+    width: 10px;
+    height: 8px;
+    position: absolute;
+    left: 30px;
+    top: -7px;
+}
+
+.info-w {
+    font-family: 微软雅黑;
+    color: #ffffff;
+}
+
+#j-focusPic {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 500px;
+}
+
+#j-focusPic .j-slider {
+    position: absolute;
+    width: 1000000px;
+}
+
+#j-focusPic .j-item {
+    display: block;
+    float: left;
+    width: 1390px;
+    overflow: hidden;
+}
+
+#j-focusPic .j-info {
+    height: 85px;
+    margin-top: 97px;
+    margin-left: 20px;
+}
+
+#j-focusPic .j-infocontainer {
+    display: none;
+    margin-top: 150px;
+}
+
+#j-focusBtns .j-container {
+    position: relative;
+    height: 70px;
+    width: 350px;
+    padding: 0px;
+    padding-top: 10px;
+    margin-top: 100px;
+}
+
+#j-focusBtns .j-slider {
+    position: absolute;
+    width: 100%;
+}
+
+#j-focusBtns .pre a, #j-focusBtns .next a {
+    cursor: pointer;
+    margin-top: 100px;
+}
+
+#j-hitshow .j-container {
+    position: relative;
+    width: 968px;
+    height: 180px;
+    overflow: hidden;
+}
+
+#j-hitshow .j-slider {
+    position: absolute;
+    width: 10000px;
+}
+
+#j-hitshow .a1.disable {
+    background-position: -10px -10px;
+    cursor: default;
+}
+
+#j-hitshow .a1.disable:hover {
+    background-position: -10px -10px;
+}
+
+#j-hitshow .a2.disable {
+    background-position: -23px -10px;
+    cursor: default;
+}
+
+#j-hitshow .a2.disable:hover {
+    background-position: -23px -10px;
+}
+

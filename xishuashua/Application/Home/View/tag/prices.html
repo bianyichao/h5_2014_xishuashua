@@ -7,29 +7,28 @@
   	    </ol>
     	  <h3 class="down">标签管理 <small>Tags Management</small></h3> 
             <div class="row ">
-            <div class="col-md-6">  	    
+                <div class="col-md-6">
         <div class="list-group-item">
-    	        <label for="inputEmail3" class=" control-label">请输入价格</label>    	       
-    	          <input type="input" class="form-control marb" id="" placeholder="">       
-    	          <button type="submit" class="btn btn-primary">添加价格</button>	          
-  	        </div>
+            <form action="" method="post">
+                <label for="inputEmail3" class=" control-label">请输入价格</label>
+                <input type="input" class="form-control marb" id="" placeholder="" name="e_price">
+                <button type="submit" class="btn btn-primary">添加价格</button>
+            </form>
+
+        </div>
              <table width="100%" border="0" cellspacing="0" cellpadding="0"  class="table  table-striped table-hover ">
     	      <tr>
     	        <th width="50%">价格</th>
     	        <th width="50%">操作</th>
   	        </tr>
-    	      <tr>
-    	        <td class="taga"><a href="#">10000</a></td>
-    	        <td><a href="#">删除</a></td>
-   	           </tr>
-    	      <tr>
-    	         <td class="taga"><a href="#">20000</a></td>
-    	        <td><a href="#">删除</a></td>
-   	           </tr>
-    	      <tr>
-    	         <td class="taga"><a href="#">30000</a></td>
-    	        <td><a href="#">删除</a></td>
-   	           </tr>
+                 <volist name="prices" id="p">
+                     <tr>
+                         <td class="taga"><a href="#">{$p.e_price}</a></td>
+                         <td><a href="#"></a> &nbsp;&nbsp;<a
+                                 href="__MODULE__/tag/pricesdelete/e_price/{$p.e_price}">删除</a></td>
+                         </td>
+                     <tr>
+                 </volist>
   	      </table>
             </div>
             </div>   
