@@ -4,27 +4,37 @@
     padding:1px 10px;
 }
 .tiezi_1{
-
     border:1px solid rgb(194,203,112);
     margin:20px 20px;
     padding:12px 15px;
 }
-.good{
+.tiezi_reply{
+    height: 145px;
+}
+.reply{
     float: right;
+    border:none;
+    background-color:white;
+    padding-left: 20px;
     margin-top: 20px;
 }
+.reply_content{
+    padding-left: 10px;
+}
+.reply_time{
+    padding-left: 4px;
+}
+.vistor{
+    font-weight: bold;
+}
+.reply_vistor{
+    border:none;
+    background-color:white;
+    padding-left: 20px;
+}
 .btn1{
-    margin-right: 0;
+    float: right;
     background-color: rgb(194,203,112);
-}
-.btn_1{
-    width: 200px;
-    height: 50px;
-    background-color: rgb(194,203,112);
-    margin-top:20px;
-}
-.tz_head{
-    height: 50px;
 }
 .tz_head_1{
     margin-top: 10px;
@@ -41,6 +51,7 @@
 }
 .tz_text_name{
     margin-bottom: 20px;
+    padding-top: 20px;
 }
 .tz_text_huifu{
     padding-top: 10px;
@@ -60,30 +71,13 @@
 }
 .box{
     background: white;
-    width:50%; margin-top:10%; margin:auto; padding:28px;
-    height: 350px;
-    border: 1px #111 solid;
+    width:96%; margin-top:10%; margin:auto; padding:28px;
+    height:200px; border:1px solid rgb(194,203,120);
     display:none;            /* 默认对话框隐藏 */
-    position: absolute;
-    left: 200px;
-    top: 200px;
 }
-
-.box.show {
-    display: block;
-}
-
-.box .x {
-    font-size: 18px;
-    text-align: right;
-    display: block;
-}
-
-.box input {
-    width: 80%;
-    font-size: 18px;
-    margin-top: 18px;
-}
+.box.show{display:block;}
+.box .x{ font-size:18px; text-align:right; display:block;}
+.box input{width:80%; font-size:18px; margin-top:18px;}
 .biaoti{
     width: 25%;
     height: 100px;
@@ -94,12 +88,10 @@
 .biaoti.a{
     height: 100px;
 }
-
-.nav-tabs {
+.nav-tabs{
     padding-left: 9px;
 }
-
-.text-reply {
-    height: 60px;
+.text-reply{
+    height: 80px;
     width: 100%;
 }
