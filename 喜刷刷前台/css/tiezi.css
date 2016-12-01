@@ -85,6 +85,12 @@
     border: 1px solid white;
     font-family: 黑体;
 }
+.biaoti a:hover{
+   
+    background-color: rgb(35,100,0);
+    border: 1px solid white;
+    font-family: 黑体;
+}
 .biaoti.a{
     height: 100px;
 }
