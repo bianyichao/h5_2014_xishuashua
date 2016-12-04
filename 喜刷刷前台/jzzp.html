@@ -10,6 +10,7 @@
     <link href="css/index.css" rel="stylesheet">
     <link rel="stylesheet" href="css/lunbotu.css" />
     <link rel="stylesheet" href="css/hanziqiang.css" />
+      <link rel="stylesheet" type="text/css" href="css/lanrenzhijia.css">
     <script src="JS/jquery-2.1.4.min.js"></script>
     <script src="JS/lunbotu.js"></script>
 	   <script src="js/jquery.min.js"></script>
@@ -44,56 +45,58 @@
                 </li>
               </ul>
               <div class="navright"> 
-              <div class="dropdown" id="dropdown">
+              <div class="dropdown">
                         <a href="">无敌小边边&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
                       <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown">
-                        个人中心&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        个人中心
                         <span class="caret"></span>
                       </button>
                       <ul class="dropdown-menu ac" role="menu" aria-labelledby="dropdownMenu1">
-                        <li role="presentation"><a   role="menuitem" tabindex="-1" href="grzx.html">我的主页</a></li>
-                        <li role="presentation"><a   role="menuitem" tabindex="-1" href="qyzx.html">企业主页</a></li>
+                        <li role="presentation"><a  style="background-color: white;color: #216400;font-family: "黑体"；" role="menuitem" tabindex="-1" href="grzx.html">我的主页</a></li>
+                        <li role="presentation"><a  style="background-color: white;color: #216400;font-family: "黑体"；" role="menuitem" tabindex="-1" href="qyzx.html">企业主页</a></li>
                       </ul>
-                      <a href="dl_cp.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;登录</a>&nbsp;&nbsp;|
+                      <a href="login.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;登录</a>&nbsp;&nbsp;|
                     &nbsp;&nbsp;<a href="regist.html">注册</a>
                     </div>
             </div>
             </div>  
           </nav>
-          <div class="center">
-            <div class="center_top">
-              <!-- <==========================================================> -->
-              <!-- 轮播图开始区域 -->
-              <!-- <div id="bannar"> -->
-              <div class="content_middle">
-                <div class="common_da">
+          <div class="Aflash">
+   <ul class="picUL">
+     <li class="picLI" id="j-focusPic">
+      <div class="picbox j-slider">
+       <span class="j-item"> 
+       <a href="#"> <img src="images/bg1.jpg"></a>
+       </span>
+       <span class="j-item"> 
+       <a href="#"> <img src="images/bg5.jpg" data-src="images/bg5.jpg"
+          class="loading"></a>
+        </span>
+      <span class="j-item"> 
+      <a href="#"> <img src="images/bg2.jpg" data-src="images/bg2.jpg"class="loading"></a>
+      </span>
+      <span class="j-item"> 
+      <a href="#"> <img src="images/bg3.jpg" data-src="images/bg3.jpg"
+        class="loading"></a></span>
+        <span class="j-item"><a href="#"> <img src="images/bg4.jpg" data-src="images/bg4.jpg" class="loading"></a></span>
+      </div>
+                    </li>
+                </ul>
+                <div class="infobtn" id="j-focusBtns">
+                    <div class="smalpic j-container">
+                        <div class="smallbox j-slider" style="left: 0px;">
+                            <a class="j-item" href="#"> <img src="images/bg1.jpg"> <b></b></a>
+                            <a class="j-item" href="#"> <img src="images/bg5.jpg"> <b></b></a>
+                            <a class="j-item" href="#"> <img src="images/bg2.jpg"> <b></b></a>
+                            <a class="j-item" href="#"> <img src="images/bg3.jpg"> <b></b></a>
+                            <a class="j-item" href="#"> <img src="images/bg4.jpg"> <b></b></a>
 
-                  <a class="common btnLeft"href="javascript:;"></a>
-                  <a class="common btnRight"href="javascript:;"></a>
-
+                        </div>
+                    </div>
                 </div>
-
-                <div>
-                  <ul>
-
-                    <li style="background:url(images/bg1.jpeg) no-repeat center center;opacity: 100;filter: alpha(opacity=1);"></li>
-                    <li style="background:url(images/bg2.jpeg) no-repeat center center;"></li>
-                    <li style="background:url(images/bg3.jpeg) no-repeat center center;"></li>
-                    <li style="background:url(images/bg4.jpeg) no-repeat center center;"></li>
-                    <li style="background:url(images/bg5.jpeg) no-repeat center center;"></li>
-                  </ul>
-                  <div class="table">
-                    <a class="small_active"href="javascript:;">东易日盛周年活动</a>
-                    <a href="javascript:;">乐好家居买赠优惠活动</a>
-                    <a href="javascript:;"> 简家喜刷刷独家优惠</a>
-                    <a href="javascript:;">喜刷刷家装小贴士</a>
-                    <a href="javascript:;">李小姐今天发帖了吗</a>
-
-                  </div>
-                </div>
-              </div>
             </div>
-          </div>
+        </div>
+
         </div>
       </div>
 
@@ -102,8 +105,8 @@
        
 
 
-      <div >
-        <h1 class="contitle">家装招标 · <span>Decoration Company</span></h1>
+      <div class="gs5">
+        <p>家装招标·decoration company</p>
       </div>
 
 
@@ -456,4 +459,5 @@
            </div>  
       </div>
   </body>
+   <script src="js/lanrenzhijia.js"></script>
 </html>

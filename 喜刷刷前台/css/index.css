@@ -3,13 +3,12 @@
 /* CSS Document */
 *{}
 .contitle{
-	font-family: "微软雅黑";
 	font-size:18px;
 	color:#236300;
 	text-align:center;
 }
 .contitle span{color:#999;}
-.con-one .cm12{margin-top:35px;}
+.con-one .cm12{margin-top:0px;}
 .con-one .col-md-4 .col-md-12{
 	padding:15px;
     border:1px solid #c2cb79;
@@ -56,5 +55,5 @@
 }
 .flowhid{overflow:hidden;}
 .con{
-    margin-top:30px;
+    margin-top:0px;
 }

@@ -20,13 +20,13 @@
 	  <script src="js/lunbotu.js"></script>
 	  <link rel="stylesheet" href="css/lunbotu2.css" />
 	  <link rel="stylesheet" href="css/tiezi.css" />
-
+	  <script src="js/text.js"></script>
 	  <script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
 	  <script src="http://cdn.bootcss.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
   </head>
   <body>
 
-    <div class="container-fluid">
+    <div class="container-fluid" style="background-image:url('images/background.jpg')">
 
 <!--header-->
 	<div class="row">
@@ -68,80 +68,37 @@
 				</div>
 				</div>	
 			</nav>
-			<div class="center">
-				<div class="center_top">
-					<!-- <==========================================================> -->
-					<!-- 轮播图开始区域 -->
-					<!-- <div id="bannar"> -->
-					<div class="content_middle">
-						<div class="common_da">
-
-							<a class="common btnLeft"href="javascript:;"></a>
-							<a class="common btnRight"href="javascript:;"></a>
-
-						</div>
-
-						<div>
-							<ul>
-
-								<li style="background:url(images/bg1.jpeg) no-repeat center center;opacity: 100;filter: alpha(opacity=1);"></li>
-								<li style="background:url(images/bg2.jpeg) no-repeat center center;"></li>
-								<li style="background:url(images/bg3.jpeg) no-repeat center center;"></li>
-								<li style="background:url(images/bg4.jpeg) no-repeat center center;"></li>
-								<li style="background:url(images/bg5.jpeg) no-repeat center center;"></li>
-							</ul>
-							<div class="table">
-								<a class="small_active"href="javascript:;">东易日盛周年活动</a>
-								<a href="javascript:;">乐好家居买赠优惠活动</a>
-								<a href="javascript:;"> 简家喜刷刷独家优惠</a>
-								<a href="javascript:;">喜刷刷家装小贴士</a>
-								<a href="javascript:;">李小姐今天发帖了吗</a>
-
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
 		</div>
 	</div>
 	<div class="container">
-	<div class="row con con-one">
-		<h1 class="contitle">装修日记 · <span>Decoration Diary</span></h1>
-	</div>
-		<div class="tabbable"> <!-- Only required for left/right tabs -->
-			<ul class="nav nav-tabs">
-				<li class="biaoti active"><a href="#tab1" data-toggle="tab">个人日记</a></li>
-				<li class="biaoti"><a href="#tab2" data-toggle="tab">企业日记</a></li>
-				<li class="biaoti"><a href="#tab3" data-toggle="tab">家装小贴士</a></li>
-				<li class="biaoti"><a href="#tab4" data-toggle="tab"> 敬请期待</a></li>
-			</ul>
+		<div class="tabbable tabbable2"> <!-- Only required for left/right tabs -->
 			<div class="tab-content">
-				<div class="tab-pane active" id="tab1">
-					
+				<div class="tab-pane active" id="tab1">	
 					<!--content 1-->
-					
 					<div class="tiezi">
 						<div class="tz_head">
-							<h1 class="tz_title">【po进度】这是我家的装修进度，和大家分享</h1>
+							<h3 class="tz_title">【po进度】这是我家的装修进度，和大家分享</h3>
 								<button onclick="msgbox(1)" class="reply">
-									<span class="glyphicon glyphicon-comment">195</span>
+									<span class="glyphicon glyphicon-comment"></span>
+									<em class="glyphicon-eyes">195</em>
+								</button>
+								<button class="reply" onclick="aa()">
+									<span class="glyphicon glyphicon-star-empty"></span>
+									<em class="glyphicon-eyes">95</em>
 								</button>
 								<button class="reply">
-									<span class="glyphicon glyphicon-star-empty">95</span>
-								</button>
-								<button class="reply">
-									<span class="glyphicon glyphicon-eye-open">95</span>
+									<span class="glyphicon glyphicon-eye-open"></span>
+									<em class="glyphicon-eyes">95</em>
 								</button>	
 						</div>
 						<div class="tz_text">
-							<p class="tz_text_name">&nbsp;帖主：<a href="grzx.html" class="vistor">李小姐</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;发帖时间：2011-11-11</p>
+							<p class="tz_text_name_xq">&nbsp;帖主：<a href="grzx.html" class="vistor">李小姐</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;发帖时间：2011-11-11</p>
+							<p class="tz_text_neirong">
+							今天是装修第一天，师傅们看起来非常专业啊！我很有信心！对我的新家充满了期待！^_^
+							</p>
 							<img src="images/roll03.jpg" class="tz_img">
 							<img src="images/roll04.jpg" class="tz_img">
 							<img src="images/roll02.jpg" class="tz_img">
-							<p class=" tz_text_neirong">
-							今天是装修第一天，师傅们看起来非常专业啊！我很有信心！
-							</p>
-							
 						</div>
 					</div>
 				

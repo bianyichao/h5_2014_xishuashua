@@ -1,0 +1,144 @@
+014<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>招标详细</title>
+
+    <meta name="description" content="Source code generated using layoutit.com">
+    <meta name="author" content="LayoutIt!">
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/mine.css" rel="stylesheet">
+      <!--引用百度地图API-->
+      <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=7RBSS4pns3hYoS36LvEGhBG97wVEQlsM"></script>
+  </head>
+  <body>
+
+    <div class="container-fluid">
+
+<!--header-->
+    <div class="row">
+        <div class="col-md-12 nobo">
+            <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+                <div class="navbar-header"> 
+                    <img src="images/logo.gif" alt="logo"/>
+                </div>
+                
+                <div class="collapse navbar-collapse" id="greennav">
+              <ul class="nav navbar-nav">
+                <li class="active">
+                  <a href="index-du.html" >首页</a>
+                </li>
+                <li>
+                  <a href="zsgs.html">装饰公司</a>
+                </li>
+                <li>
+                  <a href="jzzp.html" class="ahov">家装招标</a>
+                </li>
+                <li>
+                  <a href="zxrj.html">装修日记</a>
+                </li>
+              </ul>
+              <div class="navright"> 
+              <div class="dropdown" id="dropdown">
+                        <a href="">无敌小边边&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                      <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown">
+                        个人中心&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <span class="caret"></span>
+                      </button>
+                      <ul class="dropdown-menu ac" role="menu" aria-labelledby="dropdownMenu1">
+                        <li role="presentation"><a   role="menuitem" tabindex="-1" href="grzx.html">我的主页</a></li>
+                        <li role="presentation"><a   role="menuitem" tabindex="-1" href="qyzx.html">企业主页</a></li>
+                      </ul>
+                      <a href="dl_cp.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;登录</a>&nbsp;&nbsp;|
+                    &nbsp;&nbsp;<a href="regist.html">注册</a>
+                    </div>
+            </div>
+            </div>  
+            </nav>
+        </div>
+    </div>
+
+<!--content-->  
+<div class="container">
+    <div class="row" id="row-two">
+        <div class="col-md-8"> 
+            <div class="text">
+                <h2>【简约欧式 100平米 1000k】卓达青年之邦</h2>
+                <table class="table">
+                    <tr><td>项目地址：石家庄市 裕华区 裕华路 河北师大新校区内</td></tr>
+                    <tr><td>期望风格：简约欧式</td></tr>
+                    <tr><td>平米数：100平米</td></tr>
+                    <tr><td>业主期望：希望能快点装修好这是我儿子的婚房                                                                                                                                                  </td></tr>
+                </table>
+                <div class="button">
+                    <p>业主：李小姐</p>
+                    <p>期望价格：100k</p>
+                    <button type="button" class="btn btn-success">立即预约</button>
+                </div>
+            </div>               
+        </div>
+        <div class="col-md-4">
+            <!--百度地图容器-->
+            <div id="allmap"></div>
+        </div>
+    </div>
+    </div>
+
+<!--footer-->
+    <div class="row footer">
+        <div class="col-md-10">
+        <ul>
+            <li class="titli">相关链接</li>
+            <li><a href="">河北省建材局</a></li>
+            <li><a href="">河北省土木局</a></li>
+            <li><a href="">东易日盛家装装饰有限公司</a></li>
+            <li><a href="">乐豪家装装饰有限公司</a></li>
+            <li><a href="">简家家装装饰有限公司</a></li>
+        </ul>
+        <ul>
+            <li class="titli">网站统计</li>
+            <li>总访问量：1200045 人次</li>
+            <li>今日访问：20178 人次</li>
+            <li>注册人数：3759 人次</li>
+            <li>注册公司数：170 所</li>
+            <li>新增用户：235 人次</li>
+        </ul>
+        <ul>
+            <li class="titli">联系我们</li>
+            <li>联系电话：xxx-xxx-xxxx</li>
+            <li>邮编：xxxxxx</li>
+            <li>电子邮箱：xxxx@xx.com</li>
+            <li>公司地址：石家庄市 裕华区 裕华路 河北师大新校区内</li>
+        </ul>
+        </div>
+        <div class="col-md-2">
+        <p>扫码下载喜刷刷APP</p>
+        <img src="img/ewm.gif" alt="erweima"/>
+        </div>
+    </div>
+    <div class="row cori">
+        <div class="col-md-12">
+            <p>喜刷刷家装在线交流平台版权所有<br/>
+            Copyright © 2008－2016  All Rights Reserved .     网站备案：冀ICP备xxxxxxxx</p>
+        </div>
+    </div>
+</div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+  </body>
+  <script type="text/javascript">
+      // 百度地图API功能
+      var map = new BMap.Map("allmap");    // 创建Map实例
+      map.centerAndZoom(new BMap.Point(114.527956,38.001957), 15);  // 初始化地图,设置中心点坐标和地图级别
+      map.addControl(new BMap.MapTypeControl());   //添加地图类型控件
+      map.setCurrentCity("石家庄");          // 设置地图显示的城市 此项是必须设置的
+      map.enableScrollWheelZoom(true);     //开启鼠标滚轮缩放
+  </script>
+</html>

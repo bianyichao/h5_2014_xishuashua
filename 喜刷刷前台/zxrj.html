@@ -13,10 +13,15 @@
     <link rel="stylesheet" href="css/tiezi.css" />
     <script src="JS/jquery-2.1.4.min.js"></script>
     <script src="JS/lunbotu.js"></script>
-	   <script src="js/jquery.min.js"></script>
+	  <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/scripts.js"></script>
-    </style>
+    <script src="js/text.js"></script>
+      <link rel="stylesheet" type="text/css" href="css/lanrenzhijia.css">
+  
+ <link rel="stylesheet" href="css/share.css" type="text/css" />
+     <script src="js/jquery1.8.2.min.js" type="text/javascript"></script>
+    <script src="js/share.js" type="text/javascript"></script>
   </head>
   <body>
      <div class="container-fluid">
@@ -28,7 +33,7 @@
             <div class="navbar-header"> 
               <img src="images/logo.gif" alt="logo"/>
             </div>
-            
+
             <div class="collapse navbar-collapse" id="greennav">
               <ul class="nav navbar-nav">
                 <li class="active">
@@ -66,35 +71,42 @@
               <!-- <==========================================================> -->
               <!-- 轮播图开始区域 -->
               <!-- <div id="bannar"> -->
-              <div class="content_middle">
-                <div class="common_da">
+<div class="Aflash">
+   <ul class="picUL">
+     <li class="picLI" id="j-focusPic">
+      <div class="picbox j-slider">
+       <span class="j-item"> 
+       <a href="#"> <img src="images/bg1.jpg"></a>
+       </span>
+       <span class="j-item"> 
+       <a href="#"> <img src="images/bg5.jpg" data-src="images/bg5.jpg"
+          class="loading"></a>
+        </span>
+      <span class="j-item"> 
+      <a href="#"> <img src="images/bg2.jpg" data-src="images/bg2.jpg"class="loading"></a>
+      </span>
+      <span class="j-item"> 
+      <a href="#"> <img src="images/bg3.jpg" data-src="images/bg3.jpg"
+        class="loading"></a></span>
+        <span class="j-item"><a href="#"> <img src="images/bg4.jpg" data-src="images/bg4.jpg" class="loading"></a></span>
+      </div>
+                    </li>
+                </ul>
+                <div class="infobtn" id="j-focusBtns">
+                    <div class="smalpic j-container">
+                        <div class="smallbox j-slider" style="left: 0px;">
+                            <a class="j-item" href="#"> <img src="images/bg1.jpg"> <b></b></a>
+                            <a class="j-item" href="#"> <img src="images/bg5.jpg"> <b></b></a>
+                            <a class="j-item" href="#"> <img src="images/bg2.jpg"> <b></b></a>
+                            <a class="j-item" href="#"> <img src="images/bg3.jpg"> <b></b></a>
+                            <a class="j-item" href="#"> <img src="images/bg4.jpg"> <b></b></a>
 
-                  <a class="common btnLeft"href="javascript:;"></a>
-                  <a class="common btnRight"href="javascript:;"></a>
-
+                        </div>
+                    </div>
                 </div>
-
-                <div>
-                  <ul>
-
-                    <li style="background:url(images/bg1.jpeg) no-repeat center center;opacity: 100;filter: alpha(opacity=1);"></li>
-                    <li style="background:url(images/bg2.jpeg) no-repeat center center;"></li>
-                    <li style="background:url(images/bg3.jpeg) no-repeat center center;"></li>
-                    <li style="background:url(images/bg4.jpeg) no-repeat center center;"></li>
-                    <li style="background:url(images/bg5.jpeg) no-repeat center center;"></li>
-                  </ul>
-                  <div class="table">
-                    <a class="small_active"href="javascript:;">东易日盛周年活动</a>
-                    <a href="javascript:;">乐好家居买赠优惠活动</a>
-                    <a href="javascript:;"> 简家喜刷刷独家优惠</a>
-                    <a href="javascript:;">喜刷刷家装小贴士</a>
-                    <a href="javascript:;">李小姐今天发帖了吗</a>
-
-                  </div>
-                </div>
-              </div>
             </div>
-          </div>
+        </div>
+
         </div>
       </div>
 
@@ -130,10 +142,13 @@
                   </div>
                 </li>
                 <li class="wen">
-                  贴主：李小姐 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     最后回复时间：2016-11-02
+                  <p id="a" class="wen_text">今天是装修第一天，师傅们看起来非常专业啊！我很有信心！对我的新家充满了期待！^_^</p>
+                </li>
+                <li class="wen">
+                  <p class="tz_text_name">&nbsp;帖主：<a href="grzx.html" class="vistor">李小姐</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;发帖时间：2011-11-11</p>
                  </li>
               </ul>
-            </div>
+        </div>
         <div class="add" >
               <ul  class="acc1">
                 <li>
@@ -149,16 +164,19 @@
                   </div>
                 </li>
                 <li class="wen">
-                  贴主：李小姐 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     最后回复时间：2016-11-02
+                  <p id="b" class="wen_text">今天是装修第一天，师傅们看起来非常专业啊！我很有信心！对我的新家充满了期待！^_^</p>
+                </li>
+                <li class="wen">
+                  <p class="tz_text_name">&nbsp;帖主：<a href="grzx.html" class="vistor">李小姐</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;发帖时间：2011-11-11</p>
                  </li>
               </ul>
-            </div>
+        </div>
         <div class="add" >
               <ul  class="acc1">
                 <li>
                   <div class="row ad1">
                     <div class="col-md-10">
-                    <a href="#"><h3>【PO进度】 这是我家的装修进度，与大家分享</h3></a>
+                    <a href="zxrj-xq.html"><h3>【PO进度】 这是我家的装修进度，与大家分享</h3></a>
                     </div>
                     <div class="col-md-2 ">
                     <button type="button" class="btn btn-link btn-lg tubo">
@@ -168,16 +186,19 @@
                   </div>
                 </li>
                 <li class="wen">
-                  贴主：李小姐 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     最后回复时间：2016-11-02
+                  <p id="c" class="wen_text">今天是装修第一天，师傅们看起来非常专业啊！我很有信心！对我的新家充满了期待！^_^</p>
+                </li>
+                <li class="wen">
+                  <p class="tz_text_name">&nbsp;帖主：<a href="grzx.html" class="vistor">李小姐</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;发帖时间：2011-11-11</p>
                  </li>
               </ul>
-            </div>
+        </div>
         <div class="add" >
               <ul  class="acc1">
                 <li>
                   <div class="row ad1">
                     <div class="col-md-10">
-                    <a href="#"><h3>【PO进度】 这是我家的装修进度，与大家分享</h3></a>
+                    <a href="zxrj-xq.html"><h3>【PO进度】 这是我家的装修进度，与大家分享</h3></a>
                     </div>
                     <div class="col-md-2 ">
                     <button type="button" class="btn btn-link btn-lg tubo">
@@ -187,87 +208,13 @@
                   </div>
                 </li>
                 <li class="wen">
-                  贴主：李小姐 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     最后回复时间：2016-11-02
-                 </li>
-              </ul>
-            </div>
-        <div class="add" >
-              <ul  class="acc1">
-                <li>
-                  <div class="row ad1">
-                    <div class="col-md-10">
-                    <a href="#"><h3>【PO进度】 这是我家的装修进度，与大家分享</h3></a>
-                    </div>
-                    <div class="col-md-2 ">
-                    <button type="button" class="btn btn-link btn-lg tubo">
-                        <span class="glyphicon glyphicon-thumbs-up"></span> 11987
-                     </button>
-                    </div>
-                  </div>
+                  <p id="d" class="wen_text">今天是装修第一天，师傅们看起来非常专业啊！我很有信心！对我的新家充满了期待！^_^</p>
                 </li>
                 <li class="wen">
-                  贴主：李小姐 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     最后回复时间：2016-11-02
+                  <p class="tz_text_name">&nbsp;帖主：<a href="grzx.html" class="vistor">李小姐</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;发帖时间：2011-11-11</p>
                  </li>
               </ul>
-            </div>
-        <div class="add" >
-              <ul  class="acc1">
-                <li>
-                  <div class="row ad1">
-                    <div class="col-md-10">
-                    <a href="#"><h3>【PO进度】 这是我家的装修进度，与大家分享</h3></a>
-                    </div>
-                    <div class="col-md-2 ">
-                    <button type="button" class="btn btn-link btn-lg tubo">
-                        <span class="glyphicon glyphicon-thumbs-up"></span> 11987
-                     </button>
-                    </div>
-                  </div>
-                </li>
-                <li class="wen">
-                  贴主：李小姐 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     最后回复时间：2016-11-02
-                 </li>
-              </ul>
-            </div>
-        <div class="add" >
-              <ul  class="acc1">
-                <li>
-                  <div class="row ad1">
-                    <div class="col-md-10">
-                    <a href="#"><h3>【PO进度】 这是我家的装修进度，与大家分享</h3></a>
-                    </div>
-                    <div class="col-md-2 ">
-                    <button type="button" class="btn btn-link btn-lg tubo">
-                        <span class="glyphicon glyphicon-thumbs-up"></span> 11987
-                     </button>
-                    </div>
-                  </div>
-                </li>
-                <li class="wen">
-                  贴主：李小姐 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     最后回复时间：2016-11-02
-                 </li>
-              </ul>
-            </div>
-        <div class="add" >
-              <ul  class="acc1">
-                <li>
-                  <div class="row ad1">
-                    <div class="col-md-10">
-                    <a href="#"><h3>【PO进度】 这是我家的装修进度，与大家分享</h3></a>
-                    </div>
-                    <div class="col-md-2 ">
-                    <button type="button" class="btn btn-link btn-lg tubo">
-                        <span class="glyphicon glyphicon-thumbs-up"></span> 11987
-                     </button>
-                    </div>
-                  </div>
-                </li>
-                <li class="wen">
-                  贴主：李小姐 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     最后回复时间：2016-11-02
-                 </li>
-              </ul>
-            </div>
-            
+        </div>
             <div class="zx1">
             <nav>
               <ul class="pagination pagination-lg gs7">
@@ -290,7 +237,7 @@
                   <li>
                     <div class="row ad1">
                       <div class="col-md-10">
-                      <a href="#"><h3>这是我公司做的家装</h3></a>
+                      <a href="#"><h3>【今日话题】  这是我公司做的家装</h3></a>
                       </div>
                       <div class="col-md-2 ">
                       <button type="button" class="btn btn-link btn-lg tubo">
@@ -300,7 +247,10 @@
                     </div>
                   </li>
                   <li class="wen">
-                    贴主：黄老板 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     最后回复时间：2016-11-02
+                    <p class="wen_text">这是我们公司接的第20001单，你觉得怎么样呢？</p>
+                  </li>
+                  <li class="wen">
+                    <p class="tz_text_name">&nbsp;帖主：<a href="qyzx.html" class="vistor">李小姐</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;发帖时间：2011-11-11</p>
                    </li>
                 </ul>
               </div>
@@ -309,7 +259,7 @@
                   <li>
                     <div class="row ad1">
                       <div class="col-md-10">
-                      <a href="#"><h3>这是我公司做的家装</h3></a>
+                      <a href="#"><h3>【今日话题】  这是我公司做的家装</h3></a>
                       </div>
                       <div class="col-md-2 ">
                       <button type="button" class="btn btn-link btn-lg tubo">
@@ -319,7 +269,10 @@
                     </div>
                   </li>
                   <li class="wen">
-                    贴主：黄老板 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     最后回复时间：2016-11-02
+                    <p class="wen_text">这是我们公司接的第20001单，你觉得怎么样呢？</p>
+                  </li>
+                  <li class="wen">
+                    <p class="tz_text_name">&nbsp;帖主：<a href="qyzx.html" class="vistor">李小姐</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;发帖时间：2011-11-11</p>
                    </li>
                 </ul>
               </div>
@@ -328,7 +281,7 @@
                   <li>
                     <div class="row ad1">
                       <div class="col-md-10">
-                      <a href="#"><h3>这是我公司做的家装</h3></a>
+                      <a href="#"><h3>【今日话题】  这是我公司做的家装</h3></a>
                       </div>
                       <div class="col-md-2 ">
                       <button type="button" class="btn btn-link btn-lg tubo">
@@ -338,7 +291,10 @@
                     </div>
                   </li>
                   <li class="wen">
-                    贴主：黄老板 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     最后回复时间：2016-11-02
+                    <p class="wen_text">这是我们公司接的第20001单，你觉得怎么样呢？</p>
+                  </li>
+                  <li class="wen">
+                    <p class="tz_text_name">&nbsp;帖主：<a href="qyzx.html" class="vistor">李小姐</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;发帖时间：2011-11-11</p>
                    </li>
                 </ul>
               </div>
@@ -347,7 +303,7 @@
                   <li>
                     <div class="row ad1">
                       <div class="col-md-10">
-                      <a href="#"><h3>这是我公司做的家装</h3></a>
+                      <a href="#"><h3>【今日话题】  这是我公司做的家装</h3></a>
                       </div>
                       <div class="col-md-2 ">
                       <button type="button" class="btn btn-link btn-lg tubo">
@@ -357,7 +313,10 @@
                     </div>
                   </li>
                   <li class="wen">
-                    贴主：黄老板 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     最后回复时间：2016-11-02
+                    <p class="wen_text">这是我们公司接的第20001单，你觉得怎么样呢？</p>
+                  </li>
+                  <li class="wen">
+                    <p class="tz_text_name">&nbsp;帖主：<a href="qyzx.html" class="vistor">李小姐</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;发帖时间：2011-11-11</p>
                    </li>
                 </ul>
               </div>
@@ -366,7 +325,7 @@
                   <li>
                     <div class="row ad1">
                       <div class="col-md-10">
-                      <a href="#"><h3>这是我公司做的家装</h3></a>
+                      <a href="#"><h3>【今日话题】  这是我公司做的家装</h3></a>
                       </div>
                       <div class="col-md-2 ">
                       <button type="button" class="btn btn-link btn-lg tubo">
@@ -376,67 +335,14 @@
                     </div>
                   </li>
                   <li class="wen">
-                    贴主：黄老板 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     最后回复时间：2016-11-02
-                   </li>
-                </ul>
-              </div>
-              <div class="add" >
-                <ul  class="acc1">
-                  <li>
-                    <div class="row ad1">
-                      <div class="col-md-10">
-                      <a href="#"><h3>这是我公司做的家装</h3></a>
-                      </div>
-                      <div class="col-md-2 ">
-                      <button type="button" class="btn btn-link btn-lg tubo">
-                          <span class="glyphicon glyphicon-thumbs-up"></span> 11987
-                       </button>
-                      </div>
-                    </div>
+                    <p class="wen_text">这是我们公司接的第20001单，你觉得怎么样呢？</p>
                   </li>
                   <li class="wen">
-                    贴主：黄老板 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     最后回复时间：2016-11-02
+                    <p class="tz_text_name">&nbsp;帖主：<a href="qyzx.html" class="vistor">李小姐</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;发帖时间：2011-11-11</p>
                    </li>
                 </ul>
               </div>
-              <div class="add" >
-                <ul  class="acc1">
-                  <li>
-                    <div class="row ad1">
-                      <div class="col-md-10">
-                      <a href="#"><h3>这是我公司做的家装</h3></a>
-                      </div>
-                      <div class="col-md-2 ">
-                      <button type="button" class="btn btn-link btn-lg tubo">
-                          <span class="glyphicon glyphicon-thumbs-up"></span> 11987
-                       </button>
-                      </div>
-                    </div>
-                  </li>
-                  <li class="wen">
-                    贴主：黄老板 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     最后回复时间：2016-11-02
-                   </li>
-                </ul>
-              </div>
-              <div class="add" >
-                <ul  class="acc1">
-                  <li>
-                    <div class="row ad1">
-                      <div class="col-md-10">
-                      <a href="#"><h3>这是我公司做的家装</h3></a>
-                      </div>
-                      <div class="col-md-2 ">
-                      <button type="button" class="btn btn-link btn-lg tubo">
-                          <span class="glyphicon glyphicon-thumbs-up"></span> 11987
-                       </button>
-                      </div>
-                    </div>
-                  </li>
-                  <li class="wen">
-                    贴主：黄老板 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     最后回复时间：2016-11-02
-                   </li>
-                </ul>
-              </div>
+              
               <div class="zx1">
             <nav>
               <ul class="pagination pagination-lg gs7">
@@ -458,7 +364,7 @@
                   <li>
                     <div class="row ad1">
                       <div class="col-md-10">
-                      <a href="#"><h3>快乐的家装小贴士</h3></a>
+                      <a href="#"><h3>【我知你心】  快乐的家装小贴士！</h3></a>
                       </div>
                       <div class="col-md-2 ">
                       <button type="button" class="btn btn-link btn-lg tubo">
@@ -468,7 +374,10 @@
                     </div>
                   </li>
                   <li class="wen">
-                    贴主：边边 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     最后回复时间：2016-11-02
+                    <p class="wen_text">你知道刚装修完的新房子该怎么除甲醛吗？</p>
+                  </li>
+                  <li class="wen">
+                    <p class="tz_text_name">&nbsp;帖主：<a href="#" class="vistor">管理员</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;发帖时间：2011-11-11</p>
                    </li>
                 </ul>
               </div>
@@ -477,7 +386,7 @@
                   <li>
                     <div class="row ad1">
                       <div class="col-md-10">
-                      <a href="#"><h3>快乐的家装小贴士</h3></a>
+                      <a href="#"><h3>【我知你心】  快乐的家装小贴士！</h3></a>
                       </div>
                       <div class="col-md-2 ">
                       <button type="button" class="btn btn-link btn-lg tubo">
@@ -487,7 +396,10 @@
                     </div>
                   </li>
                   <li class="wen">
-                    贴主：边边 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     最后回复时间：2016-11-02
+                    <p class="wen_text">你知道刚装修完的新房子该怎么除甲醛吗？</p>
+                  </li>
+                  <li class="wen">
+                    <p class="tz_text_name">&nbsp;帖主：<a href="#" class="vistor">管理员</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;发帖时间：2011-11-11</p>
                    </li>
                 </ul>
               </div>
@@ -496,7 +408,7 @@
                   <li>
                     <div class="row ad1">
                       <div class="col-md-10">
-                      <a href="#"><h3>快乐的家装小贴士</h3></a>
+                      <a href="#"><h3>【我知你心】  快乐的家装小贴士！</h3></a>
                       </div>
                       <div class="col-md-2 ">
                       <button type="button" class="btn btn-link btn-lg tubo">
@@ -506,7 +418,10 @@
                     </div>
                   </li>
                   <li class="wen">
-                    贴主：边边 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     最后回复时间：2016-11-02
+                    <p class="wen_text">你知道刚装修完的新房子该怎么除甲醛吗？</p>
+                  </li>
+                  <li class="wen">
+                    <p class="tz_text_name">&nbsp;帖主：<a href="#" class="vistor">管理员</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;发帖时间：2011-11-11</p>
                    </li>
                 </ul>
               </div>
@@ -515,7 +430,7 @@
                   <li>
                     <div class="row ad1">
                       <div class="col-md-10">
-                      <a href="#"><h3>快乐的家装小贴士</h3></a>
+                      <a href="#"><h3>【我知你心】  快乐的家装小贴士！</h3></a>
                       </div>
                       <div class="col-md-2 ">
                       <button type="button" class="btn btn-link btn-lg tubo">
@@ -525,102 +440,10 @@
                     </div>
                   </li>
                   <li class="wen">
-                    贴主：边边 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     最后回复时间：2016-11-02
-                   </li>
-                </ul>
-              </div>
-              <div class="add" >
-                <ul  class="acc1">
-                  <li>
-                    <div class="row ad1">
-                      <div class="col-md-10">
-                      <a href="#"><h3>快乐的家装小贴士</h3></a>
-                      </div>
-                      <div class="col-md-2 ">
-                      <button type="button" class="btn btn-link btn-lg tubo">
-                          <span class="glyphicon glyphicon-thumbs-up"></span> 11987
-                       </button>
-                      </div>
-                    </div>
+                    <p class="wen_text">你知道刚装修完的新房子该怎么除甲醛吗？</p>
                   </li>
                   <li class="wen">
-                    贴主：边边 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     最后回复时间：2016-11-02
-                   </li>
-                </ul>
-              </div>
-              <div class="add" >
-                <ul  class="acc1">
-                  <li>
-                    <div class="row ad1">
-                      <div class="col-md-10">
-                      <a href="#"><h3>快乐的家装小贴士</h3></a>
-                      </div>
-                      <div class="col-md-2 ">
-                      <button type="button" class="btn btn-link btn-lg tubo">
-                          <span class="glyphicon glyphicon-thumbs-up"></span> 11987
-                       </button>
-                      </div>
-                    </div>
-                  </li>
-                  <li class="wen">
-                    贴主：边边 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     最后回复时间：2016-11-02
-                   </li>
-                </ul>
-              </div>
-              <div class="add" >
-                <ul  class="acc1">
-                  <li>
-                    <div class="row ad1">
-                      <div class="col-md-10">
-                      <a href="#"><h3>快乐的家装小贴士</h3></a>
-                      </div>
-                      <div class="col-md-2 ">
-                      <button type="button" class="btn btn-link btn-lg tubo">
-                          <span class="glyphicon glyphicon-thumbs-up"></span> 11987
-                       </button>
-                      </div>
-                    </div>
-                  </li>
-                  <li class="wen">
-                    贴主：边边 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     最后回复时间：2016-11-02
-                   </li>
-                </ul>
-              </div>
-              <div class="add" >
-                <ul  class="acc1">
-                  <li>
-                    <div class="row ad1">
-                      <div class="col-md-10">
-                      <a href="#"><h3>快乐的家装小贴士</h3></a>
-                      </div>
-                      <div class="col-md-2 ">
-                      <button type="button" class="btn btn-link btn-lg tubo">
-                          <span class="glyphicon glyphicon-thumbs-up"></span> 11987
-                       </button>
-                      </div>
-                    </div>
-                  </li>
-                  <li class="wen">
-                    贴主：边边 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     最后回复时间：2016-11-02
-                   </li>
-                </ul>
-              </div>
-              <div class="add" >
-                <ul  class="acc1">
-                  <li>
-                    <div class="row ad1">
-                      <div class="col-md-10">
-                      <a href="#"><h3>快乐的家装小贴士</h3></a>
-                      </div>
-                      <div class="col-md-2 ">
-                      <button type="button" class="btn btn-link btn-lg tubo">
-                          <span class="glyphicon glyphicon-thumbs-up"></span> 11987
-                       </button>
-                      </div>
-                    </div>
-                  </li>
-                  <li class="wen">
-                    贴主：边边 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     最后回复时间：2016-11-02
+                    <p class="tz_text_name">&nbsp;帖主：<a href="#" class="vistor">管理员</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;发帖时间：2011-11-11</p>
                    </li>
                 </ul>
               </div>
@@ -637,20 +460,61 @@
               </ul>
             </nav>
             </div>
+
         </div>
         <div class="tab-pane" id="tab4">
 
           <!--content 1-->
 
         </div>
-      </div>
         </div>
         </div>
-        <div class="col-md-1" style="padding-top:20px;">
-          <button type="button" class="btn btn-success btn-lg" style="width:220px;height:60px;">写装修日记</button>
-          
         </div>
-
+        </div>
+        <script type="text/javascript">
+                function msgbox(n){
+                  document.getElementById('inputbox').style.display=n?'block':'none'; 
+                  document.getElementById("text-reply").focus();    /* 点击按钮打开/关闭 对话框 */
+                }
+                
+              </script>
+              <div class="tiezi_1 content" id="inputbox">
+              <div class="tiezi_reply">
+                <p>发布新帖：</p>
+                <form>
+                <div class="push-head">
+                  标题：<input type="text" name="title" id="text-reply" class="push-title">
+                </div>
+                <div class="push-text">
+                  内容：<textarea class="push-content"></textarea> 
+                </div>  
+                </form>
+                <button type="button" class="btn1" onclick="msgbox(0)">发表</button>
+              </div>
+              </div>
+        <div class="col-md-1 push-right">
+          <ul class="push-aside">
+            <li class="push-aside-bar">
+              <a href="#sub" onclick="msgbox(1)">
+                <img src="images/push.png" title="发布帖子">
+              </a>
+            </li>
+            <li class="push-aside-bar">
+              <div id="socialShare"></div>
+            </li>
+            <li class="push-aside-bar">
+              <a href="#">
+                <img src="images/update.png" title="刷新帖子">
+              </a>
+            </li>
+            <li class="push-aside-bar">
+              <a href="#">
+                <img src="images/back.png" title="回到顶部">
+              </a>
+            </li>
+          </ul>
+        </div>
+        
         </div>      
 		</div>
  </div>
@@ -702,5 +566,21 @@
 
            </div>  
       </div>
+       <script>
+        $(function() {
+
+            $("#socialShare").socialShare({
+                content: '',
+        url:'',
+        titile:''
+            });
+
+        });
+
+    $("#shareQQ").on("click",function(){
+      $(this).socialShare("tQQ");
+    })
+    </script>
   </body>
+     <script src="js/lanrenzhijia.js"></script>
 </html>

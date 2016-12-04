@@ -40,7 +40,7 @@ a:hover{text-decoration:underline;}
 	text-align:center;
 	line-height:30px;
 	background-color:#216400;
-	color:#ffff66;
+	color:rgb(255,255,0);
 }
 #greennav ul li a:hover{
 	border-left: 1px solid #216400 ;
@@ -76,20 +76,7 @@ a:hover{text-decoration:underline;}
 	font-size:14px;
     color:#c2cb7a;
 }
-#dropdown ul{
-	padding: 0px;
-	margin-left: 100px;
-}
-#dropdown ul li{
-	margin: 0px;
-}
-#dropdown ul li a{
-	border-bottom: 1px solid #216400;
-	margin: 0px;
-	background-color: white;
-	color: #216400;
-	font-family: "黑体"
-}
+
 .navimg{
 	margin-top:60px;
 }
