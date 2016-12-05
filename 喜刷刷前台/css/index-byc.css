@@ -2,8 +2,10 @@
 	font-family: 微软雅黑;
 }
 .dropdown{
+	display: inline;
+	width: 40%;
 	padding-top: 15px;
-	text-align: center;
+
 	color: white;
 }
 .dropdown a{
@@ -27,7 +29,7 @@
 	padding-right: 50px;
 }
 #nav-name a{
-    font-size: 14px;
+	font-size: 14px;
 }
 .img-circle{
 	margin: 0px;
@@ -46,10 +48,14 @@
 .navbar-collapse{
 	background-color:rgb(35,100,0);
 }
+
+#greennav2 {
+	padding-top: 1%;
+	text-align: right;
+	padding-right: 2%;
+}
 #greennav2 ul li a{
-	width: 95px;
 	font-size: 12px;
-	text-align:center;
 	line-height:20px;
 	background-color: white;
 	color:rgb(35,100,0);
@@ -61,5 +67,9 @@
 	color:#ffffff;
 }
 .container-fluid{
-    padding: 0px;
+	padding: 0px;
+}
+
+.img-circle {
+	margin-right: 0px;
 }
