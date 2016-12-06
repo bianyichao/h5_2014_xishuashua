@@ -66,11 +66,13 @@
 	padding: 0px;
 }
 .zx10{
-	padding-bottom: 20px;
+	padding-bottom: 1.5em;
 	border-bottom: 2px solid rgb(35,100,0)
 }
+.zx11{
+	padding: 0px;
+}
 .zx11 input{
-	margin-left: 78px;
 	border: 1px solid #3c763d;
 }
 .zx11 button{
