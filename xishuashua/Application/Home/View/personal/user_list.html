@@ -17,30 +17,30 @@
               <th width="13%">手机号</th>          
               <th width="17%">操作</th>
             </tr>
-             <volist name="user" id="d">
-               <tr>
-                 <td><input type="checkbox" name="checkbox" id="checkbox12"></td>
-                 <td>{$d.p_id}</td>
-                 <td>{$d.p_name}</nametd>
-                 <td>{$d.p_pwd}</td>
-                 <td>{$d.p_email}</td>
-                 <td>{$d.p_tel}</td>
-                 <td><a href="__MODULE__/personal/user_update/p_id/{$d.p_id}">修改</a><a href="#"></a> <a
-                         href="__MODULE__/personal/user_delete/p_id/{$d.p_id}">删除</a></td>
-               </tr>
-             </volist>
+            <volist name="user" id="d">
+            <tr>
+              <td><input type="checkbox" name="checkbox" id="checkbox12"></td>
+              <td>{$d.p_id}</td>
+              <td>{$d.p_name}</nametd>
+              <td>{$d.p_pwd}</td>
+              <td>{$d.p_email}</td>
+              <td>{$d.p_tel}</td>
+                <td><a href="__MODULE__/personal/user_update/p_id/{$d.p_id}">修改</a><a href="#"></a> <a href="__MODULE__/personal/user_delete/p_id/{$d.p_id}">删除</a></td>
+            </tr>
+            </volist>
           </table>
         </div>
         <div class="input-group pull-left form">
           <button type="submit" class="btn btn-danger "> 删 除</button>
         </div>
         <ul class="pagination pull-right" >
-          <li class="disabled"><a href="#">&laquo;</a></li>
+         <!--  <li class="disabled"><a href="#">&laquo;</a></li>
           <li class="active"><a href="#">1</a></li>
           <li><a href="#">2</a></li>
           <li><a href="#">3</a></li>
           <li><a href="#">4</a></li>
-          <li><a href="#">&raquo;</a></li>
+          <li><a href="#">&raquo;</a></li> -->
+          {$page}
         </ul>
       </div>
   </div>

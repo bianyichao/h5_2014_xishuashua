@@ -37,7 +37,7 @@
     
     
     <ul class="nav navbar-nav navbar-right mr">
-      <li><a href="#" class="navbar-brand"><span class="glyphicon glyphicon-star"></span>欢迎：Administrator</a></li>
+      <li><a href="#" class="navbar-brand"><span class="glyphicon glyphicon-star"></span>欢迎：<?php echo ($_SESSION['admin']); ?></a></li>
       <li><a href="#" class="navbar-brand"><span class="glyphicon glyphicon-log-out"></span>退出系统</a></li>
     </ul>
   </div><!-- /.navbar-collapse -->
@@ -48,31 +48,27 @@
         <div id="accordion">
           <h3><a href="#"><span class="glyphicon glyphicon-lock"></span>管理员账户管理<span class="glyphicon glyphicon-chevron-down"></span></a></h3>
            <ul>
-              <li ><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/admin/user_list">管理员信息管理</a></li>
+               <li><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/admin/lists">管理员信息管理</a></li>
               <li><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/admin/publish_news">发布新闻管理</a></li>
               <li><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/admin/manage_news">管理新闻管理</a></li>                
               <li ><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/admin/add">添加管理员</a></li>
-              <li ><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/admin/user_update">修改管理员信息</a></li>
               <li ><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/admin/password_update">修改管理员密码</a></li>
-              <li ><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/admin/update_news">修改新闻信息</a></li>
           </ul>
             <h3><a href="#"><span class="glyphicon glyphicon-file"></span>个人账户管理<span class="glyphicon glyphicon-chevron-down"></span></a></h3>
             <ul>
               <li ><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/personal/user_list">个人用户信息管理</a></li>
               <li><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/personal/put_list">个人招标管理</a></li>
               <li><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/personal/news">个人文章管理</a></li>
-              <li ><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/personal/user_update">修改个人信息</a></li>
           </ul>
             <h3><a href="#"><span class="glyphicon glyphicon-book"></span>企业账户管理<span class="glyphicon glyphicon-chevron-down"></span></a></h3>
             <ul>
               <li><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/company/user_list">企业用户管理</a></li>
               <li><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/company/input_list">企业投标管理</a></li>
               <li><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/company/news">企业文章管理</a></li>
-              <li ><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/company/user_update">修改企业信息</a></li>
           </ul>
             <h3><a href="#"><span class="glyphicon glyphicon-tags"></span>关键字管理<span class="glyphicon glyphicon-chevron-down"></span></a></h3>
             <ul>
-              <li ><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/tag/tag">标签管理</a></li>
+              <li ><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/tag/tags">标签管理</a></li>
               <li ><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/tag/roomtype">户型管理</a></li>
               <li ><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/tag/prices">价格管理</a></li>
           </ul>
@@ -91,53 +87,38 @@
            <table width="100%" border="0" cellspacing="0" cellpadding="0"  class="table  table-striped table-hover ">
             <tr>
               <th width="4%"><input type="checkbox" name="checkbox10" id="checkbox10"></th>
-              <th width="2%">CID</th>
-              <th width="10%">昵称</th>
+              <th width="3%">CID</th>
+              <th width="9%">昵称</th>
               <th width="10%">公司名</th>
-              <th width="5%">负责人</th>
-              <th width="24%">地址</th>
+               <th width="5%">负责人</th>
+              <th width="11%">地址</th>
               <th width="12%">手机号</th>
               <th width="15%">邮箱</th>
-              <th width="10%">点赞数</th>
-              <th width="17%">操作</th>
+              <th width="5%">点赞数</th>
+              <th width="5%">信誉度</th>
+              <th width="16%">操作</th>
             </tr>
-            <tr>
+            <?php if(is_array($lists)): $i = 0; $__LIST__ = $lists;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$d): $mod = ($i % 2 );++$i;?><tr>
               <td><input type="checkbox" name="checkbox" id="checkbox">
                 <label for="checkbox"></label></td>
-              <td>01</td>
-              <td>河北师范大学</td>
-              <td>河北师范大学</td>
-              <td>蒋校长</td>
-              <td>河北省石家庄市裕华区河北师范大学新校区</td>
-              <td>9090950</td>
-              <td>zhangliming@197232832.qq</td>
-              <td>1233654</td>
-              <td><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/company/user_update">修改</a><a href="#"></a> <a href="#">删除</a></td>
-            </tr>
-            <tr>
-              <td><input type="checkbox" name="checkbox2" id="checkbox2"></td>
-               <td>02</td>
-              <td>创意5+2小组</td>
-              <td>创意5+2</td>
-              <td>蒋校长</td>
-              <td>河北省石家庄市裕华区</td>
-              <td>9090950</td>
-              <td>zhangliming@197232832.qq</td>
-              <td>1233654</td>
-              <td><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/company/user_update">修改</a><a href="#"></a> <a href="#">删除</a></td>
-            </tr>
+              <td><?php echo ($d["b_id"]); ?></td>
+              <td><?php echo ($d["b_ename"]); ?></td>
+              <td><?php echo ($d["b_name"]); ?></td> 
+              <td><?php echo ($d["b_person"]); ?></td> 
+              <td><?php echo ($d["b_address"]); ?></td>
+              <td><?php echo ($d["b_tel"]); ?></td>
+               <td><?php echo ($d["b_email"]); ?></td>
+              <td><?php echo ($d["b_sum"]); ?></td>
+              <td><?php echo ($d["b_credit"]); ?></td>
+              <td><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/company/user_update/b_id/<?php echo ($d["b_id"]); ?>">修改</a><a href="#"></a> <a href="/h5_2014_xishuashua/xishuashua/index.php/Home/company/userdelete/b_id/<?php echo ($d["b_id"]); ?>">删除</a></td>
+            </tr><?php endforeach; endif; else: echo "" ;endif; ?>
           </table>
         </div>
         <div class="input-group pull-left form">
           <button type="submit" class="btn btn-danger "> 删 除</button>
         </div>
         <ul class="pagination pull-right" >
-          <li class="disabled"><a href="#">&laquo;</a></li>
-          <li class="active"><a href="#">1</a></li>
-          <li><a href="#">2</a></li>
-          <li><a href="#">3</a></li>
-          <li><a href="#">4</a></li>
-          <li><a href="#">&raquo;</a></li>
+          <?php echo ($pages); ?>
         </ul>
       </div>
   </div>

@@ -18,20 +18,20 @@
               <th width="21%">内容</th>
               <th width="17%">操作</th>
             </tr>
-               <volist name="news" id="d">
-                   <tr>
-                       <td><input type="checkbox" name="checkbox" id="checkbox">
-                           <label for="checkbox"></label></td>
-                       <td>{$d.pn_id}</td>
-                       <td>{$d.pn_title}</td>
-                       <td>{$d.pn_author}</td>
-                       <td>{$d.pn_inputtime}</td>
-                       <td>{$d.pn_view}</td>
-                       <td>{$d.pn_content}</td>
-                       <td><a href="__MODULE__/personal/update_news/pn_id/{$d.pn_id}">修改</a><a href="#"></a>
-                           <a href="__MODULE__/personal/news_delete/pn_id/{$d.pn_id}">删除</a></td>
-                   </tr>
-               </volist>
+            <volist name="news" id="d">
+                <tr>
+                  <td><input type="checkbox" name="checkbox" id="checkbox">
+                    <label for="checkbox"></label></td>
+                  <td>{$d.pn_id}</td>
+                  <td>{$d.pn_title}</td>
+                  <td>{$d.pn_author}</td>           
+                  <td>{$d.pn_inputtime}</td>
+                  <td>{$d.pn_view}</td>
+                  <td>{$d.pn_content}</td>
+                  <td><a href="__MODULE__/personal/update_news/pn_id/{$d.pn_id}">修改</a><a href="#"></a>
+                      <a href="__MODULE__/personal/news_delete/pn_id/{$d.pn_id}">删除</a></td>
+                </tr>
+             </volist>
           </table>
         </div>
         <div class="input-group pull-left form">

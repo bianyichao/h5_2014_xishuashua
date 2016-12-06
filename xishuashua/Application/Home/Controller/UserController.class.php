@@ -14,7 +14,7 @@ class UserController extends Controller {
      		$result=$adminUser->where($condition)->find();
      		if ($result) {
                 session("admin",I("post.username"));
-                $this->success("登录成功",U("Index/main"));
+                $this->success("登录成功",U("Index/index"));
             }
             else{
                 $this->error("用户名或密码错误！");

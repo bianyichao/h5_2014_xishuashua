@@ -48,31 +48,27 @@
         <div id="accordion">
           <h3><a href="#"><span class="glyphicon glyphicon-lock"></span>管理员账户管理<span class="glyphicon glyphicon-chevron-down"></span></a></h3>
            <ul>
-              <li ><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/admin/lists">管理员信息管理</a></li>
+               <li><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/admin/lists">管理员信息管理</a></li>
               <li><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/admin/publish_news">发布新闻管理</a></li>
               <li><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/admin/manage_news">管理新闻管理</a></li>                
               <li ><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/admin/add">添加管理员</a></li>
-              <li ><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/admin/user_update">修改管理员信息</a></li>
               <li ><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/admin/password_update">修改管理员密码</a></li>
-              <li ><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/admin/update_news">修改新闻信息</a></li>
           </ul>
             <h3><a href="#"><span class="glyphicon glyphicon-file"></span>个人账户管理<span class="glyphicon glyphicon-chevron-down"></span></a></h3>
             <ul>
               <li ><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/personal/user_list">个人用户信息管理</a></li>
               <li><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/personal/put_list">个人招标管理</a></li>
               <li><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/personal/news">个人文章管理</a></li>
-              <li ><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/personal/user_update">修改个人信息</a></li>
           </ul>
             <h3><a href="#"><span class="glyphicon glyphicon-book"></span>企业账户管理<span class="glyphicon glyphicon-chevron-down"></span></a></h3>
             <ul>
               <li><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/company/user_list">企业用户管理</a></li>
               <li><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/company/input_list">企业投标管理</a></li>
               <li><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/company/news">企业文章管理</a></li>
-              <li ><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/company/user_update">修改企业信息</a></li>
           </ul>
             <h3><a href="#"><span class="glyphicon glyphicon-tags"></span>关键字管理<span class="glyphicon glyphicon-chevron-down"></span></a></h3>
             <ul>
-              <li ><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/tag/tag">标签管理</a></li>
+              <li ><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/tag/tags">标签管理</a></li>
               <li ><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/tag/roomtype">户型管理</a></li>
               <li ><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/tag/prices">价格管理</a></li>
           </ul>
@@ -90,13 +86,15 @@
     	    <h3>管理员信息修改 <small>Personal Modify</small></h3>
     	    <div class="list-group ">
     	      <div class="list-group-item">
-    	        <form role="form" action="" method="post">
-                <input type="hidden" name="id" value="<?php echo ($a["id"]); ?>">
+                  <form role="form" action="" method="post">
+                      <input type="hidden" name="id" value="<?php echo ($a["id"]); ?>">
     	          <div class="input-group"> <span class="input-group-addon">用<img src="/h5_2014_xishuashua/xishuashua/Public/home/images/em.png" alt="" width="6" height="20">户<img src="/h5_2014_xishuashua/xishuashua/Public/home/images/em.png" alt="" width="6" height="20">名：</span>
-    	            <input type="text" class="form-control" placeholder="administrator" value="<?php echo ($a["admin"]); ?>" name="admin">
+                      <input type="text" class="form-control" placeholder="administrator" value="<?php echo ($a["admin"]); ?>"
+                             name="admin">
   	            </div>
     	          <div class="input-group"> <span class="input-group-addon">电子邮箱：</span>
-    	            <input type="text" class="form-control" placeholder="86823499@qq.com" name="email" value="<?php echo ($a["email"]); ?>">
+                      <input type="text" class="form-control" placeholder="86823499@qq.com" name="email"
+                             value="<?php echo ($a["email"]); ?>">
   	            </div>
     	          <div class="input-group">
     	            <button type="submit" class="btn btn-primary "> &nbsp;&nbsp;保<img src="/h5_2014_xishuashua/xishuashua/Public/home/images/em.png" alt="" width="20" height="20">存&nbsp;&nbsp;</button>

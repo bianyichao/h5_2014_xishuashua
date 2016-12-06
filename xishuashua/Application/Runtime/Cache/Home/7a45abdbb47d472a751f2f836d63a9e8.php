@@ -78,38 +78,49 @@
         
     	<div class="col-md-10 col-md-offset-2 ">
     	  <ol class="breadcrumb">
-    	    <li><a href="#">首页</a></li>
-    	    <li><a href="#">管理员账户管理</a></li>
-    	    <li class="active">添加管理员</li>
+    	    <li><a href="mian.html">首页</a></li>
+    	    <li><a href="#">关键字管理</a></li>
+    	    <li class="active">标签管理</li>
   	    </ol>
-    	  <div class="table-responsive ">
-    	    <h3>添加管理员 <small>Administrator Add</small></h3>
-    	    <div class="list-group ">
-    	      <div class="list-group-item">
-    	        <form role="form" action="doadd" method="post">
-    	          <div class="input-group"> <span class="input-group-addon">用<img src="/h5_2014_xishuashua/xishuashua/Public/home/images/em.png" alt="" width="6" height="20">户<img src="/h5_2014_xishuashua/xishuashua/Public/home/images/em.png" alt="" width="6" height="20">名：</span>
-    	            <input type="text" class="form-control" placeholder="" name="admin">
-  	            </div>
-                <div class="input-group"> <span class="input-group-addon">设置密码：</span>
-    	            <input type="text" class="form-control" placeholder="123456" name="password">
-  	            </div>
-                <div class="input-group"> <span class="input-group-addon" name="rpsd">确认密码：</span>
-    	            <input type="text" class="form-control" placeholder="123456" >
-  	            </div>
-                <div class="input-group"> <span class="input-group-addon">电子邮箱：</span>
-                  <input type="text" class="form-control" placeholder="" name="email">
-                </div>
-    	          <div class="input-group">
-    	            <button type="submit" class="btn btn-success "> &nbsp;&nbsp;添<img src="/h5_2014_xishuashua/xishuashua/Public/home/images/em.png" alt="" width="20" height="20">加&nbsp;&nbsp;</button>
-  	            </div>
-  	          </form>
+    	  <h3 class="down">标签管理 <small>Tags Management</small></h3> 
+            <div class="row ">
+            <div class="col-md-6">  	    
+        <div class="list-group-item">
+        <form action="" method="post">
+    	        <label for="inputEmail3" class=" control-label">请输入标签</label>    	       
+    	          <input type="input" class="form-control marb" id="" placeholder="" name="t_name">       
+    	          <button type="submit" class="btn btn-primary">添加标签</button>	 
+        </form>         
   	        </div>
-  	      </div>
-  	    </div>
+             <table width="100%" border="0" cellspacing="0" cellpadding="0"  class="table  table-striped table-hover ">
+    	      <tr>
+    	        <th width="50%">标签</th>
+    	        <th width="50%">操作</th>
+  	        </tr>
+             <?php if(is_array($tags)): $i = 0; $__LIST__ = $tags;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$p): $mod = ($i % 2 );++$i;?><tr>
+              <td class="taga"><a href="#"><?php echo ($p["t_name"]); ?></a></td>
+              <td><a href="#"></a> &nbsp;&nbsp;<a href="/h5_2014_xishuashua/xishuashua/index.php/Home/tag/tagsdelete/t_name/<?php echo ($p["t_name"]); ?>">删除</a></td>
+            <tr><?php endforeach; endif; else: echo "" ;endif; ?>
+  	      </table>
+          <ul class="pagination pull-right" >
+          <?php echo ($pages); ?>
+        </ul>
+            </div>
+            </div>   
+  	  </div>
+   	  </div>
+    </div> 
   	  </div>
 	</div>
-        	
-	
+</div>
+<script src="js/jquery-ui.js"></script>
+<script>
+$( "#accordion" ).accordion({
+      heightStyle: "content"
+    });
+</script>
+</body>
+</html>
 
 
 

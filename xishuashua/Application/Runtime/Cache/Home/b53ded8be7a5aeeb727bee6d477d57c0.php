@@ -65,11 +65,10 @@
               <li><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/company/user_list">企业用户管理</a></li>
               <li><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/company/input_list">企业投标管理</a></li>
               <li><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/company/news">企业文章管理</a></li>
-              <li ><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/company/user_update">修改企业信息</a></li>
           </ul>
             <h3><a href="#"><span class="glyphicon glyphicon-tags"></span>关键字管理<span class="glyphicon glyphicon-chevron-down"></span></a></h3>
             <ul>
-              <li ><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/tag/tag">标签管理</a></li>
+              <li ><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/tag/tags">标签管理</a></li>
               <li ><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/tag/roomtype">户型管理</a></li>
               <li ><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/tag/prices">价格管理</a></li>
           </ul>
@@ -102,8 +101,7 @@
               <td><?php echo ($d["p_pwd"]); ?></td>
               <td><?php echo ($d["p_email"]); ?></td>
               <td><?php echo ($d["p_tel"]); ?></td>
-                <td><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/personal/user_update/p_id/<?php echo ($d["p_id"]); ?>">修改</a><a href="#"></a> <a
-                        href="/h5_2014_xishuashua/xishuashua/index.php/Home/personal/user_delete/p_id/<?php echo ($d["p_id"]); ?>">删除</a></td>
+                <td><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/personal/user_update/p_id/<?php echo ($d["p_id"]); ?>">修改</a><a href="#"></a> <a href="/h5_2014_xishuashua/xishuashua/index.php/Home/personal/user_delete/p_id/<?php echo ($d["p_id"]); ?>">删除</a></td>
             </tr><?php endforeach; endif; else: echo "" ;endif; ?>
           </table>
         </div>
@@ -111,12 +109,13 @@
           <button type="submit" class="btn btn-danger "> 删 除</button>
         </div>
         <ul class="pagination pull-right" >
-          <li class="disabled"><a href="#">&laquo;</a></li>
+         <!--  <li class="disabled"><a href="#">&laquo;</a></li>
           <li class="active"><a href="#">1</a></li>
           <li><a href="#">2</a></li>
           <li><a href="#">3</a></li>
           <li><a href="#">4</a></li>
-          <li><a href="#">&raquo;</a></li>
+          <li><a href="#">&raquo;</a></li> -->
+          <?php echo ($page); ?>
         </ul>
       </div>
   </div>

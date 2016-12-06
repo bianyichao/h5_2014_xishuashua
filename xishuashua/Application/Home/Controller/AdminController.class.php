@@ -92,11 +92,11 @@ class AdminController extends Controller {
     public function lists(){
       $newsModel=M("admin");
       $p = isset($_GET['p']) ? intval($_GET['p']) : "1";
-      $lists=$newsModel->page($p ,2)->order('id desc')->select();
+      $lists=$newsModel->page($p ,3)->order('id desc')->select();
        //    var_dump($lists);
       $this->assign('admin',$lists);
       $total = $newsModel->count();
-      $Page = new \Think\Page($total,2);
+      $Page = new \Think\Page($total,3);
       $show= $Page->show();
       $this->assign("pages", $show);
       $this->display();
@@ -105,7 +105,6 @@ class AdminController extends Controller {
         $id = isset($_GET['id']) ? intval($_GET['id']) : '';
         if ($id == '') {
             exit("bad param!");
-
         }
         if(M("admin")->delete($id)){
             $this->success("删除成功！",U("admin/lists"));
@@ -140,6 +139,7 @@ class AdminController extends Controller {
       $total = $newsModel->count();
       $Page = new \Think\Page($total, 3);
       $show= $Page->show();
+      $this->assign("pages", $show);
       $this->display();
     }
 
