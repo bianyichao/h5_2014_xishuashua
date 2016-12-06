@@ -25,31 +25,33 @@ a:hover{text-decoration:underline;}
 .nobo{padding:0;}
 
 /*header*/
-.navbar{margin:0;}
+.navbar{margin:0;
+    width:100%;
+    height:60px;}
 #greennav{
 	height:60px;
 	border:0;
-	background-color:#216400;
+	background-color:rgb(21,135,11);
 }
 #greennav ul li a{
 	font-size: 17px;
 	font-family: "微软雅黑";
 	font-weight: bold;
 	height:60px;
-	width:158px;
+	width:100%;
 	text-align:center;
 	line-height:30px;
-	background-color:#216400;
-	color:rgba(255,255,0,0.90);
+	background-color:rgb(21,135,11);
+	color:rgb(255,255,0);
 }
 #greennav ul li a:hover{
-	border-left: 1px solid #216400 ;
-	border-right:1px solid #216400 ;
-	background-color:#c2cb7a;
+	border-left: 1px solid rgb(21,135,11) ;
+	border-right:1px solid rgb(21,135,11) ;
+	background-color:#216400;
 	color:#ffffff;
 }
 #greennav ul li .ahov{
-	background-color:#c2cb7a;
+	background-color: #849931;
 	color:#ffffff;
 }
 .navright{
@@ -63,7 +65,7 @@ a:hover{text-decoration:underline;}
 	float:right;
 	height:60px;
 	line-height:60px;
-	width:110px;
+	width:10%;
 	color:#c2cb7a;
 }
 .navright a{
@@ -236,3 +238,20 @@ a:hover{text-decoration:underline;}
 	margin-top: 30px;
 	font-size: larger;
 }
+.headpic{
+    width:12%;
+    height:100%;
+}
+.headimg{
+    width:100%;
+    height:100%;
+}
+.headnav{
+    width:50%;
+    height:100%;
+}
+.headnav li{
+    width:20%;
+    height:100%;
+}
+
