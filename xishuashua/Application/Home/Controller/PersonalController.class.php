@@ -19,7 +19,7 @@ class PersonalController extends Controller {
       $show= $Page->show();
       $this->display();
     }
-      public function news_delete(){
+    public function news_delete(){
         $pn_id = isset($_GET['pn_id']) ? intval($_GET['pn_id']) : '';
         if ($pn_id == '') {
             exit("bad param!");
@@ -27,9 +27,6 @@ class PersonalController extends Controller {
         if(M("personalnews")->delete($pn_id)){
             $this->success("删除成功！",U("personal/news"));
         }
-    }
-      public function update_news(){
-        $this->display();
     }
     public function user_update(){
         if (IS_POST) {
@@ -81,9 +78,6 @@ class PersonalController extends Controller {
       $this->assign("pages", $show);
       $this->display();
     }
-    public function put_update(){
-        $this->display();
-    }
     public function user_delete(){
     	$p_id = isset($_GET['p_id']) ? intval($_GET['p_id']) : '';
         if ($p_id == '') {
@@ -91,6 +85,26 @@ class PersonalController extends Controller {
         }
         if(M("personaluser")->delete($p_id)){
             $this->success("删除成功！",U("personaluser/user_list"));
+        }
+    }
+    public function put_list(){
+      $newsModel=M("put");
+      $p = isset($_GET['p']) ? intval($_GET['p']) : "1";
+      $lists=$newsModel->page($p ,3)->order('pu_id desc')->select();
+       //    var_dump($lists);
+      $this->assign('lists',$lists);
+      $total = $newsModel->count();
+      $Page = new \Think\Page($total, 3);
+      $show= $Page->show();
+      $this->display();
+    }
+    public function put_delete(){
+      $pu_id = isset($_GET['pu_id']) ? intval($_GET['pu_id']) : '';
+        if ($pu_id == '') {
+            exit("bad param!");
+        }
+        if(M("put")->delete($pu_id)){
+            $this->success("删除成功！",U("personal/put_list"));
         }
     }
 }

@@ -18,20 +18,20 @@
               <th width="21%">内容</th>
               <th width="17%">操作</th>
             </tr>
-               <volist name="news" id="d">
-                   <tr>
-                       <td><input type="checkbox" name="checkbox" id="checkbox">
-                           <label for="checkbox"></label></td>
-                       <td>{$d.n_id}</td>
-                       <td>{$d.title}</td>
-                       <td>{$d.author}</td>
-                       <td>{$d.inputtime}</td>
-                       <td>{$d.view}</td>
-                       <td>{$d.content}</td>
-                       <td><a href="__MODULE__/admin/update_news/n_id/{$d.n_id}">修改</a><a href="#"></a>
-                           <a href="__MODULE__/admin/news_delete/n_id/{$d.n_id}">删除</a></td>
-                   </tr>
-               </volist>
+             <volist name="news" id="d">
+                <tr>
+                  <td><input type="checkbox" name="checkbox" id="checkbox">
+                    <label for="checkbox"></label></td>
+                  <td>{$d.n_id}</td>
+                  <td>{$d.title}</td>
+                  <td>{$d.author}</td>           
+                  <td>{$d.inputtime}</td>
+                  <td>{$d.view}</td>
+                  <td>{$d.content}</td>
+                  <td><a href="__MODULE__/admin/update_news/n_id/{$d.n_id}">修改</a><a href="#"></a>
+                      <a href="__MODULE__/admin/news_delete/n_id/{$d.n_id}">删除</a></td>
+                </tr>
+             </volist>
           </table>
         </div>
         <div class="input-group pull-left form">
@@ -39,12 +39,7 @@
           <button type="submit" class="btn btn-danger "> 删 除</button>
         </div>
         <ul class="pagination pull-right" >
-          <li class="disabled"><a href="#">&laquo;</a></li>
-          <li class="active"><a href="#">1</a></li>
-          <li><a href="#">2</a></li>
-          <li><a href="#">3</a></li>
-          <li><a href="#">4</a></li>
-          <li><a href="#">&raquo;</a></li>
+           {$pages}
         </ul>
       </div>
   </div>

@@ -9,27 +9,31 @@
     	    <h3>企业账户修改 <small>Company Modify</small></h3>
     	    <div class="list-group ">
     	      <div class="list-group-item">
-    	        <form role="form" >
+    	        <form role="form" action="" method="post">
+                <input type="hidden" name="b_id" value="{$a.b_id}">
     	          <div class="input-group"> <span class="input-group-addon">昵 称：</span>
-                  <input type="text" class="form-control" placeholder="">
+                  <input type="text" class="form-control" placeholder="" name="b_ename" value="{$a.b_ename}">
                 </div>
                 <div class="input-group"> <span class="input-group-addon">公司名：</span>
-                  <input type="text" class="form-control" placeholder="">
+                  <input type="text" class="form-control" placeholder="" name="b_name" value="{$a.b_name}">
                 </div>
                 <div class="input-group"> <span class="input-group-addon">负责人：</span>
-                  <input type="text" class="form-control" placeholder="">
+                  <input type="text" class="form-control" placeholder="" name="b_person" value="{$a.b_person}">
                 </div>
                 <div class="input-group"> <span class="input-group-addon">地  址：</span>
-                  <input type="text" class="form-control" placeholder="" >
+                  <input type="text" class="form-control" placeholder="" name="b_address" value="{$a.b_address}">
                 </div>
                 <div class="input-group"> <span class="input-group-addon">手机号：</span>
-                  <input type="text" class="form-control" placeholder="152*****237">
+                  <input type="text" class="form-control" placeholder="" name="b_tel" value="{$a.b_tel}">
                 </div>
     	          <div class="input-group"> <span class="input-group-addon">邮  箱：</span>
-    	            <input type="text" class="form-control" placeholder="86823499@qq.com">
+    	            <input type="text" class="form-control" placeholder="86823499@qq.com" name="b_email" value="{$a.b_email}">
   	            </div>
                 <div class="input-group"> <span class="input-group-addon">点赞数：</span>
-                  <input type="text" class="form-control" placeholder="">
+                  <input type="text" class="form-control" placeholder="" name="b_sum" value="{$a.b_sum}">
+                </div>
+                <div class="input-group"> <span class="input-group-addon">信誉度：</span>
+                  <input type="text" class="form-control" placeholder="" name="b_credit" value="{$a.b_credit}">
                 </div>
     	          <div class="input-group">
     	            <button type="submit" class="btn btn-primary "> &nbsp;&nbsp;保<img src="__PUBLIC__/home/images/em.png" alt="" width="20" height="20">存&nbsp;&nbsp;</button>

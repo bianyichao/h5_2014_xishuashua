@@ -65,11 +65,10 @@
               <li><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/company/user_list">企业用户管理</a></li>
               <li><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/company/input_list">企业投标管理</a></li>
               <li><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/company/news">企业文章管理</a></li>
-              <li ><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/company/user_update">修改企业信息</a></li>
           </ul>
             <h3><a href="#"><span class="glyphicon glyphicon-tags"></span>关键字管理<span class="glyphicon glyphicon-chevron-down"></span></a></h3>
             <ul>
-              <li ><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/tag/tag">标签管理</a></li>
+              <li ><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/tag/tags">标签管理</a></li>
               <li ><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/tag/roomtype">户型管理</a></li>
               <li ><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/tag/prices">价格管理</a></li>
           </ul>
@@ -85,27 +84,29 @@
   	    </ol>
     	  <h3 class="down">标签管理 <small>Tags Management</small></h3> 
             <div class="row ">
-                <div class="col-md-6">
+            <div class="col-md-4">  	    
         <div class="list-group-item">
-            <form action="" method="post">
-                <label for="inputEmail3" class=" control-label">请输入价格</label>
-                <input type="input" class="form-control marb" id="" placeholder="" name="e_price">
-                <button type="submit" class="btn btn-primary">添加价格</button>
-            </form>
-
-        </div>
+           <form action="" method="post">
+              <label for="inputEmail3" class=" control-label">请输入价格</label>            
+                <input type="input" class="form-control marb" id="" placeholder="" name="e_price">       
+                <button type="submit" class="btn btn-primary">添加价格</button>  
+           </form>
+    	                
+  	        </div>
              <table width="100%" border="0" cellspacing="0" cellpadding="0"  class="table  table-striped table-hover ">
     	      <tr>
     	        <th width="50%">价格</th>
     	        <th width="50%">操作</th>
   	        </tr>
-                 <?php if(is_array($prices)): $i = 0; $__LIST__ = $prices;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$p): $mod = ($i % 2 );++$i;?><tr>
-                         <td class="taga"><a href="#"><?php echo ($p["e_price"]); ?></a></td>
-                         <td><a href="#"></a> &nbsp;&nbsp;<a
-                                 href="/h5_2014_xishuashua/xishuashua/index.php/Home/tag/pricesdelete/e_price/<?php echo ($p["e_price"]); ?>">删除</a></td>
-                         </td>
-                     <tr><?php endforeach; endif; else: echo "" ;endif; ?>
+            <?php if(is_array($prices)): $i = 0; $__LIST__ = $prices;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$p): $mod = ($i % 2 );++$i;?><tr>
+              <td class="taga"><a href="#"><?php echo ($p["e_price"]); ?></a></td>
+              <td><a href="#"></a> &nbsp;&nbsp;<a href="/h5_2014_xishuashua/xishuashua/index.php/Home/tag/pricesdelete/e_price/<?php echo ($p["e_price"]); ?>">删除</a></td>
+               </td>
+            <tr><?php endforeach; endif; else: echo "" ;endif; ?>
   	      </table>
+           <ul class="pagination pull-right" >
+          <?php echo ($pages); ?>
+        </ul>
             </div>
             </div>   
   	  </div>

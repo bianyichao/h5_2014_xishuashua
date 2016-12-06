@@ -17,44 +17,31 @@
               <th width="10%">期望价格</th>
               <th width="21%">备注</th>
               <th width="10%">招标时间</th>
+              <th width="10%">完成状态</th>
               <th width="17%">操作</th>
             </tr>
-            <tr>
+            <volist name="lists" id="d">
+                <tr>
               <td><input type="checkbox" name="checkbox" id="checkbox">
                 <label for="checkbox"></label></td>
-              <td>p01</td>
-              <td>z01</td>
-              <td>地中海风情</td>
-              <td>100平米</td>
-              <td>20000元</td>
-              <td>质量要好、要美观</td>
-              <td>2016-11-10</td>
-              <td><a href="#">修改</a><a href="#"></a> <a href="#">删除</a></td>
+              <td>{$d.pu_id}</td>
+              <td>{$d.p_id}</td>
+              <td>{$d.pu_style}</td>
+              <td>{$d.pu_roomtype}</td>
+              <td>{$d.pu_exprices}元</td>
+              <td>{$d.pu_remark}</td>
+              <td>{$d.pu_inputtime}</td>
+              <td>{$d.state}</td>
+              <td><a href="#"></a> <a href="__MODULE__/personal/put_delete/pu_id/{$d.pu_id}">删除</a></td>
             </tr>
-             <tr>
-              <td><input type="checkbox" name="checkbox" id="checkbox">
-                <label for="checkbox"></label></td>
-              <td>p02</td>
-              <td>z02</td>
-              <td>欧式风格</td>
-              <td>120平米</td>
-              <td>40000元</td>
-              <td>质量要好、要美观</td>
-              <td>2016-11-10</td>
-              <td><a href="#">修改</a><a href="#"></a> <a href="#">删除</a></td>
-            </tr>
+            </volist>
           </table>
         </div>
         <div class="input-group pull-left form">
           <button type="submit" class="btn btn-danger "> 删 除</button>
         </div>
         <ul class="pagination pull-right" >
-          <li class="disabled"><a href="#">&laquo;</a></li>
-          <li class="active"><a href="#">1</a></li>
-          <li><a href="#">2</a></li>
-          <li><a href="#">3</a></li>
-          <li><a href="#">4</a></li>
-          <li><a href="#">&raquo;</a></li>
+           {$pages}
         </ul>
       </div>
   </div>

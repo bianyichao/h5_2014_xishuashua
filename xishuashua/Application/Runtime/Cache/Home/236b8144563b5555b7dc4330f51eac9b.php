@@ -48,31 +48,27 @@
         <div id="accordion">
           <h3><a href="#"><span class="glyphicon glyphicon-lock"></span>管理员账户管理<span class="glyphicon glyphicon-chevron-down"></span></a></h3>
            <ul>
-              <li ><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/admin/user_list">管理员信息管理</a></li>
+               <li><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/admin/lists">管理员信息管理</a></li>
               <li><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/admin/publish_news">发布新闻管理</a></li>
               <li><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/admin/manage_news">管理新闻管理</a></li>                
               <li ><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/admin/add">添加管理员</a></li>
-              <li ><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/admin/user_update">修改管理员信息</a></li>
               <li ><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/admin/password_update">修改管理员密码</a></li>
-              <li ><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/admin/update_news">修改新闻信息</a></li>
           </ul>
             <h3><a href="#"><span class="glyphicon glyphicon-file"></span>个人账户管理<span class="glyphicon glyphicon-chevron-down"></span></a></h3>
             <ul>
               <li ><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/personal/user_list">个人用户信息管理</a></li>
               <li><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/personal/put_list">个人招标管理</a></li>
               <li><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/personal/news">个人文章管理</a></li>
-              <li ><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/personal/user_update">修改个人信息</a></li>
           </ul>
             <h3><a href="#"><span class="glyphicon glyphicon-book"></span>企业账户管理<span class="glyphicon glyphicon-chevron-down"></span></a></h3>
             <ul>
               <li><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/company/user_list">企业用户管理</a></li>
               <li><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/company/input_list">企业投标管理</a></li>
               <li><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/company/news">企业文章管理</a></li>
-              <li ><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/company/user_update">修改企业信息</a></li>
           </ul>
             <h3><a href="#"><span class="glyphicon glyphicon-tags"></span>关键字管理<span class="glyphicon glyphicon-chevron-down"></span></a></h3>
             <ul>
-              <li ><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/tag/tag">标签管理</a></li>
+              <li ><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/tag/tags">标签管理</a></li>
               <li ><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/tag/roomtype">户型管理</a></li>
               <li ><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/tag/prices">价格管理</a></li>
           </ul>
@@ -88,30 +84,28 @@
   	    </ol>
     	  <h3 class="down">标签管理 <small>Tags Management</small></h3> 
             <div class="row ">
-            <div class="col-md-2">  	    
+            <div class="col-md-6">  	    
         <div class="list-group-item">
+        <form action="" method="post">
     	        <label for="inputEmail3" class=" control-label">请输入户型</label>    	       
-    	          <input type="input" class="form-control marb" id="" placeholder="">       
-    	          <button type="submit" class="btn btn-primary">添加户型</button>	          
+    	          <input type="input" class="form-control marb" id="" placeholder="" name="roomtype">       
+    	          <button type="submit" class="btn btn-primary">添加户型</button>	  
+        </form>        
   	        </div>
              <table width="100%" border="0" cellspacing="0" cellpadding="0"  class="table  table-striped table-hover ">
     	      <tr>
     	        <th width="50%">户型</th>
     	        <th width="50%">操作</th>
   	        </tr>
-    	      <tr>
-    	        <td class="taga"><a href="#">地中海风情</a></td>
-    	        <td><a href="#">修改</a><a href="#"></a> &nbsp;&nbsp;<a href="#">删除</a></td>
-   	           </tr>
-    	      <tr>
-    	         <td class="taga"><a href="#">地中海风情</a></td>
-    	        <td><a href="#">修改</a><a href="#"></a>  &nbsp;&nbsp;<a href="#">删除</a></td>
-   	           </tr>
-    	      <tr>
-    	         <td class="taga"><a href="#">地中海风情</a></td>
-    	        <td><a href="#">修改</a><a href="#"></a>  &nbsp;&nbsp;<a href="#">删除</a></td>
-   	           </tr>
+    	      <?php if(is_array($type)): $i = 0; $__LIST__ = $type;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$p): $mod = ($i % 2 );++$i;?><tr>
+              <td class="taga"><a href="#"><?php echo ($p["roomtype"]); ?></a></td>
+              <td><a href="#"></a> &nbsp;&nbsp;<a href="/h5_2014_xishuashua/xishuashua/index.php/Home/tag/roomtypedelete/roomtype/<?php echo ($p["roomtype"]); ?>">删除</a></td>
+               </td>
+            <tr><?php endforeach; endif; else: echo "" ;endif; ?>
   	      </table>
+          <ul class="pagination pull-right" >
+          <?php echo ($pages); ?>
+        </ul>
             </div>
             </div>   
   	  </div>

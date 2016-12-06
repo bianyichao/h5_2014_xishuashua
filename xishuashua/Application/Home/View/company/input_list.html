@@ -20,44 +20,28 @@
               <th width="8%">此标状态</th>
               <th width="17%">操作</th>
             </tr>
-            <tr>
-              <td><input type="checkbox" name="checkbox" id="checkbox">
-                <label for="checkbox"></label></td>
-              <td>p01</td>
-              <td>z01</td>
-              <td>c01</td>
-              <td>18888元</td>
-              <td>美自然之家</td>
-              <td>4008208820</td>
-              <td>保证完成任务</td>
-              <td>进行中</td>
-              <td><a href="#">修改</a><a href="#"></a> <a href="#">删除</a></td>
-            </tr>
-             <tr>
-              <td><input type="checkbox" name="checkbox" id="checkbox">
-                <label for="checkbox"></label></td>
-              <td>p01</td>
-              <td>z01</td>
-              <td>c01</td>
-              <td>18888元</td>
-              <td>美自然之家</td>
-              <td>4008208820</td>
-              <td>保证完成任务</td>
-              <td>进行中</td>
-              <td><a href="#">修改</a><a href="#"></a> <a href="#">删除</a></td>
-            </tr>
+            <volist name="lists" id="d">
+                <tr>
+                   <td><input type="checkbox" name="checkbox" id="checkbox">
+                   <label for="checkbox"></label></td>
+                   <td>{$d.bi_id}</td>
+                   <td>{$d.pu_id}</td>
+                   <td>{$d.b_id}</td>
+                   <td>{$d.bi_prices}</td>
+                   <td>{$d.b_ename}</td>
+                   <td>{$d.b_tel}</td>
+                   <td>{$d.bi_remark}</td>
+                   <td>{$d.bi_state}</td>
+                   <td><a href="#">修改</a><a href="#"></a> <a href="#">删除</a></td>
+               </tr>
+            </volist>
           </table>
         </div>
         <div class="input-group pull-left form">
           <button type="submit" class="btn btn-danger "> 删 除</button>
         </div>
         <ul class="pagination pull-right" >
-          <li class="disabled"><a href="#">&laquo;</a></li>
-          <li class="active"><a href="#">1</a></li>
-          <li><a href="#">2</a></li>
-          <li><a href="#">3</a></li>
-          <li><a href="#">4</a></li>
-          <li><a href="#">&raquo;</a></li>
+          {$pages}
         </ul>
       </div>
   </div>

@@ -48,20 +48,17 @@
         <div id="accordion">
           <h3><a href="#"><span class="glyphicon glyphicon-lock"></span>管理员账户管理<span class="glyphicon glyphicon-chevron-down"></span></a></h3>
            <ul>
-              <li ><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/admin/user_list">管理员信息管理</a></li>
+               <li><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/admin/lists">管理员信息管理</a></li>
               <li><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/admin/publish_news">发布新闻管理</a></li>
               <li><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/admin/manage_news">管理新闻管理</a></li>                
               <li ><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/admin/add">添加管理员</a></li>
-              <li ><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/admin/user_update">修改管理员信息</a></li>
               <li ><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/admin/password_update">修改管理员密码</a></li>
-              <li ><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/admin/update_news">修改新闻信息</a></li>
           </ul>
             <h3><a href="#"><span class="glyphicon glyphicon-file"></span>个人账户管理<span class="glyphicon glyphicon-chevron-down"></span></a></h3>
             <ul>
               <li ><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/personal/user_list">个人用户信息管理</a></li>
               <li><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/personal/put_list">个人招标管理</a></li>
               <li><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/personal/news">个人文章管理</a></li>
-              <li ><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/personal/user_update">修改个人信息</a></li>
           </ul>
             <h3><a href="#"><span class="glyphicon glyphicon-book"></span>企业账户管理<span class="glyphicon glyphicon-chevron-down"></span></a></h3>
             <ul>
@@ -72,7 +69,7 @@
           </ul>
             <h3><a href="#"><span class="glyphicon glyphicon-tags"></span>关键字管理<span class="glyphicon glyphicon-chevron-down"></span></a></h3>
             <ul>
-              <li ><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/tag/tag">标签管理</a></li>
+              <li ><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/tag/tags">标签管理</a></li>
               <li ><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/tag/roomtype">户型管理</a></li>
               <li ><a href="/h5_2014_xishuashua/xishuashua/index.php/Home/tag/prices">价格管理</a></li>
           </ul>
@@ -98,32 +95,22 @@
               <th width="10%">期望价格</th>
               <th width="21%">备注</th>
               <th width="10%">招标时间</th>
+              <th width="10%">完成状态</th>
               <th width="17%">操作</th>
             </tr>
-            <tr>
+            <?php if(is_array($lists)): $i = 0; $__LIST__ = $lists;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$d): $mod = ($i % 2 );++$i;?><tr>
               <td><input type="checkbox" name="checkbox" id="checkbox">
                 <label for="checkbox"></label></td>
-              <td>p01</td>
-              <td>z01</td>
-              <td>地中海风情</td>
-              <td>100平米</td>
-              <td>20000元</td>
-              <td>质量要好、要美观</td>
-              <td>2016-11-10</td>
-              <td><a href="#">修改</a><a href="#"></a> <a href="#">删除</a></td>
-            </tr>
-             <tr>
-              <td><input type="checkbox" name="checkbox" id="checkbox">
-                <label for="checkbox"></label></td>
-              <td>p02</td>
-              <td>z02</td>
-              <td>欧式风格</td>
-              <td>120平米</td>
-              <td>40000元</td>
-              <td>质量要好、要美观</td>
-              <td>2016-11-10</td>
-              <td><a href="#">修改</a><a href="#"></a> <a href="#">删除</a></td>
-            </tr>
+              <td><?php echo ($d["pu_id"]); ?></td>
+              <td><?php echo ($d["p_id"]); ?></td>
+              <td><?php echo ($d["pu_style"]); ?></td>
+              <td><?php echo ($d["pu_roomtype"]); ?></td>
+              <td><?php echo ($d["pu_exprices"]); ?>元</td>
+              <td><?php echo ($d["pu_remark"]); ?></td>
+              <td><?php echo ($d["pu_inputtime"]); ?></td>
+              <td><?php echo ($d["state"]); ?></td>
+              <td><a href="#"></a> <a href="/h5_2014_xishuashua/xishuashua/index.php/Home/personal/put_delete/pu_id/<?php echo ($d["pu_id"]); ?>">删除</a></td>
+            </tr><?php endforeach; endif; else: echo "" ;endif; ?>
           </table>
         </div>
         <div class="input-group pull-left form">
