@@ -83,4 +83,22 @@ class LoginController extends Controller {
             $this->error("添加失败");
         }
     }
+   //企业注册
+    public function doregist_cp(){
+        if (!IS_POST) {
+                 exit("bad!"); 
+        }
+        $businessuser=M("businessuser");
+        $businessuser->create();
+        if (!$businessuser->create()) {
+            // $this->error();
+            $this->error($businessuser->getError());
+        }
+        if ($businessuser->add()) {
+            $this->success("添加成功",U("Index/index-ducp"));
+        }  
+        else{
+            $this->error("添加失败");
+        }
+    }
 }
