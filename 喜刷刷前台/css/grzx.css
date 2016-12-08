@@ -1,7 +1,7 @@
 *{margin:0;padding:0}
 a{text-decoration:none}
-#conter{width:1000px;margin:auto}
-#help-left{width:200px;font-family:'microsoft YaHei';float:left}
+#conter{width:100%;margin:auto}
+#help-left{width:100%;font-family:'microsoft YaHei';float:left}
 .menu{border-left:1px solid #ccc;border-right:1px solid #ccc}
 .menu:last-child{border-bottom:1px solid #ccc}
 .menu summary{height:40px;line-height:40px;text-indent:10px;outline:0;font-size:14px;font-weight:700;border-top:1px solid #ddd;cursor:pointer}
@@ -19,6 +19,7 @@ a{text-decoration:none}
     border:1px solid #ddd;
 }
 .gr2 img{
+    float: left;
     margin: 0px;
     padding-bottom: 10px;
     padding-left: 10px;
@@ -34,10 +35,10 @@ a{text-decoration:none}
    margin-bottom: 20px;
 }
 .gr2{
-    padding: 0px;
+    padding-right: 0px;
 }
 .gr3 {
-    padding: 0px;
+
     border-right:1px solid #ddd;
 }
 .gr4 h5{
