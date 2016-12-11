@@ -1,114 +1,91 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>装修日记</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta charset="utf-8">
+    
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
-    <!--index page css text-->
     <link href="css/index.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/lunbotu.css" />
     <link rel="stylesheet" href="css/hanziqiang.css" />
     <link rel="stylesheet" href="css/tiezi.css" />
+    <link rel="stylesheet" href="css/xq_navbar.css"/>
+    <link rel="stylesheet" href="css/xq.css"/>
+    <link rel="stylesheet" type="text/css" href="css/lanrenzhijia.css">
+
     <script src="JS/jquery-2.1.4.min.js"></script>
-    <script src="JS/lunbotu.js"></script>
 	  <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/scripts.js"></script>
     <script src="js/text.js"></script>
-      <link rel="stylesheet" type="text/css" href="css/lanrenzhijia.css">
-  
- <link rel="stylesheet" href="css/share.css" type="text/css" />
-     <script src="js/jquery1.8.2.min.js" type="text/javascript"></script>
-    <script src="js/share.js" type="text/javascript"></script>
+    <script src="js/jquery1.8.2.min.js" type="text/javascript"></script>
   </head>
   <body>
-     <div class="container-fluid">
-
-    <!--header-->
+     <div class="containter">
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
       <div class="row">
-        <div class="col-md-12 nobo">
-          <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-            <div class="navbar-header"> 
-              <img src="images/logo.gif" alt="logo"/>
-            </div>
-
-            <div class="collapse navbar-collapse" id="greennav">
-              <ul class="nav navbar-nav">
-                <li class="active">
-                  <a href="index-du.html" >首页</a>
-                </li>
-                <li>
-                  <a href="zsgs.html">装饰公司</a>
-                </li>
-                <li>
-                  <a href="jzzp.html">家装招标</a>
-                </li>
-                <li>
-                  <a href="zxrj.html" class="ahov">装修日记</a>
-                </li>
-              </ul>
-              <div class="navright"> 
-              <div class="dropdown" id="dropdown">
-                        <a href="">无敌小边边&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
-                      <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown">
-                        个人中心&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <span class="caret"></span>
-                      </button>
-                      <ul class="dropdown-menu ac" role="menu" aria-labelledby="dropdownMenu1">
-                        <li role="presentation"><a   role="menuitem" tabindex="-1" href="grzx.html">我的主页</a></li>
-                        <li role="presentation"><a   role="menuitem" tabindex="-1" href="qyzx.html">企业主页</a></li>
-                      </ul>
-                      <a href="dl_cp.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;登录</a>&nbsp;&nbsp;|
-                    &nbsp;&nbsp;<a href="regist.html">注册</a>
-                    </div>
-            </div>
-            </div>  
-          </nav>
-          <div class="center">
-            <div class="center_top">
+        <div class="col-md-2 nobo">
+          <a href="index.html"><img src="images/logo.png" style="height:50px; width:73%;padding-left: 1.6em "></a>
+        </div>
+        <div class="col-md-7 nobo">
+        <div class="xq_bag" id="bar1">
+          <ul class="xq_navbar">
+            <li class="xq_navli"><a href="index.html">首页</a></li>
+            <li class="xq_navli"><a href="zsgs.html">装饰公司</a></li>
+            <li class="xq_navli"><a href="jzzp.html">家装招标</a></li>
+            <li class="xq_navli"><a href="zxrj.html">装修日记</a></li>
+          </ul>
+          
+        </div>
+        </div>
+        <div class="col-md-3 nobo">
+          <div class="navright1">
+            <a href="dl.html" class="dl">登录</a>&nbsp;&nbsp;
+            <a href="regist.html" class="refist">注册</a>
+          </div>
+        </div>
+      </div>  
+    </nav>
+  </div>
               <!-- <==========================================================> -->
               <!-- 轮播图开始区域 -->
               <!-- <div id="bannar"> -->
 <div class="Aflash">
-   <ul class="picUL">
-     <li class="picLI" id="j-focusPic">
-      <div class="picbox j-slider">
-       <span class="j-item"> 
-       <a href="#"> <img src="images/bg1.jpg"></a>
+            <ul class="picUL">
+                <li class="picLI" id="j-focusPic">
+                    <div class="picbox j-slider" style="left: -22310px;">
+       <span class="j-item">
+       <a href="#"> <img src="images/bg2.jpg"></a>
        </span>
-       <span class="j-item"> 
-       <a href="#"> <img src="images/bg5.jpg" data-src="images/bg5.jpg"
-          class="loading"></a>
+                        <span class="j-item">
+       <a href="#"> <img src="images/bg5.jpg" data-src="images/banner_4.jpg"
+                         class="loading"></a>
         </span>
-      <span class="j-item"> 
-      <a href="#"> <img src="images/bg2.jpg" data-src="images/bg2.jpg"class="loading"></a>
+                        <span class="j-item">
+      <a href="#"> <img src="images/bg2.jpg" data-src="images/bg3.jpg" class="loading"></a>
       </span>
-      <span class="j-item"> 
-      <a href="#"> <img src="images/bg3.jpg" data-src="images/bg3.jpg"
-        class="loading"></a></span>
-        <span class="j-item"><a href="#"> <img src="images/bg4.jpg" data-src="images/bg4.jpg" class="loading"></a></span>
-      </div>
-                    </li>
-                </ul>
-                <div class="infobtn" id="j-focusBtns">
-                    <div class="smalpic j-container">
-                        <div class="smallbox j-slider" style="left: 0px;">
-                            <a class="j-item" href="#"> <img src="images/bg1.jpg"> <b></b></a>
-                            <a class="j-item" href="#"> <img src="images/bg5.jpg"> <b></b></a>
-                            <a class="j-item" href="#"> <img src="images/bg2.jpg"> <b></b></a>
-                            <a class="j-item" href="#"> <img src="images/bg3.jpg"> <b></b></a>
-                            <a class="j-item" href="#"> <img src="images/bg4.jpg"> <b></b></a>
+                        <span class="j-item">
+      <a href="#"> <img src="images/bg3.jpg" data-src="images/bg1.jpg"
+                        class="loading"></a></span>
+                        <span class="j-item"><a href="#"> <img src="images/bg4.jpg" data-src="images/bg4.jpg" class="loading"></a></span>
+                    </div>
+                </li>
+            </ul>
+            <div class="infobtn" id="j-focusBtns">
+                <div class="smalpic j-container">
+                    <div class="smallbox j-slider" style="left: 0px;">
+                        <a class="j-item" href="#"> <img src="images/bg2.jpg"> <b></b></a>
+                        <a class="j-item" href="#"> <img src="images/banner_4.jpg"> <b></b></a>
+                        <a class="j-item" href="#"> <img src="images/bg3.jpg"> <b></b></a>
+                        <a class="j-item" href="#"> <img src="images/bg1.jpg"> <b></b></a>
+                        <a class="j-item" href="#"> <img src="images/bg4.jpg"> <b></b></a>
 
-                        </div>
                     </div>
                 </div>
             </div>
         </div>
-
-        </div>
-      </div>
 
     <!--content--> 
     <div class="container">
@@ -116,7 +93,8 @@
        <h1 class="contitle">家装日记 · <span>Decoration Company</span></h1>
       </div>
       <div class="row">
-        <div class="col-md-11">
+      <div class="col-md-1"></div>
+        <div class="col-md-10">
           <div class="tabbable"> <!-- Only required for left/right tabs -->
       <ul class="nav nav-tabs">
         <li class="biaoti active"><a href="#tab1" data-toggle="tab">个人日记</a></li>
@@ -462,15 +440,6 @@
             </div>
 
         </div>
-        <div class="tab-pane" id="tab4">
-
-          <!--content 1-->
-
-        </div>
-        </div>
-        </div>
-        </div>
-        </div>
         <script type="text/javascript">
                 function msgbox(n){
                   document.getElementById('inputbox').style.display=n?'block':'none'; 
@@ -486,12 +455,23 @@
                   标题：<input type="text" name="title" id="text-reply" class="push-title">
                 </div>
                 <div class="push-text">
-                  内容：<textarea class="push-content"></textarea> 
+                  <div style="float:left;">内容：</div>
+                  <textarea class="push-content"></textarea>
                 </div>  
                 </form>
-                <button type="button" class="btn1" onclick="msgbox(0)">发表</button>
+                <button type="button" class="btn1 btn-lg" onclick="msgbox(0)">发表</button>
               </div>
               </div>
+        <div class="tab-pane" id="tab4">
+
+          <!--content 1-->
+
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        
         <div class="col-md-1 push-right">
           <ul class="push-aside">
             <li class="push-aside-bar">
@@ -500,7 +480,8 @@
               </a>
             </li>
             <li class="push-aside-bar">
-              <div id="socialShare"></div>
+              <div class="demo">
+                <a href="javascript:void(0)" class="share"><img src="images/share.png" title="分享帖子"></a>
             </li>
             <li class="push-aside-bar">
               <a href="#">
@@ -514,7 +495,9 @@
             </li>
           </ul>
         </div>
-        
+        <script src="http://www.jq22.com/jquery/1.7.2/jquery.min.js"></script>
+        <link href="css/share2.css" rel="stylesheet" type="text/css">
+        <script type="text/javascript" src="js/share2.js"></script>
         </div>      
 		</div>
  </div>
@@ -559,28 +542,15 @@
         </div>
       </div>
     </div>
-
-
-
-
-
            </div>  
       </div>
-       <script>
-        $(function() {
-
-            $("#socialShare").socialShare({
-                content: '',
-        url:'',
-        titile:''
-            });
-
-        });
-
-    $("#shareQQ").on("click",function(){
-      $(this).socialShare("tQQ");
-    })
-    </script>
+       
   </body>
-     <script src="js/lanrenzhijia.js"></script>
+  <script src="js/lanrenzhijia.js"></script>
+  <script src="js/xq_navbar.js"></script>
+  <script>
+    $(function(){
+      $("#bar1").xq_navbar({"type":"underline","liwidth":"auto","bgcolor":"rgb(240,242,220)","hcolor":"rgb(1,175,99)"});
+    });
+  </script>
 </html>

@@ -22,7 +22,8 @@ a
 a:hover{text-decoration:underline;}
 
 .clear{clear:both;}
-.nobo{padding:0;}
+.nobo{padding:0;
+background-color: rgb(240,242,220);}
 
 /*header*/
 .navbar{margin:0;
@@ -47,11 +48,11 @@ a:hover{text-decoration:underline;}
 #greennav ul li a:hover{
 	border-left: 1px solid rgb(21,135,11) ;
 	border-right:1px solid rgb(21,135,11) ;
-	background-color:#216400;
+	background-color:#c2cb7a;
 	color:#ffffff;
 }
 #greennav ul li .ahov{
-	background-color: #849931;
+	background-color: #c2cb7a;
 	color:#ffffff;
 }
 .navright{
@@ -62,11 +63,11 @@ a:hover{text-decoration:underline;}
 	color:#c2cb7a;
 }
 .navright1{
-	float:right;
-	height:60px;
-	line-height:60px;
-	width:10%;
-	color:#c2cb7a;
+	text-align:right;
+	padding-right: 3em;
+	height:50px;
+	line-height:50px;
+	width:100%;
 }
 .navright a{
 	text-decoration:none;
@@ -76,7 +77,7 @@ a:hover{text-decoration:underline;}
 .navright1 a{
 	text-decoration:none;
 	font-size:14px;
-    color:#c2cb7a;
+    color:rgb(35,99,0);
 }
 
 .navimg{
@@ -107,7 +108,9 @@ a:hover{text-decoration:underline;}
 	color:#c2cb7a;
 	text-decoration:none;
 }
-
+.bar-text{
+	color: black;
+}
 
 /*content*/
 .container .row{
@@ -254,4 +257,3 @@ a:hover{text-decoration:underline;}
     width:20%;
     height:100%;
 }
-

@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
 
     <title>喜刷刷家装线上交流平台</title>
 
@@ -12,14 +12,18 @@
 
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
-    <!--index page css text-->
     <link href="css/index.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/lunbotu.css"/>
-    <script src="js/jquery-2.1.4.min.js"></script>
-    <script src="js/lunbotu.js"></script>
-    <link rel="stylesheet" href="css/lunbotu2.css"/>
+    <link rel="stylesheet" href="css/index-byc.css" />
+	<link rel="stylesheet" type="text/css" href="css/lanrenzhijia.css">
+	<link rel="stylesheet" href="css/xq_navbar.css"/>
+	<link rel="stylesheet" href="css/xq.css"/>
+	<link rel="stylesheet" href="css/style1.css" />
+	<link rel="stylesheet" href="css/index1.css" />
+	
+	<script src="js/jquery-2.1.4.min.js"></script>
     <script src="js/text.js"></script>
-    <link rel="stylesheet" type="text/css" href="css/lanrenzhijia.css">
+	<script type="text/javascript" src="js/jquery-1.10.1.min.js" ></script>
+	<script type="text/javascript" src="js/index.js" ></script>
     <!--[if IE 6]>
     <script type="text/javascript">
         var blankImg = new Image();
@@ -29,81 +33,80 @@
 </head>
 <body>
 
-    <div class="container-fluid">
-
-<!--header-->
-	<div class="row">
-		<div class="col-md-12 nobo">
-			<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-				<div class="navbar-header"> 
-					<img src="images/logo.gif" alt="logo"/>
+   <div class="containter">
+		<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+			<div class="row">
+				<div class="col-md-2 nobo">
+					<a href="index.html"><img src="images/logo.png" style="height:50px; width:73%;padding-left: 1.6em "></a>
 				</div>
-				
-				<div class="collapse navbar-collapse" id="greennav">
-					<ul class="nav navbar-nav">
-						<li class="active">
-							<a href="index-du.html" class="ahov">首页</a>
-						</li>
-						<li>
-							<a href="zsgs.html">装饰公司</a>
-						</li>
-						<li>
-							<a href="jzzp.html">家装招标</a>
-						</li>
-						<li>
-							<a href="zxrj.html">装修日记</a>
-						</li>
+				<div class="col-md-7 nobo">
+				<div class="xq_bag" id="bar1">
+					<ul class="xq_navbar">
+						<li class="xq_navli"><a href="#">首页</a></li>
+						<li class="xq_navli"><a href="zsgs.html">装饰公司</a></li>
+						<li class="xq_navli"><a href="jzzp.html">家装招标</a></li>
+						<li class="xq_navli"><a href="zxrj.html">装修日记</a></li>
 					</ul>
-					<div class="navright1">
-					<a href="dl.html">登录</a>&nbsp;&nbsp;|
-					&nbsp;&nbsp;<a href="regist.html">注册</a>
+					
 				</div>
-				</div>	
-			</nav>
-	<div class="Aflash">
-   <ul class="picUL">
-     <li class="picLI" id="j-focusPic">
-      <div class="picbox j-slider" style="left: -22310px;">
-       <span class="j-item"> 
-       <a href="#"> <img src="images/bg1.jpg"></a>
+				</div>
+				<div class="col-md-3 nobo">
+					<div class="navright1">
+						<a href="dl.html" class="dl">登录</a>&nbsp;&nbsp;
+						<a href="regist.html" class="regist">注册</a>
+					</div>
+				</div>
+			</div>	
+		</nav>
+	</div>
+        <div class="Aflash">
+            <ul class="picUL">
+                <li class="picLI" id="j-focusPic">
+                    <div class="picbox j-slider" style="left: -22310px;">
+       <span class="j-item">
+       <a href="#"> <img src="images/bg2.jpg"></a>
        </span>
-       <span class="j-item"> 
-       <a href="#"> <img src="images/bg5.jpg" data-src="images/bg5.jpg"
-          class="loading"></a>
+                        <span class="j-item">
+       <a href="#"> <img src="images/bg5.jpg" data-src="images/banner_4.jpg"
+                         class="loading"></a>
         </span>
-      <span class="j-item"> 
-      <a href="#"> <img src="images/bg2.jpg" data-src="images/bg2.jpg"class="loading"></a>
+                        <span class="j-item">
+      <a href="#"> <img src="images/bg2.jpg" data-src="images/bg3.jpg" class="loading"></a>
       </span>
-      <span class="j-item"> 
-      <a href="#"> <img src="images/bg3.jpg" data-src="images/bg3.jpg"
-        class="loading"></a></span>
-        <span class="j-item"><a href="#"> <img src="images/bg4.jpg" data-src="images/bg4.jpg" class="loading"></a></span>
-      </div>
-                    </li>
-                </ul>
-                <div class="infobtn" id="j-focusBtns">
-                    <div class="smalpic j-container">
-                        <div class="smallbox j-slider" style="left: 0px;">
-                            <a class="j-item" href="#"> <img src="images/bg1.jpg"> <b></b></a>
-                            <a class="j-item" href="#"> <img src="images/bg5.jpg"> <b></b></a>
-                            <a class="j-item" href="#"> <img src="images/bg2.jpg"> <b></b></a>
-                            <a class="j-item" href="#"> <img src="images/bg3.jpg"> <b></b></a>
-                            <a class="j-item" href="#"> <img src="images/bg4.jpg"> <b></b></a>
+                        <span class="j-item">
+      <a href="#"> <img src="images/bg3.jpg" data-src="images/bg1.jpg"
+                        class="loading"></a></span>
+                        <span class="j-item"><a href="#"> <img src="images/bg4.jpg" data-src="images/bg4.jpg" class="loading"></a></span>
+                    </div>
+                </li>
+            </ul>
+            <div class="infobtn" id="j-focusBtns">
+                <div class="smalpic j-container">
+                    <div class="smallbox j-slider" style="left: 0px;">
+                        <a class="j-item" href="#"> <img src="images/bg2.jpg"> <b></b></a>
+                        <a class="j-item" href="#"> <img src="images/banner_4.jpg"> <b></b></a>
+                        <a class="j-item" href="#"> <img src="images/bg3.jpg"> <b></b></a>
+                        <a class="j-item" href="#"> <img src="images/bg1.jpg"> <b></b></a>
+                        <a class="j-item" href="#"> <img src="images/bg4.jpg"> <b></b></a>
 
-                        </div>
                     </div>
                 </div>
             </div>
         </div>
-
         <!--content-->
 <!--content 1-->
 
 	<div class="row con con-one">
-		<h1 class="contitle">&nbsp;&nbsp;--------------------------------------------------------------
-		 · 装饰公司 · <span>Decoration Company</span> · 
-	    --------------------------------------------------------------
+<div style="width:90%;margin-left: 5%;margin-bottom: 1em;margin-top: 1em;">
+    <div class="col-md-4" style="height:40px; border-bottom: 1px dashed #3e8f3e;width: 35%"></div>
+    <div class="col-md-4" style="width:30%;">
+        <h1 class="contitle">
+		 · 装饰公司 · <span>Decoration Company</span> ·
 		</h1>
+    </div>
+    <div class="col-md-4" style="height:40px; border-bottom: 1px dashed #3e8f3e;width: 35%"></div>
+</div>
+
 		<div class="col-md-12 cm12">
 			<div class="col-md-3">
 				<div class="col-md-12">
@@ -137,15 +140,19 @@
 	</div>
 <!--content 2-->
 <div class="con-one" style="padding-top:0%;padding-bottom:0%">
-<h1 class="contitle">&nbsp;&nbsp; 
-    --------------------------------------------------------------
-		 · 新闻资讯 · <span>News Information</span> · 
-	--------------------------------------------------------------
-		</h1>
+    <div style="width:90%;margin-left: 5%;margin-bottom: 1em;">
+        <div class="col-md-4" style="height:40px; border-bottom: 1px dashed #3e8f3e;width: 35%"></div>
+        <div class="col-md-4" style="width:30%;">
+            <h1 class="contitle">
+                · 新闻资讯 · <span>News Information</span> ·
+            </h1>
+        </div>
+        <div class="col-md-4" style="height:40px; border-bottom: 1px dashed #3e8f3e;width: 35%"></div>
+    </div>
 </div>
 	<div class="row con con-two">
 		<div class="col-md-6">
-			<h1 class="contitle" style="text-align:center">&nbsp;&nbsp;&nbsp;
+			<h1 class="contitle">&nbsp;&nbsp;&nbsp;
 			家装招标 · <span>Home Tender </span></h1>
             <div class="col-md-12 cm12" style="padding-left:10%;padding-bottom:10%">
 			    <div class="uldiv">
@@ -200,7 +207,7 @@
 		</div>
 
 		<div class="col-md-6">
-		   <h1 class="contitle" style="padding-left:20%"> 
+		   <h1 class="contitle">
 			论坛推送 · <span>Forum Push </span></h1>
             <div class="col-md-12 cm12" style="padding-left:0%">
 			    <div class="uldiv">
@@ -256,46 +263,46 @@
 	</div>
 <!--content 3-->
 	<div class="row con" style="padding-top:0%;padding-bottom:0%;">
-	     <h1 class="contitle">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-		   --------------------------------------------------------------
-		      ·  精品案例 · <span> Competitive Products</span> · 
-	       --------------------------------------------------------------
-		</h1>
-		<section class="htmleaf-container" style="padding-top:0%;">
-			<div class="container">
-
-				<div id="single" class="carousel slide" data-ride="carousel" data-shift="1">
-					<div class="carousel-inner">
-						<ul class="row item active">
-							<li class="col-xs-4 two">
-								<img src="images/roll01.jpg" srcset="images/roll01.jpg" class="img-responsive">
-							</li>
-							<li class="col-xs-4 two">
-								<img src="images/roll01.jpg" srcset="images/roll01.jpg" class="img-responsive">
-							</li>
-							<li class="col-xs-4 three">
-								<img src="images/roll01.jpg" srcset="images/roll01.jpg" class="img-responsive">
-							</li>
-						</ul>
-						<ul class="row item">
-							<li class="col-xs-4 four">
-								<img src="images/roll01.jpg" srcset="images/roll01.jpg" class="img-responsive">
-							</li>
-							<li class="col-xs-4 five">
-								<img src="images/roll01.jpg" srcset="images/roll01.jpg" class="img-responsive">
-							</li>
-							<li class="col-xs-4 six">
-								<img src="images/roll01.jpg" srcset="images/roll01.jpg" class="img-responsive">
-							</li>
-						</ul>
-					</div>
-
-					<a class="carousel-control left" href="#single" data-slide="prev"><<</a>
-					<a class="carousel-control right" href="#single" data-slide="next">>></a>
-				</div>
-
+        <div style="width:90%;margin-left: 5%;margin-bottom: 1em;">
+            <div class="col-md-4" style="height:40px; border-bottom: 1px dashed #3e8f3e;width: 35%"></div>
+            <div class="col-md-4" style="width:30%;">
+                <h1 class="contitle">
+                    · 精品案例 · <span>Competitive Products</span> ·
+                </h1>
+            </div>
+            <div class="col-md-4" style="height:40px; border-bottom: 1px dashed #3e8f3e;width: 35%"></div>
+        </div>
+        <div class="box">
+		<div class="lest">
+			<div class="box1">
+				<a href="#"><img src="images/1.jpg" alt="" /></a>
 			</div>
-		</section>
+			<div class="box2">
+				<a href="#"><img src="images/2.jpg" alt="" /></a>
+			</div>
+			<div class="box3">
+				<a href="#"><img src="images/3.jpg" alt="" /></a>
+			</div>
+			<div class="box4">
+				<a href="#"><img src="images/4.jpg" alt="" /></a>
+			</div>
+			<div class="box5">
+				<a href="#"><img src="images/5.jpg" alt="" /></a>
+			</div>
+			<div class="box6">
+				<a href="#"><img src="images/6.jpg" alt="" /></a>
+			</div>
+			<div class="box7">
+				<a href="#"><img src="images/1.jpg" alt="" /></a>
+			</div>
+			<div class="box8">
+				<a href="#"><img src="images/2.jpg" alt="" /></a>
+			</div>
+			<div class="box9">
+				<a href="#"><img src="images/3.jpg" alt="" /></a>
+			</div>
+		</div>
+		</div>
 	</div>
 	
 <!--footer-->
@@ -345,4 +352,10 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/scripts.js"></script>
   </body>
+	<script src="js/xq_navbar.js"></script>
+	<script>
+		$(function(){
+			$("#bar1").xq_navbar({"type":"underline","liwidth":"auto","bgcolor":"rgb(240,242,220)","hcolor":"rgb(1,175,99)"});
+		});
+	</script>
 </html>

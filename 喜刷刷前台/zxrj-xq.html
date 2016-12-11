@@ -4,73 +4,61 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <title>帖子详情</title>
-
     <meta name="description" content="Source code generated using layoutit.com">
     <meta name="author" content="LayoutIt!">
 
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
-    <!--index page css text-->
     <link href="css/index.css" rel="stylesheet">
-	  <link rel="stylesheet" href="css/lunbotu.css" />
-	  <link rel="stylesheet" href="css/hanziqiang.css" />
-	  <script src="js/jquery-2.1.4.min.js"></script>
-	  <script src="js/lunbotu.js"></script>
-	  <link rel="stylesheet" href="css/lunbotu2.css" />
-	  <link rel="stylesheet" href="css/tiezi.css" />
-	  <script src="js/text.js"></script>
-	  <script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
-	  <script src="http://cdn.bootcss.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="css/hanziqiang.css" />
+	<link rel="stylesheet" href="css/xq_navbar.css"/>
+	<link rel="stylesheet" href="css/xq.css"/>
+	<link rel="stylesheet" href="css/tiezi.css" />
+	
+ 	<script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+	<script src="js/jquery-2.1.4.min.js"></script>
+	<script src="js/text.js"></script>
+	<script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+	<script src="http://cdn.bootcss.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
   </head>
   <body>
 
     <div class="container-fluid" style="background-image:url('images/background.jpg')">
 
 <!--header-->
-	<div class="row">
-		<div class="col-md-12 nobo">
-			<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-				<div class="navbar-header"> 
-					<img src="images/logo.gif" alt="logo"/>
+	<div class="containter">
+		<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+			<div class="row">
+				<div class="col-md-2 nobo">
+					<a href="index.html"><img src="images/logo.png" style="height:50px; width:73%;padding-left: 1.6em "></a>
 				</div>
-				
-				<div class="collapse navbar-collapse" id="greennav">
-					<ul class="nav navbar-nav">
-						<li class="active">
-		                  <a href="index-du.html" >首页</a>
-		                </li>
-		                <li>
-		                  <a href="zsgs.html">装饰公司</a>
-		                </li>
-		                <li>
-		                  <a href="jzzp.html">家装招标</a>
-		                </li>
-		                <li>
-		                  <a href="zxrj.html" class="ahov">装修日记</a>
-		                </li>
+				<div class="col-md-7 nobo">
+				<div class="xq_bag" id="bar1">
+					<ul class="xq_navbar">
+						<li class="xq_navli"><a href="index.html">首页</a></li>
+						<li class="xq_navli"><a href="zsgs.html">装饰公司</a></li>
+						<li class="xq_navli"><a href="jzzp.html">家装招标</a></li>
+						<li class="xq_navli"><a href="zxrj.html">装修日记</a></li>
 					</ul>
-					<div class="navright"> 
-					<div class="dropdown" id="dropdown">
-                        <a href="">无敌小边边&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
-                      <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown">
-                        个人中心&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <span class="caret"></span>
-                      </button>
-                      <ul class="dropdown-menu ac" role="menu" aria-labelledby="dropdownMenu1">
-                        <li role="presentation"><a   role="menuitem" tabindex="-1" href="grzx.html">我的主页</a></li>
-                        <li role="presentation"><a   role="menuitem" tabindex="-1" href="qyzx.html">企业主页</a></li>
-                      </ul>
-                      <a href="dl_cp.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;登录</a>&nbsp;&nbsp;|
-                    &nbsp;&nbsp;<a href="regist.html">注册</a>
-                    </div>
+					
 				</div>
-				</div>	
-			</nav>
-		</div>
+				</div>
+				<div class="col-md-3 nobo">
+					<div class="navright1">
+						<a href="dl.html" class="dl">登录</a>&nbsp;&nbsp;
+						<a href="regist.html" class="regist">注册</a>
+					</div>
+				</div>
+			</div>	
+		</nav>
 	</div>
 	<div class="container">
+	<div class="row">
+      <div class="col-md-1"></div>
+        <div class="col-md-10">
 		<div class="tabbable tabbable2"> <!-- Only required for left/right tabs -->
 			<div class="tab-content">
 				<div class="tab-pane active" id="tab1">	
@@ -79,15 +67,15 @@
 						<div class="tz_head">
 							<h3 class="tz_title">【po进度】这是我家的装修进度，和大家分享</h3>
 								<button onclick="msgbox(1)" class="reply">
-									<span class="glyphicon glyphicon-comment"></span>
+									<span class="glyphicon glyphicon-comment" title="回复"></span>
 									<em class="glyphicon-eyes">195</em>
 								</button>
 								<button class="reply" onclick="aa()">
-									<span class="glyphicon glyphicon-star-empty"></span>
+									<span class="glyphicon glyphicon-star-empty" title="收藏"></span>
 									<em class="glyphicon-eyes">95</em>
 								</button>
 								<button class="reply">
-									<span class="glyphicon glyphicon-eye-open"></span>
+									<span class="glyphicon glyphicon-eye-open" title="浏览数"></span>
 									<em class="glyphicon-eyes">95</em>
 								</button>	
 						</div>
@@ -111,7 +99,7 @@
 							<p>
 							<span class="reply_time">回复时间：2016-11-30</span>
 							<button onclick="msgbox(1)" class="reply_vistor">
-									<span class="glyphicon glyphicon-comment"></span>
+									<span class="glyphicon glyphicon-comment" title="回复"></span>
 							</button>
 							</p>
 							
@@ -126,7 +114,7 @@
 							<p>
 							<span class="reply_time">回复时间：2016-11-30</span>
 							<button onclick="msgbox(1)" class="reply_vistor">
-									<span class="glyphicon glyphicon-comment"></span>
+									<span class="glyphicon glyphicon-comment" title="回复"></span>
 							</button>
 							</p>
 							
@@ -141,7 +129,7 @@
 							<p>
 							<span class="reply_time">回复时间：2016-11-30</span>
 							<button onclick="msgbox(1)" class="reply_vistor">
-									<span class="glyphicon glyphicon-comment"></span>
+									<span class="glyphicon glyphicon-comment" title="回复"></span>
 							</button>
 							</p>
 							
@@ -156,7 +144,7 @@
 							<p>
 							<span class="reply_time">回复时间：2016-11-30</span>
 							<button onclick="msgbox(1)" class="reply_vistor">
-									<span class="glyphicon glyphicon-comment"></span>
+									<span class="glyphicon glyphicon-comment" title="回复"></span>
 							</button>
 							</p>
 							
@@ -171,7 +159,7 @@
 							<p>
 							<span class="reply_time">回复时间：2016-11-30</span>
 							<button onclick="msgbox(1)" class="reply_vistor">
-									<span class="glyphicon glyphicon-comment"></span>
+									<span class="glyphicon glyphicon-comment" title="回复"></span>
 							</button>
 							</p>
 							
@@ -208,6 +196,9 @@
               </ul>
             </nav>
             </div>
+            </div>
+            </div>
+            <div class="col-md-1"></div>
             </div>
             </div>
 <!--content-->
@@ -252,8 +243,12 @@
 	</div>
 </div>
 
-    <script src="js/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/scripts.js"></script>
+   
   </body>
+  <script src="js/xq_navbar.js"></script>
+  <script>
+    $(function(){
+      $("#bar1").xq_navbar({"type":"underline","liwidth":"auto","bgcolor":"rgb(240,242,220)","hcolor":"rgb(1,175,99)"});
+    });
+  </script>
 </html>

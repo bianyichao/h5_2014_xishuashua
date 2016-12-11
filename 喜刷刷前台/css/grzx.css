@@ -13,15 +13,19 @@ a{text-decoration:none}
 .menu ul li a{display:block;color:#666;font-family: "微软雅黑";text-decoration: none;font-size: 0.5em;}
 .menu ul li a:hover{text-decoration:underline}
 .gr{
-    margin-top: 80px;
+    margin-top: 50px;
+    padding-top: 2em;
+    padding-left: 6%;
+    padding-right: 6%;
 }
 .gr1{
-    border:1px solid #ddd;
+
 }
 .gr2 img{
     float: left;
     margin: 0px;
     padding-bottom: 10px;
+    padding-right: 10px;
     padding-left: 10px;
 }
 .gr3 h4{
@@ -43,11 +47,17 @@ a{text-decoration:none}
 }
 .gr4 h5{
     font-weight: bold;
+    float: left;
+}
+.gr4 ul{
+    padding-top: 20px;
 }
 .gr5 h2{
     text-align: center;
-    border-bottom:1px solid #ddd;
+    border-bottom:1px solid;
     padding-bottom: 10px;
+    margin-top: 0px;
+    padding-top: 20px;
 }
 .gr6 h4{
     text-align: center;
@@ -92,4 +102,31 @@ a{text-decoration:none}
 }
 .gr14{
     margin-top: 20px;
+}
+.gr14 .row{
+    padding-top: 0px;
+}
+.gr18 h3{
+    text-align: center;
+    padding:8px;
+    border:1px solid #ccc ;
+    border-bottom: 0px;
+    margin-bottom: 0px;
+    background-color: #ccc;
+}
+.gr15 li{
+    width: 13%;
+    background-color: white;
+}
+.gr15 li a{
+    background-color: rgb(194,203,120);
+}
+.active a{
+    background-color: white;
+}
+.gr16{
+    margin: 5px;
+}
+.gr17{
+    border-bottom: 2px solid rgb(35,100,0);
 }

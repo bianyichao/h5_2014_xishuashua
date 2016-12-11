@@ -2,7 +2,7 @@
 @charset "utf-8";
 /* CSS Document */
 *{}
-.con1{margin-top:120px;}
+.con1{margin-top:20px;}
 .con1 h1{
 	font-family: "黑体";
 	font-size:34px;
@@ -15,16 +15,15 @@
     border-bottom:1px dashed #c2cb7a;
 }
 .smbtn{
-	margin-top:40px;
-	width:128px;
+	margin-top:10px;
+	width:300px;
 	height:40px;
 	background-color:#c2cb7a;
 	color:#fff;
 	border:0;
-	float:right;
 }
 .head{
-	width:375px;
+	width:300px;
 	float:right;
 }
 .head img{

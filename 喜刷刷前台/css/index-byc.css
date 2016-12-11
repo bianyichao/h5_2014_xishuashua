@@ -39,8 +39,8 @@
 	margin-left: 40px;
 }
 .contitle{
-	padding-bottom: 30px;
-	text-align: left;
+	padding-bottom: 1em;
+	text-align: center;
 }
 .col-md-6{
 	padding-left: 80px;
@@ -50,7 +50,6 @@
 }
 #greennav2{
 	padding-top:1%;
-	text-align: right;
 	padding-right: 2%;
 }
 #greennav2 ul li a{
@@ -70,4 +69,30 @@
 }
 .img-circle{
 	margin-right: 0px;
+}
+.zhaobiao-list{
+	font-family: 微软雅黑;
+}
+.zhaobiao-list p{
+	display: inline;
+	font-family: 微软雅黑;
+	color:rgb(132,153,49);
+}
+.add{
+	background-color: rgb(253,253,250);
+}
+#zhaobiao-tag{
+	color: gray;
+	line-height: 150%;
+	height: 80%;
+	border-left:1px dashed orange;	
+	padding-left: 20%;
+}
+.tag-right{
+	color: orange;
+}
+.ad1 p{
+	font-family: 微软雅黑;
+	font-weight: bolder;
+	font-size: 1.5em;
 }
