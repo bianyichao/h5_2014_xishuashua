@@ -1,0 +1,25 @@
+
+.lest img {
+    border: none;
+    vertical-align: top;
+}
+
+.lest a {
+    color: #424242;
+    text-decoration: none;
+}
+
+.lest a:hover {
+    color: #b13c39;
+    text-decoration: underline;
+}
+
+.lest .clear {
+    clear: both;
+    height: 0;
+    overflow: hidden;
+    font-size: 0;
+    line-height: 0;
+    margin: 0;
+    padding: 0;
+}

@@ -1,0 +1,259 @@
+* {
+    list-style: none;
+}
+
+.btn:hover {
+    text-decoration: none;
+    color: rgb(255, 255, 0);
+    background-color: rgb(35, 100, 0);
+}
+
+li.active {
+    background-color: rgb(35, 100, 0);
+}
+
+.wen {
+    font-size: 13px;
+}
+
+.gps {
+    margin-right: 0px;
+}
+
+.js1-left p {
+    padding-left: 55px;
+}
+
+.people {
+    color: red;
+}
+
+.add {
+    font-family: "微软雅黑";
+    border: 1px solid rgb(194, 203, 112);
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+.value-right {
+    padding-top: 80px;
+    float: right;
+    padding-left: 35px;
+}
+
+.value {
+    font-style: oblique;
+    font-size: 2.5em;
+    color: rgb(255, 100, 0);
+}
+
+.acc li {
+    padding-bottom: 10px;
+}
+
+.acc1 {
+    padding-left: 20px;
+}
+
+.acc1 li {
+    padding-bottom: 10px;
+
+}
+
+.ad1 {
+    padding-bottom: 20px;
+}
+
+.ad1 a {
+    text-decoration: none;
+}
+
+.annv {
+    font-family: "微软雅黑";
+    background-color: rgb(194, 203, 112);
+    color: white;
+    font-size: 20px
+}
+
+.btn-link:hover {
+    background-color: rgb(35, 100, 0);
+    text-decoration: none;
+    color: yellow;
+}
+
+.btn-link a:hover {
+    background-color: rgb(35, 100, 0);
+    text-decoration: none;
+    color: yellow;
+
+}
+
+.tubo {
+    padding-top: 20px;
+    color: rgb(35, 100, 0);
+}
+
+.wen {
+    font-size: 13px;
+}
+
+.js1 {
+    padding: 5px;
+}
+
+.js1 img {
+    padding-left: 20px;
+}
+
+.js1-right {
+    padding-left: 10px;
+    border-right: 1px dashed lightgray;
+}
+
+.gs2 p {
+    color: white;
+    background-color: rgb(194, 203, 112);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0px;
+    font-family: "微软雅黑";
+    font-size: 18px;
+}
+
+.gs2 {
+    padding: 0px;
+}
+
+.gs3 p {
+    background-color: white;
+    color: rgb(194, 203, 112);
+}
+
+.gs4 p {
+    color: rgb(35, 100, 0);
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.gs5 p {
+    color: rgb(35, 100, 0);
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.gs6 {
+    padding-top: 10px;
+}
+
+.gs7 {
+    float: right;
+}
+
+.gs7 li a {
+    border-color: rgb(35, 100, 0);
+    margin: 5px;
+    font-family: "微软雅黑";
+    font-size: 12px;
+    color: rgb(35, 100, 0);
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.gs8 a {
+    background-color: rgb(35, 100, 0);
+    color: white;
+
+}
+
+.gs10 a:hover {
+    text-decoration: none;
+}
+
+.zp1 {
+    color: rgb(35, 100, 0);
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+.zp2 {
+    background-color: rgb(194, 203, 112);
+    color: white;
+    font-size: 1.2em;
+    margin-top: 20%;
+}
+
+.zp3 {
+    padding: 0px;
+    padding-top: 5px;
+    text-align: center;
+}
+
+.zp4 {
+    padding: 0px;
+}
+
+.zp5 a {
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+    font-family: "微软雅黑";
+}
+
+.zp5 button {
+    width: 100%;
+    height: 10%;
+    background-color: rgb(194, 203, 112);
+}
+
+.zp6 {
+    padding: 0px;
+}
+
+.widnow {
+    width: 100%;
+}
+
+.specialul li {
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.specialul p {
+    padding-top: 2.5%;
+    text-align: center;
+    float: left;
+    padding-left: 4%;
+    font-size: 0.9em;
+    font-family: "微软雅黑";
+    font-weight: bold;
+}
+
+.specialul input {
+    height: 35px;
+    width: 75%;
+    border: 1px solid #aed499;
+}
+
+.row select {
+    padding-bottom: 2%;
+    margin-bottom: 2%;
+    height: 30px;
+    width: 80%;
+    border: 1px solid #aed499;
+}
+
+.specialul select {
+    height: 35px;
+    width: 75%;
+    border: 1px solid #aed499;
+}
+
+.specialul textarea {
+    height: 80%;
+    width: 75%;
+    border: 1px solid #aed499;
+}

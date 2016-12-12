@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+a {
+    text-decoration: none
+}
+
+#conter {
+    width: 100%;
+    margin: auto
+}
+
+#help-left {
+    width: 100%;
+    font-family: 'microsoft YaHei';
+    float: left
+}
+
+.menu {
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc
+}
+
+.menu:last-child {
+    border-bottom: 1px solid #ccc
+}
+
+.menu summary {
+    height: 40px;
+    line-height: 40px;
+    text-indent: 10px;
+    outline: 0;
+    font-size: 14px;
+    font-weight: 700;
+    border-top: 1px solid #ddd;
+    cursor: pointer
+}
+
+.menu summary::-webkit-details-marker {
+    display: none
+}
+
+.menu summary:before {
+    content: "+";
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+    font-size: 18px;
+    font-weight: 700
+}
+
+.menu[open] summary:before {
+    content: "-"
+}
+
+.menu ul {
+    padding: 10px 0
+}
+
+.menu ul li {
+    list-style: none;
+    text-indent: 25px;
+    font-size: 12px;
+    height: 30px;
+    line-height: 30px;
+}
+
+.menu ul li a {
+    display: block;
+    color: #666;
+    font-family: "微软雅黑";
+    text-decoration: none;
+    font-size: 0.5em;
+}
+
+.menu ul li a:hover {
+    text-decoration: underline
+}
+
+.gr {
+    margin-top: 50px;
+    padding-top: 2em;
+    padding-left: 6%;
+    padding-right: 6%;
+}
+
+.gr1 {
+
+}
+
+.gr2 img {
+    float: left;
+    margin: 0px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.gr3 h4 {
+    font-family: 微软雅黑;
+    font-weight: bold;
+}
+
+.gr3 ul {
+    margin-top: 25px;
+}
+
+.gr3 ul li {
+    margin-bottom: 20px;
+}
+
+.gr2 {
+    padding-right: 0px;
+}
+
+.gr3 {
+
+    border-right: 1px solid #ddd;
+}
+
+.gr4 h5 {
+    font-weight: bold;
+    float: left;
+}
+
+.gr4 ul {
+    padding-top: 20px;
+}
+
+.gr5 h2 {
+    text-align: center;
+    border-bottom: 1px solid;
+    padding-bottom: 10px;
+    margin-top: 0px;
+    padding-top: 20px;
+}
+
+.gr6 h4 {
+    text-align: center;
+}
+
+.gr7 h4 {
+    text-align: center;
+}
+
+.gr6 {
+    border-right: 1px solid #ddd;
+}
+
+.gr7 h3 {
+    text-align: center;
+}
+
+.gr7 h4 {
+    text-align: left;
+}
+
+.gr7 p {
+    font-size: 0.5em;
+}
+
+.gr8 {
+    border-right: 1px solid #ddd;
+}
+
+.gr9 {
+    border-top: 1px dashed #ddd;
+}
+
+.gr10 h4 {
+    text-align: center;
+}
+
+.gr10 {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.gr11 {
+    border-right: 1px solid #ddd;
+}
+
+.gr12 {
+    padding: 20px;
+}
+
+.gr13 {
+    padding-left: 20px;
+}
+
+.gr14 {
+    margin-top: 20px;
+}
+
+.gr14 .row {
+    padding-top: 0px;
+}
+
+.gr18 h3 {
+    text-align: center;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-bottom: 0px;
+    margin-bottom: 0px;
+    background-color: #ccc;
+}
+
+.gr15 li {
+    width: 13%;
+    background-color: white;
+}
+
+.gr15 li a {
+    background-color: rgb(194, 203, 120);
+}
+
+.active a {
+    background-color: white;
+}
+
+.gr16 {
+    margin: 5px;
+}
+
+.gr17 {
+    border-bottom: 2px solid rgb(35, 100, 0);
+}
