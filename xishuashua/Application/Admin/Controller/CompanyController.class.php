@@ -2,7 +2,7 @@
 namespace Admin\Controller;
 use Think\Controller;
 class CompanyController extends Controller {
-    public function index(){
+    public function zxgs(){
         $this->display();
     }
 }

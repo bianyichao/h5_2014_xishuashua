@@ -1,0 +1,44 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.xq_bag {
+    width: 100%;
+    height: 50px;
+    overflow: hidden;
+    position: relative;
+    margin: auto;
+}
+
+.xq_navbar {
+    width: 100%;
+    height: 50px;
+    overflow: hidden;
+    box-sizing: border-box;
+    box-sizing: inherit;
+    background-color: white;
+    font-family: "微软雅黑"
+}
+
+.xq_navli {
+    list-style: none;
+    display: inline-block;
+    color: rgb(1, 175, 99);
+    box-sizing: inherit;
+    text-align: center;
+    float: left;
+    padding: 0em 1.5em;
+}
+
+.xq_navli a {
+    display: block;
+    color: rgb(35, 99, 0);
+    text-decoration: none;
+}
+
+.xq_move {
+    transition: all .3s ease-in-out;
+    position: absolute;
+    color: rgb(1, 175, 99)
+}
