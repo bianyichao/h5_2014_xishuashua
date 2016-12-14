@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="/h5_2014_xishuashua/h5_2014_xishuashua/xishuashua/Public/admin/css/style1.css"/>
     <link rel="stylesheet" href="/h5_2014_xishuashua/h5_2014_xishuashua/xishuashua/Public/admin/css/index1.css"/>
     <link rel="stylesheet" type="text/css" href="/h5_2014_xishuashua/h5_2014_xishuashua/xishuashua/Public/admin/css/lanrenzhijia.css">
-    
+
     <script src="/h5_2014_xishuashua/h5_2014_xishuashua/xishuashua/Public/admin/js/jquery-2.1.4.min.js"></script>
     <script src="/h5_2014_xishuashua/h5_2014_xishuashua/xishuashua/Public/admin/js/text.js"></script>
     <script type="text/javascript" src="/h5_2014_xishuashua/h5_2014_xishuashua/xishuashua/Public/admin/js/jquery-1.10.1.min.js"></script>
@@ -29,7 +29,7 @@
         <div class="row">
             <div class="col-md-2 nobo">
                 <a href="index.html"><img src="/h5_2014_xishuashua/h5_2014_xishuashua/xishuashua/Public/admin/images/logo.png"
-                                          style="height:50px; width:73%;padding-left: 1.6em "></a>
+                                          style="height:50px;padding-left: 1.6em "></a>
             </div>
             <div class="col-md-7 nobo">
                 <div class="xq_bag" id="bar1">
@@ -47,10 +47,10 @@
 
                     <div class="dropdown" id="dropdown">
 					<span id="nav-name">
-					    <img src="/h5_2014_xishuashua/h5_2014_xishuashua/xishuashua/Public/admin/images/ershao.jpg" class="img-circle" style="width:3em;">&nbsp;&nbsp;&nbsp;
+					    <img src="/h5_2014_xishuashua/h5_2014_xishuashua/xishuashua/Public/admin/images/ershao.jpg" class="img-circle" style="width:2.5em;">&nbsp;&nbsp;&nbsp;
 
 					    <a href="grzx.html"
-                           style="color:rgb(35,99,0);border-bottom:1px dashed rgb(35,99,0);">王大锤</a><span
+                           style="color:rgb(35,99,0);border-bottom:1px dashed rgb(35,99,0);"><?php echo ($_SESSION['p_name']); ?></a><span
                             class="bar-text">&nbsp;&nbsp;欢迎你</span>
                      </span>
                         <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1"

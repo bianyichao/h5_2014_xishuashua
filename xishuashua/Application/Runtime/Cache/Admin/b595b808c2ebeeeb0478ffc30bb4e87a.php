@@ -18,10 +18,10 @@
     <link rel="stylesheet" href="/h5_2014_xishuashua/h5_2014_xishuashua/xishuashua/Public/admin/css/index1.css"/>
     <link rel="stylesheet" type="text/css" href="/h5_2014_xishuashua/h5_2014_xishuashua/xishuashua/Public/admin/css/lanrenzhijia.css">
 
-    <script src="js/jquery-2.1.4.min.js"></script>
-    <script src="js/text.js"></script>
-    <script type="text/javascript" src="js/jquery-1.10.1.min.js"></script>
-    <script type="text/javascript" src="js/index.js"></script>
+    <script src="/h5_2014_xishuashua/h5_2014_xishuashua/xishuashua/Public/admin/js/jquery-2.1.4.min.js"></script>
+    <script src="/h5_2014_xishuashua/h5_2014_xishuashua/xishuashua/Public/admin/js/text.js"></script>
+    <script type="text/javascript" src="/h5_2014_xishuashua/h5_2014_xishuashua/xishuashua/Public/admin/js/jquery-1.10.1.min.js"></script>
+    <script type="text/javascript" src="/h5_2014_xishuashua/h5_2014_xishuashua/xishuashua/Public/admin/js/index.js"></script>
 </head>
 <body>
 <div class="containter">
@@ -29,12 +29,12 @@
         <div class="row">
             <div class="col-md-2 nobo">
                 <a href="index.html"><img src="/h5_2014_xishuashua/h5_2014_xishuashua/xishuashua/Public/admin/images/logo.png"
-                                          style="height:50px; width:73%;padding-left: 1.6em "></a>
+                                          style="height:50px;padding-left: 1.6em "></a>
             </div>
             <div class="col-md-7 nobo">
                 <div class="xq_bag" id="bar1">
                     <ul class="xq_navbar">
-                        <li class="xq_navli"><a href="#">首页</a></li>
+                        <li class="xq_navli"><a href="/h5_2014_xishuashua/h5_2014_xishuashua/xishuashua/index.php/Admin/index/index-du">首页</a></li>
                         <li class="xq_navli"><a href="/h5_2014_xishuashua/h5_2014_xishuashua/xishuashua/index.php/Admin/company/zsgs">装饰公司</a></li>
                         <li class="xq_navli"><a href="/h5_2014_xishuashua/h5_2014_xishuashua/xishuashua/index.php/Admin/tender/jzzp">家装招标</a></li>
                         <li class="xq_navli"><a href="/h5_2014_xishuashua/h5_2014_xishuashua/xishuashua/index.php/Admin/diary/zxrj">装修日记</a></li>
@@ -47,10 +47,10 @@
 
                     <div class="dropdown" id="dropdown">
 					<span id="nav-name">
-					    <img src="/h5_2014_xishuashua/h5_2014_xishuashua/xishuashua/Public/admin/images/ershao.jpg" class="img-circle" style="width:3em;">&nbsp;&nbsp;&nbsp;
+					    <img src="/h5_2014_xishuashua/h5_2014_xishuashua/xishuashua/Public/admin/images/ershao.jpg" class="img-circle" style="width:2.5em;">&nbsp;&nbsp;&nbsp;
 
 					    <a href="grzx.html"
-                           style="color:rgb(35,99,0);border-bottom:1px dashed rgb(35,99,0);">王大锤</a><span
+                           style="color:rgb(35,99,0);border-bottom:1px dashed rgb(35,99,0);"><?php echo ($_SESSION['p_name']); ?></a><span
                             class="bar-text">&nbsp;&nbsp;欢迎你</span>
                      </span>
                         <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1"
@@ -112,214 +112,216 @@
 <!--content-->
 <!--content 1-->
 
-<div class="row con con-one">
-	<div style="width:90%;margin-left: 5%;margin-bottom: 1em;margin-top: 1em;">
-		<div class="col-md-4" style="height:40px; border-bottom: 1px dashed #3e8f3e;width: 35%"></div>
-		<div class="col-md-4" style="width:30%;">
-			<h1 class="contitle">
-				· 装饰公司 · <span>Decoration Company</span> ·
-			</h1>
+
+
+	<div class="row con con-one">
+<div style="width:90%;margin-left: 5%;margin-bottom: 1em;margin-top: 1em;">
+    <div class="col-md-4" style="height:40px; border-bottom: 1px dashed #3e8f3e;width: 35%"></div>
+    <div class="col-md-4" style="width:30%;">
+        <h1 class="contitle">
+		 · 装饰公司 · <span>Decoration Company</span> ·
+		</h1>
     </div>
-		<div class="col-md-4" style="height:40px; border-bottom: 1px dashed #3e8f3e;width: 35%"></div>
+    <div class="col-md-4" style="height:40px; border-bottom: 1px dashed #3e8f3e;width: 35%"></div>
 </div>
 
-	<div class="col-md-12 cm12">
-		<div class="col-md-3">
-			<div class="col-md-12">
-				<a href=""><img src="/h5_2014_xishuashua/h5_2014_xishuashua/xishuashua/Public/admin/images/cm401.jpg" alt="cm401"/></a>
-				<h2><a href="">简家家装装饰有限公司</a></h2>
-				<p>联系人 xxx-xxx-xxxx 李小姐</p>
+		<div class="col-md-12 cm12">
+			<div class="col-md-3">
+				<div class="col-md-12">
+					<a href=""><img src="/h5_2014_xishuashua/h5_2014_xishuashua/xishuashua/Public/admin/images/cm401.jpg" alt="cm401"/></a>
+					<h2><a href="">简家家装装饰有限公司</a></h2>
+					<p>联系人  xxx-xxx-xxxx  李小姐</p>
+				</div>
 			</div>
-		</div>
-		<div class="col-md-3">
-			<div class="col-md-12">
-				<a href=""><img src="/h5_2014_xishuashua/h5_2014_xishuashua/xishuashua/Public/admin/images/cm401.jpg" alt="cm401"/></a>
-				<h2><a href="">简家家装装饰有限公司</a></h2>
-				<p>联系人 xxx-xxx-xxxx 李小姐</p>
+			<div class="col-md-3">
+			    <div class="col-md-12">
+					<a href=""><img src="/h5_2014_xishuashua/h5_2014_xishuashua/xishuashua/Public/admin/images/cm401.jpg" alt="cm401"/></a>
+					<h2><a href="">简家家装装饰有限公司</a></h2>
+					<p>联系人  xxx-xxx-xxxx  李小姐</p>
+				</div>
 			</div>
-		</div>
-		<div class="col-md-3">
-			<div class="col-md-12">
-				<a href=""><img src="/h5_2014_xishuashua/h5_2014_xishuashua/xishuashua/Public/admin/images/cm401.jpg" alt="cm401"/></a>
-				<h2><a href="">简家家装装饰有限公司</a></h2>
-				<p>联系人 xxx-xxx-xxxx 李小姐</p>
+			<div class="col-md-3">
+			    <div class="col-md-12">
+					<a href=""><img src="/h5_2014_xishuashua/h5_2014_xishuashua/xishuashua/Public/admin/images/cm401.jpg" alt="cm401"/></a>
+					<h2><a href="">简家家装装饰有限公司</a></h2>
+					<p>联系人  xxx-xxx-xxxx  李小姐</p>
+				</div>
 			</div>
-		</div>
-		<div class="col-md-3">
-			<div class="col-md-12">
-				<a href=""><img src="/h5_2014_xishuashua/h5_2014_xishuashua/xishuashua/Public/admin/images/cm401.jpg" alt="cm401"/></a>
-				<h2><a href="">简家家装装饰有限公司</a></h2>
-				<p>联系人 xxx-xxx-xxxx 李小姐</p>
+			<div class="col-md-3">
+			    <div class="col-md-12">
+					<a href=""><img src="/h5_2014_xishuashua/h5_2014_xishuashua/xishuashua/Public/admin/images/cm401.jpg" alt="cm401"/></a>
+					<h2><a href="">简家家装装饰有限公司</a></h2>
+					<p>联系人  xxx-xxx-xxxx  李小姐</p>
+				</div>
 			</div>
 		</div>
 	</div>
-</div>
 <!--content 2-->
 <div class="con-one" style="padding-top:0%;padding-bottom:0%">
-	<div style="width:90%;margin-left: 5%;margin-bottom: 1em;">
-		<div class="col-md-4" style="height:40px; border-bottom: 1px dashed #3e8f3e;width: 35%"></div>
-		<div class="col-md-4" style="width:30%;">
-			<h1 class="contitle">
-				· 新闻资讯 · <span>News Information</span> ·
-			</h1>
+    <div style="width:90%;margin-left: 5%;margin-bottom: 1em;">
+        <div class="col-md-4" style="height:40px; border-bottom: 1px dashed #3e8f3e;width: 35%"></div>
+        <div class="col-md-4" style="width:30%;">
+            <h1 class="contitle">
+                · 新闻资讯 · <span>News Information</span> ·
+            </h1>
         </div>
-		<div class="col-md-4" style="height:40px; border-bottom: 1px dashed #3e8f3e;width: 35%"></div>
+        <div class="col-md-4" style="height:40px; border-bottom: 1px dashed #3e8f3e;width: 35%"></div>
     </div>
 </div>
-<div class="row con con-two">
-	<div class="col-md-6">
-		<h1 class="contitle">&nbsp;&nbsp;&nbsp;
+	<div class="row con con-two">
+		<div class="col-md-6">
+			<h1 class="contitle">&nbsp;&nbsp;&nbsp;
 			家装招标 · <span>Home Tender </span></h1>
-		<div class="col-md-12 cm12" style="padding-left:10%;padding-bottom:10%">
-			<div class="uldiv">
-				<div class="datepic">
-					<h3>03</h3>
-					<h4>15</h4>
-				</div>
-				<div class="lidiv">
-					<a href="">【简约欧式 100平米 100k】卓达青年之邦</a>
-					<p>项目地址：石家庄市 裕华区 裕华路 河北师大新校区内<br/>
-						联系人：李小姐</p>
-				</div>
-				<div class="clear"></div>
-			</div>
-			<div class="uldiv">
-				<div class="datepic">
-					<h3>03</h3>
-					<h4>15</h4>
-				</div>
-				<div class="lidiv">
-					<a href="">【复古欧式 200平米 500k】水榭花都花园洋房二期</a>
-					<p>项目地址：石家庄市 裕华区 裕华路 河北师大新校区内<br/>
-						联系人：李小姐</p>
-				</div>
-				<div class="clear"></div>
-			</div>
-			<div class="uldiv">
-				<div class="datepic">
-					<h3>03</h3>
-					<h4>15</h4>
-				</div>
-				<div class="lidiv">
-					<a href="">【简约现代 100平米 100k】水榭花都实验中学学区房</a>
-					<p>项目地址：石家庄市 裕华区 裕华路 河北师大新校区内<br/>
-						联系人：李小姐</p>
-				</div>
-				<div class="clear"></div>
-			</div>
-			<div class="uldiv">
-				<div class="datepic">
-					<h3>03</h3>
-					<h4>15</h4>
-				</div>
-				<div class="lidiv">
-					<a href="">【简约现代 100平米 200k】卓达老年公寓</a>
-					<p>项目地址：石家庄市 裕华区 裕华路 河北师大新校区内<br/>
-						联系人：李小姐</p>
-				</div>
-				<div class="clear"></div>
+            <div class="col-md-12 cm12" style="padding-left:10%;padding-bottom:10%">
+			    <div class="uldiv">
+			    	<div class="datepic">
+			    		<h3>03</h3>
+			    		<h4>15</h4>
+			    	</div>
+			    	<div class="lidiv">
+			    		<a href="">【简约欧式  100平米  100k】卓达青年之邦</a>
+			    		<p>项目地址：石家庄市  裕华区  裕华路  河北师大新校区内<br/>
+			    		联系人：李小姐</p>
+			    	</div>
+			    	<div class="clear"></div>
+			    </div>
+			    <div class="uldiv">
+			    	<div class="datepic">
+			    		<h3>03</h3>
+			    		<h4>15</h4>
+			    	</div>
+			    	<div class="lidiv">
+			    		<a href="">【复古欧式  200平米  500k】水榭花都花园洋房二期</a>
+			    		<p>项目地址：石家庄市  裕华区  裕华路  河北师大新校区内<br/>
+			    		联系人：李小姐</p>
+			    	</div>
+			    	<div class="clear"></div>
+			    </div>
+			    <div class="uldiv">
+			    	<div class="datepic">
+			    		<h3>03</h3>
+			    		<h4>15</h4>
+			    	</div>
+			    	<div class="lidiv">
+			    		<a href="">【简约现代  100平米  100k】水榭花都实验中学学区房</a>
+			    		<p>项目地址：石家庄市  裕华区  裕华路  河北师大新校区内<br/>
+			    		联系人：李小姐</p>
+			    	</div>
+			    	<div class="clear"></div>
+			    </div>
+			    <div class="uldiv">
+			    	<div class="datepic">
+			    		<h3>03</h3>
+			    		<h4>15</h4>
+			    	</div>
+			    	<div class="lidiv">
+			    		<a href="">【简约现代  100平米  200k】卓达老年公寓</a>
+			    		<p>项目地址：石家庄市  裕华区  裕华路  河北师大新校区内<br/>
+			    		联系人：李小姐</p>
+			    	</div>
+			    	<div class="clear"></div>
+			    </div>
 			</div>
 		</div>
-	</div>
 
-	<div class="col-md-6">
-		<h1 class="contitle">
+		<div class="col-md-6">
+		   <h1 class="contitle">
 			论坛推送 · <span>Forum Push </span></h1>
-		<div class="col-md-12 cm12" style="padding-left:0%">
-			<div class="uldiv">
-				<div class="datepic">
-					<h3>03</h3>
-					<h4>15</h4>
-				</div>
-				<div class="lidiv">
-					<a href="">【po进度】这是我家的装修进度，和大家分享~</a>
-					<p><span id="a">今天是装修的第一天，师傅们看起来很专业啊！我很有信心！</span><br/>
-						帖主：李小姐</p>
-				</div>
-				<div class="clear"></div>
-			</div>
-			<div class="uldiv">
-				<div class="datepic">
-					<h3>03</h3>
-					<h4>15</h4>
-				</div>
-				<div class="lidiv">
-					<a href="">【po进度】这是我家的装修进度，和大家分享~</a>
-					<p><span id="b">初次接触家装的朋友们想必有很多迷惑的地方吧，帖主在这里给大家一些小贴士</span><br/>
-						帖主：李小姐</p>
-				</div>
-				<div class="clear"></div>
-			</div>
-			<div class="uldiv">
-				<div class="datepic">
-					<h3>03</h3>
-					<h4>15</h4>
-				</div>
-				<div class="lidiv">
-					<a href="">【进来看看吧】装修小贴士</a>
-					<p><span id="c">初次接触家装的朋友们想必有很多迷惑的地方吧，帖主在这里给大家一些小贴士</span><br/>
-						帖主：李小姐</p>
-				</div>
-				<div class="clear"></div>
-			</div>
-			<div class="uldiv">
-				<div class="datepic">
-					<h3>03</h3>
-					<h4>15</h4>
-				</div>
-				<div class="lidiv">
-					<a href="">【求加精】专业律师讲解协议书细则</a>
-					<p><span id="d">这里是从事律师行业十多年的市里某律师所律师长，应邀来给大家讲解一下与家装公司</span><br/>
-						帖主：李小姐</p>
-				</div>
-				<div class="clear"></div>
-			</div>
+            <div class="col-md-12 cm12" style="padding-left:0%">
+			    <div class="uldiv">
+			    	<div class="datepic">
+			    		<h3>03</h3>
+			    		<h4>15</h4>
+			    	</div>
+			    	<div class="lidiv">
+			    		<a href="" >【po进度】这是我家的装修进度，和大家分享~</a>
+			    		<p ><span id="a">今天是装修的第一天，师傅们看起来很专业啊！我很有信心！</span><br/>
+			    		帖主：李小姐</p>
+			    	</div>
+			    	<div class="clear"></div>
+			    </div>
+			    <div class="uldiv">
+			    	<div class="datepic">
+			    		<h3>03</h3>
+			    		<h4>15</h4>
+			    	</div>
+			    	<div class="lidiv">
+			    		<a href="">【po进度】这是我家的装修进度，和大家分享~</a>
+			    		<p><span id="b">初次接触家装的朋友们想必有很多迷惑的地方吧，帖主在这里给大家一些小贴士</span><br/>
+			    		帖主：李小姐</p>
+			    	</div>
+			    	<div class="clear"></div>
+			    </div>
+			    <div class="uldiv">
+			    	<div class="datepic">
+			    		<h3>03</h3>
+			    		<h4>15</h4>
+			    	</div>
+			    	<div class="lidiv">
+			    		<a href="">【进来看看吧】装修小贴士</a>
+			    		<p><span id="c">初次接触家装的朋友们想必有很多迷惑的地方吧，帖主在这里给大家一些小贴士</span><br/>
+			    		帖主：李小姐</p>
+			    	</div>
+			    	<div class="clear"></div>
+			    </div>
+			    <div class="uldiv">
+			    	<div class="datepic">
+			    		<h3>03</h3>
+			    		<h4>15</h4>
+			    	</div>
+			    	<div class="lidiv">
+			    		<a href="">【求加精】专业律师讲解协议书细则</a>
+			    		<p><span id="d">这里是从事律师行业十多年的市里某律师所律师长，应邀来给大家讲解一下与家装公司</span><br/>
+			    		帖主：李小姐</p>
+			    	</div>
+			    	<div class="clear"></div>
+			    </div>
+		    </div>
 		</div>
 	</div>
-</div>
 <!--content 3-->
-<div class="row con" style="padding-top:0%;padding-bottom:0%;">
-	<div style="width:90%;margin-left: 5%;margin-bottom: 1em;">
-		<div class="col-md-4" style="height:40px; border-bottom: 1px dashed #3e8f3e;width: 35%"></div>
-		<div class="col-md-4" style="width:30%;">
-			<h1 class="contitle">
-				· 精品案例 · <span>Competitive Products</span> ·
-			</h1>
+	<div class="row con" style="padding-top:0%;padding-bottom:0%;">
+        <div style="width:90%;margin-left: 5%;margin-bottom: 1em;">
+            <div class="col-md-4" style="height:40px; border-bottom: 1px dashed #3e8f3e;width: 35%"></div>
+            <div class="col-md-4" style="width:30%;">
+                <h1 class="contitle">
+                    · 精品案例 · <span>Competitive Products</span> ·
+                </h1>
             </div>
-		<div class="col-md-4" style="height:40px; border-bottom: 1px dashed #3e8f3e;width: 35%"></div>
+            <div class="col-md-4" style="height:40px; border-bottom: 1px dashed #3e8f3e;width: 35%"></div>
         </div>
-	<div class="box">
+        <div class="box">
 		<div class="lest">
 			<div class="box1">
-				<a href="#"><img src="/h5_2014_xishuashua/h5_2014_xishuashua/xishuashua/Public/admin/images/1.jpg" alt=""/></a>
+				<a href="#"><img src="/h5_2014_xishuashua/h5_2014_xishuashua/xishuashua/Public/admin/images/1.jpg" alt="" /></a>
 			</div>
 			<div class="box2">
-				<a href="#"><img src="/h5_2014_xishuashua/h5_2014_xishuashua/xishuashua/Public/admin/images/2.jpg" alt=""/></a>
+				<a href="#"><img src="/h5_2014_xishuashua/h5_2014_xishuashua/xishuashua/Public/admin/images/2.jpg" alt="" /></a>
 			</div>
 			<div class="box3">
-				<a href="#"><img src="/h5_2014_xishuashua/h5_2014_xishuashua/xishuashua/Public/admin/images/3.jpg" alt=""/></a>
+				<a href="#"><img src="/h5_2014_xishuashua/h5_2014_xishuashua/xishuashua/Public/admin/images/3.jpg" alt="" /></a>
 			</div>
 			<div class="box4">
-				<a href="#"><img src="/h5_2014_xishuashua/h5_2014_xishuashua/xishuashua/Public/admin/images/4.jpg" alt=""/></a>
+				<a href="#"><img src="/h5_2014_xishuashua/h5_2014_xishuashua/xishuashua/Public/admin/images/4.jpg" alt="" /></a>
 			</div>
 			<div class="box5">
-				<a href="#"><img src="/h5_2014_xishuashua/h5_2014_xishuashua/xishuashua/Public/admin/images/5.jpg" alt=""/></a>
+				<a href="#"><img src="/h5_2014_xishuashua/h5_2014_xishuashua/xishuashua/Public/admin/images/5.jpg" alt="" /></a>
 			</div>
 			<div class="box6">
-				<a href="#"><img src="/h5_2014_xishuashua/h5_2014_xishuashua/xishuashua/Public/admin/images/6.jpg" alt=""/></a>
+				<a href="#"><img src="/h5_2014_xishuashua/h5_2014_xishuashua/xishuashua/Public/admin/images/6.jpg" alt="" /></a>
 			</div>
 			<div class="box7">
-				<a href="#"><img src="/h5_2014_xishuashua/h5_2014_xishuashua/xishuashua/Public/admin/images/1.jpg" alt=""/></a>
+				<a href="#"><img src="/h5_2014_xishuashua/h5_2014_xishuashua/xishuashua/Public/admin/images/1.jpg" alt="" /></a>
 			</div>
 			<div class="box8">
-				<a href="#"><img src="/h5_2014_xishuashua/h5_2014_xishuashua/xishuashua/Public/admin/images/2.jpg" alt=""/></a>
+				<a href="#"><img src="/h5_2014_xishuashua/h5_2014_xishuashua/xishuashua/Public/admin/images/2.jpg" alt="" /></a>
 			</div>
 			<div class="box9">
-				<a href="#"><img src="/h5_2014_xishuashua/h5_2014_xishuashua/xishuashua/Public/admin/images/3.jpg" alt=""/></a>
+				<a href="#"><img src="/h5_2014_xishuashua/h5_2014_xishuashua/xishuashua/Public/admin/images/3.jpg" alt="" /></a>
 			</div>
 		</div>
+		</div>
 	</div>
-</div>
 
 
 <!--footer-->
@@ -364,12 +366,12 @@
 </div>
 </div>
 </div>
-<script src="/h5_2014_xishuashua/h5_2014_xishuashua/xishuashua/Public/admin/js/lanrenzhijia.js"></script>
-<script src="/h5_2014_xishuashua/h5_2014_xishuashua/xishuashua/Public/admin/js/jquery.min.js"></script>
-<script src="/h5_2014_xishuashua/h5_2014_xishuashua/xishuashua/Public/admin/js/bootstrap.min.js"></script>
-<script src="/h5_2014_xishuashua/h5_2014_xishuashua/xishuashua/Public/admin/js/scripts.js"></script>
+<script src="/h5_2014_xishuashua/h5_2014_xishuashua/xishuashua/Public/admin//h5_2014_xishuashua/h5_2014_xishuashua/xishuashua/Public/admin/js/lanrenzhijia.js"></script>
+<script src="/h5_2014_xishuashua/h5_2014_xishuashua/xishuashua/Public/admin//h5_2014_xishuashua/h5_2014_xishuashua/xishuashua/Public/admin/js/jquery.min.js"></script>
+<script src="/h5_2014_xishuashua/h5_2014_xishuashua/xishuashua/Public/admin//h5_2014_xishuashua/h5_2014_xishuashua/xishuashua/Public/admin/js/bootstrap.min.js"></script>
+<script src="/h5_2014_xishuashua/h5_2014_xishuashua/xishuashua/Public/admin//h5_2014_xishuashua/h5_2014_xishuashua/xishuashua/Public/admin/js/scripts.js"></script>
 </body>
-<script src="/h5_2014_xishuashua/h5_2014_xishuashua/xishuashua/Public/admin/js/xq_navbar.js"></script>
+<script src="/h5_2014_xishuashua/h5_2014_xishuashua/xishuashua/Public/admin//h5_2014_xishuashua/h5_2014_xishuashua/xishuashua/Public/admin/js/xq_navbar.js"></script>
 <script>
     $(function () {
         $("#bar1").xq_navbar({

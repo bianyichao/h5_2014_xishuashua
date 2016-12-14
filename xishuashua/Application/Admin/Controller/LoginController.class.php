@@ -9,13 +9,13 @@ class LoginController extends Controller {
      		$adminUser=M("personaluser");
      		$condition=array(
      			"p_name"=>I("post.name"),
-     		    "p_pwd"=>I("post.password")
+     		    "p_pwd"=>I("post.password")              
      		    );
            
      		$result=$adminUser->where($condition)->find();
      		if ($result) {
-                session("p_name",I("post.name"));
-                $this->success("登录成功",U("Index/index"));
+                session("p_name",I("post.name"));              
+                $this->success("登录成功",U("Index/index-du"));
             }
             else{
                 $this->error("用户名或密码错误！");
