@@ -12,6 +12,11 @@ a{text-decoration:none}
 .menu ul li{list-style:none;text-indent:25px;font-size:12px;height:30px;line-height:30px;}
 .menu ul li a{display:block;color:#666;font-family: "微软雅黑";text-decoration: none;font-size: 0.5em;}
 .menu ul li a:hover{text-decoration:underline}
+
+
+input::-webkit-input-placeholder {
+    color: black;
+}
 .gr{
     margin-top: 70px;
     padding-top: 2em;
@@ -144,4 +149,37 @@ padding-bottom: 10px;
 }
 .gr19{
     text-align: center;
+}
+
+
+.grx{
+    margin-top: 50px;
+}
+.grx1{
+  padding-top: 40px;
+}
+.grx2{
+    padding:20px;
+    font-size: 1.3em;
+    font-family: "微软雅黑";
+}
+.grx2 input{
+    height:7%;
+    width: 45%;
+}
+.grx3{
+    padding:20px;
+    font-size: 1.3em;
+    font-family: "微软雅黑";
+}
+.grx2 img{
+    height: 100px;
+    width:100px;
+    border: 1px solid black;
+}
+.grx2 button{
+    color: black;
+    border: 1px solid black;
+    font-size: 1em;
+    font-family: "微软雅黑";
 }
