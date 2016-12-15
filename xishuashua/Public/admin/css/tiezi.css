@@ -1,0 +1,178 @@
+.tiezi {
+    border: 1px solid rgb(194, 203, 112);
+    margin: 2% 2%;
+    padding: 0.1% 1%;
+}
+
+.tiezi_1 {
+    border: 1px solid rgb(194, 203, 112);
+    margin: 2% 2%;
+    padding: 1% 1.5%;
+}
+
+.tiezi_reply {
+    height: 145px;
+}
+
+.reply {
+    float: right;
+    border: none;
+    background-color: rgb(231, 238, 204);
+    padding-left: 2%;
+    margin-top: 2%;
+}
+
+.reply_content {
+    padding-left: 1%;
+}
+
+.reply_time {
+    padding-left: 0.7%;
+}
+
+.vistor {
+    font-weight: bold;
+}
+
+.reply_vistor {
+    border: none;
+    background-color: rgb(231, 238, 204);
+    padding-left: 2%;
+}
+
+.tz_title {
+    font-family: "黑体";
+    float: left;
+    padding-left: 0.5em;
+}
+
+.tz_text {
+    margin-top: 3em;
+    margin-left: 1.2em;
+    text-align: left;
+}
+
+.tz_text_name_xq {
+    padding-top: 1.8em;
+}
+
+.tz_img {
+    width: 30%;
+    margin-bottom: 0.9em;
+    margin-right: 1.2em;
+}
+
+.head_huifu {
+    color: rgb(194, 203, 112);
+}
+
+.float {
+    color: grey;
+    float: right;
+}
+
+.box {
+    background: rgb(231, 238, 204);
+    width: 96%;
+    margin-top: 10%;
+    margin: auto;
+    padding: 2%;
+    border: 1px solid rgb(194, 203, 120);
+    display: none; /* 默认对话框隐藏 */
+}
+
+.biaoti {
+    width: 24.8%;
+    height: 3.75em;
+    background-color: rgb(194, 203, 120);
+    border: 1px solid white;
+    font-family: 黑体;
+}
+
+.biaoti a:hover {
+    background-color: rgb(35, 100, 0);
+    border: 1px solid white;
+    font-family: 黑体;
+}
+
+.nav-tabs {
+    padding-left: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+.text-reply {
+    height: 80px;
+    width: 100%;
+}
+
+.wen_text {
+    padding-left: 0.4em;
+    font-size: 1.2em;
+}
+
+.btn1 {
+    float: right;
+    background-color: rgb(194, 203, 112);
+}
+
+.glyphicon {
+    color: rgb(243, 125, 54);
+}
+
+.glyphicon-eyes {
+    line-height: 1em;
+    color: #999;
+}
+
+.tabbable2 {
+    padding-top: 5em;
+}
+
+.push-right {
+    position: fixed;
+    left: 98%;
+    bottom: 0.1%;
+    z-index: 1005;
+}
+
+.push-right ul li a img {
+    margin-right: 0;
+}
+
+.push-aside-bar {
+    padding-bottom: 0.7em;
+    float: right;
+    width: 10em;
+}
+
+.push-head {
+    padding-bottom: 1.6em;
+}
+
+.push-title {
+    padding-bottom: 1em;
+    width: 85%;
+}
+
+.push-content {
+    height: 80px;
+    width: 85%;
+}
+
+.content {
+    background-color: white;
+    width: 99%;
+    margin-top: 10%;
+    margin: auto;
+    border: 1px solid rgb(194, 203, 120);
+    display: none; /* 默认对话框隐藏 */
+}
+
+.content .tiezi_reply p {
+    font-weight: bold;
+    padding-bottom: 0.9em;
+}
+
+.bshare-custom {
+    display: none;
+}

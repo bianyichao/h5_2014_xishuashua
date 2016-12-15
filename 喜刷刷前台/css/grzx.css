@@ -2,8 +2,8 @@
 a{text-decoration:none}
 #conter{width:100%;margin:auto}
 #help-left{width:100%;font-family:'microsoft YaHei';float:left}
-.menu{border-left:1px solid #ccc;border-right:1px solid #ccc}
-.menu:last-child{border-bottom:1px solid #ccc}
+.menu{border-left:1px solid rgb(240,242,220);border-right:1px solid rgb(240,242,220)}
+.menu:last-child{border-bottom:1px solid rgb(240,242,220)}
 .menu summary{height:40px;line-height:40px;text-indent:10px;outline:0;font-size:14px;font-weight:700;border-top:1px solid #ddd;cursor:pointer}
 .menu summary::-webkit-details-marker{display:none}
 .menu summary:before{content:"+";display:inline-block;width:16px;height:16px;margin-right:10px;font-size:18px;font-weight:700}
@@ -12,27 +12,34 @@ a{text-decoration:none}
 .menu ul li{list-style:none;text-indent:25px;font-size:12px;height:30px;line-height:30px;}
 .menu ul li a{display:block;color:#666;font-family: "微软雅黑";text-decoration: none;font-size: 0.5em;}
 .menu ul li a:hover{text-decoration:underline}
+
+
+input::-webkit-input-placeholder {
+    color: black;
+}
 .gr{
-    margin-top: 50px;
+    margin-top: 70px;
     padding-top: 2em;
-    padding-left: 6%;
+    padding-left: 8%;
     padding-right: 6%;
 }
 .gr1{
-
+padding-bottom: 10px;
 }
 .gr2 img{
     float: left;
+    width: 85%;
     margin: 0px;
-    padding-bottom: 10px;
     padding-right: 10px;
     padding-left: 10px;
 }
-.gr3 h4{
+.gr3 h3{
     font-family: 微软雅黑;
     font-weight: bold;
+    padding-bottom: 20px;
 }
 .gr3 ul{
+
     margin-top: 25px;
 }
 .gr3 ul li{
@@ -41,19 +48,19 @@ a{text-decoration:none}
 .gr2{
     padding-right: 0px;
 }
-.gr3 {
+.gr2 {
 
     border-right:1px solid #ddd;
 }
-.gr4 h5{
-    font-weight: bold;
-    float: left;
+.gr4{
+    /*padding-left: 45px;*/
+    padding-top: 15px;
 }
-.gr4 ul{
-    padding-top: 20px;
+.gr4 p{
+    padding-top: 10px;
 }
-.gr5 h2{
-    text-align: center;
+.gr5 h3{
+    text-align: left;
     border-bottom:1px solid;
     padding-bottom: 10px;
     margin-top: 0px;
@@ -71,6 +78,7 @@ a{text-decoration:none}
 
 .gr7 h3{
     text-align: center;
+    border-bottom: 0px;
 }
 .gr7 h4{
     text-align: left;
@@ -94,6 +102,9 @@ a{text-decoration:none}
 .gr11{
     border-right:1px solid #ddd;
 }
+.gr11 p{
+    margin: 0px;
+}
 .gr12{
     padding: 20px;
 }
@@ -101,18 +112,18 @@ a{text-decoration:none}
     padding-left: 20px;
 }
 .gr14{
-    margin-top: 20px;
+    margin-top: 0px;
 }
 .gr14 .row{
-    padding-top: 0px;
+    padding-top:50px;
 }
 .gr18 h3{
     text-align: center;
     padding:8px;
-    border:1px solid #ccc ;
+    border:1px solid rgb(240,242,220) ;
     border-bottom: 0px;
     margin-bottom: 0px;
-    background-color: #ccc;
+    background-color: rgb(240,242,220);
 }
 .gr15 li{
     width: 13%;
@@ -128,5 +139,47 @@ a{text-decoration:none}
     margin: 5px;
 }
 .gr17{
-    border-bottom: 2px solid rgb(35,100,0);
+    /*border-bottom: 2px solid rgb(35,100,0);*/
+}
+.gr18{
+     padding-top: 15px;
+ }
+.gr18 p{
+    padding-top: 10px;
+}
+.gr19{
+    text-align: center;
+}
+
+
+.grx{
+    margin-top: 50px;
+}
+.grx1{
+  padding-top: 40px;
+}
+.grx2{
+    padding:20px;
+    font-size: 1.3em;
+    font-family: "微软雅黑";
+}
+.grx2 input{
+    height:7%;
+    width: 45%;
+}
+.grx3{
+    padding:20px;
+    font-size: 1.3em;
+    font-family: "微软雅黑";
+}
+.grx2 img{
+    height: 100px;
+    width:100px;
+    border: 1px solid black;
+}
+.grx2 button{
+    color: black;
+    border: 1px solid black;
+    font-size: 1em;
+    font-family: "微软雅黑";
 }
