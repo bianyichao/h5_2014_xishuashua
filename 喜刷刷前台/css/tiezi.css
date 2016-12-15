@@ -3,20 +3,16 @@
     margin:2% 2%;
     padding:0.1% 1%;
 }
+p{
+    font-family: "黑体";
+}
 .tiezi_1{
     border:1px solid rgb(194,203,112);
     margin:2% 2%;
     padding:1% 1.5%;
 }
 .tiezi_reply{
-    height: 145px;
-}
-.reply{
-    float: right;
-    border:none;
-    background-color:rgb(231,238,204);
-    padding-left: 2%;
-    margin-top: 2%;
+    height: 96px;
 }
 .reply_content{
     padding-left: 1%;
@@ -29,13 +25,14 @@
 }
 .reply_vistor{
     border:none;
-    background-color:rgb(231,238,204);
+    background-color:white;
     padding-left:2%;
 }
 .tz_title{
     font-family: "黑体";
     float: left;
-    padding-left: 0.5em;
+    padding-left: 0.6em;
+    color: #216400;
 }
 .tz_text{
     margin-top:3em;
@@ -60,7 +57,7 @@
 }
 .box{
     background: rgb(231,238,204);
-    width:96%; margin-top:10%; margin:auto; padding:2%;
+    width:82%; margin-top:10%; margin:auto; padding:2%;
     border:1px solid rgb(194,203,120);
     display:none;            /* 默认对话框隐藏 */
 }
@@ -81,7 +78,7 @@
     padding-bottom: 0.5em;
 }
 .text-reply{
-    height: 80px;
+    height: 40px;
     width: 100%;
 }
 .wen_text{
@@ -97,6 +94,7 @@
 }
 .glyphicon-eyes{
     line-height: 1em;
+    margin-right:1em; 
     color: #999;
 }
 .tabbable2{
@@ -127,6 +125,9 @@
     height: 80px;
     width: 85%;
 }
+.push-text{
+   padding-bottom: 1em;
+}
 .content{
     background-color: white;
     width:99%; 
@@ -141,4 +142,175 @@
 }
 .bshare-custom{
     display: none;
+}
+.push-class{
+    width: 40%;
+    padding-bottom: 1em;
+}
+.push-class select{
+    border:1px solid rgb(169,169,169);
+}
+.acc1 a:hover{
+    color: rgb(242,86,24);
+    text-decoration: none;
+}
+.img-circle{
+    width: 5em;
+    margin: 20px 10px;
+}
+.vistor{
+    float: left;
+    font-size: 12px;
+    color: rgb(153,153,153);
+    text-align: center;
+}
+.vistor:hover{
+    color: rgb(242,86,24);
+    text-decoration: none;
+}
+.button-first{
+    float: right;
+    border:none;
+    background-color: white;
+    padding-left: 1%;
+    margin-top: 5%;
+}
+.button-two{
+    float: right;
+    border:none;
+    background-color: white;
+    padding-left: 1%;
+    margin-top:5%;
+}
+.button-three{
+    float: right;
+    border:none;
+    background-color: white;
+    padding-left: 1%;
+    margin-top: 5%;
+}
+.text-img{
+    padding-left: 1.4em;
+}
+.text-img img{
+    margin:0; 
+    width:32%;
+    margin-bottom: 0.8em;
+}
+.text-title{
+    padding-left: 0.5em;
+    padding-top: 1em;
+}
+.text-title-head a:hover{
+    color: rgb(242,86,24);
+    text-decoration: none;
+}
+.text-time{
+    font-size: 0.8em;
+    padding-left: 2em;
+}
+.text-content{
+    padding-left: 1.4em;
+}
+.reply-head{
+    border-bottom: 1px solid rgb(238,238,238);
+}
+.reply-head h4{
+    font-family: '微软雅黑';
+}
+.reply-head span{
+    border-left: 1px solid rgb(238,238,238);
+}
+.reply-box-img{
+    float: left;
+    padding-right: 10px;
+}
+.comment{
+    width: 3.5em;
+    margin: 20px 10px;
+}
+.reply-box-text{
+    padding-top: 20px;
+}
+.reply-box-text-in{
+    height: 50px;
+    width: 90%;
+}
+.reply-box-text-down{
+    padding-right: 0.5em;
+}
+.reply-box-btn{
+    float: right;
+    display: inline-block;
+    width: 94px;
+    height: 36px;
+    color: #FFF;
+    text-align: center;
+    background-color: #F36F20;
+    line-height: 36px;
+}
+.comment-fnum{
+    float: right;
+    margin: 10px 10px 0 0;
+    color: #999;
+}
+.list{
+    padding-top: 5em;
+}
+.list-li{
+    border-top: 1px dashed rgb(238,238,238);
+    border-bottom: 1px dashed rgb(238,238,238);
+}
+.list-box{
+    padding: 8px 0 8px 0px;
+}
+.list-box-text{
+    padding-top: 20px;
+}
+.list-box-text-head a{
+    float: right;
+}
+.list-box-text-head a:hover{
+    text-decoration: none;
+    color: rgb(242,86,24);
+}
+.list-box-text-head span{
+    margin-right: 10px;
+}
+.reply_lnk{
+    font-family: '微软雅黑';
+    margin-right: 2em;
+    color: #999;
+}
+.comment_er{
+    font-family: '微软雅黑';
+    font-size: 12px;
+}
+.commnet_date{
+    font-family: '微软雅黑';
+    font-size: 12px;
+}
+.list-box-text-content{
+    line-height: 20px;
+    padding: 16px 0 12px;
+    word-break: break-all;
+    color: #333;
+    font-family: '微软雅黑';
+}
+.list-box-text-btn{
+    float: right;
+    border:none;
+    background-color: white;
+    padding-left: 1%;
+    margin-top: 2%;
+}
+.reply-box-btn1{
+    float: right;
+    display: inline-block;
+    width: 60px;
+    height: 36px;
+    color: #FFF;
+    text-align: center;
+    background-color: #F36F20;
+    line-height: 36px;
 }
