@@ -8,36 +8,36 @@
     <meta name="description" content="Source code generated using layoutit.com">
     <meta name="author" content="LayoutIt!">
 
-    <link href="/h5_2014_xishuashua/h5_2014_xishuashua/xishuashua/Public/admin/css/bootstrap.min.css" rel="stylesheet">
-    <link href="/h5_2014_xishuashua/h5_2014_xishuashua/xishuashua/Public/admin/css/style.css" rel="stylesheet">
-    <link href="/h5_2014_xishuashua/h5_2014_xishuashua/xishuashua/Public/admin/css/index.css" rel="stylesheet">
-    <link rel="stylesheet" href="/h5_2014_xishuashua/h5_2014_xishuashua/xishuashua/Public/admin/css/index-byc.css"/>
-    <link rel="stylesheet" href="/h5_2014_xishuashua/h5_2014_xishuashua/xishuashua/Public/admin/css/xq_navbar.css"/>
-    <link rel="stylesheet" href="/h5_2014_xishuashua/h5_2014_xishuashua/xishuashua/Public/admin/css/xq.css"/>
-    <link rel="stylesheet" href="/h5_2014_xishuashua/h5_2014_xishuashua/xishuashua/Public/admin/css/style1.css"/>
-    <link rel="stylesheet" href="/h5_2014_xishuashua/h5_2014_xishuashua/xishuashua/Public/admin/css/index1.css"/>
-    <link rel="stylesheet" type="text/css" href="/h5_2014_xishuashua/h5_2014_xishuashua/xishuashua/Public/admin/css/lanrenzhijia.css">
+    <link href="/h5_2014_xishuashua/xishuashua/Public/admin/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/h5_2014_xishuashua/xishuashua/Public/admin/css/style.css" rel="stylesheet">
+    <link href="/h5_2014_xishuashua/xishuashua/Public/admin/css/index.css" rel="stylesheet">
+    <link rel="stylesheet" href="/h5_2014_xishuashua/xishuashua/Public/admin/css/index-byc.css"/>
+    <link rel="stylesheet" href="/h5_2014_xishuashua/xishuashua/Public/admin/css/xq_navbar.css"/>
+    <link rel="stylesheet" href="/h5_2014_xishuashua/xishuashua/Public/admin/css/xq.css"/>
+    <link rel="stylesheet" href="/h5_2014_xishuashua/xishuashua/Public/admin/css/style1.css"/>
+    <link rel="stylesheet" href="/h5_2014_xishuashua/xishuashua/Public/admin/css/index1.css"/>
+    <link rel="stylesheet" type="text/css" href="/h5_2014_xishuashua/xishuashua/Public/admin/css/lanrenzhijia.css">
 
-    <script src="/h5_2014_xishuashua/h5_2014_xishuashua/xishuashua/Public/admin/js/jquery-2.1.4.min.js"></script>
-    <script src="/h5_2014_xishuashua/h5_2014_xishuashua/xishuashua/Public/admin/js/text.js"></script>
-    <script type="text/javascript" src="/h5_2014_xishuashua/h5_2014_xishuashua/xishuashua/Public/admin/js/jquery-1.10.1.min.js"></script>
-    <script type="text/javascript" src="/h5_2014_xishuashua/h5_2014_xishuashua/xishuashua/Public/admin/js/index.js"></script>
+    <script src="/h5_2014_xishuashua/xishuashua/Public/admin/js/jquery-2.1.4.min.js"></script>
+    <script src="/h5_2014_xishuashua/xishuashua/Public/admin/js/text.js"></script>
+    <script type="text/javascript" src="/h5_2014_xishuashua/xishuashua/Public/admin/js/jquery-1.10.1.min.js"></script>
+    <script type="text/javascript" src="/h5_2014_xishuashua/xishuashua/Public/admin/js/index.js"></script>
 </head>
 <body>
 <div class="containter">
     <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
         <div class="row">
             <div class="col-md-2 nobo">
-                <a href="index.html"><img src="/h5_2014_xishuashua/h5_2014_xishuashua/xishuashua/Public/admin/images/logo.png"
+                <a href="index.html"><img src="/h5_2014_xishuashua/xishuashua/Public/admin/images/logo.png"
                                           style="height:50px;padding-left: 1.6em "></a>
             </div>
             <div class="col-md-7 nobo">
                 <div class="xq_bag" id="bar1">
                     <ul class="xq_navbar">
-                        <li class="xq_navli"><a href="/h5_2014_xishuashua/h5_2014_xishuashua/xishuashua/index.php/Admin/index/index-du">首页</a></li>
-                        <li class="xq_navli"><a href="/h5_2014_xishuashua/h5_2014_xishuashua/xishuashua/index.php/Admin/company/zsgs">装饰公司</a></li>
-                        <li class="xq_navli"><a href="/h5_2014_xishuashua/h5_2014_xishuashua/xishuashua/index.php/Admin/tender/jzzp">家装招标</a></li>
-                        <li class="xq_navli"><a href="/h5_2014_xishuashua/h5_2014_xishuashua/xishuashua/index.php/Admin/diary/zxrj">装修日记</a></li>
+                        <li class="xq_navli"><a href="/h5_2014_xishuashua/xishuashua/index.php/Admin/index/index-du">首页</a></li>
+                        <li class="xq_navli"><a href="/h5_2014_xishuashua/xishuashua/index.php/Admin/company/zsgs">装饰公司</a></li>
+                        <li class="xq_navli"><a href="/h5_2014_xishuashua/xishuashua/index.php/Admin/tender/jzzp">家装招标</a></li>
+                        <li class="xq_navli"><a href="/h5_2014_xishuashua/xishuashua/index.php/Admin/diary/zxrj">装修日记</a></li>
                     </ul>
 
                 </div>
@@ -47,23 +47,34 @@
 
                     <div class="dropdown" id="dropdown">
 					<span id="nav-name">
-					    <img src="/h5_2014_xishuashua/h5_2014_xishuashua/xishuashua/Public/admin/images/ershao.jpg" class="img-circle" style="width:2.5em;">&nbsp;&nbsp;&nbsp;
+					    <img src="/h5_2014_xishuashua/xishuashua/Public/admin/images/ershao.jpg" class="img-circle" style="width:2.5em;">&nbsp;&nbsp;&nbsp;
 
 					    <a href="grzx.html"
-                           style="color:rgb(35,99,0);border-bottom:1px dashed rgb(35,99,0);"><?php echo ($_SESSION['p_name']); ?></a><span
+                           style="color:rgb(35,99,0);border-bottom:1px dashed rgb(35,99,0);"><?php echo ($_SESSION['name']); ?></a><span
                             class="bar-text">&nbsp;&nbsp;欢迎你</span>
                      </span>
-                        <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1"
+
+                       <?php if($_SESSION['tag'] == 1 ): ?><button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1"
                                 data-toggle="dropdown">
-                            个人中心
-                            <span class="caret"></span>
+                            <a>个人中心</a>
+                            <!-- <span class="caret"></span> -->
                         </button>
-                        <ul class="dropdown-menu ac" role="menu" id="mymenu">
+                     <?php else: ?>  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1"
+                                data-toggle="dropdown">
+                            <a>个人中心</a>
+                            <!-- <span class="caret"></span> -->
+                        </button><?php endif; ?>
+                       <!--  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1"
+                                data-toggle="dropdown">
+                            <a>个人中心</a>
+                            <!-- <span class="caret"></span> -->
+                        </button> -->
+                       <!--  <ul class="dropdown-menu ac" role="menu" id="mymenu">
                             <li role="presentation"><a role="menuitem" tabindex="-1" href="grzx.html">我的招标</a></li>
                             <li role="presentation"><a role="menuitem" tabindex="-1" href="grzx.html">我的预约</a></li>
                             <li role="presentation"><a role="menuitem" tabindex="-1" href="zxrj.html">我的论坛</a></li>
                             <li role="presentation"><a role="menuitem" tabindex="-1" href="index.html">退出</a></li>
-                        </ul>
+                        </ul> -->
                     </div>
                 </div>
             </div>
@@ -76,21 +87,21 @@
         <li class="picLI" id="j-focusPic">
             <div class="picbox j-slider" style="left: -22310px;">
        <span class="j-item">
-       <a href="#"> <img src="/h5_2014_xishuashua/h5_2014_xishuashua/xishuashua/Public/admin/images/bg2.jpg"></a>
+       <a href="#"> <img src="/h5_2014_xishuashua/xishuashua/Public/admin/images/bg2.jpg"></a>
        </span>
                 <span class="j-item">
-       <a href="#"> <img src="/h5_2014_xishuashua/h5_2014_xishuashua/xishuashua/Public/admin/images/banner_4.jpg" data-src="/h5_2014_xishuashua/h5_2014_xishuashua/xishuashua/Public/admin/images/banner_4.jpg"
+       <a href="#"> <img src="/h5_2014_xishuashua/xishuashua/Public/admin/images/banner_4.jpg" data-src="/h5_2014_xishuashua/xishuashua/Public/admin/images/banner_4.jpg"
                          class="loading"></a>
         </span>
                 <span class="j-item">
-      <a href="#"> <img src="/h5_2014_xishuashua/h5_2014_xishuashua/xishuashua/Public/admin/images/bg1.jpg" data-src="/h5_2014_xishuashua/h5_2014_xishuashua/xishuashua/Public/admin/images/bg1.jpg"
+      <a href="#"> <img src="/h5_2014_xishuashua/xishuashua/Public/admin/images/bg1.jpg" data-src="/h5_2014_xishuashua/xishuashua/Public/admin/images/bg1.jpg"
                         class="loading"></a>
       </span>
                 <span class="j-item">
-      <a href="#"> <img src="/h5_2014_xishuashua/h5_2014_xishuashua/xishuashua/Public/admin/images/bg3.jpg" data-src="/h5_2014_xishuashua/h5_2014_xishuashua/xishuashua/Public/admin/images/bg3.jpg"
+      <a href="#"> <img src="/h5_2014_xishuashua/xishuashua/Public/admin/images/bg3.jpg" data-src="/h5_2014_xishuashua/xishuashua/Public/admin/images/bg3.jpg"
                         class="loading"></a></span>
-                <span class="j-item"><a href="#"> <img src="/h5_2014_xishuashua/h5_2014_xishuashua/xishuashua/Public/admin/images/bg4.jpg"
-                                                       data-src="/h5_2014_xishuashua/h5_2014_xishuashua/xishuashua/Public/admin/images/bg4.jpg"
+                <span class="j-item"><a href="#"> <img src="/h5_2014_xishuashua/xishuashua/Public/admin/images/bg4.jpg"
+                                                       data-src="/h5_2014_xishuashua/xishuashua/Public/admin/images/bg4.jpg"
                                                        class="loading"></a></span>
             </div>
         </li>
@@ -98,11 +109,11 @@
     <div class="infobtn" id="j-focusBtns">
         <div class="smalpic j-container">
             <div class="smallbox j-slider" style="left: 0px;">
-                <a class="j-item" href="#"> <img src="/h5_2014_xishuashua/h5_2014_xishuashua/xishuashua/Public/admin/images/bg2.jpg"> <b></b></a>
-                <a class="j-item" href="#"> <img src="/h5_2014_xishuashua/h5_2014_xishuashua/xishuashua/Public/admin/images/banner_4.jpg"> <b></b></a>
-                <a class="j-item" href="#"> <img src="/h5_2014_xishuashua/h5_2014_xishuashua/xishuashua/Public/admin/images/bg1.jpg"> <b></b></a>
-                <a class="j-item" href="#"> <img src="/h5_2014_xishuashua/h5_2014_xishuashua/xishuashua/Public/admin/images/bg3.jpg"> <b></b></a>
-                <a class="j-item" href="#"> <img src="/h5_2014_xishuashua/h5_2014_xishuashua/xishuashua/Public/admin/images/bg4.jpg"> <b></b></a>
+                <a class="j-item" href="#"> <img src="/h5_2014_xishuashua/xishuashua/Public/admin/images/bg2.jpg"> <b></b></a>
+                <a class="j-item" href="#"> <img src="/h5_2014_xishuashua/xishuashua/Public/admin/images/banner_4.jpg"> <b></b></a>
+                <a class="j-item" href="#"> <img src="/h5_2014_xishuashua/xishuashua/Public/admin/images/bg1.jpg"> <b></b></a>
+                <a class="j-item" href="#"> <img src="/h5_2014_xishuashua/xishuashua/Public/admin/images/bg3.jpg"> <b></b></a>
+                <a class="j-item" href="#"> <img src="/h5_2014_xishuashua/xishuashua/Public/admin/images/bg4.jpg"> <b></b></a>
 
             </div>
         </div>
@@ -130,28 +141,28 @@
     <div class="col-md-12 cm12">
         <div class="col-md-3">
             <div class="col-md-12">
-                <a href=""><img src="/h5_2014_xishuashua/h5_2014_xishuashua/xishuashua/Public/admin/images/cm401.jpg" alt="cm401"/></a>
+                <a href=""><img src="/h5_2014_xishuashua/xishuashua/Public/admin/images/cm401.jpg" alt="cm401"/></a>
                 <h2><a href="">简家家装装饰有限公司</a></h2>
                 <p>联系人 xxx-xxx-xxxx 李小姐</p>
             </div>
         </div>
         <div class="col-md-3">
             <div class="col-md-12">
-                <a href=""><img src="/h5_2014_xishuashua/h5_2014_xishuashua/xishuashua/Public/admin/images/cm401.jpg" alt="cm401"/></a>
+                <a href=""><img src="/h5_2014_xishuashua/xishuashua/Public/admin/images/cm401.jpg" alt="cm401"/></a>
                 <h2><a href="">简家家装装饰有限公司</a></h2>
                 <p>联系人 xxx-xxx-xxxx 李小姐</p>
             </div>
         </div>
         <div class="col-md-3">
             <div class="col-md-12">
-                <a href=""><img src="/h5_2014_xishuashua/h5_2014_xishuashua/xishuashua/Public/admin/images/cm401.jpg" alt="cm401"/></a>
+                <a href=""><img src="/h5_2014_xishuashua/xishuashua/Public/admin/images/cm401.jpg" alt="cm401"/></a>
                 <h2><a href="">简家家装装饰有限公司</a></h2>
                 <p>联系人 xxx-xxx-xxxx 李小姐</p>
             </div>
         </div>
         <div class="col-md-3">
             <div class="col-md-12">
-                <a href=""><img src="/h5_2014_xishuashua/h5_2014_xishuashua/xishuashua/Public/admin/images/cm401.jpg" alt="cm401"/></a>
+                <a href=""><img src="/h5_2014_xishuashua/xishuashua/Public/admin/images/cm401.jpg" alt="cm401"/></a>
                 <h2><a href="">简家家装装饰有限公司</a></h2>
                 <p>联系人 xxx-xxx-xxxx 李小姐</p>
             </div>
@@ -296,31 +307,31 @@
     <div class="box">
         <div class="lest">
             <div class="box1">
-                <a href="#"><img src="/h5_2014_xishuashua/h5_2014_xishuashua/xishuashua/Public/admin/images/1.jpg" alt=""/></a>
+                <a href="#"><img src="/h5_2014_xishuashua/xishuashua/Public/admin/images/1.jpg" alt=""/></a>
             </div>
             <div class="box2">
-                <a href="#"><img src="/h5_2014_xishuashua/h5_2014_xishuashua/xishuashua/Public/admin/images/2.jpg" alt=""/></a>
+                <a href="#"><img src="/h5_2014_xishuashua/xishuashua/Public/admin/images/2.jpg" alt=""/></a>
             </div>
             <div class="box3">
-                <a href="#"><img src="/h5_2014_xishuashua/h5_2014_xishuashua/xishuashua/Public/admin/images/3.jpg" alt=""/></a>
+                <a href="#"><img src="/h5_2014_xishuashua/xishuashua/Public/admin/images/3.jpg" alt=""/></a>
             </div>
             <div class="box4">
-                <a href="#"><img src="/h5_2014_xishuashua/h5_2014_xishuashua/xishuashua/Public/admin/images/4.jpg" alt=""/></a>
+                <a href="#"><img src="/h5_2014_xishuashua/xishuashua/Public/admin/images/4.jpg" alt=""/></a>
             </div>
             <div class="box5">
-                <a href="#"><img src="/h5_2014_xishuashua/h5_2014_xishuashua/xishuashua/Public/admin/images/5.jpg" alt=""/></a>
+                <a href="#"><img src="/h5_2014_xishuashua/xishuashua/Public/admin/images/5.jpg" alt=""/></a>
             </div>
             <div class="box6">
-                <a href="#"><img src="/h5_2014_xishuashua/h5_2014_xishuashua/xishuashua/Public/admin/images/6.jpg" alt=""/></a>
+                <a href="#"><img src="/h5_2014_xishuashua/xishuashua/Public/admin/images/6.jpg" alt=""/></a>
             </div>
             <div class="box7">
-                <a href="#"><img src="/h5_2014_xishuashua/h5_2014_xishuashua/xishuashua/Public/admin/images/1.jpg" alt=""/></a>
+                <a href="#"><img src="/h5_2014_xishuashua/xishuashua/Public/admin/images/1.jpg" alt=""/></a>
             </div>
             <div class="box8">
-                <a href="#"><img src="/h5_2014_xishuashua/h5_2014_xishuashua/xishuashua/Public/admin/images/2.jpg" alt=""/></a>
+                <a href="#"><img src="/h5_2014_xishuashua/xishuashua/Public/admin/images/2.jpg" alt=""/></a>
             </div>
             <div class="box9">
-                <a href="#"><img src="/h5_2014_xishuashua/h5_2014_xishuashua/xishuashua/Public/admin/images/3.jpg" alt=""/></a>
+                <a href="#"><img src="/h5_2014_xishuashua/xishuashua/Public/admin/images/3.jpg" alt=""/></a>
             </div>
         </div>
     </div>
@@ -328,12 +339,12 @@
 
 
 
-<script src="/h5_2014_xishuashua/h5_2014_xishuashua/xishuashua/Public/admin/js/lanrenzhijia.js"></script>
-<script src="/h5_2014_xishuashua/h5_2014_xishuashua/xishuashua/Public/admin/js/jquery.min.js"></script>
-<script src="/h5_2014_xishuashua/h5_2014_xishuashua/xishuashua/Public/admin/js/bootstrap.min.js"></script>
-<script src="/h5_2014_xishuashua/h5_2014_xishuashua/xishuashua/Public/admin/js/scripts.js"></script>
+<script src="/h5_2014_xishuashua/xishuashua/Public/admin/js/lanrenzhijia.js"></script>
+<script src="/h5_2014_xishuashua/xishuashua/Public/admin/js/jquery.min.js"></script>
+<script src="/h5_2014_xishuashua/xishuashua/Public/admin/js/bootstrap.min.js"></script>
+<script src="/h5_2014_xishuashua/xishuashua/Public/admin/js/scripts.js"></script>
 </body>
-<script src="/h5_2014_xishuashua/h5_2014_xishuashua/xishuashua/Public/admin/js/xq_navbar.js"></script>
+<script src="/h5_2014_xishuashua/xishuashua/Public/admin/js/xq_navbar.js"></script>
 <script>
     $(function () {
         $("#bar1").xq_navbar({
@@ -375,7 +386,7 @@
     </div>
     <div class="col-md-2">
         <p>扫码下载喜刷刷APP</p>
-        <img src="/h5_2014_xishuashua/h5_2014_xishuashua/xishuashua/Public/admin/images/ewm.gif" alt="erweima"/>
+        <img src="/h5_2014_xishuashua/xishuashua/Public/admin/images/ewm.gif" alt="erweima"/>
     </div>
 
 </div>
@@ -388,12 +399,12 @@
 </div>
 </div>
 </div>
-<script src="/h5_2014_xishuashua/h5_2014_xishuashua/xishuashua/Public/admin//h5_2014_xishuashua/h5_2014_xishuashua/xishuashua/Public/admin/js/lanrenzhijia.js"></script>
-<script src="/h5_2014_xishuashua/h5_2014_xishuashua/xishuashua/Public/admin//h5_2014_xishuashua/h5_2014_xishuashua/xishuashua/Public/admin/js/jquery.min.js"></script>
-<script src="/h5_2014_xishuashua/h5_2014_xishuashua/xishuashua/Public/admin//h5_2014_xishuashua/h5_2014_xishuashua/xishuashua/Public/admin/js/bootstrap.min.js"></script>
-<script src="/h5_2014_xishuashua/h5_2014_xishuashua/xishuashua/Public/admin//h5_2014_xishuashua/h5_2014_xishuashua/xishuashua/Public/admin/js/scripts.js"></script>
+<script src="/h5_2014_xishuashua/xishuashua/Public/admin//h5_2014_xishuashua/xishuashua/Public/admin/js/lanrenzhijia.js"></script>
+<script src="/h5_2014_xishuashua/xishuashua/Public/admin//h5_2014_xishuashua/xishuashua/Public/admin/js/jquery.min.js"></script>
+<script src="/h5_2014_xishuashua/xishuashua/Public/admin//h5_2014_xishuashua/xishuashua/Public/admin/js/bootstrap.min.js"></script>
+<script src="/h5_2014_xishuashua/xishuashua/Public/admin//h5_2014_xishuashua/xishuashua/Public/admin/js/scripts.js"></script>
 </body>
-<script src="/h5_2014_xishuashua/h5_2014_xishuashua/xishuashua/Public/admin//h5_2014_xishuashua/h5_2014_xishuashua/xishuashua/Public/admin/js/xq_navbar.js"></script>
+<script src="/h5_2014_xishuashua/xishuashua/Public/admin//h5_2014_xishuashua/xishuashua/Public/admin/js/xq_navbar.js"></script>
 <script>
     $(function () {
         $("#bar1").xq_navbar({

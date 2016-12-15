@@ -34,7 +34,7 @@
             <div class="col-md-7 nobo">
                 <div class="xq_bag" id="bar1">
                     <ul class="xq_navbar">
-                        <li class="xq_navli"><a href="__MODULE__/index/index-du">首页</a></li>
+                        <li class="xq_navli"><a href="__MODULE__/index/index_du">首页</a></li>
                         <li class="xq_navli"><a href="__MODULE__/company/zsgs">装饰公司</a></li>
                         <li class="xq_navli"><a href="__MODULE__/tender/jzzp">家装招标</a></li>
                         <li class="xq_navli"><a href="__MODULE__/diary/zxrj">装修日记</a></li>
@@ -50,20 +50,33 @@
 					    <img src="__PUBLIC__/admin/images/ershao.jpg" class="img-circle" style="width:2.5em;">&nbsp;&nbsp;&nbsp;
 
 					    <a href="grzx.html"
-                           style="color:rgb(35,99,0);border-bottom:1px dashed rgb(35,99,0);">{$_SESSION['p_name']}</a><span
+                           style="color:rgb(35,99,0);border-bottom:1px dashed rgb(35,99,0);">{$_SESSION['name']}</a><span
                             class="bar-text">&nbsp;&nbsp;欢迎你</span>
                      </span>
-                        <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1"
+
+                       <if condition="$_SESSION['tag'] eq 1 ">
+                         <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1"
                                 data-toggle="dropdown">
-                            个人中心
-                            <span class="caret"></span>
+                            <a>个人中心</a>
+                            <!-- <span class="caret"></span> -->
                         </button>
-                        <ul class="dropdown-menu ac" role="menu" id="mymenu">
+                     <else />  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1"
+                                data-toggle="dropdown">
+                            <a>个人中心</a>
+                            <!-- <span class="caret"></span> -->
+                        </button>
+                     </if>
+                       <!--  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1"
+                                data-toggle="dropdown">
+                            <a>个人中心</a>
+                            <!-- <span class="caret"></span> -->
+                        </button> -->
+                       <!--  <ul class="dropdown-menu ac" role="menu" id="mymenu">
                             <li role="presentation"><a role="menuitem" tabindex="-1" href="grzx.html">我的招标</a></li>
                             <li role="presentation"><a role="menuitem" tabindex="-1" href="grzx.html">我的预约</a></li>
                             <li role="presentation"><a role="menuitem" tabindex="-1" href="zxrj.html">我的论坛</a></li>
                             <li role="presentation"><a role="menuitem" tabindex="-1" href="index.html">退出</a></li>
-                        </ul>
+                        </ul> -->
                     </div>
                 </div>
             </div>

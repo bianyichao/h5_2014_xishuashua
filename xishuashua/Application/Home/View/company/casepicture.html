@@ -1,0 +1,56 @@
+
+    	<div class="col-md-10 col-md-offset-2 ">
+    	  <ol class="breadcrumb">
+    	    <li><a href="main.html">首页</a></li>
+    	    <li><a href="#">企业帐户管理</a></li>
+    	    <li class="active">装修案例图片管理</li>
+  	    </ol>
+    	  <div class="table-responsive ">
+    	    <h3>添加图片<small>Company Modify</small></h3>
+    	    <div class="list-group ">
+    	      <div class="list-group-item">
+    	        <form role="form" action="" method="post">
+    	          <div class="input-group"> <span class="input-group-addon">装修公司：</span>
+                  <select class="form-control" id="select1">       <volist name="t" id="d">
+                             <option>{$d.b_id}</option>
+                          </volist>
+                  </select>
+
+				       </div>
+					<div class="input-group"> <span class="input-group-addon">装修的案例ID：</span>
+					<select class="form-control" id="select2">
+          </select>
+
+					</div>
+					  <div class="input-group">
+						  <label for="exampleInputFile">添加图片</label><input type="file" id="exampleInputFile" />
+					  </div>
+					  <button type="submit" class="btn btn-primary "> &nbsp;&nbsp;保<img src="__PUBLIC__/home/images/em.png" alt="" width="20" height="20">存&nbsp;&nbsp;</button>
+  	            </form>
+  	        </div>
+  	      </div>
+  	    </div>
+  	  </div>
+	</div>
+        	
+	
+</div>
+<script src="js/jquery-ui.js"></script>
+<script>
+// $( "#accordion" ).accordion({
+//       heightStyle: "content"
+//     });
+  $("#select1").change(function() {
+    //alert(111);
+    var bid = $(this).val();
+    //alert(bid);
+    $.post("{:U('home/company/se')}", {id: bid}, function(aa) {
+
+    $("#select2").html(aa);
+     });
+  });
+
+
+</script>
+</body>
+</html>

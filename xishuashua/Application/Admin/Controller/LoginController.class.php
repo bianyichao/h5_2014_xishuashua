@@ -14,8 +14,9 @@ class LoginController extends Controller {
            
      		$result=$adminUser->where($condition)->find();
      		if ($result) {
-                session("p_name",I("post.name"));              
-                $this->success("登录成功",U("Index/index-du"));
+                session("name",I("post.name"));  
+                $this->redirect("Index/index-du");            
+                //$this->success("登录成功",U("Index/index-du"));
             }
             else{
                 $this->error("用户名或密码错误！");
@@ -39,8 +40,9 @@ class LoginController extends Controller {
            
      		$result=$adminUser->where($condition)->find();
      		if ($result) {
-                session("b_name",I("post.name"));
-                $this->success("登录成功",U("Index/index-ducp"));
+                session("name",I("post.name"));
+                session("tag",$result['b_tag']);
+                $this->redirect("Index/index-du"); 
             }
             else{
                 $this->error("用户名或密码错误！");
@@ -77,7 +79,8 @@ class LoginController extends Controller {
             $this->error($personaluser->getError());
         }
         if ($personaluser->add()) {
-            $this->success("添加成功",U("Index/index-du"));
+             $this->redirect("login/dl");   
+            //$this->success("添加成功",U("Index/index-du"));
         }  
         else{
             $this->error("添加失败");

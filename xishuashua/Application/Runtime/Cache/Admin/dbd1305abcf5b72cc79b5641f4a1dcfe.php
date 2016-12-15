@@ -11,10 +11,10 @@
     <meta name="description" content="Source code generated using layoutit.com">
     <meta name="author" content="LayoutIt!">
 
-    <link href="/h5_2014_xishuashua/h5_2014_xishuashua/xishuashua/Public/admin/css/bootstrap.min.css" rel="stylesheet">
-    <link href="/h5_2014_xishuashua/h5_2014_xishuashua/xishuashua/Public/admin/css/style.css" rel="stylesheet">
+    <link href="/h5_2014_xishuashua/xishuashua/Public/admin/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/h5_2014_xishuashua/xishuashua/Public/admin/css/style.css" rel="stylesheet">
     <!--index page css text-->
-    <link href="/h5_2014_xishuashua/h5_2014_xishuashua/xishuashua/Public/admin/css/regist.css" rel="stylesheet">
+    <link href="/h5_2014_xishuashua/xishuashua/Public/admin/css/regist.css" rel="stylesheet">
 
 </head>
 <body>
@@ -26,7 +26,7 @@
         <div class="col-md-12 nobo">
             <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
                 <div class="navbar-header">
-                    <img src="/h5_2014_xishuashua/h5_2014_xishuashua/xishuashua/Public/admin/images/logo.gif" alt="logo"/>
+                    <img src="/h5_2014_xishuashua/xishuashua/Public/admin/images/logo.gif" alt="logo"/>
                 </div>
 
                 <div class="collapse navbar-collapse" id="greennav">
@@ -53,13 +53,13 @@
                             <p>用户名</p>
                             <input type="text" name="name" placeholder="可以使用字母、数字、下划线"/>
                             <!--输入框内信息判断无误后，使用JS方法显示该图片-->
-                            <img src="/h5_2014_xishuashua/h5_2014_xishuashua/xishuashua/Public/admin/images/ok.jpg" alt="ok"/>
+                            <img src="/h5_2014_xishuashua/xishuashua/Public/admin/images/ok.jpg" alt="ok"/>
                         </li>
                         <li>
                             <p>密码</p>
                             <input type="password" name="password" placeholder="不少于六位(字母、数字)"/>
                             <!--输入框内信息判断无误后，使用JS方法显示该图片-->
-                            <img src="/h5_2014_xishuashua/h5_2014_xishuashua/xishuashua/Public/admin/images/ok.jpg" alt="ok"/>
+                            <img src="/h5_2014_xishuashua/xishuashua/Public/admin/images/ok.jpg" alt="ok"/>
                         </li>
 
                         <li class="already">
@@ -107,7 +107,7 @@
         </div>
         <div class="col-md-2">
             <p>扫码下载喜刷刷APP</p>
-            <img src="/h5_2014_xishuashua/h5_2014_xishuashua/xishuashua/Public/admin/images/ewm.gif" alt="erweima"/>
+            <img src="/h5_2014_xishuashua/xishuashua/Public/admin/images/ewm.gif" alt="erweima"/>
         </div>
     </div>
     <div class="row cori">
@@ -118,8 +118,8 @@
     </div>
 </div>
 
-<script src="/h5_2014_xishuashua/h5_2014_xishuashua/xishuashua/Public/admin/js/jquery.min.js"></script>
-<script src="/h5_2014_xishuashua/h5_2014_xishuashua/xishuashua/Public/admin/js/bootstrap.min.js"></script>
-<script src="/h5_2014_xishuashua/h5_2014_xishuashua/xishuashua/Public/admin/js/scripts.js"></script>
+<script src="/h5_2014_xishuashua/xishuashua/Public/admin/js/jquery.min.js"></script>
+<script src="/h5_2014_xishuashua/xishuashua/Public/admin/js/bootstrap.min.js"></script>
+<script src="/h5_2014_xishuashua/xishuashua/Public/admin/js/scripts.js"></script>
 </body>
 </html>
