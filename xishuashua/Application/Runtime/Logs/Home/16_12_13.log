@@ -1,0 +1,1391 @@
+[ 2016-12-13T15:39:10+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/home/company/se.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000915s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001112s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001214s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Common\Common\function.php 第 8 行.
+SQL: SHOW COLUMNS FROM `casee` [ RunTime:0.0209s ]
+SQL: SELECT * FROM `casee` WHERE ( b_id=2 )  [ RunTime:0.0015s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002396s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002571s ]
+
+[ 2016-12-13T15:40:51+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/Home/company/casepicture
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001921s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002694s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Common\Common\function.php 第 8 行.
+SQL: SHOW COLUMNS FROM `businessuser` [ RunTime:0.0231s ]
+SQL: SELECT * FROM `businessuser`  [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000269s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000464s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033417s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033612s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003104s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003332s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002553s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002762s ]
+
+[ 2016-12-13T15:40:51+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/Home/company/js/jquery-ui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000527s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000818s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000897s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Common\Common\function.php 第 8 行.
+ERR: 非法操作:js
+
+[ 2016-12-13T15:40:51+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/Home/company/js/jquery-ui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000834s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001167s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Common\Common\function.php 第 8 行.
+ERR: 非法操作:js
+
+[ 2016-12-13T15:40:56+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/home/company/se.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000594s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001484s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001623s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Common\Common\function.php 第 8 行.
+SQL: SHOW COLUMNS FROM `casee` [ RunTime:0.0214s ]
+SQL: SELECT * FROM `casee` WHERE ( b_id=2 )  [ RunTime:0.0014s ]
+NOTIC: [8] Use of undefined constant length - assumed 'length' F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Home\Controller\CompanyController.class.php 第 105 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002354s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002520s ]
+
+[ 2016-12-13T15:41:56+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/Home/company/casepicture
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001351s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002238s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Common\Common\function.php 第 8 行.
+SQL: SHOW COLUMNS FROM `businessuser` [ RunTime:0.0230s ]
+SQL: SELECT * FROM `businessuser`  [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000321s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000561s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036894s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037165s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001991s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002203s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002223s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002395s ]
+
+[ 2016-12-13T15:41:56+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/Home/company/js/jquery-ui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000561s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000781s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000861s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Common\Common\function.php 第 8 行.
+ERR: 非法操作:js
+
+[ 2016-12-13T15:41:56+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/Home/company/js/jquery-ui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000609s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001501s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Common\Common\function.php 第 8 行.
+ERR: 非法操作:js
+
+[ 2016-12-13T15:41:59+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/home/company/se.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000737s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001201s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001487s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Common\Common\function.php 第 8 行.
+SQL: SHOW COLUMNS FROM `casee` [ RunTime:0.0204s ]
+SQL: SELECT * FROM `casee` WHERE ( b_id=2 )  [ RunTime:0.0014s ]
+NOTIC: [8] Use of undefined constant length - assumed 'length' F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Home\Controller\CompanyController.class.php 第 105 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002326s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002495s ]
+
+[ 2016-12-13T15:45:29+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/home/company/se.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001746s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002703s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002935s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Common\Common\function.php 第 8 行.
+SQL: SHOW COLUMNS FROM `casee` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `casee` WHERE ( b_id=3 )  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000938s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000996s ]
+
+[ 2016-12-13T15:45:33+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/home/company/se.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000918s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000827s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000898s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Common\Common\function.php 第 8 行.
+SQL: SHOW COLUMNS FROM `casee` [ RunTime:0.0235s ]
+SQL: SELECT * FROM `casee` WHERE ( b_id=1 )  [ RunTime:0.0014s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002443s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002620s ]
+
+[ 2016-12-13T15:46:41+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/home/company/se.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001523s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003218s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Common\Common\function.php 第 8 行.
+SQL: SHOW COLUMNS FROM `casee` [ RunTime:0.0217s ]
+SQL: SELECT * FROM `casee` WHERE ( b_id=3 )  [ RunTime:0.0014s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002535s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002715s ]
+
+[ 2016-12-13T15:46:46+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/home/company/se.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000546s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000667s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000748s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Common\Common\function.php 第 8 行.
+SQL: SHOW COLUMNS FROM `casee` [ RunTime:0.0219s ]
+SQL: SELECT * FROM `casee` WHERE ( b_id=2 )  [ RunTime:0.0016s ]
+NOTIC: [8] Use of undefined constant i - assumed 'i' F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Home\Controller\CompanyController.class.php 第 108 行.
+NOTIC: [8] Undefined index: i F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Home\Controller\CompanyController.class.php 第 108 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Home\Controller\CompanyController.class.php 第 108 行.
+NOTIC: [8] Undefined index: i F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Home\Controller\CompanyController.class.php 第 108 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002272s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002497s ]
+
+[ 2016-12-13T15:46:54+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/home/company/se.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000807s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001150s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Common\Common\function.php 第 8 行.
+SQL: SHOW COLUMNS FROM `casee` [ RunTime:0.0218s ]
+SQL: SELECT * FROM `casee` WHERE ( b_id=1 )  [ RunTime:0.0014s ]
+NOTIC: [8] Use of undefined constant i - assumed 'i' F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Home\Controller\CompanyController.class.php 第 108 行.
+NOTIC: [8] Undefined index: i F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Home\Controller\CompanyController.class.php 第 108 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Home\Controller\CompanyController.class.php 第 108 行.
+NOTIC: [8] Undefined index: i F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Home\Controller\CompanyController.class.php 第 108 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002038s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002206s ]
+
+[ 2016-12-13T15:47:38+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/Home/company/casepicture
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001063s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001518s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Common\Common\function.php 第 8 行.
+SQL: SHOW COLUMNS FROM `businessuser` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `businessuser`  [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000178s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000316s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023030s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023197s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000949s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001062s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002100s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002245s ]
+
+[ 2016-12-13T15:47:38+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/Home/company/js/jquery-ui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000981s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001509s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Common\Common\function.php 第 8 行.
+ERR: 非法操作:js
+
+[ 2016-12-13T15:47:38+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/Home/company/js/jquery-ui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000794s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001108s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001255s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Common\Common\function.php 第 8 行.
+ERR: 非法操作:js
+
+[ 2016-12-13T15:47:41+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/home/company/se.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001055s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001220s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001480s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Common\Common\function.php 第 8 行.
+SQL: SHOW COLUMNS FROM `casee` [ RunTime:0.0271s ]
+SQL: SELECT * FROM `casee` WHERE ( b_id=2 )  [ RunTime:0.0009s ]
+NOTIC: [8] Undefined offset: 1 F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Home\Controller\CompanyController.class.php 第 108 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Home\Controller\CompanyController.class.php 第 108 行.
+NOTIC: [8] Undefined index: i F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Home\Controller\CompanyController.class.php 第 108 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001452s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001547s ]
+
+[ 2016-12-13T15:48:16+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/home/company/se.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002129s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002260s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002476s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Common\Common\function.php 第 8 行.
+SQL: SHOW COLUMNS FROM `casee` [ RunTime:0.0214s ]
+SQL: SELECT * FROM `casee` WHERE ( b_id=1 )  [ RunTime:0.0014s ]
+NOTIC: [8] Undefined offset: 1 F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Home\Controller\CompanyController.class.php 第 108 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Home\Controller\CompanyController.class.php 第 108 行.
+NOTIC: [8] Undefined index: i F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Home\Controller\CompanyController.class.php 第 108 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003093s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003309s ]
+
+[ 2016-12-13T15:51:01+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/Home/company/casepicture
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001646s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003548s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003818s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Common\Common\function.php 第 8 行.
+SQL: SHOW COLUMNS FROM `businessuser` [ RunTime:0.0238s ]
+SQL: SELECT * FROM `businessuser`  [ RunTime:0.0022s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000283s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000495s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033277s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033480s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001323s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001490s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002237s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002416s ]
+
+[ 2016-12-13T15:51:01+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/Home/company/js/jquery-ui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001207s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002689s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Common\Common\function.php 第 8 行.
+ERR: 非法操作:js
+
+[ 2016-12-13T15:51:01+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/Home/company/js/jquery-ui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000658s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000772s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000831s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Common\Common\function.php 第 8 行.
+ERR: 非法操作:js
+
+[ 2016-12-13T15:51:03+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/home/company/se.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000664s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000616s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000677s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Common\Common\function.php 第 8 行.
+SQL: SHOW COLUMNS FROM `casee` [ RunTime:0.0191s ]
+SQL: SELECT * FROM `casee` WHERE ( b_id=2 )  [ RunTime:0.0012s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002111s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002269s ]
+
+[ 2016-12-13T15:51:52+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/home/company/se.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001182s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001517s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001642s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Common\Common\function.php 第 8 行.
+SQL: SHOW COLUMNS FROM `casee` [ RunTime:0.0223s ]
+SQL: SELECT * FROM `casee` WHERE ( b_id=1 )  [ RunTime:0.0014s ]
+NOTIC: [8] Undefined variable: i F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Home\Controller\CompanyController.class.php 第 108 行.
+NOTIC: [8] Undefined index:  F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Home\Controller\CompanyController.class.php 第 108 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Home\Controller\CompanyController.class.php 第 108 行.
+NOTIC: [8] Undefined index: i F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Home\Controller\CompanyController.class.php 第 108 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002359s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002523s ]
+
+[ 2016-12-13T15:52:40+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/Home/company/casepicture
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000518s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001115s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001252s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Common\Common\function.php 第 8 行.
+SQL: SHOW COLUMNS FROM `businessuser` [ RunTime:0.0233s ]
+SQL: SELECT * FROM `businessuser`  [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000287s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000486s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032262s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032480s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001555s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001753s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002085s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002339s ]
+
+[ 2016-12-13T15:52:40+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/Home/company/js/jquery-ui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001118s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001167s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001293s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Common\Common\function.php 第 8 行.
+ERR: 非法操作:js
+
+[ 2016-12-13T15:52:40+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/Home/company/js/jquery-ui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000494s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000616s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000672s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Common\Common\function.php 第 8 行.
+ERR: 非法操作:js
+
+[ 2016-12-13T15:52:43+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/home/company/se.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000931s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000978s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001077s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Common\Common\function.php 第 8 行.
+SQL: SHOW COLUMNS FROM `casee` [ RunTime:0.0223s ]
+SQL: SELECT * FROM `casee` WHERE ( b_id=2 )  [ RunTime:0.0015s ]
+NOTIC: [8] Use of undefined constant i - assumed 'i' F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Home\Controller\CompanyController.class.php 第 108 行.
+NOTIC: [8] Undefined index: i F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Home\Controller\CompanyController.class.php 第 108 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002055s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002219s ]
+
+[ 2016-12-13T15:54:57+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/home/company/se.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001079s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001472s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Common\Common\function.php 第 8 行.
+SQL: SHOW COLUMNS FROM `casee` [ RunTime:0.0228s ]
+SQL: SELECT * FROM `casee` WHERE ( b_id=1 )  [ RunTime:0.0017s ]
+NOTIC: [8] Undefined offset: 1 F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Home\Controller\CompanyController.class.php 第 108 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Home\Controller\CompanyController.class.php 第 108 行.
+NOTIC: [8] Undefined index: i F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Home\Controller\CompanyController.class.php 第 108 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002388s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002555s ]
+
+[ 2016-12-13T15:55:05+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/home/company/se.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000564s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001244s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001540s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Common\Common\function.php 第 8 行.
+SQL: SHOW COLUMNS FROM `casee` [ RunTime:0.0228s ]
+SQL: SELECT * FROM `casee` WHERE ( b_id=2 )  [ RunTime:0.0014s ]
+NOTIC: [8] Undefined offset: 1 F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Home\Controller\CompanyController.class.php 第 108 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Home\Controller\CompanyController.class.php 第 108 行.
+NOTIC: [8] Undefined index: i F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Home\Controller\CompanyController.class.php 第 108 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002294s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002456s ]
+
+[ 2016-12-13T15:55:42+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/home/company/se.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000939s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001752s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003674s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Common\Common\function.php 第 8 行.
+SQL: SHOW COLUMNS FROM `casee` [ RunTime:0.0215s ]
+SQL: SELECT * FROM `casee` WHERE ( b_id=1 )  [ RunTime:0.0015s ]
+NOTIC: [8] Undefined offset: 1 F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Home\Controller\CompanyController.class.php 第 108 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Home\Controller\CompanyController.class.php 第 108 行.
+NOTIC: [8] Undefined index: i F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Home\Controller\CompanyController.class.php 第 108 行.
+NOTIC: [8] Undefined offset: 1 F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Home\Controller\CompanyController.class.php 第 110 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Home\Controller\CompanyController.class.php 第 110 行.
+NOTIC: [8] Undefined index: i F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Home\Controller\CompanyController.class.php 第 110 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Home\Controller\CompanyController.class.php 第 110 行.
+NOTIC: [8] Undefined index: i F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Home\Controller\CompanyController.class.php 第 110 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002517s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002705s ]
+
+[ 2016-12-13T15:56:08+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/Home/company/casepicture
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000859s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001077s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001180s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Common\Common\function.php 第 8 行.
+SQL: SHOW COLUMNS FROM `businessuser` [ RunTime:0.0225s ]
+SQL: SELECT * FROM `businessuser`  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000286s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000531s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036079s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036343s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001617s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001792s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002850s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003034s ]
+
+[ 2016-12-13T15:56:08+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/Home/company/js/jquery-ui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000686s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000788s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000892s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Common\Common\function.php 第 8 行.
+ERR: 非法操作:js
+
+[ 2016-12-13T15:56:08+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/Home/company/js/jquery-ui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000949s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001145s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001299s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Common\Common\function.php 第 8 行.
+ERR: 非法操作:js
+
+[ 2016-12-13T15:56:10+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/home/company/se.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000747s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000876s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000955s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Common\Common\function.php 第 8 行.
+SQL: SHOW COLUMNS FROM `casee` [ RunTime:0.0217s ]
+SQL: SELECT * FROM `casee` WHERE ( b_id=3 )  [ RunTime:0.0014s ]
+NOTIC: [8] Undefined offset: 0 F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Home\Controller\CompanyController.class.php 第 108 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Home\Controller\CompanyController.class.php 第 108 行.
+NOTIC: [8] Undefined index: i F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Home\Controller\CompanyController.class.php 第 108 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002398s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002560s ]
+
+[ 2016-12-13T15:56:27+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/home/company/se.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001597s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002233s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002426s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Common\Common\function.php 第 8 行.
+SQL: SHOW COLUMNS FROM `casee` [ RunTime:0.0222s ]
+SQL: SELECT * FROM `casee` WHERE ( b_id=2 )  [ RunTime:0.0014s ]
+NOTIC: [8] Undefined offset: 1 F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Home\Controller\CompanyController.class.php 第 108 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Home\Controller\CompanyController.class.php 第 108 行.
+NOTIC: [8] Undefined index: i F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Home\Controller\CompanyController.class.php 第 108 行.
+NOTIC: [8] Undefined offset: 1 F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Home\Controller\CompanyController.class.php 第 110 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Home\Controller\CompanyController.class.php 第 110 行.
+NOTIC: [8] Undefined index: i F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Home\Controller\CompanyController.class.php 第 110 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002605s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002819s ]
+
+[ 2016-12-13T15:56:35+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/home/company/se.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000759s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000816s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000870s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Common\Common\function.php 第 8 行.
+SQL: SHOW COLUMNS FROM `casee` [ RunTime:0.0206s ]
+SQL: SELECT * FROM `casee` WHERE ( b_id=1 )  [ RunTime:0.0014s ]
+NOTIC: [8] Undefined offset: 1 F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Home\Controller\CompanyController.class.php 第 108 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Home\Controller\CompanyController.class.php 第 108 行.
+NOTIC: [8] Undefined index: i F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Home\Controller\CompanyController.class.php 第 108 行.
+NOTIC: [8] Undefined offset: 1 F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Home\Controller\CompanyController.class.php 第 110 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Home\Controller\CompanyController.class.php 第 110 行.
+NOTIC: [8] Undefined index: i F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Home\Controller\CompanyController.class.php 第 110 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002785s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003025s ]
+
+[ 2016-12-13T15:57:06+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/home/company/se.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001074s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001782s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001994s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Common\Common\function.php 第 8 行.
+SQL: SHOW COLUMNS FROM `casee` [ RunTime:0.0225s ]
+SQL: SELECT * FROM `casee` WHERE ( b_id=3 )  [ RunTime:0.0016s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002062s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002250s ]
+
+[ 2016-12-13T15:57:10+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/home/company/se.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000615s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000825s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000909s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Common\Common\function.php 第 8 行.
+SQL: SHOW COLUMNS FROM `casee` [ RunTime:0.0223s ]
+SQL: SELECT * FROM `casee` WHERE ( b_id=2 )  [ RunTime:0.0014s ]
+NOTIC: [8] Undefined offset: 1 F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Home\Controller\CompanyController.class.php 第 110 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Home\Controller\CompanyController.class.php 第 110 行.
+NOTIC: [8] Undefined index: i F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Home\Controller\CompanyController.class.php 第 110 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002463s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002699s ]
+
+[ 2016-12-13T15:57:15+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/home/company/se.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001317s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000939s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001037s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Common\Common\function.php 第 8 行.
+SQL: SHOW COLUMNS FROM `casee` [ RunTime:0.0217s ]
+SQL: SELECT * FROM `casee` WHERE ( b_id=1 )  [ RunTime:0.0014s ]
+NOTIC: [8] Undefined offset: 1 F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Home\Controller\CompanyController.class.php 第 110 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Home\Controller\CompanyController.class.php 第 110 行.
+NOTIC: [8] Undefined index: i F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Home\Controller\CompanyController.class.php 第 110 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002131s ]
+
+[ 2016-12-13T15:58:05+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/Home/company/casepicture
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000912s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001172s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001299s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Common\Common\function.php 第 8 行.
+SQL: SHOW COLUMNS FROM `businessuser` [ RunTime:0.0259s ]
+SQL: SELECT * FROM `businessuser`  [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000415s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000757s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032637s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032875s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001359s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001526s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002033s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002205s ]
+
+[ 2016-12-13T15:58:05+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/Home/company/js/jquery-ui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000887s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000774s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000850s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Common\Common\function.php 第 8 行.
+ERR: 非法操作:js
+
+[ 2016-12-13T15:58:05+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/Home/company/js/jquery-ui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000934s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002630s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002816s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Common\Common\function.php 第 8 行.
+ERR: 非法操作:js
+
+[ 2016-12-13T15:58:07+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/home/company/se.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000617s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001900s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002056s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Common\Common\function.php 第 8 行.
+SQL: SHOW COLUMNS FROM `casee` [ RunTime:0.0203s ]
+SQL: SELECT * FROM `casee` WHERE ( b_id=2 )  [ RunTime:0.0014s ]
+NOTIC: [8] Undefined index: 1 F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Home\Controller\CompanyController.class.php 第 110 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Home\Controller\CompanyController.class.php 第 110 行.
+NOTIC: [8] Undefined index: i F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Home\Controller\CompanyController.class.php 第 110 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003168s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003385s ]
+
+[ 2016-12-13T15:59:01+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/Home/company/casepicture
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001091s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001679s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001875s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Common\Common\function.php 第 8 行.
+SQL: SHOW COLUMNS FROM `businessuser` [ RunTime:0.0239s ]
+SQL: SELECT * FROM `businessuser`  [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000284s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000489s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033789s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034010s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003643s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003886s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002815s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003056s ]
+
+[ 2016-12-13T15:59:01+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/Home/company/js/jquery-ui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000503s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000655s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000718s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Common\Common\function.php 第 8 行.
+ERR: 非法操作:js
+
+[ 2016-12-13T15:59:01+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/Home/company/js/jquery-ui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000558s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000764s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000831s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Common\Common\function.php 第 8 行.
+ERR: 非法操作:js
+
+[ 2016-12-13T15:59:04+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/home/company/se.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000852s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001508s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001665s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Common\Common\function.php 第 8 行.
+SQL: SHOW COLUMNS FROM `casee` [ RunTime:0.0237s ]
+SQL: SELECT * FROM `casee` WHERE ( b_id=2 )  [ RunTime:0.0014s ]
+NOTIC: [8] Undefined offset: 1 F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Home\Controller\CompanyController.class.php 第 110 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Home\Controller\CompanyController.class.php 第 110 行.
+NOTIC: [8] Undefined index: i F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Home\Controller\CompanyController.class.php 第 110 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Home\Controller\CompanyController.class.php 第 110 行.
+NOTIC: [8] Undefined index: i F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Home\Controller\CompanyController.class.php 第 110 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002534s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002706s ]
+
+[ 2016-12-13T16:00:02+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/home/company/se.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001602s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002243s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002429s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Common\Common\function.php 第 8 行.
+SQL: SHOW COLUMNS FROM `casee` [ RunTime:0.0217s ]
+SQL: SELECT * FROM `casee` WHERE ( b_id=1 )  [ RunTime:0.0014s ]
+NOTIC: [8] Undefined offset: 1 F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Home\Controller\CompanyController.class.php 第 110 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Home\Controller\CompanyController.class.php 第 110 行.
+NOTIC: [8] Undefined index: i F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Home\Controller\CompanyController.class.php 第 110 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Home\Controller\CompanyController.class.php 第 110 行.
+NOTIC: [8] Undefined index: i F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Home\Controller\CompanyController.class.php 第 110 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003605s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003841s ]
+
+[ 2016-12-13T16:00:48+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/Home/company/casepicture
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001030s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001765s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002021s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Common\Common\function.php 第 8 行.
+SQL: SHOW COLUMNS FROM `businessuser` [ RunTime:0.0237s ]
+SQL: SELECT * FROM `businessuser`  [ RunTime:0.0021s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000293s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000488s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032994s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033203s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001465s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001632s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002037s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002211s ]
+
+[ 2016-12-13T16:00:48+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/Home/company/js/jquery-ui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000991s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000757s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000841s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Common\Common\function.php 第 8 行.
+ERR: 非法操作:js
+
+[ 2016-12-13T16:00:48+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/Home/company/js/jquery-ui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000145s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002604s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002385s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002537s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Common\Common\function.php 第 8 行.
+ERR: 非法操作:js
+
+[ 2016-12-13T16:00:50+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/home/company/se.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000605s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000736s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000802s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Common\Common\function.php 第 8 行.
+SQL: SHOW COLUMNS FROM `casee` [ RunTime:0.0261s ]
+SQL: SELECT * FROM `casee` WHERE ( b_id=2 )  [ RunTime:0.0015s ]
+NOTIC: [8] Use of undefined constant i - assumed 'i' F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Home\Controller\CompanyController.class.php 第 110 行.
+NOTIC: [8] Undefined index: i F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Home\Controller\CompanyController.class.php 第 110 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002388s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002556s ]
+
+[ 2016-12-13T16:01:18+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/home/company/se.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001631s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002251s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002469s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Common\Common\function.php 第 8 行.
+SQL: SHOW COLUMNS FROM `casee` [ RunTime:0.0213s ]
+SQL: SELECT * FROM `casee` WHERE ( b_id=1 )  [ RunTime:0.0014s ]
+NOTIC: [8] Use of undefined constant i - assumed 'i' F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Home\Controller\CompanyController.class.php 第 110 行.
+NOTIC: [8] Undefined index: i F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Home\Controller\CompanyController.class.php 第 110 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002642s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002852s ]
+
+[ 2016-12-13T16:01:33+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/home/company/se.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001010s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001225s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001336s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Common\Common\function.php 第 8 行.
+SQL: SHOW COLUMNS FROM `casee` [ RunTime:0.0208s ]
+SQL: SELECT * FROM `casee` WHERE ( b_id=2 )  [ RunTime:0.0017s ]
+NOTIC: [8] Use of undefined constant i - assumed 'i' F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Home\Controller\CompanyController.class.php 第 110 行.
+NOTIC: [8] Undefined index: i F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Home\Controller\CompanyController.class.php 第 110 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002144s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002303s ]
+
+[ 2016-12-13T16:01:35+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/Home/company/casepicture
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000680s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000639s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000700s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Common\Common\function.php 第 8 行.
+SQL: SHOW COLUMNS FROM `businessuser` [ RunTime:0.0241s ]
+SQL: SELECT * FROM `businessuser`  [ RunTime:0.0021s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000178s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000302s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023540s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023738s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001026s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001140s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001433s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001551s ]
+
+[ 2016-12-13T16:01:36+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/Home/company/js/jquery-ui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000496s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000719s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000797s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Common\Common\function.php 第 8 行.
+ERR: 非法操作:js
+
+[ 2016-12-13T16:01:36+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/Home/company/js/jquery-ui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000812s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001564s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Common\Common\function.php 第 8 行.
+ERR: 非法操作:js
+
+[ 2016-12-13T16:02:17+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/Home/company/casepicture
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000752s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000766s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000825s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Common\Common\function.php 第 8 行.
+SQL: SHOW COLUMNS FROM `businessuser` [ RunTime:0.0241s ]
+SQL: SELECT * FROM `businessuser`  [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000267s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000505s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030079s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030307s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001745s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001938s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002502s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002735s ]
+
+[ 2016-12-13T16:02:17+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/Home/company/js/jquery-ui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001323s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000770s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000859s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Common\Common\function.php 第 8 行.
+ERR: 非法操作:js
+
+[ 2016-12-13T16:02:17+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/Home/company/js/jquery-ui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000739s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000835s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000897s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Common\Common\function.php 第 8 行.
+ERR: 非法操作:js
+
+[ 2016-12-13T16:03:23+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/Home/company/casepicture
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000813s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000834s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000902s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Common\Common\function.php 第 8 行.
+SQL: SHOW COLUMNS FROM `businessuser` [ RunTime:0.0222s ]
+SQL: SELECT * FROM `businessuser`  [ RunTime:0.0021s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000272s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000590s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032627s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032874s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001610s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001843s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002675s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002941s ]
+
+[ 2016-12-13T16:03:23+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/Home/company/js/jquery-ui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000790s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000869s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000958s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Common\Common\function.php 第 8 行.
+ERR: 非法操作:js
+
+[ 2016-12-13T16:03:23+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/Home/company/js/jquery-ui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000643s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002021s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002203s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Common\Common\function.php 第 8 行.
+ERR: 非法操作:js
+
+[ 2016-12-13T16:03:25+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/home/company/se.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001140s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Common\Common\function.php 第 8 行.
+SQL: SHOW COLUMNS FROM `casee` [ RunTime:0.0227s ]
+SQL: SELECT * FROM `casee` WHERE ( b_id=2 )  [ RunTime:0.0015s ]
+NOTIC: [8] Use of undefined constant i - assumed 'i' F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Home\Controller\CompanyController.class.php 第 110 行.
+NOTIC: [8] Undefined index: i F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Home\Controller\CompanyController.class.php 第 110 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002670s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002847s ]
+
+[ 2016-12-13T16:03:48+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/Home/company/casepicture
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001221s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001563s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Common\Common\function.php 第 8 行.
+SQL: SHOW COLUMNS FROM `businessuser` [ RunTime:0.0219s ]
+SQL: SELECT * FROM `businessuser`  [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000271s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000473s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031322s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031616s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001542s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001770s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004096s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004434s ]
+
+[ 2016-12-13T16:03:48+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/Home/company/js/jquery-ui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002863s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001591s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001764s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Common\Common\function.php 第 8 行.
+ERR: 非法操作:js
+
+[ 2016-12-13T16:03:48+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/Home/company/js/jquery-ui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001109s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002666s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003572s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Common\Common\function.php 第 8 行.
+ERR: 非法操作:js
+
+[ 2016-12-13T16:03:51+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/home/company/se.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000619s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000771s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000844s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Common\Common\function.php 第 8 行.
+SQL: SHOW COLUMNS FROM `casee` [ RunTime:0.0209s ]
+SQL: SELECT * FROM `casee` WHERE ( b_id=2 )  [ RunTime:0.0015s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002412s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002593s ]
+
+[ 2016-12-13T16:03:55+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/home/company/se.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000689s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000993s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001102s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Common\Common\function.php 第 8 行.
+SQL: SHOW COLUMNS FROM `casee` [ RunTime:0.0205s ]
+SQL: SELECT * FROM `casee` WHERE ( b_id=1 )  [ RunTime:0.0015s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002506s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002737s ]
+
+[ 2016-12-13T16:04:27+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/Home/company/casepicture
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000919s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001167s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001287s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Common\Common\function.php 第 8 行.
+SQL: SHOW COLUMNS FROM `businessuser` [ RunTime:0.0231s ]
+SQL: SELECT * FROM `businessuser`  [ RunTime:0.0021s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000275s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000468s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030468s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030699s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001525s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001745s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002079s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002260s ]
+
+[ 2016-12-13T16:04:28+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/Home/company/js/jquery-ui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000498s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000649s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000715s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Common\Common\function.php 第 8 行.
+ERR: 非法操作:js
+
+[ 2016-12-13T16:04:28+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/Home/company/js/jquery-ui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000631s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000783s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000854s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Common\Common\function.php 第 8 行.
+ERR: 非法操作:js
+
+[ 2016-12-13T16:04:30+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/home/company/se.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000499s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000690s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000769s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Common\Common\function.php 第 8 行.
+SQL: SHOW COLUMNS FROM `casee` [ RunTime:0.0219s ]
+SQL: SELECT * FROM `casee` WHERE ( b_id=2 )  [ RunTime:0.0017s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002093s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002263s ]
+
+[ 2016-12-13T16:04:37+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/home/company/se.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000663s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000752s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000810s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Common\Common\function.php 第 8 行.
+SQL: SHOW COLUMNS FROM `casee` [ RunTime:0.0198s ]
+SQL: SELECT * FROM `casee` WHERE ( b_id=1 )  [ RunTime:0.0016s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003100s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003293s ]
+
+[ 2016-12-13T16:05:11+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/Home/company/casepicture
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001104s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001006s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001125s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Common\Common\function.php 第 8 行.
+SQL: SHOW COLUMNS FROM `businessuser` [ RunTime:0.0223s ]
+SQL: SELECT * FROM `businessuser`  [ RunTime:0.0026s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000166s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000294s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035970s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036185s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000866s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000968s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001305s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001411s ]
+
+[ 2016-12-13T16:05:11+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/Home/company/js/jquery-ui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000966s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000767s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000851s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Common\Common\function.php 第 8 行.
+ERR: 非法操作:js
+
+[ 2016-12-13T16:05:11+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/Home/company/js/jquery-ui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000588s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000947s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001066s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Common\Common\function.php 第 8 行.
+ERR: 非法操作:js
+
+[ 2016-12-13T16:05:14+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/home/company/se.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000569s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000721s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000777s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Common\Common\function.php 第 8 行.
+SQL: SHOW COLUMNS FROM `casee` [ RunTime:0.0205s ]
+SQL: SELECT * FROM `casee` WHERE ( b_id=2 )  [ RunTime:0.0016s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002269s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002471s ]
+
+[ 2016-12-13T16:05:18+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/home/company/se.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000501s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000640s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000696s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Common\Common\function.php 第 8 行.
+SQL: SHOW COLUMNS FROM `casee` [ RunTime:0.0207s ]
+SQL: SELECT * FROM `casee` WHERE ( b_id=1 )  [ RunTime:0.0015s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002438s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002670s ]
+
+[ 2016-12-13T16:05:37+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/Home/company/casepicture
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001124s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002008s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002151s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Common\Common\function.php 第 8 行.
+SQL: SHOW COLUMNS FROM `businessuser` [ RunTime:0.0240s ]
+SQL: SELECT * FROM `businessuser`  [ RunTime:0.0022s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000172s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000305s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028748s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028933s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001303s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001455s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002034s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002203s ]
+
+[ 2016-12-13T16:05:37+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/Home/company/js/jquery-ui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000579s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000725s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000795s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Common\Common\function.php 第 8 行.
+ERR: 非法操作:js
+
+[ 2016-12-13T16:05:37+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/Home/company/js/jquery-ui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000974s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002077s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002297s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Common\Common\function.php 第 8 行.
+ERR: 非法操作:js
+
+[ 2016-12-13T16:05:40+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/home/company/se.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000767s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001495s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Common\Common\function.php 第 8 行.
+SQL: SHOW COLUMNS FROM `casee` [ RunTime:0.0214s ]
+SQL: SELECT * FROM `casee` WHERE ( b_id=2 )  [ RunTime:0.0014s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002337s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002508s ]
+
+[ 2016-12-13T16:05:46+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/home/company/se.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000664s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000937s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001022s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Common\Common\function.php 第 8 行.
+SQL: SHOW COLUMNS FROM `casee` [ RunTime:0.0211s ]
+SQL: SELECT * FROM `casee` WHERE ( b_id=1 )  [ RunTime:0.0014s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002082s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002252s ]
+
+[ 2016-12-13T16:05:56+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/home/company/se.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001599s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002371s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002599s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Common\Common\function.php 第 8 行.
+SQL: SHOW COLUMNS FROM `casee` [ RunTime:0.0236s ]
+SQL: SELECT * FROM `casee` WHERE ( b_id=2 )  [ RunTime:0.0017s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002420s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002612s ]
+
+[ 2016-12-13T16:05:59+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/home/company/se.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000769s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001162s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Common\Common\function.php 第 8 行.
+SQL: SHOW COLUMNS FROM `casee` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `casee` WHERE ( b_id=1 )  [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001483s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001575s ]
+
+[ 2016-12-13T16:06:04+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/home/company/se.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000961s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000974s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001077s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Common\Common\function.php 第 8 行.
+SQL: SHOW COLUMNS FROM `casee` [ RunTime:0.0218s ]
+SQL: SELECT * FROM `casee` WHERE ( b_id=2 )  [ RunTime:0.0015s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002027s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002218s ]
+
+[ 2016-12-13T16:06:09+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/home/company/se.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000798s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000755s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000830s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Common\Common\function.php 第 8 行.
+SQL: SHOW COLUMNS FROM `casee` [ RunTime:0.0216s ]
+SQL: SELECT * FROM `casee` WHERE ( b_id=1 )  [ RunTime:0.0017s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002117s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002297s ]
+
+[ 2016-12-13T16:06:25+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/home/company/se.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001533s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002473s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002699s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\h5\apache2.2+php5.3 win32\webserver\apache2.2\htdocs\h5_2014_xishuashua\xishuashua\Application\Common\Common\function.php 第 8 行.
+SQL: SHOW COLUMNS FROM `casee` [ RunTime:0.0220s ]
+SQL: SELECT * FROM `casee` WHERE ( b_id=2 )  [ RunTime:0.0014s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002131s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002328s ]
+
+[ 2016-12-13T16:39:35+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/Home/admin/lists
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000606s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000876s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000987s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030830s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030966s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000752s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000836s ]
+
+[ 2016-12-13T16:39:38+08:00 ] 127.0.0.1 /h5_2014_xishuashua/xishuashua/index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000531s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000646s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000708s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000205s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023909s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024094s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000764s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000893s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001706s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001830s ]
+

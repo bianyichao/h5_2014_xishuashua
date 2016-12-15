@@ -168,6 +168,7 @@
                                     <input type="text" name="pu_address" placeholder="请填写房产所属房产公司、楼盘及期数"/>
 
                                 </li>
+                                <input type="hidden" name="pu_inputtime" value="" id="date">
                                 <li>
                                     <input type="hidden" name="state"
                                            value="0">
@@ -251,7 +252,7 @@
                     </div>
                     <div class="col-md-12" style="text-align:right;padding-bottom:2%;padding-right:5%">
                         <button type="button" class="btn  btn-link annv"><a href="jzzp-xq.html">立即投标</a></button>
-                        <button type="button" class="btn  btn-link annv"><a href="jzzp-xq.html">查看详情</a></button>
+                        <button type="button" class="btn  btn-link annv"><a href="__MODULE__/personal/jzzp_xq/pu_id/{$d.pu_id}">查看详情</a></button>
                     </div>
             </div>
                 </volist>
@@ -295,5 +296,11 @@
             "hcolor": "rgb(1,175,99)"
         });
     });
+
+    var mydate=new Date();
+    var date=document.getElementById("date");
+    date.value=mydate.toLocaleDateString( );
+    //alert(date.value);
+
 </script>
 </html>

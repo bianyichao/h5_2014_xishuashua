@@ -90,4 +90,34 @@ class CompanyController extends Controller {
             $this->success("删除成功！",U("company/news"));
         }
     }
+    public function casepicture(){
+          $newModel=M("businessuser");
+         $t=$newModel->select();
+         $this->assign("t",$t);
+         //var_dump($t);
+         $this->display();
+      }
+      public function se(){
+          $newModel=M("casee");  
+          $id = $_POST['id'] ? $_POST['id'] : 'sorry';
+          $a=$newModel->where("b_id=$id")->select();
+         //echo($a);
+          $i=count($a);
+          //$i=0;
+         //echo($a[$i]['c_id']);
+           //echo "<option value='{$a[$i]['c_id']}'>{$a[i]['c_id']}</option>" ;
+          while ($i>0) {
+            echo "<option value='{$a[$i-1]['c_id']}'>{$a[$i-1]['c_id']}</option>" ;
+            $i--;
+          }
+         
+      }
 }
+
+
+
+
+// 1.select1下拉框发生变化
+// 2.获取select1的值
+// 3.获取的select1的值ajax.post到程序里面的一个方法
+// 4.

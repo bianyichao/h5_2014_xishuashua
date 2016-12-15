@@ -1,0 +1,96 @@
+.zx1 button {
+    background-color: #3c763d;
+    text-align: center;
+    font-family: "Microsoft Yahei";
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-right: 2px;
+}
+.zx2 {   
+    padding-top: 1%;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.zx3 {
+    height: 350px;
+    background-color: rgba(128,128,128,0.05);
+    border: 1px solid rgba(194, 203, 112, 0.47);
+    padding: 10px;
+    margin-bottom: 10%;
+}
+
+.zx3 img {
+    width: 100%;
+    height: 148px;
+}
+
+.zx4 h3 {
+    margin-top: 0px;
+    padding-top: 20px;
+    border-top: 1px dashed rgb(35, 100, 0);
+    font-family: "Microsoft Yahei";
+}
+
+.zx4 {
+    display: inline;
+}
+
+.zx5 {
+    display: inline;
+    font-family: "Microsoft Yahei";
+}
+li{
+    font-family: "Microsoft Yahei";
+}
+.zx5 img {
+    width: 15px;
+    height: 15px;
+    margin: 0px;
+}
+
+.zx5 {
+    font-family: "Microsoft Yahei";
+    color: gray;
+}
+
+.zx6 li {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.zx7 p {
+    text-align: left;
+    font-family: "Microsoft Yahei";
+    margin: 0px;
+    font-size: 0.6em;
+    color: gray;
+}
+#zx8{
+    height: 42px;
+    padding: 0%;
+    padding-top:2%;
+}
+#zx9 {
+    padding: 0px;
+}
+.zx10 {
+    padding-bottom: 20px;
+    border-bottom: 2px solid rgb(35, 100, 0)
+}
+
+.zx11{
+    text-align: right;
+}
+.zx11 input {    
+    border: 1px solid #3c763d;
+}
+
+.zx11 button {
+    background-color: #3c763d;
+}
+
+.zx11 span {
+    color: white;
+    padding: 2px;
+}

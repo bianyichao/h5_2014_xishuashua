@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>喜刷刷后台管理</title>
-    <link href="/h5_2014_xishuashua/h5_2014_xishuashua/xishuashua/Public/home/css/admin_login.css" rel="stylesheet" type="text/css" />
+    <link href="/h5_2014_xishuashua/xishuashua/Public/home/css/admin_login.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
 <div class="admin_login_wrap">
