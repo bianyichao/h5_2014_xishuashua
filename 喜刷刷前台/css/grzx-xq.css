@@ -93,3 +93,9 @@ a:hover{
     margin-left: -4px;
     border: 1px solid #ddd;
 }
+#file_input{
+    border:none;
+}
+.head-portrait{
+    float: left;
+}

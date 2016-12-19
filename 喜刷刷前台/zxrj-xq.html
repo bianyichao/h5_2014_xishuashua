@@ -59,9 +59,35 @@
 		<div class="row">
 			<div class="col-md-1"></div>
 			<div class="col-md-10">
+			<div class="tiezi">
+						<div class="tz_head">
+							<h3 class="tz_title">【这是我家的装修进度，和大家分享】</h3>
+								<button class="reply-btn">
+									<span class="glyphicon glyphicon-thumbs-up" title="点赞"></span>
+									<em class="glyphicon-eyes">195</em>
+								</button>
+								<button class="reply-btn">
+									<span class="glyphicon glyphicon-star-empty" title="收藏"></span>
+									<em class="glyphicon-eyes">95</em>
+								</button>
+								<button class="reply-btn">
+									<span class="glyphicon glyphicon-eye-open" title="浏览数"></span>
+									<em class="glyphicon-eyes">95</em>
+								</button>	
+						</div>
+						<div class="tz_text">
+							<p class="tz_text_name_xq">&nbsp;帖主：<a href="grzx.html" class="host">李小姐</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;发帖时间：2011-11-11</p>
+							<p class="tz_text_neirong">
+							今天是装修第一天，师傅们看起来非常专业啊！我很有信心！对我的新家充满了期待！^_^
+							</p>
+							<img src="images/roll03.jpg" class="tz_img">
+							<img src="images/roll04.jpg" class="tz_img">
+							<img src="images/roll02.jpg" class="tz_img">
+						</div>
+					
 				<div class="reply">
 					<div class="reply-head">
-							<h4>所有评论&nbsp;&nbsp;<span id="comment-num">&nbsp;&nbsp;3</span>条</h4>
+							<h4>所有评论&nbsp;&nbsp;</h4>
 					</div>
 					<div class="reply-box">
 						<div class="reply-box-commnet">
@@ -69,11 +95,16 @@
 								<a href="grzx.html"><img src="images/touxiang.jpg" class="img-circle comment"></a>
 							</div>
 							<div class="reply-box-text">
-								<textarea class="reply-box-text-in"></textarea>
+							<form action="" method="post" id="" name="comment">
+							<div class="new_com_bd">
+								<textarea style="border:1px solid rgb(221,221,221);" data-type="1"></textarea>
+							</div>
+								
+								<button type="submit" class="reply-box-btn">我要回复</button>
+							</form>	
 							</div>
 						</div>
 						<div class="reply-box-text-down">
-							<button class="reply-box-btn">我要回复</button>
 							<span class="comment-fnum">您好可以输入<em>200</em>字</span>
 						</div>
 					</div>
@@ -87,7 +118,7 @@
 								</div>
 								<div class="list-box-text">
 									<div class="list-box-text-head">
-										<button class="list-box-text-btn" onclick="msgbox(1)"><span class="glyphicon glyphicon-comment" title="回复"></span></button>
+										<a href="#" class="list-box-text-btn"><span class="glyphicon glyphicon-thumbs-up" title="点赞"></span></a>
 										<span class="comment_er">李先生</span>
 										<span class="commnet_date">5分钟前</span>
 									</div>
@@ -96,22 +127,7 @@
 									</div>
 								</div>
 							</div>
-							<script type="text/javascript">
-								function msgbox(n){
-									document.getElementById('inputbox').style.display=n?'block':'none'; 
-									document.getElementById("text-reply").focus();    /* 点击按钮打开/关闭 对话框 */
-								}
-							</script>
-							<div class="tiezi_1 box" id="inputbox">
-							<div class="tiezi_reply">
-								<p>张三  回复  <span style="color:rgb(190,137,95);">李先生：</span></p>
-								<form>
-									<textarea class="text-reply" id="text-reply"></textarea>	
-								</form>
-								<button type="button" class="reply-box-btn1" onclick="msgbox(0)">确定</button>
-								<span class="comment-fnum">您好可以输入<em>200</em>字</span>
-							</div>
-							</div>
+							
 						</li>
 						<li class="list-li">
 							<div class="list-box">
@@ -120,7 +136,7 @@
 								</div>
 								<div class="list-box-text">
 									<div class="list-box-text-head">
-										<button class="list-box-text-btn" onclick="msgbox(1)"><span class="glyphicon glyphicon-comment" title="回复"></span></button>
+										<a href="#" class="list-box-text-btn"><span class="glyphicon glyphicon-thumbs-up" title="点赞"></span></a>
 										<span class="comment_er">王先生</span>
 										<span class="commnet_date">5分钟前</span>
 									</div>
@@ -129,21 +145,25 @@
 									</div>
 								</div>
 							</div>
-							<script type="text/javascript">
-								function msgbox(n){
-									document.getElementById('inputbox').style.display=n?'block':'none'; 
-									document.getElementById("text-reply").focus();    /* 点击按钮打开/关闭 对话框 */
-								}
-							</script>
-							<div class="tiezi_1 box" id="inputbox">
-							<div class="tiezi_reply">
-								<p>张三  回复  <span style="color:rgb(190,137,95);">王先生：</span></p>
-								<form>
-									<textarea class="text-reply" id="text-reply"></textarea>	
-								</form>
-								<button type="button" class="btn1" onclick="msgbox(0)">回复帖子</button>
+							
+						</li>
+						<li class="list-li">
+							<div class="list-box">
+								<div class="reply-box-img">
+									<a href="grzx.html"><img src="images/ershao.jpg" class="img-circle comment"></a>
+								</div>
+								<div class="list-box-text">
+									<div class="list-box-text-head">
+										<a href="#" class="list-box-text-btn"><span class="glyphicon glyphicon-thumbs-up" title="点赞"></span></a>
+										<span class="comment_er">王先生</span>
+										<span class="commnet_date">5分钟前</span>
+									</div>
+									<div class="list-box-text-content">
+										<p>看起来还挺不错的，点个赞！</p>
+									</div>
+								</div>
 							</div>
-							</div>
+							
 						</li>
 						<li class="list-li">
 							<div class="list-box">
@@ -152,7 +172,43 @@
 								</div>
 								<div class="list-box-text">
 									<div class="list-box-text-head">
-										<button class="list-box-text-btn" onclick="msgbox(1)"><span class="glyphicon glyphicon-comment" title="回复"></span></button>
+										<a href="#" class="list-box-text-btn"><span class="glyphicon glyphicon-thumbs-up" title="点赞"></span></a>
+										<span class="comment_er">王先生</span>
+										<span class="commnet_date">5分钟前</span>
+									</div>
+									<div class="list-box-text-content">
+										<p>看起来还挺不错的，点个赞！</p>
+									</div>
+								</div>
+							</div>
+							
+						</li>
+						<li class="list-li">
+							<div class="list-box">
+								<div class="reply-box-img">
+									<a href="grzx.html"><img src="images/ershao.jpg" class="img-circle comment"></a>
+								</div>
+								<div class="list-box-text">
+									<div class="list-box-text-head">
+										<a href="#" class="list-box-text-btn"><span class="glyphicon glyphicon-thumbs-up" title="点赞"></span></a>
+										<span class="comment_er">王先生</span>
+										<span class="commnet_date">5分钟前</span>
+									</div>
+									<div class="list-box-text-content">
+										<p>看起来还挺不错的，点个赞！</p>
+									</div>
+								</div>
+							</div>
+							
+						</li>
+						<li class="list-li">
+							<div class="list-box">
+								<div class="reply-box-img">
+									<a href="grzx.html"><img src="images/touxiang.jpg" class="img-circle comment"></a>
+								</div>
+								<div class="list-box-text">
+									<div class="list-box-text-head">
+										<a href="#" class="list-box-text-btn"><span class="glyphicon glyphicon-thumbs-up" title="点赞"></span></a>
 										<span class="comment_er">成先生</span>
 										<span class="commnet_date">1小时前</span>
 									</div>
@@ -161,24 +217,11 @@
 									</div>
 								</div>
 							</div>
-							<script type="text/javascript">
-								function msgbox(n){
-									document.getElementById('inputbox').style.display=n?'block':'none'; 
-									document.getElementById("text-reply").focus();    /* 点击按钮打开/关闭 对话框 */
-								}
-							</script>
-							<div class="tiezi_1 box" id="inputbox">
-							<div class="tiezi_reply">
-								<p>张三  回复  <span style="color:rgb(190,137,95);">成先生：</span></p>
-								<form>
-									<textarea class="text-reply" id="text-reply"></textarea>	
-								</form>
-								<button type="button" class="btn1" onclick="msgbox(0)">回复帖子</button>
-							</div>
-							</div>
+							
 						</li>
 					</ul>
 				</div>
+			</div>
 			</div>
 			<div class="col-md-1"></div>
 		</div>

@@ -31,6 +31,22 @@ $(function(){
 			if(num8.length>25){
 				$("#h").html(num8.substr(0,17)+"......");
 			}
+			var num10=$("#i").html();
+			if(num10.length>30){
+				$("#i").html(num10.substr(0,30)+"......");
+			}
+			var num11=$("#m").html();
+			if(num11.length>30){
+				$("#m").html(num11.substr(0,30)+"......");
+			}
+			var num12=$("#n").html();
+			if(num12.length>30){
+				$("#n").html(num12.substr(0,30)+"......");
+			}
+			var num13=$("#x").html();
+			if(num13.length>30){
+				$("#x").html(num13.substr(0,30)+"......");
+			}
 			var num9=$("#j").html();
 			if(num9.length>5){
 				$("#j").html(num9.substr(0,07)+"...");
