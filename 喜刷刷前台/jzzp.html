@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="css/hanziqiang.css" />
     <link rel="stylesheet" type="text/css" href="css/lanrenzhijia.css">
     <link rel="stylesheet" href="css/xq_navbar.css"/>
+      <link rel="stylesheet" href="css/window.css"/>
     <link rel="stylesheet" href="css/xq.css"/>
 
     <script src="JS/jquery-2.1.4.min.js"></script>
@@ -82,7 +83,24 @@
                 </div>
             </div>
         </div>
-    <!--content--> 
+    <!--content-->
+     <div class="nowwid box" id="inputbox" >
+        <span class="glyphicon glyphicon-remove" onclick="msgbox(0)" style="float: right; width: 3em;height:3em;"></span>
+         <p class="wid_h1">欢迎:<span>小边边家装公司</span></p>
+        <div class="wdo_s">
+            <ul class="specialu"><li><p>预算价格：</p><input type="text" name="prise" placeholder="请输入贵公司对该项目的预算报价"/></li>
+                <li><p>公司优势：</p><input type="text"/></li>
+                <li><button onclick="msgbox(0)">确定</button></li>
+            </ul>
+
+        </div>
+     </div>
+     <script type="text/javascript">
+         function msgbox(n){
+             document.getElementById('inputbox').style.display=n?'block':'none';
+              /* 点击按钮打开/关闭 对话框 */
+         }
+     </script>
     <div class="container">
        
 
@@ -220,254 +238,246 @@
               </div>
             
            </div>
-           <div class="col-md-9 zhaobiao-list"> 
+           <div class="col-md-9 zhaobiao-list">
+               <ul class="lii">
+                   <li>
+                       <div class="add" >
+                           <div class="row ad1">
+                               <div class="col-md-8 jz1">
+                                   <h3 style="color:rgb(35,100,0);">
+                                       &nbsp;&nbsp;&nbsp;
+                                       【槐安路维明大街西行100米】-卓达青年之邦 </h3>
+                               </div>
+                               <div class="col-md-4 jz5" >
+                                   <span class="glyphicon glyphicon-fire" style="color:orange"></span>
+                                   <span class="glyphicon glyphicon-fire" style="color:orange"></span>
+                                   <span class="glyphicon glyphicon-fire" style="color:orange"></span>
+                                   <span class="glyphicon glyphicon-fire" style="color:orange"></span>
+                                   <p class="tag-right">竞标中</p>
+                               </div>
+                           </div>
+                           <div class="col-md-4 jz">
+                               <ul  class="acc2">
+                                   <li class="wen">
+                                       <span class="glyphicon glyphicon-user" ></span>联系人：周星星
 
-            <div class="add" >
-            <div class="row ad1">
-                    <div class="col-md-8">
-                    <h3 style="color:rgb(35,100,0);">
-                    &nbsp;&nbsp;&nbsp;
-                    【槐安路维明大街西行100米】-卓达青年之邦 </h3>                
-                   </div>
-                    <div class="col-md-4" style="text-align:right;padding-right:5%">
-                    <span class="glyphicon glyphicon-fire" style="color:orange"></span>
-                    <span class="glyphicon glyphicon-fire" style="color:orange"></span>
-                    <span class="glyphicon glyphicon-fire" style="color:orange"></span>
-                    <span class="glyphicon glyphicon-fire" style="color:orange"></span>
-                    <p class="tag-right">竞标中</p>
-                    </div>
-                  </div>
-            <div class="col-md-8">
-              <ul  class="acc1">
-                <li>
-                  
-                </li>
-                <li class="wen">
-                  <span class="glyphicon glyphicon-tag" style="color:rgb(35,100,0)"></span>
-                  <p>预期价格：20000-50000</p>
-                </li>
-                <li class="wen">
-                  <span class="glyphicon glyphicon-user" style="color:rgb(35,100,0)"></span>
-                  <p>联系人：周星星</p>
-                 
-                </li>
-                <li class="wen">
-                   <span class="glyphicon glyphicon-bell" style="color:rgb(35,100,0)"></span>
-                  <p>可联系时间：8:00-12:00</p>               
-                </li>
-                <li class="wen" >                              
-                  <div class="row" style="text-align:left">
-                  &nbsp;&nbsp;
-                   <p style="color:gray;padding-top:20%"> &nbsp;已有<em class="people"> 2000 </em>公司看过  </p>&nbsp;
-                    
+                                   </li>
+                               </ul>
+                               <ul class="acc2">
+                                   <li class="wen">
+                                       <span class="glyphicon glyphicon-tag" ></span>预期价格：20000-50000
+                                   </li>
+                               </ul>
+                               <ul class="acc2 jz4">
+                                   <li>类型：新房子&nbsp; &nbsp;
+                                       户型：两室一厅
+                                   </li>
+                                </ul>
+                           </div>
+                           <div class="col-md-4 jz jz6">
+                               <ul  class="acc2">
+                                   <li class="wen">
 
-                   </div>
-                </li>
-              </ul>
-              </div>
-              <div class="col-md-4">
-                <ul id="zhaobiao-tag">
-                  <li>状态：新房子</li>
-                  <li>户型：两室一厅</li>
-                  <li>风格：欧式简约</li>
-                  <li>平米：100</li>
-                </ul>
-
-              </div>
-              <div class="col-md-12" style="text-align:right;padding-bottom:2%;padding-right:5%">
-                <button type="button" class="btn  btn-link annv"> <a href="jzzp-xq.html">立即投标</a> </button>
-                <button type="button" class="btn  btn-link annv"> <a href="jzzp-xq.html">查看详情</a> </button>
-              </div>
-            </div>
+                                       <span class="glyphicon glyphicon-bell" ></span>可联系时间：8:00-12:00
+                                   </li>
+                               </ul>
+                               <ul class="acc2">
+                                   <li class="wen">
+                                       <span class="glyphicon glyphicon-eye-open"></span>已有<em class="people"> 2000 </em>公司看过</li>
+                               </ul>
+                               <ul class="acc2 jz4">
+                                   <li>
+                                       风格：欧式简约&nbsp; &nbsp;
+                                       平米：100
+                                   </li>
+                               </ul>
+                           </div>
+                           <div class="col-md-4 jz3">
+                               <button type="button" class="btn  btn-link annv" onclick="msgbox(1)"> <a>立即投标</a> </button>
+                               <button type="button" class="btn  btn-link annv"> <a href="jzzp-xq.html">查看详情</a> </button>
+                           </div>
+                       </div>
+                   </li>
 <!--第二个招标-->
-                        <div class="add" >
-            <div class="row ad1">
-                    <div class="col-md-8">
-                    <h3 style="color:rgb(35,100,0);">
-                    &nbsp;&nbsp;&nbsp;
-                    【槐安路维明大街西行100米】-卓达青年之邦 </h3>                
-                   </div>
-                    <div class="col-md-4" style="text-align:right;padding-right:5%">
-                    <span class="glyphicon glyphicon-fire" style="color:orange"></span>
-                    <span class="glyphicon glyphicon-fire" style="color:orange"></span>
-                    <span class="glyphicon glyphicon-fire" style="color:orange"></span>
-                    <span class="glyphicon glyphicon-fire" style="color:orange"></span>
-                    <p class="tag-right">竞标中</p>
-                    </div>
-                  </div>
-            <div class="col-md-8">
-              <ul  class="acc1">
-                <li>
-                  
-                </li>
-                <li class="wen">
-                  <span class="glyphicon glyphicon-tag" style="color:rgb(35,100,0)"></span>
-                  <p>预期价格：20000-50000</p>
-                </li>
-                <li class="wen">
-                  <span class="glyphicon glyphicon-user" style="color:rgb(35,100,0)"></span>
-                  <p>联系人：周星星</p>
-                 
-                </li>
-                <li class="wen">
-                   <span class="glyphicon glyphicon-bell" style="color:rgb(35,100,0)"></span>
-                  <p>可联系时间：8:00-12:00</p>               
-                </li>
-                <li class="wen" >                              
-                  <div class="row" style="text-align:left">
-                  &nbsp;&nbsp;
-                   <p style="color:gray;padding-top:20%"> &nbsp;已有<em class="people"> 2000 </em>公司看过  </p>&nbsp;
-                    
+                   <li>
+                       <div class="add" >
+                           <div class="row ad1">
+                               <div class="col-md-8 jz1">
+                                   <h3 style="color:rgb(35,100,0);">
+                                       &nbsp;&nbsp;&nbsp;
+                                       【槐安路维明大街西行100米】-卓达青年之邦 </h3>
+                               </div>
+                               <div class="col-md-4 jz5" >
+                                   <span class="glyphicon glyphicon-fire" style="color:orange"></span>
+                                   <span class="glyphicon glyphicon-fire" style="color:orange"></span>
+                                   <span class="glyphicon glyphicon-fire" style="color:orange"></span>
+                                   <span class="glyphicon glyphicon-fire" style="color:orange"></span>
+                                   <p class="tag-right">竞标中</p>
+                               </div>
+                           </div>
+                           <div class="col-md-4 jz">
+                               <ul  class="acc2">
+                                   <li class="wen">
+                                       <span class="glyphicon glyphicon-user" ></span>联系人：周星星
 
-                   </div>
-                </li>
-              </ul>
-              </div>
-              <div class="col-md-4">
-                <ul id="zhaobiao-tag">
-                  <li>状态：新房子</li>
-                  <li>户型：两室一厅</li>
-                  <li>风格：欧式简约</li>
-                  <li>平米：100</li>
-                </ul>
+                                   </li>
+                               </ul>
+                               <ul class="acc2">
+                                   <li class="wen">
+                                       <span class="glyphicon glyphicon-tag" ></span>预期价格：20000-50000
+                                   </li>
+                               </ul>
+                               <ul class="acc2 jz4">
+                                   <li>类型：新房子&nbsp; &nbsp;
+                                       户型：两室一厅
+                                   </li>
+                                </ul>
+                           </div>
+                           <div class="col-md-4 jz jz6">
+                               <ul  class="acc2">
+                                   <li class="wen">
 
-              </div>
-              <div class="col-md-12" style="text-align:right;padding-bottom:2%;padding-right:5%">
-                <button type="button" class="btn  btn-link annv"> <a href="jzzp-xq.html">立即投标</a> </button>
-                <button type="button" class="btn  btn-link annv"> <a href="jzzp-xq.html">查看详情</a> </button>
-              </div>
-            </div>
+                                       <span class="glyphicon glyphicon-bell" ></span>可联系时间：8:00-12:00
+                                   </li>
+                               </ul>
+                               <ul class="acc2">
+                                   <li class="wen">
+                                       <span class="glyphicon glyphicon-eye-open"></span>已有<em class="people"> 2000 </em>公司看过</li>
+                               </ul>
+                               <ul class="acc2 jz4">
+                                   <li>
+                                       风格：欧式简约&nbsp; &nbsp;
+                                       平米：100
+                                   </li>
+                               </ul>
+                           </div>
+                           <div class="col-md-4 jz3">
+                               <button type="button" class="btn  btn-link annv"  onclick="msgbox(1)"> <a>立即投标</a> </button>
+                               <button type="button" class="btn  btn-link annv"> <a href="jzzp-xq.html">查看详情</a> </button>
+                           </div>
+                       </div>
+                   </li>
 <!--第三个-->
-                                   <div class="add" >
-            <div class="row ad1">
-                    <div class="col-md-8">
-                    <h3 style="color:rgb(35,100,0);">
-                    &nbsp;&nbsp;&nbsp;
-                    【槐安路维明大街西行100米】-卓达青年之邦 </h3>                
-                   </div>
-                    <div class="col-md-4" style="text-align:right;padding-right:5%">
-                    <span class="glyphicon glyphicon-fire" style="color:orange"></span>
-                    <span class="glyphicon glyphicon-fire" style="color:orange"></span>
-                    <span class="glyphicon glyphicon-fire" style="color:orange"></span>
-                    <span class="glyphicon glyphicon-fire" style="color:orange"></span>
-                    <p class="tag-right">竞标中</p>
-                    </div>
-                  </div>
-            <div class="col-md-8">
-              <ul  class="acc1">
-                <li>
-                  
-                </li>
-                <li class="wen">
-                  <span class="glyphicon glyphicon-tag" style="color:rgb(35,100,0)"></span>
-                  <p>预期价格：20000-50000</p>
-                </li>
-                <li class="wen">
-                  <span class="glyphicon glyphicon-user" style="color:rgb(35,100,0)"></span>
-                  <p>联系人：周星星</p>
-                 
-                </li>
-                <li class="wen">
-                   <span class="glyphicon glyphicon-bell" style="color:rgb(35,100,0)"></span>
-                  <p>可联系时间：8:00-12:00</p>               
-                </li>
-                <li class="wen" >                              
-                  <div class="row" style="text-align:left">
-                  &nbsp;&nbsp;
-                   <p style="color:gray;padding-top:20%"> &nbsp;已有<em class="people"> 2000 </em>公司看过  </p>&nbsp;
-                    
+                   <li>
+                       <div class="add" >
+                           <div class="row ad1">
+                               <div class="col-md-8 jz1">
+                                   <h3 style="color:rgb(35,100,0);">
+                                       &nbsp;&nbsp;&nbsp;
+                                       【槐安路维明大街西行100米】-卓达青年之邦 </h3>
+                               </div>
+                               <div class="col-md-4 jz5" >
+                                   <span class="glyphicon glyphicon-fire" style="color:orange"></span>
+                                   <span class="glyphicon glyphicon-fire" style="color:orange"></span>
+                                   <span class="glyphicon glyphicon-fire" style="color:orange"></span>
+                                   <span class="glyphicon glyphicon-fire" style="color:orange"></span>
+                                   <p class="tag-right">竞标中</p>
+                               </div>
+                           </div>
+                           <div class="col-md-4 jz">
+                               <ul  class="acc2">
+                                   <li class="wen">
+                                       <span class="glyphicon glyphicon-user" ></span>联系人：周星星
 
-                   </div>
-                </li>
-              </ul>
-              </div>
-              <div class="col-md-4">
-                <ul id="zhaobiao-tag">
-                  <li>状态：新房子</li>
-                  <li>户型：两室一厅</li>
-                  <li>风格：欧式简约</li>
-                  <li>平米：100</li>
-                </ul>
+                                   </li>
+                               </ul>
+                               <ul class="acc2">
+                                   <li class="wen">
+                                       <span class="glyphicon glyphicon-tag" ></span>预期价格：20000-50000
+                                   </li>
+                               </ul>
+                               <ul class="acc2 jz4">
+                                   <li>类型：新房子&nbsp; &nbsp;
+                                       户型：两室一厅
+                                   </li>
+                                </ul>
+                           </div>
+                           <div class="col-md-4 jz jz6">
+                               <ul  class="acc2">
+                                   <li class="wen">
 
-              </div>
-              <div class="col-md-12" style="text-align:right;padding-bottom:2%;padding-right:5%">
-                <button type="button" class="btn  btn-link annv"> <a href="jzzp-xq.html">立即投标</a> </button>
-                <button type="button" class="btn  btn-link annv"> <a href="jzzp-xq.html">查看详情</a> </button>
-              </div>
-            </div>
+                                       <span class="glyphicon glyphicon-bell" ></span>可联系时间：8:00-12:00
+                                   </li>
+                               </ul>
+                               <ul class="acc2">
+                                   <li class="wen">
+                                       <span class="glyphicon glyphicon-eye-open"></span>已有<em class="people"> 2000 </em>公司看过</li>
+                               </ul>
+                               <ul class="acc2 jz4">
+                                   <li>
+                                       风格：欧式简约&nbsp; &nbsp;
+                                       平米：100
+                                   </li>
+                               </ul>
+                           </div>
+                           <div class="col-md-4 jz3">
+                               <button type="button" class="btn  btn-link annv"  onclick="msgbox(1)"> <a>立即投标</a> </button>
+                               <button type="button" class="btn  btn-link annv"> <a href="jzzp-xq.html">查看详情</a> </button>
+                           </div>
+                       </div>
+                   </li>
 <!--第三个-->
-                        <div class="add" >
-            <div class="row ad1">
-                    <div class="col-md-8">
-                    <h3 style="color:rgb(35,100,0);">
-                    &nbsp;&nbsp;&nbsp;
-                    【槐安路维明大街西行100米】-卓达青年之邦 </h3>                
-                   </div>
-                    <div class="col-md-4" style="text-align:right;padding-right:5%">
-                    <span class="glyphicon glyphicon-fire" style="color:orange"></span>
-                    <span class="glyphicon glyphicon-fire" style="color:orange"></span>
-                    <span class="glyphicon glyphicon-fire" style="color:orange"></span>
-                    <span class="glyphicon glyphicon-fire" style="color:orange"></span>
-                    <p class="tag-right">竞标中</p>
-                    </div>
-                  </div>
-            <div class="col-md-8">
-              <ul  class="acc1">
-                <li>
-                  
-                </li>
-                <li class="wen">
-                  <span class="glyphicon glyphicon-tag" style="color:rgb(35,100,0)"></span>
-                  <p>预期价格：20000-50000</p>
-                </li>
-                <li class="wen">
-                  <span class="glyphicon glyphicon-user" style="color:rgb(35,100,0)"></span>
-                  <p>联系人：周星星</p>
-                 
-                </li>
-                <li class="wen">
-                   <span class="glyphicon glyphicon-bell" style="color:rgb(35,100,0)"></span>
-                  <p>可联系时间：8:00-12:00</p>               
-                </li>
-                <li class="wen" >                              
-                  <div class="row" style="text-align:left">
-                  &nbsp;&nbsp;
-                   <p style="color:gray;padding-top:20%"> &nbsp;已有<em class="people"> 2000 </em>公司看过  </p>&nbsp;
-                    
+                   <li>
+                       <div class="add" >
+                           <div class="row ad1">
+                               <div class="col-md-8 jz1">
+                                   <h3 style="color:rgb(35,100,0);">
+                                       &nbsp;&nbsp;&nbsp;
+                                       【槐安路维明大街西行100米】-卓达青年之邦 </h3>
+                               </div>
+                               <div class="col-md-4 jz5" >
+                                   <span class="glyphicon glyphicon-fire" style="color:orange"></span>
+                                   <span class="glyphicon glyphicon-fire" style="color:orange"></span>
+                                   <span class="glyphicon glyphicon-fire" style="color:orange"></span>
+                                   <span class="glyphicon glyphicon-fire" style="color:orange"></span>
+                                   <p class="tag-right">竞标中</p>
+                               </div>
+                           </div>
+                           <div class="col-md-4 jz">
+                               <ul  class="acc2">
+                                   <li class="wen">
+                                       <span class="glyphicon glyphicon-user" ></span>联系人：周星星
 
-                   </div>
-                </li>
-              </ul>
-              </div>
-              <div class="col-md-4">
-                <ul id="zhaobiao-tag">
-                  <li>状态：新房子</li>
-                  <li>户型：两室一厅</li>
-                  <li>风格：欧式简约</li>
-                  <li>平米：100</li>
-                </ul>
+                                   </li>
+                               </ul>
+                               <ul class="acc2">
+                                   <li class="wen">
+                                       <span class="glyphicon glyphicon-tag" ></span>预期价格：20000-50000
+                                   </li>
+                               </ul>
+                               <ul class="acc2 jz4">
+                                   <li>类型：新房子&nbsp; &nbsp;
+                                       户型：两室一厅
+                                   </li>
+                                </ul>
+                           </div>
+                           <div class="col-md-4 jz jz6">
+                               <ul  class="acc2">
+                                   <li class="wen">
 
-              </div>
-              <div class="col-md-12" style="text-align:right;padding-bottom:2%;padding-right:5%">
-                <button type="button" class="btn  btn-link annv"> <a href="jzzp-xq.html">立即投标</a> </button>
-                <button type="button" class="btn  btn-link annv"> <a href="jzzp-xq.html">查看详情</a> </button>
-              </div>
-            </div>
-<!--结束-->
-            </div>
-            <div>
-            <nav>
-              <ul class="pagination pagination-lg gs7">
-                <li><a href="#">首页</a></li>
-                <li class="gs8"><a href="#" >1</a></li>
-                <li><a href="#">2</a></li>
-                <li><a href="#">3</a></li>
-                <li><a href="#">4</a></li>
-                <li><a href="#">5</a></li>
-                <li><a href="#">尾页</a></li>
-              </ul>
-            </nav>
-            </div>
+                                       <span class="glyphicon glyphicon-bell" ></span>可联系时间：8:00-12:00
+                                   </li>
+                               </ul>
+                               <ul class="acc2">
+                                   <li class="wen">
+                                       <span class="glyphicon glyphicon-eye-open"></span>已有<em class="people"> 2000 </em>公司看过</li>
+                               </ul>
+                               <ul class="acc2 jz4">
+                                   <li>
+                                       风格：欧式简约&nbsp; &nbsp;
+                                       平米：100
+                                   </li>
+                               </ul>
+                           </div>
+                           <div class="col-md-4 jz3">
+                               <button type="button" class="btn  btn-link annv"  onclick="msgbox(1)"> <a>立即投标</a> </button>
+                               <button type="button" class="btn  btn-link annv"> <a href="jzzp-xq.html">查看详情</a> </button>
+                           </div>
+                       </div>
+                   </li>
+<!--结束-->   </ul>
+           </div>
+         </div>
 
 
 
