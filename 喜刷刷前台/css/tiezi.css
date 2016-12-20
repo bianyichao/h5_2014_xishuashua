@@ -111,7 +111,7 @@ p{
 .push-right{
     position: fixed;
     left: 98%;
-    bottom: 0.1%;
+    bottom: 18%;
     z-index: 1005;
 }
 .push-right ul li a img{
@@ -347,6 +347,13 @@ p{
     height: 55px;
     padding: 10px;
     width: 88.5%;
+    overflow: hidden;
+    resize: none;
+}
+.push-text textarea{
+    height: 55px;
+    padding: 10px;
+    width: 85%;
     overflow: hidden;
     resize: none;
 }

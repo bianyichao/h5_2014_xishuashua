@@ -26,7 +26,6 @@
 }
 #nav-name{
 	text-align: left;
-	padding-right: 50px;
 }
 #nav-name a{
     font-size: 14px;
@@ -95,4 +94,12 @@
 	font-family: 微软雅黑;
 	font-weight: bolder;
 	font-size: 1.5em;
+}
+.grzx{
+	margin-left: 2em;
+	font-size: 14px;
+}
+.exit{
+	font-size: 14px;
+	margin-left:1em; 
 }
